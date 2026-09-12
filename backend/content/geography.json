@@ -1,0 +1,3124 @@
+{
+  "subject": "geography",
+  "subject_label": "Geography (Contemporary India II)",
+  "chapters": [
+    {
+      "id": "resources_and_development",
+      "title": "Resources and Development",
+      "notes": {
+        "overview": "This chapter covers what a resource is, how resources are classified, the problems caused by their unequal and unsustainable use, and land as a vital resource for India along with the issue of soil erosion and conservation.",
+        "key_points": [
+          "A resource is anything available in the environment that can be used to satisfy human needs, provided it is technologically accessible, economically feasible, and culturally acceptable.",
+          "Resources are classified on the basis of origin (biotic/abiotic), exhaustibility (renewable/non-renewable), ownership (individual/community/national/international) and status of development (potential/developed/stock/reserves).",
+          "Uncontrolled and unequal use of resources by a few has led to major problems: resource depletion, environmental destruction, and global ecological crises like global warming and ozone depletion.",
+          "Sustainable development means resource use that meets present needs without compromising the ability of future generations to meet their own needs; the Rio de Janeiro Earth Summit (1992) and Agenda 21 promoted this at a global level.",
+          "India has a rich diversity in relief, land use, soils and resources; land is used for forests, pasture, agriculture, and non-agricultural uses like housing and industry.",
+          "Land degradation in India is caused by deforestation, overgrazing, over-irrigation and mining; conservation methods include afforestation, controlled grazing, and proper management of grazing/mining lands.",
+          "India's soils are classified into alluvial, black (regur), red and yellow, laterite, arid/desertic, and forest/mountain soils - each suited to specific crops and regions.",
+          "Soil erosion, caused by deforestation, overgrazing and faulty farming, is checked through contour ploughing, terrace farming, strip cropping, and shelter belts."
+        ],
+        "key_terms": {
+          "Resource": "Anything in the environment used to satisfy a human need that is technologically accessible, economically feasible and culturally acceptable.",
+          "Sustainable Development": "Development that meets present needs without compromising future generations' ability to meet their own needs.",
+          "Land degradation": "Decline in the quality of land caused by human activities such as deforestation and over-irrigation.",
+          "Soil erosion": "The denudation of the soil cover through the action of water, wind and other agents.",
+          "Regur soil": "Black cotton soil, ideal for growing cotton, formed from lava flows in the Deccan Trap region."
+        },
+        "important_facts": [
+          "Earth Summit at Rio de Janeiro: 1992",
+          "Agenda 21 adopted to combat environmental damage and promote sustainable development.",
+          "Alluvial soil covers the largest area in India and is the most fertile.",
+          "Black soil is best suited for cotton cultivation, found mainly in the Deccan Trap region (Maharashtra, MP, Gujarat)."
+        ],
+        "exam_tips": [
+          "Be able to classify resources under all four categories (origin, exhaustibility, ownership, status of development) with examples - a common 3-mark question.",
+          "Learn the difference between the various soil types (colour, composition, crops suited) for map-based and short-answer questions.",
+          "Practice a 5-mark answer listing methods of soil conservation."
+        ],
+        "sections": [
+          {
+            "title": "1. What is a Resource?",
+            "content": "Everything available in our environment that can be used to satisfy our needs, provided it is technologically accessible, economically feasible and culturally acceptable, can be termed a resource. Resources are a function of human activities - humans themselves are important resources (human resources) who transform substances found in nature into 'resources' by making them useful and by developing the appropriate technology and skills. Value is a culturally defined concept, and hence the utility of a given resource changes over time and across societies.",
+            "keywords": [
+              "resource definition",
+              "technologically accessible",
+              "economically feasible",
+              "culturally acceptable",
+              "human resources"
+            ]
+          },
+          {
+            "title": "2. Classification of Resources",
+            "content": "Resources are classified on the basis of origin - biotic (living, e.g. flora, fauna) and abiotic (non-living, e.g. rocks, metals); on the basis of exhaustibility - renewable (e.g. solar and wind energy, water, forests) and non-renewable (e.g. coal, petroleum, minerals) which have a limited stock; on the basis of ownership - individual, community, national and international resources (e.g. oceanic resources beyond 200 nautical miles belong to no individual country); and on the basis of the status of development - potential resources (found in a region but not yet utilised, like wind energy potential in Gujarat and Rajasthan), developed stock, and reserves (the part of the stock that can be put into use with existing technology but has not yet been used).",
+            "keywords": [
+              "biotic abiotic",
+              "renewable non-renewable",
+              "individual community national international",
+              "potential developed reserve stock"
+            ]
+          },
+          {
+            "title": "3. The Need for Resource Planning in India",
+            "content": "India has enormous diversity in the availability of resources: some regions are rich in certain types of resources but deficient in others. For example, the states of Jharkhand, Chhattisgarh and Madhya Pradesh are rich in minerals and coal deposits, Arunachal Pradesh has abundant water resources but lacks infrastructural development, while Rajasthan is very well endowed with solar and wind energy but lacks water resources. This calls for balanced resource planning at the national, state, regional and local levels to ensure resources are used judiciously and equitably across the country.",
+            "keywords": [
+              "regional variation",
+              "Jharkhand minerals",
+              "Rajasthan solar wind",
+              "balanced resource planning"
+            ]
+          },
+          {
+            "title": "4. Resource Planning: Process and Federal Structure",
+            "content": "Resource planning involves identification and inventory of resources through surveying, mapping and estimating quantity across regions; evolving a planning structure endowed with appropriate technology, skill and institutional set-up to implement resource development plans; and matching the resource development plans with overall national development plans. India, being a federal country, requires resource planning to also take into account the needs of different states while implementing central plans, since the constitutional distribution of subjects between the Union and State Lists directly affects how resource-related decisions are taken and executed.",
+            "keywords": [
+              "survey and mapping",
+              "planning structure",
+              "federal country",
+              "resource development plans"
+            ]
+          },
+          {
+            "title": "5. Land as a Resource",
+            "content": "Land is a natural resource of great importance, supporting natural vegetation, wildlife, human life, economic activities, transport and communication systems. India has a great diversity of relief features: plains, mountains, plateaus, hills and islands. About 43 percent of India's land area is plain, providing facilities for agriculture and industry; 30 percent is mountainous, ensuring perennial flow of some rivers and important for tourism and ecology; and 27 percent of the area is covered by plateaus, which possess rich reserves of minerals, fossil fuels and forests.",
+            "keywords": [
+              "land use",
+              "plains 43 percent",
+              "mountains 30 percent",
+              "plateaus 27 percent",
+              "relief diversity"
+            ]
+          },
+          {
+            "title": "6. Land Use Patterns and Land Degradation",
+            "content": "Land is used for forests, land not available for cultivation (barren/waste land, land put to non-agricultural uses like buildings, roads and industry), other uncultivated land (permanent pastures, groves, culturable waste land) and net sown area (land actually sown, also called net cropped area). Land degradation refers to the decline in the quality of land caused by human activities: deforestation for agricultural, industrial and habitation purposes has affected around half of India's total forest area; overgrazing is a major cause in states like Gujarat, Rajasthan and Madhya Pradesh; over-irrigation causes waterlogging and salinity in states like Punjab, Haryana and western Uttar Pradesh; and mining leaves deep scars and debris, notably in Jharkhand, Chhattisgarh and Madhya Pradesh.",
+            "keywords": [
+              "net sown area",
+              "land degradation",
+              "deforestation",
+              "overgrazing",
+              "over-irrigation",
+              "mining scars"
+            ]
+          },
+          {
+            "title": "7. Soil as a Resource",
+            "content": "Soil is a renewable natural resource formed by the processes of weathering of rocks, characterised by factors such as relief, parent rock, climate, vegetation and other forms of life, and time, along with human activities. Since it takes millions of years to form, soil must be conserved carefully for future use, and being intimately linked with plant and animal life through nutrient cycles, it is central to agriculture and hence to the Indian economy.",
+            "keywords": [
+              "soil formation",
+              "weathering",
+              "parent rock",
+              "renewable resource",
+              "nutrient cycle"
+            ]
+          },
+          {
+            "title": "8. Major Soil Types of India",
+            "content": "Alluvial soil, deposited by rivers, is the most widely spread and important soil, covering the northern plains and river valleys, and is exceedingly fertile, mostly producing rice, wheat and sugarcane. Black soil (regur), ideal for growing cotton, is formed from the cooling of lava flows in the Deccan Trap region covering Maharashtra, Gujarat and Madhya Pradesh. Red and yellow soils, found in areas of low rainfall in the north-eastern parts of the Deccan Plateau, develop a reddish colour due to the diffusion of iron in crystalline rocks. Laterite soil, formed under conditions of high temperature and heavy rainfall with intense leaching, is suitable for cultivation with proper doses of manures and fertilisers, and is found in Karnataka, Kerala, Tamil Nadu and Odisha. Arid/desertic soils range from red to brown, are sandy and saline, found in western Rajasthan, and forest/mountain soils are found in hilly and mountainous regions.",
+            "keywords": [
+              "alluvial soil",
+              "black soil regur",
+              "red yellow soil",
+              "laterite soil",
+              "arid soil",
+              "forest soil"
+            ]
+          },
+          {
+            "title": "9. Soil Erosion and Conservation",
+            "content": "Soil erosion, the denudation of the soil cover through the action of water, wind and other agents, is accelerated by human activities such as deforestation, overgrazing, construction and mining, and is a major threat to India's land resources, often leading to the formation of gullies (badland topography, e.g. Chambal ravines). Conservation methods include contour ploughing (ploughing along the contours to slow water flow), terrace farming (converting steep slopes into flat terraces, used extensively in the Western and Lesser Himalayas), strip cropping (dividing fields into strips with grass grown between crops to break the force of wind and water), and shelter belts (rows of trees planted to stabilise sand dunes, widely used in western India).",
+            "keywords": [
+              "soil erosion",
+              "gully erosion",
+              "contour ploughing",
+              "terrace farming",
+              "strip cropping",
+              "shelter belts"
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "g1_mcq1",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Resource classification",
+          "question": "On the basis of exhaustibility, resources are classified as:",
+          "options": [
+            "Biotic and Abiotic",
+            "Renewable and Non-renewable",
+            "Individual and Community",
+            "Potential and Developed"
+          ],
+          "answer_index": 1,
+          "explanation": "Exhaustibility classifies resources as renewable or non-renewable."
+        },
+        {
+          "id": "g1_mcq2",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Soil types",
+          "question": "Regur or black soil is best suited for the cultivation of:",
+          "options": [
+            "Wheat",
+            "Cotton",
+            "Tea",
+            "Jute"
+          ],
+          "answer_index": 1,
+          "explanation": "Black soil retains moisture well and is ideal for cotton cultivation."
+        },
+        {
+          "id": "g1_mcq3",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Sustainable development",
+          "question": "The Earth Summit held in Rio de Janeiro that adopted Agenda 21 took place in:",
+          "options": [
+            "1985",
+            "1992",
+            "2000",
+            "2015"
+          ],
+          "answer_index": 1,
+          "explanation": "The Rio Earth Summit was held in 1992."
+        },
+        {
+          "id": "g1_mcq4",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Soil erosion",
+          "question": "Ploughing along the contour lines of a slope to slow water flow is called:",
+          "options": [
+            "Terrace farming",
+            "Strip cropping",
+            "Contour ploughing",
+            "Shelter belts"
+          ],
+          "answer_index": 2,
+          "explanation": "Contour ploughing follows the natural contours to reduce runoff and erosion."
+        },
+        {
+          "id": "g1_mcq5",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Alluvial soil",
+          "question": "Which soil type covers the largest and most fertile area of India, mainly in the northern plains?",
+          "options": [
+            "Laterite soil",
+            "Alluvial soil",
+            "Arid soil",
+            "Forest soil"
+          ],
+          "answer_index": 1,
+          "explanation": "Alluvial soil, deposited by rivers, is the most extensive and fertile soil type in India."
+        },
+        {
+          "id": "g1_2m1",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Resource classification",
+          "question": "Differentiate between renewable and non-renewable resources with one example each.",
+          "rubric": [
+            {
+              "point": "Renewable resources can be regenerated/replenished quickly, e.g. solar energy, wind, water, forests",
+              "keywords": [
+                "renewable",
+                "replenish",
+                "regenerate",
+                "solar",
+                "wind",
+                "forest"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Non-renewable resources take very long geological time to form and are limited in stock, e.g. coal, petroleum, minerals",
+              "keywords": [
+                "non-renewable",
+                "limited stock",
+                "coal",
+                "petroleum",
+                "minerals",
+                "geological time"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Renewable resources can be renewed or replenished quickly, such as solar energy, wind and forests. Non-renewable resources have a limited stock and take millions of years to form, such as coal and petroleum; once used up, they cannot be replaced within a human lifetime."
+        },
+        {
+          "id": "g1_2m2",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Land degradation",
+          "question": "Mention two human activities responsible for land degradation in India.",
+          "rubric": [
+            {
+              "point": "Deforestation and overgrazing by livestock",
+              "keywords": [
+                "deforestation",
+                "overgrazing"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Over-irrigation (waterlogging/salinity) and mining activities leaving deep scars/waste",
+              "keywords": [
+                "over-irrigation",
+                "mining",
+                "waterlogging",
+                "salinity"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Land degradation in India is caused by deforestation and overgrazing, which strip vegetation cover, as well as by over-irrigation, which leads to waterlogging and salinity, and mining, which leaves deep scars and waste material on the land."
+        },
+        {
+          "id": "g1_3m1",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Sustainable development",
+          "question": "What is sustainable development? Suggest three ways to achieve it.",
+          "rubric": [
+            {
+              "point": "Definition: meeting present needs without compromising future generations' needs",
+              "keywords": [
+                "present needs",
+                "future generations",
+                "meet needs"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Reduce wasteful consumption and promote equitable resource distribution",
+              "keywords": [
+                "equitable distribution",
+                "reduce wastage",
+                "resource use"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Use renewable resources, recycle, and adopt eco-friendly technology/afforestation",
+              "keywords": [
+                "renewable resources",
+                "recycle",
+                "afforestation",
+                "eco-friendly"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Sustainable development is development that satisfies present needs without compromising the ability of future generations to meet their own needs. It can be achieved by ensuring equitable distribution of resources among all sections of society, reducing wasteful consumption, promoting the use of renewable resources and recycling, and encouraging afforestation and eco-friendly technologies."
+        },
+        {
+          "id": "g1_3m2",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Soil types",
+          "question": "Describe the characteristics of black soil (regur) found in India.",
+          "rubric": [
+            {
+              "point": "Formed from cooling of lava (Deccan Trap) and covers Maharashtra, MP, Gujarat, parts of Karnataka and AP",
+              "keywords": [
+                "deccan trap",
+                "lava",
+                "maharashtra",
+                "gujarat"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Fine-grained, high clay content, retains moisture for a long time",
+              "keywords": [
+                "fine grained",
+                "clay",
+                "moisture retention"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Rich in minerals like calcium, potassium, magnesium; ideal for cotton cultivation",
+              "keywords": [
+                "calcium",
+                "potassium",
+                "magnesium",
+                "cotton"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Black soil, also called regur soil, is formed from the cooling and weathering of lava flows and covers the Deccan Trap region including Maharashtra, Madhya Pradesh, Gujarat and parts of Karnataka and Andhra Pradesh. It is fine-grained with high clay content, which allows it to retain moisture for a long time. It is rich in minerals such as calcium, potassium and magnesium, making it ideally suited for growing cotton."
+        },
+        {
+          "id": "g1_5m1",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Resource planning and conservation",
+          "question": "Explain the need for resource planning in India and describe any four methods of soil conservation.",
+          "rubric": [
+            {
+              "point": "India has uneven regional distribution of resources - some regions rich in one resource but deficient in others",
+              "keywords": [
+                "uneven distribution",
+                "regional variation",
+                "resource rich",
+                "resource deficient"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Resource planning ensures balanced utilisation across regions and inter-generational equity",
+              "keywords": [
+                "balanced utilisation",
+                "planning",
+                "equity",
+                "future generations"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Contour ploughing and terrace farming to reduce runoff on slopes",
+              "keywords": [
+                "contour ploughing",
+                "terrace farming",
+                "slopes"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Strip cropping (planting strips of grass between crops) to break force of wind/water",
+              "keywords": [
+                "strip cropping",
+                "grass strips"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Shelter belts (rows of trees) planted to check wind erosion, e.g. in western India",
+              "keywords": [
+                "shelter belts",
+                "rows of trees",
+                "wind erosion"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "India has an uneven regional distribution of resources - some states are rich in certain minerals or fertile land while others are deficient - and resources are also being used unsustainably. Resource planning is therefore needed to ensure balanced utilisation of resources across regions and to secure resources for future generations through a widely accepted, judicious plan. Soil erosion can be checked through several conservation methods: contour ploughing, where fields are ploughed along the contours of a slope to slow water flow; terrace farming, which converts steep slopes into a series of flat steps; strip cropping, where large fields are divided into strips with grass grown between them to break the force of wind and water; and shelter belts, rows of trees planted along field boundaries to check wind erosion, as practised extensively in the western, drier parts of India."
+        },
+        {
+          "id": "g1_mcq6",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Resource classification",
+          "question": "Resources classified as biotic and abiotic are categorised on the basis of:",
+          "options": [
+            "Ownership",
+            "Origin",
+            "Exhaustibility",
+            "Status of development"
+          ],
+          "answer_index": 1,
+          "explanation": "Origin-based classification divides resources into biotic (living) and abiotic (non-living)."
+        },
+        {
+          "id": "g1_mcq7",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Resource ownership",
+          "question": "Oceanic resources beyond 200 nautical miles belong to which category of ownership?",
+          "options": [
+            "Individual",
+            "Community",
+            "National",
+            "International"
+          ],
+          "answer_index": 3,
+          "explanation": "Resources beyond 200 nautical miles are considered international resources, regulated by international institutions."
+        },
+        {
+          "id": "g1_mcq8",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Status of development",
+          "question": "A resource that has been identified in a region but not yet been utilised is called a:",
+          "options": [
+            "Developed resource",
+            "Potential resource",
+            "Stock resource",
+            "Reserve resource"
+          ],
+          "answer_index": 1,
+          "explanation": "Potential resources exist in a region but have not yet been put to use."
+        },
+        {
+          "id": "g1_mcq9",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Potential resources",
+          "question": "Wind energy potential found extensively in Gujarat and Rajasthan is an example of a:",
+          "options": [
+            "Developed resource",
+            "Potential resource",
+            "Non-renewable resource",
+            "Reserve"
+          ],
+          "answer_index": 1,
+          "explanation": "Wind energy in these states is identified but not fully utilised, making it a potential resource."
+        },
+        {
+          "id": "g1_mcq10",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Exhaustibility",
+          "question": "Which of the following is a non-renewable resource?",
+          "options": [
+            "Solar energy",
+            "Forests",
+            "Coal",
+            "Wind"
+          ],
+          "answer_index": 2,
+          "explanation": "Coal takes millions of years to form and has a limited stock, making it non-renewable."
+        },
+        {
+          "id": "g1_mcq11",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Land as a resource",
+          "question": "About what percentage of India's total land area is plain?",
+          "options": [
+            "27%",
+            "30%",
+            "43%",
+            "60%"
+          ],
+          "answer_index": 2,
+          "explanation": "About 43 percent of India's land area is plain, useful for agriculture and industry."
+        },
+        {
+          "id": "g1_mcq12",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Land use categories",
+          "question": "Which land use category refers to land actually sown with crops in a given year?",
+          "options": [
+            "Barren land",
+            "Net sown area",
+            "Culturable waste",
+            "Permanent pasture"
+          ],
+          "answer_index": 1,
+          "explanation": "Net sown area (net cropped area) is the land actually sown with crops."
+        },
+        {
+          "id": "g1_mcq13",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Land degradation",
+          "question": "Over-irrigation leading to waterlogging and salinity is a major cause of land degradation in:",
+          "options": [
+            "Punjab, Haryana and western Uttar Pradesh",
+            "Rajasthan and Gujarat",
+            "Kerala and Karnataka",
+            "Assam and West Bengal"
+          ],
+          "answer_index": 0,
+          "explanation": "Over-irrigation in Punjab, Haryana and western UP causes waterlogging and salinity."
+        },
+        {
+          "id": "g1_mcq14",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Land degradation",
+          "question": "Mining-related land degradation is especially prominent in:",
+          "options": [
+            "Punjab and Haryana",
+            "Jharkhand, Chhattisgarh and Madhya Pradesh",
+            "Kerala and Tamil Nadu",
+            "Rajasthan and Gujarat"
+          ],
+          "answer_index": 1,
+          "explanation": "Mining leaves deep scars and debris notably in Jharkhand, Chhattisgarh and Madhya Pradesh."
+        },
+        {
+          "id": "g1_mcq15",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Soil types",
+          "question": "Red and yellow soils get their colour due to:",
+          "options": [
+            "High organic content",
+            "Diffusion of iron in crystalline rocks",
+            "Volcanic ash deposits",
+            "River silt deposits"
+          ],
+          "answer_index": 1,
+          "explanation": "The reddish colour develops from the diffusion of iron in crystalline and metamorphic rocks."
+        },
+        {
+          "id": "g1_mcq16",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Laterite soil",
+          "question": "Laterite soil is formed under conditions of:",
+          "options": [
+            "Low rainfall and cold climate",
+            "High temperature and heavy rainfall with intense leaching",
+            "Desert aridity",
+            "Glacial deposition"
+          ],
+          "answer_index": 1,
+          "explanation": "Laterite soil forms under high temperature and heavy rainfall, which causes intense leaching."
+        },
+        {
+          "id": "g1_mcq17",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Soil conservation",
+          "question": "Terrace farming, used to control soil erosion on steep slopes, is widely practised in:",
+          "options": [
+            "The Thar Desert",
+            "The Western and Lesser Himalayas",
+            "The Deccan Plateau",
+            "The Ganga delta"
+          ],
+          "answer_index": 1,
+          "explanation": "Terrace farming is widely used on the steep slopes of the Western and Lesser Himalayas."
+        },
+        {
+          "id": "g1_mcq18",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Soil conservation",
+          "question": "Shelter belts, rows of trees planted to stabilise sand dunes, are widely used in:",
+          "options": [
+            "Western India",
+            "Eastern Himalayas",
+            "Southern coastal Kerala",
+            "North-Eastern hill states"
+          ],
+          "answer_index": 0,
+          "explanation": "Shelter belts are widely planted in the drier, western parts of India to stabilise sand dunes."
+        },
+        {
+          "id": "g1_2m3",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Definition of resource",
+          "question": "What is a resource? State the three conditions that must be met for something to be considered a resource.",
+          "rubric": [
+            {
+              "point": "A resource is anything in the environment that can be used to satisfy human needs",
+              "keywords": [
+                "environment",
+                "satisfy needs"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Must be technologically accessible, economically feasible and culturally acceptable",
+              "keywords": [
+                "technologically accessible",
+                "economically feasible",
+                "culturally acceptable"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "A resource is anything available in our environment that can be used to satisfy our needs. For something to be considered a resource, it must be technologically accessible, economically feasible, and culturally acceptable."
+        },
+        {
+          "id": "g1_2m4",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Potential vs developed resources",
+          "question": "Differentiate between potential resources and developed resources (stock), with one example each.",
+          "rubric": [
+            {
+              "point": "Potential resources are found in a region but not yet utilised, e.g. wind energy potential in Rajasthan/Gujarat",
+              "keywords": [
+                "potential",
+                "not yet utilised",
+                "wind energy"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Developed resources have been surveyed with their quality and quantity determined for use, e.g. developed mineral reserves",
+              "keywords": [
+                "developed",
+                "surveyed",
+                "quality quantity determined"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Potential resources are those found in a region but not yet utilised, such as the wind energy potential in Rajasthan and Gujarat. Developed resources are those whose quality and quantity have been surveyed and determined for use, such as mineral resources that are already being extracted and used."
+        },
+        {
+          "id": "g1_2m5",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Sustainable development",
+          "question": "What is meant by sustainable development? Name the international summit associated with it.",
+          "rubric": [
+            {
+              "point": "Development that meets present needs without compromising the ability of future generations to meet their own needs",
+              "keywords": [
+                "present needs",
+                "future generations"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Rio de Janeiro Earth Summit, 1992, which adopted Agenda 21",
+              "keywords": [
+                "Rio de Janeiro",
+                "Earth Summit",
+                "1992",
+                "Agenda 21"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Sustainable development means development that meets present needs without compromising the ability of future generations to meet their own needs. It was promoted globally at the Rio de Janeiro Earth Summit in 1992, which adopted Agenda 21 to combat environmental damage."
+        },
+        {
+          "id": "g1_2m6",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Soil erosion causes",
+          "question": "State two reasons for soil erosion in India.",
+          "rubric": [
+            {
+              "point": "Deforestation, which removes vegetation cover that binds the soil",
+              "keywords": [
+                "deforestation"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Overgrazing and faulty farming/agricultural practices",
+              "keywords": [
+                "overgrazing",
+                "faulty farming"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Soil erosion in India is caused by deforestation, which removes the vegetation cover that binds soil particles together, and by overgrazing and faulty farming practices that leave the soil exposed to the action of wind and water."
+        },
+        {
+          "id": "g1_2m7",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Alluvial vs black soil",
+          "question": "What is the difference between alluvial soil and black (regur) soil in terms of formation?",
+          "rubric": [
+            {
+              "point": "Alluvial soil is deposited by rivers and found mainly in the northern plains",
+              "keywords": [
+                "deposited by rivers",
+                "northern plains"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Black soil is formed from the cooling of lava flows in the Deccan Trap region",
+              "keywords": [
+                "cooling of lava",
+                "Deccan Trap"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Alluvial soil is formed from sediments deposited by rivers and is found mainly in the northern plains of India. Black soil, or regur, is formed from the cooling and weathering of lava flows in the Deccan Trap region, covering parts of Maharashtra, Madhya Pradesh and Gujarat."
+        },
+        {
+          "id": "g1_3m3",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Classification by ownership",
+          "question": "Explain the classification of resources on the basis of ownership, with examples.",
+          "rubric": [
+            {
+              "point": "Individual resources are owned privately by individuals, e.g. a privately owned plot of land",
+              "keywords": [
+                "individual resources",
+                "privately owned"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Community resources are accessible to and used collectively by the community, e.g. public parks or grazing grounds",
+              "keywords": [
+                "community resources",
+                "used collectively"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "National resources belong to the nation (e.g. minerals within a country's boundary), while international resources are regulated by international institutions (e.g. oceanic resources beyond 200 nautical miles)",
+              "keywords": [
+                "national resources",
+                "international resources",
+                "200 nautical miles"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "On the basis of ownership, resources are classified as individual resources, owned privately by individuals, such as a plot of land or a house; community resources, accessible to and used collectively by the whole community, such as public parks, playgrounds and grazing grounds; and national and international resources - national resources include all resources within a country's political boundaries, such as minerals, while international resources, like oceanic resources beyond 200 nautical miles of the coast, are regulated by international institutions."
+        },
+        {
+          "id": "g1_3m4",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Need for resource planning",
+          "question": "Why is resource planning essential in a country like India? Give three reasons.",
+          "rubric": [
+            {
+              "point": "India has an uneven regional distribution of resources - some states rich in one resource but deficient in others",
+              "keywords": [
+                "uneven distribution",
+                "regional variation"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Ensures balanced and equitable utilisation of resources across regions, and conserves resources for future generations",
+              "keywords": [
+                "balanced utilisation",
+                "equity",
+                "future generations"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "As a federal country, India needs planning that accounts for the needs of different states alongside national development plans",
+              "keywords": [
+                "federal country",
+                "different states",
+                "national plans"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Resource planning is essential in India for several reasons. First, India has great regional variation in resource availability - some states are rich in minerals while others are rich in water or energy resources but deficient elsewhere. Second, planning ensures balanced and equitable utilisation of resources across the country while conserving them for future generations. Third, since India is a federal country, resource planning must take into account the needs of different states alongside overall national development plans."
+        },
+        {
+          "id": "g1_3m5",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Deforestation and mining",
+          "question": "Describe the process of land degradation caused by deforestation and mining in India.",
+          "rubric": [
+            {
+              "point": "Deforestation for agricultural, industrial and habitation purposes has affected about half of India's total forest area",
+              "keywords": [
+                "deforestation",
+                "half of forest area"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Mining leaves deep scars and waste material/debris on the land, notably in Jharkhand, Chhattisgarh and Madhya Pradesh",
+              "keywords": [
+                "mining scars",
+                "debris",
+                "Jharkhand"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Both processes remove vegetation cover, exposing soil to erosion and reducing land quality",
+              "keywords": [
+                "remove vegetation cover",
+                "expose soil to erosion"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Deforestation carried out for agricultural expansion, industrial use and human habitation has affected nearly half of India's total forest area, stripping the land of its natural vegetation cover. Mining activities, especially in states like Jharkhand, Chhattisgarh and Madhya Pradesh, leave deep scars and waste material (overburden) on the land. Both processes remove protective vegetation cover, leaving the soil exposed to erosion by wind and water, thereby degrading the quality of the land."
+        },
+        {
+          "id": "g1_3m6",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Soil formation factors",
+          "question": "Explain any three factors responsible for the formation of soil.",
+          "rubric": [
+            {
+              "point": "Relief - the nature of the land surface influences soil depth and drainage",
+              "keywords": [
+                "relief"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Parent rock - the underlying rock determines the mineral composition of the soil",
+              "keywords": [
+                "parent rock",
+                "mineral composition"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Climate and vegetation (and time) - influence the rate of weathering and the organic content of soil",
+              "keywords": [
+                "climate",
+                "vegetation",
+                "weathering"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Soil is formed through the weathering of rocks, influenced by several factors. Relief, or the nature of the land surface, affects soil depth and drainage. The parent rock underlying the soil determines its mineral composition. Climate and vegetation influence the rate of weathering and the amount of organic matter present, while the process of soil formation also takes a very long period of time and is affected by human activities."
+        },
+        {
+          "id": "g1_3m7",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Gully erosion",
+          "question": "What is gully erosion? How does it affect agricultural land, using the example of the Chambal ravines?",
+          "rubric": [
+            {
+              "point": "Gully erosion is a severe form of soil erosion in which deep channels or gullies are cut into the land by flowing water",
+              "keywords": [
+                "gully erosion",
+                "deep channels"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "It renders the land unfit for cultivation, creating badland topography",
+              "keywords": [
+                "unfit for cultivation",
+                "badland topography"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "The Chambal ravines are a well-known example of such badland topography caused by gully erosion",
+              "keywords": [
+                "Chambal ravines",
+                "example"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Gully erosion is a severe form of soil erosion in which fast-flowing water cuts deep channels or gullies into the land, often triggered by deforestation, overgrazing or poor farming practices. Land affected by extensive gully erosion becomes unfit for cultivation and is known as badland topography. The Chambal ravines are a well-known example of this kind of land, where deep gullies have made large stretches of land unusable for agriculture."
+        },
+        {
+          "id": "g1_5m2",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Problems of unequal resource use",
+          "question": "Discuss any five problems arising from indiscriminate and unequal use of resources, and explain why sustainable development is necessary to address them.",
+          "rubric": [
+            {
+              "point": "Resource depletion - resources are being exhausted faster than they can be replenished",
+              "keywords": [
+                "resource depletion"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Environmental destruction and pollution caused by uncontrolled extraction and use",
+              "keywords": [
+                "environmental destruction",
+                "pollution"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Global ecological crises such as global warming and ozone layer depletion",
+              "keywords": [
+                "global warming",
+                "ozone depletion"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Unequal distribution, with a few people/regions cornering most of the benefits of resource use",
+              "keywords": [
+                "unequal distribution",
+                "few benefit"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Sustainable development ensures resources meet present needs without compromising availability for future generations",
+              "keywords": [
+                "sustainable development",
+                "future generations"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Indiscriminate and unequal use of resources has led to several problems: resource depletion, as resources are being used up faster than they can be replenished; environmental destruction and pollution caused by uncontrolled extraction; global ecological crises such as global warming and depletion of the ozone layer; and unequal distribution, where a small section of people or a few regions benefit disproportionately from resource use, worsening inequality. Sustainable development is necessary to address these problems because it ensures that resources are used to meet present needs without compromising the ability of future generations to meet their own needs, promoting equitable and responsible resource use."
+        },
+        {
+          "id": "g1_5m3",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Land use categories and degradation",
+          "question": "Describe the major land use categories in India and explain the main causes of land degradation.",
+          "rubric": [
+            {
+              "point": "Forest land - land under forest cover",
+              "keywords": [
+                "forest land"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Land not available for cultivation - barren/waste land and land put to non-agricultural uses (buildings, roads, industry)",
+              "keywords": [
+                "barren land",
+                "non-agricultural uses"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Other uncultivated land - permanent pastures, groves, culturable waste land",
+              "keywords": [
+                "permanent pastures",
+                "culturable waste"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Net sown area - land actually sown with crops, also called net cropped area",
+              "keywords": [
+                "net sown area",
+                "net cropped area"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Main causes of land degradation: deforestation, overgrazing, over-irrigation (waterlogging/salinity) and mining",
+              "keywords": [
+                "deforestation",
+                "overgrazing",
+                "over-irrigation",
+                "mining"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "India's land is used under several broad categories: forest land, under forest cover; land not available for cultivation, which includes barren and waste land as well as land used for non-agricultural purposes like buildings, roads and industry; other uncultivated land, comprising permanent pastures, groves and culturable waste land; and net sown area, the land actually sown with crops in a given year, also called net cropped area. Land degradation in India is caused mainly by deforestation for agricultural, industrial and habitation purposes; overgrazing by livestock, especially in states like Gujarat, Rajasthan and Madhya Pradesh; over-irrigation, which causes waterlogging and salinity in states like Punjab, Haryana and western Uttar Pradesh; and mining, which leaves deep scars and waste material on the land, notably in Jharkhand, Chhattisgarh and Madhya Pradesh."
+        },
+        {
+          "id": "g1_4m1",
+          "type": "4M",
+          "marks": 4,
+          "topic": "Classification of resources",
+          "question": "Explain the classification of resources on the basis of origin, exhaustibility, ownership and status of development, with one example for each.",
+          "rubric": [
+            {
+              "point": "On the basis of origin: biotic (living, e.g. forests, wildlife) and abiotic (non-living, e.g. rocks, metals)",
+              "keywords": [
+                "biotic",
+                "abiotic",
+                "living non-living"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "On the basis of exhaustibility: renewable (e.g. solar energy, forests) and non-renewable (e.g. coal, minerals)",
+              "keywords": [
+                "renewable",
+                "non-renewable",
+                "exhaustibility"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "On the basis of ownership: individual, community, national and international resources (e.g. community forests, national highways, oceanic resources beyond 200 nautical miles)",
+              "keywords": [
+                "individual resources",
+                "community resources",
+                "national international"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "On the basis of status of development: potential, developed stock and reserves (e.g. wind energy potential in Rajasthan/Gujarat, developed iron ore reserves)",
+              "keywords": [
+                "potential resources",
+                "developed stock",
+                "reserves"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Resources are classified in several ways. On the basis of origin, they are divided into biotic resources, obtained from the biosphere and having life, such as forests and wildlife, and abiotic resources, composed of non-living things, such as rocks and metals. On the basis of exhaustibility, resources are classified as renewable, which can be regenerated, like solar energy and forests, and non-renewable, which have a limited stock and take very long to form, like coal and minerals. On the basis of ownership, resources are classified as individual resources (owned privately), community-owned resources (used collectively, like community forests and grazing grounds), national resources (belonging to the nation, like national highways and minerals within a country's political boundaries) and international resources (regulated by international institutions, like oceanic resources beyond 200 nautical miles of the Exclusive Economic Zone). On the basis of the status of development, resources are classified as potential resources (found in a region but not yet utilised, such as wind energy potential in Rajasthan and Gujarat), developed stock (resources surveyed and their quality determined for use) and reserves (a part of the stock that can be put into use with existing technology but has not been used yet)."
+        },
+        {
+          "id": "g1_4m2",
+          "type": "4M",
+          "marks": 4,
+          "topic": "Soil conservation",
+          "question": "Describe any four methods of soil conservation adopted in India.",
+          "rubric": [
+            {
+              "point": "Contour ploughing: ploughing along the contours of a slope to slow down water flow and reduce soil erosion",
+              "keywords": [
+                "contour ploughing",
+                "slow water flow"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Terrace farming: converting steep slopes into a series of flat terraces to control erosion, practised widely in hilly/mountainous regions",
+              "keywords": [
+                "terrace farming",
+                "steep slopes",
+                "flat terraces"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Strip cropping: dividing large fields into strips, with strips of grass grown between crops to break the force of wind and water",
+              "keywords": [
+                "strip cropping",
+                "grass strips",
+                "break force wind"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Shelter belts: rows of trees planted to check the force of wind and stabilise sand dunes, widely practised in the western/drier parts of India",
+              "keywords": [
+                "shelter belts",
+                "rows of trees",
+                "stabilise sand dunes"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Several methods of soil conservation are practised in India. Contour ploughing involves ploughing along the natural contours of a slope, which slows down the flow of water and reduces soil erosion. Terrace farming converts steep hill slopes into a series of flat terraces, making it easier to cultivate the land and control erosion, and is widely used in hilly and mountainous regions. Strip cropping involves dividing large fields into strips, with strips of grass grown in between the crops, which breaks up the force of wind and water and limits erosion. Shelter belts are rows of trees planted along field boundaries to check the force of wind and stabilise sand dunes, a practice widely followed in the western, drier regions of India."
+        },
+        {
+          "id": "g1_map1",
+          "type": "MAP",
+          "marks": 2,
+          "topic": "Soil regions",
+          "passage": "On the outline map of India, identify the following soil regions (name the region/type):",
+          "subquestions": [
+            {
+              "id": "g1_map1_a",
+              "question": "The soil region consisting of a mix of sand, silt and clay, found mainly in the northern plains and deposited by rivers.",
+              "marks": 1,
+              "rubric": [
+                {
+                  "point": "Alluvial soil (Northern Plains / Indo-Gangetic plains)",
+                  "keywords": [
+                    "alluvial",
+                    "northern plains",
+                    "indo-gangetic"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "Alluvial soil, found extensively across the northern plains (Indo-Gangetic plains)."
+            },
+            {
+              "id": "g1_map1_b",
+              "question": "The sandy and saline soil region found mainly in the western part of India.",
+              "marks": 1,
+              "rubric": [
+                {
+                  "point": "Arid/desertic soil (Rajasthan / Thar Desert region)",
+                  "keywords": [
+                    "arid",
+                    "desertic",
+                    "rajasthan",
+                    "thar desert"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "Arid or desertic soil, found mainly in Rajasthan (the Thar Desert region)."
+            }
+          ]
+        },
+        {
+          "id": "g1_map2",
+          "type": "MAP",
+          "marks": 2,
+          "topic": "Black soil region",
+          "passage": "On the outline map of India, identify the following (name the region/state):",
+          "subquestions": [
+            {
+              "id": "g1_map2_a",
+              "question": "The plateau region formed by the cooling of lava flows, known for black/regur soil.",
+              "marks": 1,
+              "rubric": [
+                {
+                  "point": "Deccan Trap / Deccan Plateau region (Maharashtra, MP, Gujarat)",
+                  "keywords": [
+                    "deccan trap",
+                    "deccan plateau",
+                    "maharashtra"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "The Deccan Trap region, covering parts of Maharashtra, Madhya Pradesh and Gujarat."
+            },
+            {
+              "id": "g1_map2_b",
+              "question": "A state well known for laterite soil, formed under conditions of high temperature and heavy rainfall.",
+              "marks": 1,
+              "rubric": [
+                {
+                  "point": "Kerala / Karnataka / Odisha (any state with laterite soil belt)",
+                  "keywords": [
+                    "kerala",
+                    "karnataka",
+                    "odisha",
+                    "laterite belt"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "Kerala (or Karnataka/Odisha), where laterite soil is commonly found."
+            }
+          ]
+        },
+        {
+          "id": "g1_cbq1",
+          "type": "CBQ",
+          "marks": 4,
+          "topic": "Case study - land degradation from mining and over-irrigation",
+          "passage": "In parts of Jharkhand, Chhattisgarh and Odisha, large-scale mining activities have left deep scars on the land - overburdened dumps of soil and rock, and abandoned open-cast mine pits, have degraded thousands of hectares of otherwise usable land. In some irrigated areas of Punjab and Haryana, on the other hand, land degradation has occurred due to excessive irrigation, leading to waterlogging and a rise in soil salinity.",
+          "subquestions": [
+            {
+              "id": "g1_cbq1_a",
+              "marks": 1,
+              "question": "Land degradation caused by mining activities in states like Jharkhand and Odisha is mainly due to:",
+              "options": [
+                "Excessive irrigation and waterlogging",
+                "Overburdened dumps of soil/rock debris and abandoned mine pits",
+                "Overgrazing by livestock",
+                "Coastal erosion"
+              ],
+              "answer_index": 1,
+              "explanation": "Mining leaves behind waste-rock dumps and abandoned pits that degrade the land."
+            },
+            {
+              "id": "g1_cbq1_b",
+              "marks": 1,
+              "question": "In irrigated areas like Punjab and Haryana, land degradation due to over-irrigation typically results in:",
+              "options": [
+                "Desertification only",
+                "Waterlogging and increased soil salinity",
+                "Deforestation",
+                "Landslides"
+              ],
+              "answer_index": 1,
+              "explanation": "Excess irrigation water raises the water table, causing waterlogging, and evaporation of this water leaves behind salts, increasing soil salinity."
+            },
+            {
+              "id": "g1_cbq1_c",
+              "marks": 2,
+              "question": "Suggest two methods that could be used to conserve and reclaim degraded land in India.",
+              "rubric": [
+                {
+                  "point": "Afforestation and controlling overgrazing can help reclaim land degraded by deforestation and grazing",
+                  "keywords": [
+                    "afforestation",
+                    "controlling overgrazing"
+                  ],
+                  "weight": 1
+                },
+                {
+                  "point": "Proper management of mining areas (filling abandoned pits, reclaiming overburden dumps) and controlled/scientific irrigation can reduce degradation from mining and waterlogging",
+                  "keywords": [
+                    "reclaiming mining areas",
+                    "controlled irrigation"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "Land can be conserved and reclaimed by afforestation (planting trees) and controlling overgrazing in areas degraded by deforestation and grazing, and through proper management of mining areas - such as filling abandoned pits and reclaiming overburden dumps - along with controlled, scientific irrigation practices to prevent waterlogging and salinity."
+            }
+          ]
+        },
+        {
+          "id": "g1_ar1",
+          "type": "AR",
+          "marks": 1,
+          "topic": "Over-irrigation and land degradation",
+          "question": "Assertion (A): Excessive irrigation in states like Punjab and Haryana can lead to land degradation.\nReason (R): Over-irrigation can cause waterlogging, which increases soil salinity and reduces the land's fertility.",
+          "options": [
+            "Both A and R are true and R is the correct explanation of A.",
+            "Both A and R are true but R is not the correct explanation of A.",
+            "A is true but R is false.",
+            "A is false but R is true."
+          ],
+          "answer_index": 0,
+          "explanation": "Both statements are true, and R correctly explains the mechanism by which over-irrigation degrades land."
+        },
+        {
+          "id": "g1_ar2",
+          "type": "AR",
+          "marks": 1,
+          "topic": "Causes of land degradation across India",
+          "question": "Assertion (A): Overgrazing is a major cause of land degradation only in the hilly regions of India.\nReason (R): Overgrazing by livestock, along with deforestation and mining, is one of several major causes of land degradation found across many different regions of India, not just hilly areas.",
+          "options": [
+            "Both A and R are true and R is the correct explanation of A.",
+            "Both A and R are true but R is not the correct explanation of A.",
+            "A is true but R is false.",
+            "A is false but R is true."
+          ],
+          "answer_index": 3,
+          "explanation": "Overgrazing causes land degradation across many regions of India (e.g. Gujarat, Rajasthan, Madhya Pradesh), not only in hilly areas, so A is false. R correctly describes the wider spread of this cause."
+        },
+        {
+          "id": "g1_pq_mcq1",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Groundwater over-extraction via submersible pumps",
+          "question": "Ankur, a resident of Rajasthan, installs a submersible water pump capable of extracting groundwater from depths of 250-300 m, and this practice is becoming increasingly popular across the state. What will this growing practice MOST LIKELY lead to?",
+          "options": [
+            "decline in groundwater quality",
+            "reduced monsoon water resources",
+            "increased number of waterborne diseases",
+            "water scarcity resulting from excessive utilization"
+          ],
+          "answer_index": 3,
+          "explanation": "Widespread use of deep submersible pumps allows groundwater to be extracted far faster than it can naturally recharge, leading to over-exploitation and eventual water scarcity - a well-documented issue in groundwater-stressed states like Rajasthan.",
+          "chapter_id": "resources_and_development",
+          "chapter_title": "Resources and Development",
+          "subject": "geography"
+        },
+        {
+          "id": "g1_pq_mcq2",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Renewable, environmentally friendly energy for homes",
+          "question": "Which method of energy production is environmentally friendly and practical for powering homes across regions in India?",
+          "options": [
+            "coal-fired power plants",
+            "nuclear power plants",
+            "solar power panels",
+            "diesel generators"
+          ],
+          "answer_index": 2,
+          "explanation": "Solar power panels generate electricity without burning fossil fuels or producing greenhouse gas emissions during operation, and are practical for decentralised home use across India's generally sunny climate, making them the most environmentally friendly and accessible option among those listed.",
+          "chapter_id": "resources_and_development",
+          "chapter_title": "Resources and Development",
+          "subject": "geography"
+        },
+        {
+          "id": "g1_pq2_mcq1",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Multi-purpose use of the Bhakra-Nangal project",
+          "question": "In the Bhakra-Nangal project, water is being used for which of the following purposes?\ni. Hydel power production\nii. Irrigation\niii. Transportation\niv. Cleaning",
+          "options": [
+            "i and iv",
+            "ii and i",
+            "Only iii",
+            "Only ii"
+          ],
+          "answer_index": 1,
+          "explanation": "The Bhakra-Nangal multi-purpose river valley project on the Sutlej serves both hydroelectric power generation and irrigation for Punjab, Haryana and Rajasthan - i.e. i (hydel power) and ii (irrigation).",
+          "chapter_id": "resources_and_development",
+          "chapter_title": "Resources and Development",
+          "subject": "geography"
+        },
+        {
+          "id": "g1_pq2_mcq2",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Aim of the Rio de Janeiro Earth Summit, 1992",
+          "question": "What was the main aim of the Rio de Janeiro Earth Summit, 1992?",
+          "options": [
+            "Protection of Environment and socio-economic development",
+            "Protection of Environment and cultural development",
+            "Protection of water and socio-economic development",
+            "Protection of Earth and socio-economic development"
+          ],
+          "answer_index": 0,
+          "explanation": "The 1992 Rio Earth Summit's core aim was to reconcile environmental protection with socio-economic development, giving rise to the concept of 'sustainable development' as a guiding global principle.",
+          "chapter_id": "resources_and_development",
+          "chapter_title": "Resources and Development",
+          "subject": "geography"
+        },
+        {
+          "id": "g1_pq_3m1",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Interdependence of resources - drought and resource planning",
+          "question": "'A drought-induced water shortage can have far-reaching consequences, affecting agricultural productivity, the availability of food resources, industrial activities, and livelihoods, thereby significantly impacting human well-being.' (i) What does this statement represent about the relationship between different resources? (ii) How does such a situation represent a lack of resource planning?",
+          "rubric": [
+            {
+              "point": "(i) It represents the interconnectedness and interdependence of resources - a shortage of one resource (water) cascades to affect the availability of food resources, agricultural productivity, industrial activity and, ultimately, human livelihoods and well-being",
+              "keywords": [
+                "interconnectedness",
+                "interdependence of resources",
+                "cascading effect"
+              ],
+              "weight": 2
+            },
+            {
+              "point": "(ii) The situation reflects a lack of proper water management and over-reliance on monsoon rainfall without adequate planning or conservation measures to buffer against shortages",
+              "keywords": [
+                "lack of water management",
+                "over-reliance on monsoons"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "This statement represents the interconnectedness and interdependence between different resources: a shortage of one resource (water) does not stay isolated but cascades outward, affecting the availability of food resources (through reduced agricultural productivity), industrial activity, and ultimately people's livelihoods and overall well-being. Such a drought-driven crisis also reflects a lack of proper resource planning - specifically, inadequate water management and an over-reliance on monsoon rainfall, without the conservation measures or contingency planning needed to buffer against periods of shortage.",
+          "chapter_id": "resources_and_development",
+          "chapter_title": "Resources and Development",
+          "subject": "geography"
+        },
+        {
+          "id": "g1_pq_5m1",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Impact analysis - the Delhi-Dehradun Expressway",
+          "question": "The Delhi-Dehradun Expressway (set to open by the end of 2023) will reduce travel time between the two cities from 6 to 2 hours, running 210 km from North East Delhi through Baghpat, Shamli, Muzaffarnagar, Saharanpur and Dehradun. Its last 20 km stretch passes through the eco-sensitive Raja Ji National Park, where a six-lane, 12 km elevated wildlife corridor (including a 340 m tunnel near the DatKaali temple) has been built to reduce impact on wildlife and prevent animal-vehicle collisions. Analyse the development of this expressway in terms of its impact - negative and/or positive - on economic growth, the environment, and the goal of sustainable development.",
+          "rubric": [
+            {
+              "point": "Economic growth: reduced travel time will boost trade and tourism between Delhi and Dehradun, can lead to greater investment in the region, and the construction itself generates employment opportunities",
+              "keywords": [
+                "boost trade and tourism",
+                "investment",
+                "employment"
+              ],
+              "weight": 1.5
+            },
+            {
+              "point": "Environment: passing through an eco-sensitive zone risks loss of flora and fauna, and increased vehicular traffic and emissions will contribute to increased pollution",
+              "keywords": [
+                "loss of flora and fauna",
+                "pollution"
+              ],
+              "weight": 1.5
+            },
+            {
+              "point": "Sustainable development: environmental concerns were taken into account through the elevated wildlife corridor and dedicated animal passes, and green construction methods can help offset carbon emissions - showing an attempt to balance development with ecological protection",
+              "keywords": [
+                "wildlife corridor",
+                "green construction",
+                "balance"
+              ],
+              "weight": 2
+            }
+          ],
+          "model_answer": "Economically, the Delhi-Dehradun Expressway is likely to boost trade and tourism between the two cities by cutting travel time from 6 to 2 hours, attract greater investment into the region, and the construction process itself has already generated employment opportunities. Environmentally, however, the route's final 20 km stretch through the eco-sensitive Raja Ji National Park risks loss of flora and fauna, and the increased vehicular traffic the expressway will carry is likely to raise vehicular emissions and pollution in the corridor. In terms of sustainable development, the project shows a genuine attempt to balance these competing concerns: the six-lane elevated wildlife corridor and dedicated animal passes near the DatKaali tunnel were specifically built to reduce the road's impact on wildlife and prevent animal-vehicle collisions, and green construction methods can further help offset the project's carbon footprint - together illustrating how infrastructure development can be designed to pursue economic growth while still working to minimise environmental harm.",
+          "chapter_id": "resources_and_development",
+          "chapter_title": "Resources and Development",
+          "subject": "geography"
+        },
+        {
+          "id": "g1_pq2_5m1",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Measures to prevent soil erosion caused by natural forces",
+          "question": "Analyse the measures adopted to prevent soil erosion caused by natural forces. Also enumerate the natural forces which lead to soil erosion.",
+          "rubric": [
+            {
+              "point": "Natural forces causing soil erosion: wind, glaciers and water",
+              "keywords": [
+                "wind",
+                "glacier",
+                "water"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Contour ploughing: ploughing along contour lines decelerates the flow of water down slopes",
+              "keywords": [
+                "contour ploughing"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Terrace cultivation/farming: cutting steps (terraces) on slopes restricts erosion, well developed in the western and central Himalayas",
+              "keywords": [
+                "terrace cultivation",
+                "himalayas"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Strip cropping: dividing large fields into strips, with strips of grass left between crops, breaks up the force of the wind",
+              "keywords": [
+                "strip cropping"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Shelter belts: rows of trees planted to create shelter, which have significantly helped stabilise sand dunes and the desert in western India",
+              "keywords": [
+                "shelter belts",
+                "sand dunes"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Soil erosion is caused by natural forces such as wind, glaciers and water. Several measures help prevent it: contour ploughing, where fields are ploughed along contour lines to decelerate the flow of water down slopes; terrace cultivation, where slopes are cut into a series of steps (terraces) to restrict erosion - well developed across the western and central Himalayas; strip cropping, where large fields are divided into strips with strips of grass left to grow between the crops, breaking up the force of the wind; and shelter belts, rows of trees planted to provide shelter, which have contributed significantly to stabilising sand dunes and checking desert expansion in western India.",
+          "chapter_id": "resources_and_development",
+          "chapter_title": "Resources and Development",
+          "subject": "geography"
+        },
+        {
+          "id": "g1_pq2_5m2",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Solving the problem of land degradation",
+          "question": "'There are many ways to solve the problems of land degradation.' Substantiate this statement with illustrations.",
+          "rubric": [
+            {
+              "point": "Afforestation and proper management of grazing can help reduce land degradation to some extent",
+              "keywords": [
+                "afforestation",
+                "management of grazing"
+              ],
+              "weight": 1.5
+            },
+            {
+              "point": "In arid areas: planting shelterbelts of plants, controlling overgrazing, and stabilising sand dunes by growing thorny bushes help check land degradation",
+              "keywords": [
+                "shelterbelts",
+                "control overgrazing",
+                "sand dunes",
+                "thorny bushes"
+              ],
+              "weight": 1.5
+            },
+            {
+              "point": "In industrial and suburban areas: proper management of wastelands, controlling mining activities, and properly discharging/disposing industrial effluents and waste (after treatment) can reduce land and water degradation",
+              "keywords": [
+                "wasteland management",
+                "control mining",
+                "industrial effluents treated"
+              ],
+              "weight": 2
+            }
+          ],
+          "model_answer": "There are several effective ways to address land degradation. Afforestation and the proper management of grazing can help reduce degradation to some extent across many regions. In arid areas specifically, planting shelterbelts of plants, controlling overgrazing, and stabilising sand dunes by growing thorny bushes are effective methods to check land degradation. In industrial and suburban areas, proper management of wastelands, tighter control of mining activities, and the proper discharge and disposal of industrial effluents and wastes (after appropriate treatment) can significantly reduce both land and water degradation. Together, these illustrate that solving land degradation requires region-specific strategies tailored to whether the driving cause is agricultural, arid-climate, or industrial in nature.",
+          "chapter_id": "resources_and_development",
+          "chapter_title": "Resources and Development",
+          "subject": "geography"
+        },
+        {
+          "id": "g1_pq2_cbq1",
+          "type": "CBQ",
+          "marks": 4,
+          "topic": "Case study - water scarcity in Rajasthan and rainwater harvesting",
+          "passage": "Given the abundance and renewability of water, it is difficult to imagine suffering water scarcity. We often associate water shortages with regions of low rainfall or drought-prone areas, immediately visualising the deserts of Rajasthan and women balancing many 'matkas' (earthen pots) for collecting and storing water, travelling long distances to get it. True, water resource availability varies over space and time due to seasonal and annual precipitation variation, but water scarcity in most cases is actually caused by over-exploitation, excessive use, and unequal access to water among different social groups.",
+          "subquestions": [
+            {
+              "id": "g1_pq2_cbq1_a",
+              "marks": 1,
+              "question": "How do women in Rajasthan traditionally collect water?",
+              "rubric": [
+                {
+                  "point": "By balancing many 'matkas' (earthen pots) on their heads/persons to collect and store water, and travelling long distances to get it",
+                  "keywords": [
+                    "matkas",
+                    "earthen pots",
+                    "long distances"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "Women in Rajasthan traditionally collect water by balancing many 'matkas' (earthen pots) to gather and store it, often travelling long distances to reach a water source."
+            },
+            {
+              "id": "g1_pq2_cbq1_b",
+              "marks": 1,
+              "question": "According to the passage, what is the main cause of water scarcity in most areas?",
+              "rubric": [
+                {
+                  "point": "While seasonal/annual precipitation variation plays a role, water scarcity in most cases is actually caused by over-exploitation, excessive use, and unequal access to water among different social groups",
+                  "keywords": [
+                    "over-exploitation",
+                    "excessive use",
+                    "unequal access"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "While the availability of water does vary with seasonal and annual precipitation, the passage states that water scarcity in most cases is actually caused by over-exploitation, excessive use, and unequal access to water among different social groups - not simply by a lack of rainfall."
+            },
+            {
+              "id": "g1_pq2_cbq1_c",
+              "marks": 2,
+              "question": "Do you think rainwater harvesting can help address water scarcity in a state like Rajasthan? Give reasons to justify your answer.",
+              "rubric": [
+                {
+                  "point": "Yes - traditional rainwater harvesting structures like 'khadins' (in Jaisalmer) and 'johads' (in other parts of Rajasthan) convert agricultural fields into rain-fed storage structures that allow water to stand and moisten the soil",
+                  "keywords": [
+                    "khadins",
+                    "johads",
+                    "rain-fed storage"
+                  ],
+                  "weight": 1
+                },
+                {
+                  "point": "'Rooftop rainwater harvesting' has also been commonly practised in Rajasthan specifically to store drinking water",
+                  "keywords": [
+                    "rooftop rainwater harvesting",
+                    "drinking water"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "Yes, rainwater harvesting can help significantly. Traditional structures such as 'khadins' (used in Jaisalmer) and 'johads' (used in other parts of Rajasthan) convert agricultural fields into rain-fed storage structures that let water stand and moisten the soil, helping recharge groundwater and support cultivation. In addition, 'rooftop rainwater harvesting' has long been commonly practised in Rajasthan specifically to store drinking water for households, directly addressing the scarcity caused by the region's low and variable rainfall."
+            }
+          ],
+          "chapter_id": "resources_and_development",
+          "chapter_title": "Resources and Development",
+          "subject": "geography"
+        },
+        {
+          "id": "g1_pq_fact1",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Map skills - a dam on the river Sutlej",
+          "question": "Which major dam is built on the river Sutlej?",
+          "options": [
+            "Bhakra Dam",
+            "Tehri Dam",
+            "Hirakud Dam",
+            "Sardar Sarovar Dam"
+          ],
+          "answer_index": 0,
+          "explanation": "The Bhakra Dam (part of the Bhakra-Nangal project) is built on the river Sutlej in Himachal Pradesh, one of India's major multi-purpose river valley projects.",
+          "chapter_id": "resources_and_development",
+          "chapter_title": "Resources and Development",
+          "subject": "geography"
+        },
+        {
+          "id": "g1_pq2_fact1",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Map skills - the tallest dam in India",
+          "question": "Which is the tallest dam in India?",
+          "options": [
+            "Tehri Dam",
+            "Bhakra Dam",
+            "Hirakud Dam",
+            "Nagarjuna Sagar Dam"
+          ],
+          "answer_index": 0,
+          "explanation": "The Tehri Dam, built on the Bhagirathi river in Uttarakhand, is the tallest dam in India.",
+          "chapter_id": "resources_and_development",
+          "chapter_title": "Resources and Development",
+          "subject": "geography"
+        }
+      ]
+    },
+    {
+      "id": "agriculture",
+      "title": "Agriculture",
+      "notes": {
+        "overview": "This chapter deals with types of farming practised in India, major cropping seasons, important food and cash crops, and the technological and institutional reforms that have shaped Indian agriculture, including the Green Revolution.",
+        "key_points": [
+          "India practises primitive subsistence farming, intensive subsistence farming and commercial farming; plantation agriculture is a form of commercial farming involving a single crop grown over a large area.",
+          "India has three cropping seasons: Rabi (winter, sown Oct-Dec, harvested April-June, e.g. wheat, gram, mustard), Kharif (monsoon, sown June-July, harvested Sept-Oct, e.g. rice, maize, cotton) and Zaid (short summer season between Rabi and Kharif, e.g. watermelon, cucumber).",
+          "Rice is the staple food of the majority in India, a kharif crop requiring high temperature and rainfall above 100 cm, grown mainly in the Northern and North-Eastern plains, coastal areas and deltaic regions.",
+          "Wheat is the second most important cereal, a rabi crop requiring moderate temperature and rainfall, grown mainly in the Ganga-Sutlej plains and the Deccan (Punjab, Haryana, UP, MP being leading producers).",
+          "Major cash crops include cotton (grown in black soil regions, needs 210 frost-free days), sugarcane (tropical/subtropical crop needing hot-humid climate), jute (golden fibre, grown in West Bengal delta) and tea (plantation crop needing well-drained hill slopes and warm humid climate, e.g. Assam, West Bengal hills).",
+          "The Green Revolution (1960s) introduced high-yielding variety (HYV) seeds, chemical fertilisers and irrigation, boosting foodgrain production especially wheat and rice, but also raised concerns of regional inequality and environmental damage.",
+          "Institutional reforms in agriculture include land reforms (abolition of zamindari), consolidation of holdings, cooperative farming, and the Minimum Support Price (MSP) policy to protect farmer incomes.",
+          "Agriculture in India faces challenges such as dependence on monsoon, small and fragmented landholdings, and the need for further modernisation without harming the environment."
+        ],
+        "key_terms": {
+          "Rabi crops": "Crops sown in winter (Oct-Dec) and harvested in summer (April-June), e.g. wheat, mustard, gram.",
+          "Kharif crops": "Crops sown with the onset of monsoon and harvested in September-October, e.g. rice, maize, cotton.",
+          "Green Revolution": "The introduction of HYV seeds, fertilisers and irrigation in the 1960s-70s that sharply increased foodgrain output.",
+          "Minimum Support Price (MSP)": "A guaranteed price set by the government at which it purchases crops from farmers to protect them from price crashes.",
+          "Plantation agriculture": "A type of commercial farming where a single cash crop is grown over a large area, e.g. tea, coffee, rubber."
+        },
+        "important_facts": [
+          "Green Revolution: 1960s, associated with HYV seeds and Punjab/Haryana wheat boom.",
+          "Rice needs high temperature (above 25°C) and rainfall above 100 cm.",
+          "Wheat requires cool growing season and bright sunshine at ripening time.",
+          "West Bengal is the largest producer of jute; Assam leads in tea production.",
+          "Maharashtra is the largest producer of sugarcane among major cropping regions along with UP."
+        ],
+        "exam_tips": [
+          "Learn crop-wise: season, temperature/rainfall requirement, and top producing states - very commonly asked as 2 or 3 mark questions.",
+          "Be ready to explain the Green Revolution's positive impacts and its criticisms (regional disparity, soil degradation, over-use of groundwater) for a 5-mark question.",
+          "Practice differentiating Rabi, Kharif and Zaid crops with examples."
+        ],
+        "sections": [
+          {
+            "title": "1. Types of Farming in India",
+            "content": "India has various types of farming systems that have evolved and existed side by side since ancient times. Primitive subsistence farming, still practised in a few pockets, includes 'slash and burn' agriculture, dependent on monsoon, natural fertility of the soil and suitability of environment, and involves the use of primitive tools like hoe and digging sticks. Intensive subsistence farming, practised in areas of high population pressure on land, uses high doses of biochemical inputs and labour to obtain higher production, with the right to inherit land leading to its fragmentation, giving farmers small plots. Commercial farming is characterised by higher doses of modern inputs, such as high-yielding variety seeds, chemical fertilisers, insecticides and pesticides, to obtain higher productivity, and the degree of commercialisation varies from one region to another - for example, rice is a commercial crop in Punjab and Haryana but a subsistence crop in Odisha.",
+            "keywords": [
+              "primitive subsistence farming",
+              "intensive subsistence farming",
+              "commercial farming",
+              "slash and burn",
+              "HYV seeds"
+            ]
+          },
+          {
+            "title": "2. Plantation Agriculture",
+            "content": "Plantation agriculture is also a type of commercial farming, in which a single crop is grown on a large area, with the plantation having an interface of agriculture and industry, since the produce is used as raw material for related industries. This type of farming involves a huge amount of capital and labour, along with the necessary technical knowledge and transport and communication facilities for it to succeed. Tea, coffee, rubber, sugarcane, banana etc. are important plantation crops grown in India, mainly in Assam, West Bengal hills and parts of Tamil Nadu, Karnataka and Kerala.",
+            "keywords": [
+              "plantation agriculture",
+              "single crop",
+              "capital intensive",
+              "tea coffee rubber"
+            ]
+          },
+          {
+            "title": "3. Cropping Seasons: Rabi, Kharif and Zaid",
+            "content": "India has three distinct cropping seasons. Rabi crops are sown in winter from October to December and harvested in summer from April to June, requiring cool climate during germination and warm climate at the time of ripening; wheat, gram, peas, barley and mustard are important Rabi crops, grown mainly in the states of Punjab, Haryana, Himachal Pradesh, Jammu and Kashmir, Uttarakhand and Uttar Pradesh, and Green Revolution technology has been chiefly responsible for the success of this revolution. Kharif crops are grown with the onset of the monsoon and harvested in September-October; paddy, maize, jowar, bajra, tur, moong, urad, cotton, jute, groundnut and soybean are important Kharif crops, grown in Assam, West Bengal, coastal regions of Odisha, Andhra Pradesh, Telangana, Tamil Nadu, parts of Maharashtra, and Karnataka particularly for rice. Zaid is a short season during the summer months between the Rabi and Kharif seasons, growing crops like watermelon, muskmelon, cucumber, vegetables and fodder crops.",
+            "keywords": [
+              "Rabi crop",
+              "Kharif crop",
+              "Zaid season",
+              "wheat",
+              "rice",
+              "onset of monsoon"
+            ]
+          },
+          {
+            "title": "4. Rice and Wheat",
+            "content": "Rice is the staple food crop of a majority of people in India, a Kharif crop requiring high temperature (above 25 degrees Celsius), high humidity and annual rainfall above 100 cm, and in areas of less rainfall it grows with the help of irrigation. Rice is grown in the plains of North and North-Eastern India, coastal areas and deltaic regions, with West Bengal, Punjab and Uttar Pradesh being top producers. Wheat is the second most important cereal crop, requiring a cool growing season and bright sunshine at the time of ripening, with 50-75 cm of annual rainfall evenly distributed over the growing season; the two important wheat-growing zones are the Ganga-Sutlej plains in the north-west and the black soil region of the Deccan, with Uttar Pradesh, Punjab, Haryana and Madhya Pradesh being major producers.",
+            "keywords": [
+              "rice kharif crop",
+              "wheat rabi crop",
+              "Ganga-Sutlej plains",
+              "staple food"
+            ]
+          },
+          {
+            "title": "5. Millets, Pulses and Cash Crops",
+            "content": "Millets like jowar, bajra and ragi are known as coarse grains, having high nutritional value, and are grown in less fertile and less irrigated areas of Maharashtra, Karnataka, Andhra Pradesh, Telangana, Gujarat and Haryana. Pulses (tur, urad, moong, masur, peas, gram) are the major source of protein in a vegetarian diet, being leguminous crops that help restore soil fertility by fixing nitrogen from the air, and are mostly grown in rotation with other crops. Cash crops include cotton (requiring black soil, high temperature, light rainfall and 210 frost-free days, grown mainly in Maharashtra, Gujarat and Punjab), jute (the 'golden fibre', grown on the flood plains of the Ganga delta in West Bengal, Bihar and Assam), sugarcane (a tropical/subtropical crop needing hot and humid climate with 21-27 degrees Celsius temperature, grown chiefly in Uttar Pradesh, Maharashtra, Karnataka and Tamil Nadu) and tea/coffee (plantation crops needing well-drained hill slopes, grown in Assam and the Nilgiri, Cardamom and Palni hills).",
+            "keywords": [
+              "millets jowar bajra",
+              "pulses nitrogen fixing",
+              "cotton black soil",
+              "jute golden fibre",
+              "sugarcane",
+              "tea coffee"
+            ]
+          },
+          {
+            "title": "6. Technological and Institutional Reforms",
+            "content": "Institutional reforms have remained the main focus of the government since independence: collectivisation, consolidation of holdings, cooperation and abolition of zamindari were given priority to bring about institutional reform after independence. The Green Revolution of the 1960s-70s, based on the package technology of high-yielding variety seeds, chemical fertilisers and assured irrigation, and the White Revolution (Operation Flood), enhanced agricultural production remarkably. Comprehensive land development programmes were initiated, including both institutional and technical reforms such as provision for crop insurance against drought, flood, cyclone, fire and disease; establishment of grameen (rural) banks, cooperative societies and banks for the provision of rural credit; and announcement of Minimum Support Price and remunerative and procurement prices for important crops to check exploitation of farmers by speculators and middlemen.",
+            "keywords": [
+              "Green Revolution",
+              "White Revolution",
+              "institutional reforms",
+              "zamindari abolition",
+              "Minimum Support Price"
+            ]
+          },
+          {
+            "title": "7. Food Security and Public Distribution",
+            "content": "Bumper harvests during the Green Revolution period led to a surplus of foodgrains in some regions, benefiting farmers there, while it was necessary to feed the food-deficit regions and provide buffer stocks in government granaries for years of scarcity. The Food Corporation of India purchases foodgrains from farmers at a government-announced Minimum Support Price and maintains the Public Distribution System, supplying grains to poorer sections of society at subsidised rates, thus ensuring food security. However, agriculture today faces the challenge of maintaining sustainability, since indiscriminate use of chemical fertilisers, pesticides and groundwater under the Green Revolution has led to soil degradation and depletion of the water table in some regions.",
+            "keywords": [
+              "Food Corporation of India",
+              "Public Distribution System",
+              "food security",
+              "subsidised rates",
+              "sustainability challenge"
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "g2_mcq1",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Cropping seasons",
+          "question": "Wheat and mustard are examples of which cropping season?",
+          "options": [
+            "Kharif",
+            "Rabi",
+            "Zaid",
+            "Plantation"
+          ],
+          "answer_index": 1,
+          "explanation": "Wheat and mustard are Rabi crops, sown in winter and harvested in summer."
+        },
+        {
+          "id": "g2_mcq2",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Rice cultivation",
+          "question": "Rice requires rainfall of more than:",
+          "options": [
+            "50 cm",
+            "75 cm",
+            "100 cm",
+            "150 cm only in hills"
+          ],
+          "answer_index": 2,
+          "explanation": "Rice is a kharif crop that needs rainfall above 100 cm or irrigation support."
+        },
+        {
+          "id": "g2_mcq3",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Cash crops",
+          "question": "Which state is the largest producer of jute, known as the 'golden fibre'?",
+          "options": [
+            "Assam",
+            "West Bengal",
+            "Punjab",
+            "Kerala"
+          ],
+          "answer_index": 1,
+          "explanation": "West Bengal, in the Ganga delta, leads in jute production."
+        },
+        {
+          "id": "g2_mcq4",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Green Revolution",
+          "question": "The Green Revolution of the 1960s primarily involved the use of:",
+          "options": [
+            "Organic manure only",
+            "High-yielding variety (HYV) seeds",
+            "Shifting cultivation",
+            "Plantation crops"
+          ],
+          "answer_index": 1,
+          "explanation": "The Green Revolution centred on HYV seeds along with fertilisers and irrigation."
+        },
+        {
+          "id": "g2_mcq5",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Tea cultivation",
+          "question": "Tea is grown best on:",
+          "options": [
+            "Waterlogged plains",
+            "Well-drained hill slopes with warm humid climate",
+            "Cold arid deserts",
+            "Saline coastal soil"
+          ],
+          "answer_index": 1,
+          "explanation": "Tea is a plantation crop needing well-drained slopes, warm and humid climate."
+        },
+        {
+          "id": "g2_2m1",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Cropping seasons",
+          "question": "Name the three cropping seasons of India and give one crop example for each.",
+          "rubric": [
+            {
+              "point": "Rabi (winter) - e.g. wheat/gram/mustard",
+              "keywords": [
+                "rabi",
+                "wheat",
+                "gram",
+                "mustard"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Kharif (monsoon) and Zaid (short summer) with examples e.g. rice/maize/cotton and watermelon/cucumber",
+              "keywords": [
+                "kharif",
+                "zaid",
+                "rice",
+                "maize",
+                "watermelon"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "India has three cropping seasons: Rabi, sown in winter (October-December) and harvested in summer, e.g. wheat; Kharif, sown with the onset of monsoon and harvested in autumn, e.g. rice; and Zaid, a short season between Rabi and Kharif, e.g. watermelon and cucumber."
+        },
+        {
+          "id": "g2_2m2",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Institutional reforms",
+          "question": "What is the Minimum Support Price (MSP) and why is it important for farmers?",
+          "rubric": [
+            {
+              "point": "MSP is a guaranteed price fixed by the government at which it buys crops from farmers",
+              "keywords": [
+                "guaranteed price",
+                "government fixed",
+                "purchase crops"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "It protects farmers from price crashes/exploitation and ensures a stable income",
+              "keywords": [
+                "protect farmers",
+                "price crash",
+                "stable income",
+                "exploitation"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The Minimum Support Price is a price fixed by the government at which it guarantees to purchase crops from farmers, regardless of market fluctuations. It is important because it protects farmers from sudden price crashes and exploitation by middlemen, ensuring them a stable and fair income."
+        },
+        {
+          "id": "g2_3m1",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Rice and Wheat",
+          "question": "Compare the geographical conditions (temperature, rainfall, soil, regions) required for growing rice and wheat in India.",
+          "rubric": [
+            {
+              "point": "Rice: kharif crop, needs high temperature (above 25°C) and high rainfall (above 100 cm), grown in northern/north-eastern plains, coastal and deltaic areas",
+              "keywords": [
+                "rice",
+                "high temperature",
+                "high rainfall",
+                "kharif",
+                "plains"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Wheat: rabi crop, needs cool growing season with moderate rainfall and bright sunshine at ripening",
+              "keywords": [
+                "wheat",
+                "rabi",
+                "cool climate",
+                "moderate rainfall",
+                "sunshine"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Rice is concentrated in Ganga plains/coastal delta regions while wheat is concentrated in Ganga-Sutlej plains and Deccan (Punjab, Haryana, UP)",
+              "keywords": [
+                "ganga plains",
+                "punjab",
+                "haryana",
+                "deccan",
+                "sutlej"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Rice is a kharif crop requiring high temperature (above 25°C) and heavy rainfall of more than 100 cm; where rainfall is insufficient, it is grown with irrigation. It is concentrated in the northern and north-eastern plains, coastal areas and deltaic regions. Wheat, on the other hand, is a rabi crop that needs a cool growing season with moderate rainfall and bright sunshine during ripening. It is grown mainly in the Ganga-Sutlej plains and parts of the Deccan, with Punjab, Haryana, Uttar Pradesh and Madhya Pradesh being leading producers."
+        },
+        {
+          "id": "g2_3m2",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Types of farming",
+          "question": "Distinguish between intensive subsistence farming and commercial farming.",
+          "rubric": [
+            {
+              "point": "Intensive subsistence: labour-intensive, small landholdings, high biochemical inputs, grown mainly for family consumption",
+              "keywords": [
+                "labour intensive",
+                "small landholding",
+                "family consumption",
+                "subsistence"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Commercial farming: uses higher doses of modern inputs, HYV seeds, large scale, produced mainly for sale in market",
+              "keywords": [
+                "commercial",
+                "market sale",
+                "hyv seeds",
+                "large scale"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Examples/regions: subsistence common in densely populated regions of India; commercial farming e.g. in Punjab/Haryana",
+              "keywords": [
+                "densely populated",
+                "punjab",
+                "commercial example"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Intensive subsistence farming is practised on small landholdings using large amounts of labour, with the crop produced mainly consumed by the farmer's own family. Commercial farming, in contrast, uses higher doses of modern inputs such as HYV seeds, fertilisers and machinery, is practised on larger holdings, and the produce is grown mainly to be sold in the market. Punjab and Haryana are examples of regions with predominantly commercial farming, while intensive subsistence farming is common in densely populated parts of India."
+        },
+        {
+          "id": "g2_5m1",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Green Revolution",
+          "question": "What was the Green Revolution? Discuss its positive impacts and the problems associated with it.",
+          "rubric": [
+            {
+              "point": "Definition: introduction of HYV seeds along with chemical fertilisers, pesticides and assured irrigation in the 1960s",
+              "keywords": [
+                "hyv seeds",
+                "fertilisers",
+                "irrigation",
+                "1960s"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Positive impact: sharp rise in foodgrain production, especially wheat, making India self-sufficient/reducing food imports",
+              "keywords": [
+                "increased production",
+                "self-sufficient",
+                "wheat boost",
+                "food imports reduced"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Positive impact: benefited farmers in irrigated regions like Punjab and Haryana significantly",
+              "keywords": [
+                "punjab",
+                "haryana",
+                "farmer income"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Problem: increased regional disparity as benefits were concentrated in few states/left out rainfed areas",
+              "keywords": [
+                "regional disparity",
+                "rainfed areas left out",
+                "unequal benefit"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Problem: environmental damage - soil degradation, over-use of groundwater and chemical fertilisers/pesticides",
+              "keywords": [
+                "soil degradation",
+                "groundwater depletion",
+                "chemical overuse",
+                "environmental damage"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The Green Revolution refers to the package technology introduced in Indian agriculture during the 1960s, involving high-yielding variety (HYV) seeds along with chemical fertilisers, pesticides and assured irrigation. It led to a sharp increase in foodgrain production, particularly wheat, helping India move towards self-sufficiency and reduce dependence on food imports. Farmers in well-irrigated regions such as Punjab and Haryana benefited greatly in terms of income and productivity. However, the Green Revolution also created problems: its benefits were concentrated in a few irrigated states, widening regional disparities and leaving rainfed and less-developed regions behind; and the heavy use of chemical fertilisers, pesticides and groundwater led to soil degradation, water table depletion and other environmental damage."
+        },
+        {
+          "id": "g2_mcq6",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Types of farming",
+          "question": "'Slash and burn' agriculture is an example of:",
+          "options": [
+            "Commercial farming",
+            "Primitive subsistence farming",
+            "Plantation agriculture",
+            "Intensive subsistence farming"
+          ],
+          "answer_index": 1,
+          "explanation": "Slash and burn is a traditional method used in primitive subsistence farming."
+        },
+        {
+          "id": "g2_mcq7",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Plantation agriculture",
+          "question": "Plantation agriculture is characterised by:",
+          "options": [
+            "A single crop grown over a large area",
+            "Multiple crops grown for family consumption",
+            "Shifting cultivation",
+            "No use of capital or technology"
+          ],
+          "answer_index": 0,
+          "explanation": "Plantation agriculture involves a single cash crop grown over an extensive area."
+        },
+        {
+          "id": "g2_mcq8",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Cropping seasons",
+          "question": "Zaid is a cropping season that falls:",
+          "options": [
+            "Before Rabi",
+            "Between Rabi and Kharif",
+            "After Kharif only",
+            "During peak monsoon"
+          ],
+          "answer_index": 1,
+          "explanation": "Zaid is a short summer cropping season between the Rabi and Kharif seasons."
+        },
+        {
+          "id": "g2_mcq9",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Millets",
+          "question": "Millets like jowar, bajra and ragi are known as:",
+          "options": [
+            "Cash crops",
+            "Coarse grains",
+            "Plantation crops",
+            "Pulses"
+          ],
+          "answer_index": 1,
+          "explanation": "Millets have high nutritional value and are known as coarse grains."
+        },
+        {
+          "id": "g2_mcq10",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Pulses",
+          "question": "Pulses help restore soil fertility because they:",
+          "options": [
+            "Require heavy irrigation",
+            "Fix nitrogen from the air",
+            "Grow only in black soil",
+            "Need high temperature"
+          ],
+          "answer_index": 1,
+          "explanation": "Being leguminous crops, pulses fix nitrogen from the air, enriching the soil."
+        },
+        {
+          "id": "g2_mcq11",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Cotton cultivation",
+          "question": "Cotton cultivation requires approximately how many frost-free days?",
+          "options": [
+            "100",
+            "150",
+            "210",
+            "300"
+          ],
+          "answer_index": 2,
+          "explanation": "Cotton requires about 210 frost-free days to grow well."
+        },
+        {
+          "id": "g2_mcq12",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "White Revolution",
+          "question": "The White Revolution refers to a dramatic increase in the production of:",
+          "options": [
+            "Cotton",
+            "Milk",
+            "Wheat",
+            "Sugarcane"
+          ],
+          "answer_index": 1,
+          "explanation": "The White Revolution (Operation Flood) boosted milk production in India."
+        },
+        {
+          "id": "g2_mcq13",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Food Corporation of India",
+          "question": "The Food Corporation of India purchases foodgrains from farmers at the:",
+          "options": [
+            "Market price only",
+            "Minimum Support Price",
+            "World Bank price",
+            "Export price"
+          ],
+          "answer_index": 1,
+          "explanation": "FCI buys foodgrains from farmers at the government-announced Minimum Support Price."
+        },
+        {
+          "id": "g2_mcq14",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Public Distribution System",
+          "question": "The Public Distribution System mainly aims to:",
+          "options": [
+            "Export surplus grain",
+            "Supply subsidised food grains to poorer sections",
+            "Increase crop insurance",
+            "Reduce irrigation costs"
+          ],
+          "answer_index": 1,
+          "explanation": "The PDS supplies subsidised food grains to poorer sections of society through ration shops."
+        },
+        {
+          "id": "g2_mcq15",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Green Revolution criticism",
+          "question": "Which of these is a major criticism of the Green Revolution?",
+          "options": [
+            "It reduced foodgrain production",
+            "It caused soil degradation and groundwater depletion in some regions",
+            "It ended commercial farming",
+            "It stopped the use of fertilisers"
+          ],
+          "answer_index": 1,
+          "explanation": "Excessive use of fertilisers, pesticides and groundwater under the Green Revolution caused environmental damage."
+        },
+        {
+          "id": "g2_mcq16",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Sugarcane cultivation",
+          "question": "Sugarcane requires a temperature range of approximately:",
+          "options": [
+            "5-10°C",
+            "10-15°C",
+            "21-27°C",
+            "35-40°C"
+          ],
+          "answer_index": 2,
+          "explanation": "Sugarcane needs a hot and humid climate with temperature between 21°C and 27°C."
+        },
+        {
+          "id": "g2_mcq17",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Institutional reforms",
+          "question": "Which of these is an example of institutional reform in Indian agriculture after independence?",
+          "options": [
+            "Abolition of zamindari",
+            "Introduction of tea plantations",
+            "Ban on pulses cultivation",
+            "Discontinuation of MSP"
+          ],
+          "answer_index": 0,
+          "explanation": "Abolition of the zamindari system was a key land/institutional reform after independence."
+        },
+        {
+          "id": "g2_mcq18",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Rural credit",
+          "question": "Kisan Credit Cards were introduced mainly to help farmers with:",
+          "options": [
+            "Land ownership disputes",
+            "Easy access to credit",
+            "Crop selection",
+            "Weather forecasting"
+          ],
+          "answer_index": 1,
+          "explanation": "Kisan Credit Cards give farmers easier access to institutional credit."
+        },
+        {
+          "id": "g2_2m3",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Plantation agriculture",
+          "question": "What is plantation agriculture? Give one example of a plantation crop grown in India.",
+          "rubric": [
+            {
+              "point": "A type of commercial farming in which a single crop is grown over a large area, forming an interface between agriculture and industry",
+              "keywords": [
+                "single crop",
+                "large area",
+                "agriculture and industry"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Example, e.g. tea, coffee or rubber",
+              "keywords": [
+                "tea",
+                "coffee",
+                "rubber"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Plantation agriculture is a type of commercial farming in which a single crop is grown over a large area, and it forms an interface between agriculture and industry since the produce is used as raw material for related industries. Tea is an example of a plantation crop widely grown in India, especially in Assam and the hills of West Bengal."
+        },
+        {
+          "id": "g2_2m4",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Millets",
+          "question": "Name two millets grown in India and state one characteristic feature of millets.",
+          "rubric": [
+            {
+              "point": "Two examples, e.g. jowar, bajra or ragi",
+              "keywords": [
+                "jowar",
+                "bajra",
+                "ragi"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Feature: high nutritional value, grown in less fertile/less irrigated areas, known as coarse grains",
+              "keywords": [
+                "high nutritional value",
+                "less fertile areas",
+                "coarse grains"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Jowar and bajra are two important millets grown in India. Millets are known as coarse grains and have high nutritional value; they are typically grown in less fertile and less irrigated areas."
+        },
+        {
+          "id": "g2_2m5",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Pulses",
+          "question": "Why are pulses important in Indian agriculture? Give two reasons.",
+          "rubric": [
+            {
+              "point": "They are a major source of protein in a vegetarian diet",
+              "keywords": [
+                "source of protein",
+                "vegetarian diet"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Being leguminous crops, they fix nitrogen from the air, restoring soil fertility, and are often grown in rotation with other crops",
+              "keywords": [
+                "fix nitrogen",
+                "restore soil fertility",
+                "crop rotation"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Pulses are important because they are a major source of protein in a vegetarian diet. Being leguminous crops, they also have the ability to fix nitrogen from the air, which restores soil fertility, and are therefore often grown in rotation with other crops."
+        },
+        {
+          "id": "g2_2m6",
+          "type": "2M",
+          "marks": 2,
+          "topic": "White Revolution",
+          "question": "What is the White Revolution? How is it different from the Green Revolution?",
+          "rubric": [
+            {
+              "point": "The White Revolution (Operation Flood) refers to a dramatic increase in milk production in India",
+              "keywords": [
+                "Operation Flood",
+                "milk production"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "The Green Revolution refers to the increase in foodgrain production through HYV seeds, fertilisers and irrigation - the two target different produce",
+              "keywords": [
+                "Green Revolution",
+                "foodgrain production",
+                "different produce"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The White Revolution, also called Operation Flood, refers to the dramatic increase in milk production achieved in India. It differs from the Green Revolution, which refers to the sharp increase in foodgrain production achieved through high-yielding variety seeds, fertilisers and irrigation - the two revolutions targeted different agricultural produce."
+        },
+        {
+          "id": "g2_2m7",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Challenges in agriculture",
+          "question": "State two challenges faced by Indian agriculture today.",
+          "rubric": [
+            {
+              "point": "Continued dependence on monsoon rainfall for a large part of cultivated land",
+              "keywords": [
+                "dependence on monsoon"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Small and fragmented landholdings, or soil/groundwater degradation from overuse of chemical inputs",
+              "keywords": [
+                "fragmented landholdings",
+                "soil degradation",
+                "groundwater depletion"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Indian agriculture continues to face the challenge of heavy dependence on monsoon rainfall for irrigation in many regions. It also faces the problem of small and fragmented landholdings, along with soil degradation and groundwater depletion caused by the indiscriminate use of chemical fertilisers, pesticides and irrigation under the Green Revolution."
+        },
+        {
+          "id": "g2_3m3",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Cotton cultivation",
+          "question": "Explain the conditions required for growing cotton in India, and name two leading producer states.",
+          "rubric": [
+            {
+              "point": "Requires black soil, high temperature and light rainfall",
+              "keywords": [
+                "black soil",
+                "high temperature",
+                "light rainfall"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Needs about 210 frost-free days and bright sunshine",
+              "keywords": [
+                "210 frost-free days",
+                "bright sunshine"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Leading producer states, e.g. Maharashtra, Gujarat or Punjab (any two)",
+              "keywords": [
+                "Maharashtra",
+                "Gujarat",
+                "Punjab"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Cotton requires black soil, high temperature, light rainfall and about 210 frost-free days along with bright sunshine for its growth. It is grown mainly in the black soil regions of Maharashtra and Gujarat, as well as in Punjab."
+        },
+        {
+          "id": "g2_3m4",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Food security",
+          "question": "Describe the role of the Food Corporation of India and the Public Distribution System in ensuring food security.",
+          "rubric": [
+            {
+              "point": "FCI purchases foodgrains from farmers at the Minimum Support Price",
+              "keywords": [
+                "FCI",
+                "Minimum Support Price"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "It maintains buffer stocks of foodgrains for years of scarcity",
+              "keywords": [
+                "buffer stocks",
+                "scarcity"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "The Public Distribution System supplies subsidised food grains to poorer sections of society through ration shops",
+              "keywords": [
+                "Public Distribution System",
+                "subsidised rates",
+                "ration shops"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The Food Corporation of India purchases foodgrains from farmers at the government-announced Minimum Support Price, ensuring farmers get a fair and stable price. It maintains buffer stocks of foodgrains to be used during years of scarcity or food-deficit conditions. The Public Distribution System then supplies these foodgrains to poorer sections of society at subsidised rates through a network of ration shops, together ensuring food security across the country."
+        },
+        {
+          "id": "g2_3m5",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Institutional reforms",
+          "question": "Explain any three institutional reforms introduced in Indian agriculture after independence.",
+          "rubric": [
+            {
+              "point": "Land reforms, including abolition of the zamindari system, to give ownership rights to actual cultivators",
+              "keywords": [
+                "land reforms",
+                "abolition of zamindari"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Consolidation of landholdings and promotion of cooperative farming",
+              "keywords": [
+                "consolidation of holdings",
+                "cooperative farming"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Provision of Minimum Support Price, crop insurance and rural credit institutions (cooperative banks, Kisan Credit Cards)",
+              "keywords": [
+                "Minimum Support Price",
+                "crop insurance",
+                "rural credit"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "After independence, land reforms were introduced, including the abolition of the zamindari system, transferring ownership rights to the actual cultivators of the land. Consolidation of small, fragmented landholdings and cooperative farming were also encouraged to improve efficiency. The government further introduced the Minimum Support Price to protect farmer incomes, crop insurance schemes to cover risks from natural calamities, and rural credit institutions such as cooperative banks and Kisan Credit Cards to reduce farmers' dependence on moneylenders."
+        },
+        {
+          "id": "g2_3m6",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Jute cultivation",
+          "question": "What are the main geographical requirements for growing jute in India? Name the leading producer state.",
+          "rubric": [
+            {
+              "point": "Requires high temperature, heavy rainfall and well-drained fertile soil",
+              "keywords": [
+                "high temperature",
+                "heavy rainfall",
+                "fertile soil"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Grown on flood plains where annual river flooding renews soil fertility",
+              "keywords": [
+                "flood plains",
+                "renews soil fertility"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "West Bengal is the leading producer, grown in the Ganga delta",
+              "keywords": [
+                "West Bengal",
+                "Ganga delta"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Jute requires high temperature, heavy rainfall, and well-drained, fertile soil. It is grown mainly on the flood plains of river deltas, where annual flooding deposits fresh silt and renews soil fertility. West Bengal, located in the Ganga delta, is the leading producer of jute, known as the 'golden fibre'."
+        },
+        {
+          "id": "g2_3m7",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Subsistence vs commercial farming",
+          "question": "Distinguish between subsistence farming and commercial farming, using suitable examples.",
+          "rubric": [
+            {
+              "point": "Subsistence farming is carried out mainly for family consumption, with low inputs and small landholdings",
+              "keywords": [
+                "family consumption",
+                "low inputs",
+                "small landholdings"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Commercial farming uses higher doses of modern inputs like HYV seeds for sale in the market, usually on a larger scale",
+              "keywords": [
+                "modern inputs",
+                "market sale",
+                "larger scale"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Example: rice is a subsistence crop in Odisha but a commercial crop in Punjab and Haryana",
+              "keywords": [
+                "Odisha subsistence",
+                "Punjab commercial"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Subsistence farming is carried out mainly to meet the needs of the farmer's own family, using low levels of inputs on small landholdings. Commercial farming, by contrast, uses higher doses of modern inputs such as high-yielding variety seeds, fertilisers and machinery, and the produce is grown mainly for sale in the market, usually on a larger scale. The degree of commercialisation varies by region - for example, rice is grown as a subsistence crop in Odisha but as a commercial crop in Punjab and Haryana."
+        },
+        {
+          "id": "g2_5m2",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Rice cultivation in detail",
+          "question": "Explain any five geographical conditions (temperature, rainfall, soil, season) required for rice cultivation in India, and name three leading rice-producing states.",
+          "rubric": [
+            {
+              "point": "Requires high temperature, above 25°C",
+              "keywords": [
+                "high temperature",
+                "25"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Needs rainfall above 100 cm, or irrigation where rainfall is insufficient",
+              "keywords": [
+                "rainfall above 100 cm",
+                "irrigation"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Is a kharif crop, sown with the onset of monsoon",
+              "keywords": [
+                "kharif crop",
+                "monsoon"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Grows well on fertile alluvial soil, in plains, coastal areas and deltaic regions",
+              "keywords": [
+                "alluvial soil",
+                "plains",
+                "deltaic regions"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Leading producer states, e.g. West Bengal, Punjab, Uttar Pradesh (any three)",
+              "keywords": [
+                "West Bengal",
+                "Punjab",
+                "Uttar Pradesh"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Rice cultivation requires high temperature, above 25°C, and high humidity throughout its growing period. It needs annual rainfall of more than 100 cm; in areas of lower rainfall, it is grown with the help of irrigation. As a kharif crop, it is sown with the onset of the monsoon and harvested in autumn. It grows best on fertile alluvial soil found in plains, coastal areas and deltaic regions. Leading rice-producing states in India include West Bengal, Punjab and Uttar Pradesh."
+        },
+        {
+          "id": "g2_5m3",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Technological and institutional reforms",
+          "question": "Discuss the role of technological and institutional reforms (other than the Green Revolution) in improving Indian agriculture, giving at least five examples.",
+          "rubric": [
+            {
+              "point": "Land reforms, including abolition of the zamindari system, to transfer ownership to actual cultivators",
+              "keywords": [
+                "land reforms",
+                "zamindari abolition"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Consolidation of landholdings and promotion of cooperative farming to make small farms more efficient",
+              "keywords": [
+                "consolidation of holdings",
+                "cooperative farming"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Crop insurance schemes to protect farmers against drought, flood, cyclone, fire and disease",
+              "keywords": [
+                "crop insurance",
+                "drought flood"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Rural credit institutions such as grameen banks, cooperative societies and Kisan Credit Cards to provide easy credit",
+              "keywords": [
+                "grameen banks",
+                "cooperative societies",
+                "Kisan Credit Cards"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Minimum Support Price and procurement price policy to protect farmers from exploitation by middlemen",
+              "keywords": [
+                "Minimum Support Price",
+                "procurement price"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Alongside the Green Revolution, several other technological and institutional reforms have strengthened Indian agriculture. Land reforms after independence, including the abolition of the zamindari system, transferred ownership rights to actual cultivators. Consolidation of fragmented landholdings and the promotion of cooperative farming helped make small farms more efficient. Crop insurance schemes were introduced to protect farmers against losses from drought, flood, cyclone, fire and disease. Rural credit institutions, such as grameen (rural) banks, cooperative societies and Kisan Credit Cards, made it easier for farmers to access credit and reduced dependence on moneylenders. Finally, the announcement of Minimum Support Prices and procurement prices for important crops helped protect farmers from exploitation by speculators and middlemen."
+        },
+        {
+          "id": "g2_4m1",
+          "type": "4M",
+          "marks": 4,
+          "topic": "Institutional reforms in agriculture",
+          "question": "Describe any four institutional reforms undertaken in Indian agriculture to improve productivity and support farmers.",
+          "rubric": [
+            {
+              "point": "Land reforms after independence, including abolition of zamindari, to give ownership rights to actual cultivators",
+              "keywords": [
+                "land reforms",
+                "abolition zamindari",
+                "ownership cultivators"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Consolidation of holdings and cooperation among farmers to make small landholdings more efficient",
+              "keywords": [
+                "consolidation of holdings",
+                "cooperation farmers"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "The Green Revolution, involving HYV seeds, fertilisers and irrigation, to boost production",
+              "keywords": [
+                "green revolution",
+                "hyv seeds",
+                "boost production"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Provision of Minimum Support Price (MSP), crop insurance, Kisan Credit Cards and rural banks/cooperative societies to provide credit and price security to farmers",
+              "keywords": [
+                "minimum support price",
+                "crop insurance",
+                "kisan credit card",
+                "rural banks"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Several institutional reforms have been undertaken to strengthen Indian agriculture. After independence, land reforms were introduced, including the abolition of the zamindari system, so that ownership rights could be transferred to the actual tillers of the soil. Consolidation of small, fragmented landholdings and cooperation among farmers were encouraged to make farming more efficient. The Green Revolution of the 1960s, based on high-yielding variety seeds, chemical fertilisers and assured irrigation, significantly boosted foodgrain production. The government has also provided institutional support through the Minimum Support Price to protect farmers from price crashes, crop insurance schemes to cover risks, Kisan Credit Cards for easy credit access, and a network of rural banks and cooperative societies to reduce dependence on moneylenders."
+        },
+        {
+          "id": "g2_4m2",
+          "type": "4M",
+          "marks": 4,
+          "topic": "Sugarcane cultivation",
+          "question": "Explain any four geographical conditions required for the cultivation of sugarcane in India, and name two leading producer states.",
+          "rubric": [
+            {
+              "point": "Requires a hot and humid climate with temperature between 21°C and 27°C",
+              "keywords": [
+                "hot humid climate",
+                "21",
+                "27 degree"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Needs an annual rainfall between 75 cm and 100 cm, or irrigation where rainfall is insufficient",
+              "keywords": [
+                "75 cm",
+                "100 cm rainfall",
+                "irrigation"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Grows well on well-drained, fertile soil and is a labour-intensive crop requiring manual work from sowing to harvesting",
+              "keywords": [
+                "well drained fertile soil",
+                "labour intensive"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Leading producer states include Uttar Pradesh, Maharashtra, Karnataka, Tamil Nadu, Punjab and Haryana (any two)",
+              "keywords": [
+                "uttar pradesh",
+                "maharashtra",
+                "karnataka",
+                "tamil nadu"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Sugarcane requires a hot and humid climate with a temperature ranging between 21°C and 27°C. It needs an annual rainfall of between 75 cm and 100 cm, and where rainfall is insufficient, irrigation is used. The crop grows well on well-drained, fertile soil and is highly labour-intensive, requiring manual work at every stage from sowing to harvesting and cutting. Uttar Pradesh and Maharashtra are among the leading sugarcane-producing states in India, along with Karnataka, Tamil Nadu, Punjab and Haryana."
+        },
+        {
+          "id": "g2_map1",
+          "type": "MAP",
+          "marks": 2,
+          "topic": "Crop-producing states",
+          "passage": "On the outline map of India, identify the following (name the state/region):",
+          "subquestions": [
+            {
+              "id": "g2_map1_a",
+              "question": "A leading wheat-producing state located in the Ganga-Sutlej plains.",
+              "marks": 1,
+              "rubric": [
+                {
+                  "point": "Punjab / Haryana / Uttar Pradesh",
+                  "keywords": [
+                    "punjab",
+                    "haryana",
+                    "uttar pradesh"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "Punjab (also Haryana and Uttar Pradesh are leading wheat producers)."
+            },
+            {
+              "id": "g2_map1_b",
+              "question": "The state that leads India in tea production.",
+              "marks": 1,
+              "rubric": [
+                {
+                  "point": "Assam",
+                  "keywords": [
+                    "assam"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "Assam."
+            }
+          ]
+        },
+        {
+          "id": "g2_map2",
+          "type": "MAP",
+          "marks": 2,
+          "topic": "Rice and jute regions",
+          "passage": "On the outline map of India, identify the following (name the state/region):",
+          "subquestions": [
+            {
+              "id": "g2_map2_a",
+              "question": "A major rice-growing state in the deltaic/coastal eastern region of India.",
+              "marks": 1,
+              "rubric": [
+                {
+                  "point": "West Bengal / Andhra Pradesh / Odisha (deltaic rice regions)",
+                  "keywords": [
+                    "west bengal",
+                    "andhra pradesh",
+                    "odisha"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "West Bengal (also Andhra Pradesh and Odisha are major rice-growing deltaic states)."
+            },
+            {
+              "id": "g2_map2_b",
+              "question": "The state that is the largest producer of jute, grown in the Ganga delta.",
+              "marks": 1,
+              "rubric": [
+                {
+                  "point": "West Bengal",
+                  "keywords": [
+                    "west bengal"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "West Bengal."
+            }
+          ]
+        },
+        {
+          "id": "g2_cbq1",
+          "type": "CBQ",
+          "marks": 4,
+          "topic": "Case study - climate-smart agriculture (adapted from a real CBSE sample question, sourced from the FAO)",
+          "passage": "Climate-smart agriculture (CSA) is an approach that guides actions to transform farming and food systems towards more sustainable, climate-resilient practices, supporting goals such as the Sustainable Development Goals and the Paris Agreement on climate change. Experts have suggested that India should increase the production and consumption of millets as part of this shift.",
+          "subquestions": [
+            {
+              "id": "g2_cbq1_a",
+              "marks": 1,
+              "question": "Why have experts suggested increasing the production and consumption of millets as part of climate-smart agriculture in India?",
+              "options": [
+                "Millets require heavy irrigation and are very profitable to export",
+                "Millets are rainfed, need little irrigation, grow well in arid/semi-arid regions, and have high nutritional value",
+                "Millets can only be grown in coastal, high-rainfall regions",
+                "Millets require large amounts of chemical fertiliser to grow"
+              ],
+              "answer_index": 1,
+              "explanation": "Millets are hardy, rainfed crops suited to dry regions, require little investment, and are nutritionally valuable - making them a good climate-smart choice."
+            },
+            {
+              "id": "g2_cbq1_b",
+              "marks": 1,
+              "question": "Why is it necessary for India to plan for climate-smart agriculture?",
+              "options": [
+                "Because India's climate is not changing at all",
+                "Because of the changing climate due to global warming, which affects farming conditions",
+                "Because India no longer needs to grow food crops",
+                "Because it is a requirement only for coastal states"
+              ],
+              "answer_index": 1,
+              "explanation": "Climate change (global warming) is altering rainfall patterns and growing conditions, making climate-resilient farming approaches necessary."
+            },
+            {
+              "id": "g2_cbq1_c",
+              "marks": 2,
+              "question": "Suggest two methods through which Indian agriculture can shift towards climate-smart practices.",
+              "rubric": [
+                {
+                  "point": "Using genetically-modified or improved seed varieties that resist pests/disease and tolerate climate stress can reduce crop losses",
+                  "keywords": [
+                    "improved seed varieties",
+                    "resistant seeds"
+                  ],
+                  "weight": 1
+                },
+                {
+                  "point": "Shifting towards organic and natural farming methods (or diversifying cropping patterns towards climate-resilient crops like millets) reduces dependence on chemical inputs and water-intensive crops",
+                  "keywords": [
+                    "organic farming",
+                    "diversify cropping pattern"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "India can shift towards climate-smart agriculture by using improved or resistant seed varieties suited to changing climate conditions, and by promoting organic and natural farming methods along with diversifying cropping patterns away from water-intensive cereals towards climate-resilient crops like millets."
+            }
+          ]
+        },
+        {
+          "id": "g2_ar1",
+          "type": "AR",
+          "marks": 1,
+          "topic": "Cropping pattern diversification",
+          "question": "Assertion (A): Diversifying India's cropping pattern away from water-intensive cereals towards crops like millets can support climate-smart agriculture.\nReason (R): Millets are rainfed crops that require little irrigation and can grow well in arid and semi-arid regions.",
+          "options": [
+            "Both A and R are true and R is the correct explanation of A.",
+            "Both A and R are true but R is not the correct explanation of A.",
+            "A is true but R is false.",
+            "A is false but R is true."
+          ],
+          "answer_index": 0,
+          "explanation": "Both statements are true, and R correctly explains why millets are a climate-smart alternative to water-intensive cereal crops."
+        },
+        {
+          "id": "g2_ar2",
+          "type": "AR",
+          "marks": 1,
+          "topic": "Irrigation needs of different crops",
+          "question": "Assertion (A): Rice cultivation requires roughly the same amount of water as millet cultivation.\nReason (R): Rice is typically grown in areas of high rainfall or with assured irrigation, since it requires standing water for much of its growing period, unlike hardier, rainfed crops like millets.",
+          "options": [
+            "Both A and R are true and R is the correct explanation of A.",
+            "Both A and R are true but R is not the correct explanation of A.",
+            "A is true but R is false.",
+            "A is false but R is true."
+          ],
+          "answer_index": 3,
+          "explanation": "Rice requires far MORE water than millets (it needs standing water for much of its growth), so A is false. R correctly explains this difference in water requirements."
+        },
+        {
+          "id": "g2_pq_cbq1",
+          "type": "CBQ",
+          "marks": 4,
+          "topic": "Case study - Climate-Smart Agriculture in India",
+          "passage": "Climate-smart agriculture (CSA) is an approach that helps guide actions to transform agri-food systems towards green and climate-resilient practices, supporting internationally-agreed goals like the Sustainable Development Goals and the Paris Agreement on climate change. CSA supports the FAO's Strategic Framework 2022-2031, based on the 'Four Betters': better production, better nutrition, a better environment, and a better life for all, leaving no one behind.",
+          "subquestions": [
+            {
+              "id": "g2_pq_cbq1_a",
+              "marks": 1,
+              "question": "A CSA expert suggested increasing the production and consumption of millets in India. Justify this suggestion.",
+              "rubric": [
+                {
+                  "point": "Millets are rainfed and need little to no irrigation, so they can be grown in arid and semi-arid regions; they have high nutritional value and require relatively little investment, making them a good, resilient, commercially viable grain choice",
+                  "keywords": [
+                    "rainfed",
+                    "arid regions",
+                    "high nutritional value"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "Millets are highly suited to climate-smart agriculture: they are rainfed and need little to no irrigation, so they can be grown in arid and semi-arid regions where water-intensive crops would struggle; they also have high nutritional value and require comparatively little investment to cultivate, making them a resilient and commercially viable grain choice, especially in a changing climate."
+            },
+            {
+              "id": "g2_pq_cbq1_b",
+              "marks": 1,
+              "question": "What is the necessity to think about climate-smart agriculture in India?",
+              "rubric": [
+                {
+                  "point": "It is important because of the changing climate caused by global warming, which threatens traditional agricultural practices and food security",
+                  "keywords": [
+                    "changing climate",
+                    "global warming"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "It is important to plan for CSA in India because of the changing climate caused by global warming, which is altering rainfall patterns, increasing the frequency of extreme weather, and threatening the stability of traditional agricultural practices and food security."
+            },
+            {
+              "id": "g2_pq_cbq1_c",
+              "marks": 2,
+              "question": "Suggest two methods through which India can shift towards climate-smart agriculture.",
+              "rubric": [
+                {
+                  "point": "Use of genetically-modified or improved seed varieties that are resistant to insect/pest damage and climate stress",
+                  "keywords": [
+                    "genetically modified seeds",
+                    "pest resistant"
+                  ],
+                  "weight": 1
+                },
+                {
+                  "point": "A shift towards organic and natural farming methods that reduce chemical input use and improve long-term soil and environmental health",
+                  "keywords": [
+                    "organic farming",
+                    "natural farming"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "Two methods include: (1) using improved or genetically-modified seed varieties that are more resistant to insect and pest damage, improving resilience and yield stability; and (2) shifting towards organic and natural farming methods, which reduce dependence on chemical fertilisers and pesticides and support better long-term soil health and environmental sustainability."
+            }
+          ],
+          "chapter_id": "agriculture",
+          "chapter_title": "Agriculture",
+          "subject": "geography"
+        },
+        {
+          "id": "g2_pq2_2m1",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Ensuring higher productivity in rice cultivation",
+          "question": "Mr Singh cultivates rice in Punjab. How does he ensure higher productivity of the crop?",
+          "rubric": [
+            {
+              "point": "By using higher doses of modern inputs: high-yielding variety (HYV) seeds",
+              "keywords": [
+                "hyv seeds",
+                "high yielding variety"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Along with chemical fertilisers, insecticides and pesticides, in order to obtain higher productivity",
+              "keywords": [
+                "chemical fertilisers",
+                "insecticides",
+                "pesticides"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Mr Singh ensures higher rice productivity through the characteristic features of intensive modern farming: using high-yielding variety (HYV) seeds, along with higher doses of chemical fertilisers, insecticides and pesticides - the standard package of modern agricultural inputs used to maximise crop output in a productive rice-growing state like Punjab.",
+          "chapter_id": "agriculture",
+          "chapter_title": "Agriculture",
+          "subject": "geography"
+        },
+        {
+          "id": "g2_bp_mcq1",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Seasonal crops - rabi season",
+          "question": "Imagine you are travelling from Delhi to Chandigarh by road in January. Which of the following crops will you notice prominently in the fields during the journey?",
+          "options": [
+            "Paddy",
+            "Maize",
+            "Wheat",
+            "Jowar"
+          ],
+          "answer_index": 2,
+          "explanation": "Wheat is a rabi crop, sown around October-November and harvested around April, so in January it would be growing prominently in the fields of Punjab, Haryana and western UP along this route. Paddy, maize and jowar are kharif crops sown with the monsoon and harvested by autumn, so they would not be standing in the fields in January.",
+          "chapter_id": "agriculture",
+          "chapter_title": "Agriculture",
+          "subject": "geography"
+        },
+        {
+          "id": "g2_bp_2m1",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Agriculture as the backbone of the Indian economy",
+          "question": "How has agriculture been the backbone of the Indian economy? Explain.",
+          "rubric": [
+            {
+              "point": "agriculture provides food and raw material and employs about half of India's workforce",
+              "keywords": [
+                "food and raw material",
+                "half of india's workforce"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "it supplies raw materials to agro-based industries (cotton textiles, sugar) and contributes to export earnings, supporting the livelihood of the majority of India's rural population",
+              "keywords": [
+                "agro-based industries",
+                "export earnings"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Agriculture provides food and raw material and employs about half of India's total workforce, making it central to rural livelihoods. It also supplies raw materials to important agro-based industries such as cotton textiles and sugar, and contributes significantly to India's export earnings, which is why it continues to be described as the backbone of the Indian economy.",
+          "chapter_id": "agriculture",
+          "chapter_title": "Agriculture",
+          "subject": "geography"
+        },
+        {
+          "id": "g2_bp_3m1",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Features of commercial agriculture",
+          "question": "Explain the main features of commercial agriculture.",
+          "rubric": [
+            {
+              "point": "crops are grown mainly for sale in the market rather than for home consumption",
+              "keywords": [
+                "grown for sale",
+                "not for home consumption"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "it uses higher doses of modern inputs like HYV seeds, chemical fertilisers and pesticides, aiming at higher productivity and profit",
+              "keywords": [
+                "hyv seeds",
+                "chemical fertilisers",
+                "higher productivity"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "the degree of commercialisation varies by region - a crop can be commercial in one region and subsistence in another (e.g. rice is commercial in Punjab/Haryana but a subsistence crop in Odisha)",
+              "keywords": [
+                "commercial in one region",
+                "subsistence in another"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Commercial agriculture involves growing crops mainly for sale in the market rather than for the farmer's own consumption. It uses higher doses of modern inputs such as high-yielding variety (HYV) seeds, chemical fertilisers and pesticides, aiming at higher productivity and profit, and is often associated with irrigation and mechanisation. The degree of commercialisation differs from region to region - for example, rice is a commercial crop in Punjab and Haryana but is grown mainly for subsistence in Odisha, showing that the same crop can be classified differently depending on the region.",
+          "chapter_id": "agriculture",
+          "chapter_title": "Agriculture",
+          "subject": "geography"
+        },
+        {
+          "id": "g2_bp_5m1",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Primitive subsistence and commercial farming",
+          "question": "Explain the features of primitive subsistence farming and commercial farming in India.",
+          "rubric": [
+            {
+              "point": "primitive subsistence farming is practised on small patches of land with primitive tools like hoe and digging sticks, and depends on family/community labour and monsoon",
+              "keywords": [
+                "primitive tools",
+                "family labour",
+                "monsoon"
+              ],
+              "weight": 2
+            },
+            {
+              "point": "it typically involves 'slash and burn'/shifting cultivation, where land is cropped for a few years and then left fallow to recover fertility, known by different local names in different regions",
+              "keywords": [
+                "slash and burn",
+                "shifting cultivation",
+                "fallow"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "commercial farming uses higher doses of modern inputs (HYV seeds, fertilisers, pesticides) and is aimed at market sale for profit",
+              "keywords": [
+                "modern inputs",
+                "market sale for profit"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "the degree of commercialisation varies by region - e.g. rice is commercial in Punjab/Haryana but subsistence in Odisha",
+              "keywords": [
+                "varies by region",
+                "punjab haryana odisha"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Primitive subsistence farming is practised on small patches of land using primitive tools such as the hoe, dao and digging sticks, and depends mainly on monsoon rains, the natural fertility of the soil, and family or community labour. It is often a form of 'slash and burn' or shifting cultivation, where a patch of land is cleared and cropped for a few years and then left fallow to recover its fertility while the farmer moves to another patch - this practice is known by different local names in different parts of India, such as jhumming in the north-eastern states. Commercial farming, by contrast, uses higher doses of modern inputs like high-yielding variety seeds, chemical fertilisers and pesticides, and is carried out mainly to sell the produce in the market for profit. The degree of commercialisation varies from region to region - for instance, rice is a commercial crop in Punjab and Haryana, but the same crop is grown mainly for subsistence in Odisha.",
+          "chapter_id": "agriculture",
+          "chapter_title": "Agriculture",
+          "subject": "geography"
+        }
+      ]
+    }
+  ],
+  "subject_group": "social_science",
+  "subject_group_label": "Social Science"
+}

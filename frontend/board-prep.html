@@ -1,0 +1,1288 @@
+<title>Board Prep 2027</title>
+<style>
+  :root {
+    --paper: #eef1f4;
+    --paper-raised: #ffffff;
+    --ink: #171d31;
+    --ink-soft: #4c5468;
+    --rule: #d6dce3;
+    --rule-strong: #b7c0cb;
+    --accent: #33468c;
+    --accent-ink: #ffffff;
+    --accent-soft: #e4e8f6;
+
+    --maths: #276b5f;
+    --maths-soft: #dcece7;
+    --science: #6a4c93;
+    --science-soft: #e8e1f0;
+    --english: #a83a48;
+    --english-soft: #f2dfe1;
+    --sst: #a8721f;
+    --sst-soft: #f2e6d2;
+
+    --good: #2f7a4d;
+    --good-soft: #dcefe1;
+    --warn: #a8721f;
+    --warn-soft: #f2e6d2;
+    --bad: #a83a48;
+    --bad-soft: #f2dfe1;
+    --shadow: 0 1px 2px rgba(23,29,49,.06), 0 8px 24px -12px rgba(23,29,49,.18);
+
+    --font-display: ui-serif, "Iowan Old Style", "Palatino Linotype", "Georgia", serif;
+    --font-body: -apple-system, "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+    --font-mono: ui-monospace, "SF Mono", "Menlo", "Consolas", monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #12151f;
+      --paper-raised: #1a1f2e;
+      --ink: #e9ebf2;
+      --ink-soft: #a3aabd;
+      --rule: #2a3040;
+      --rule-strong: #3a4256;
+      --accent: #8291d1;
+      --accent-ink: #10142a;
+      --accent-soft: #232a44;
+
+      --maths: #6fbfa8;
+      --maths-soft: #1c342e;
+      --science: #b79ce0;
+      --science-soft: #2c2440;
+      --english: #e39aa2;
+      --english-soft: #3a2226;
+      --sst: #e0b878;
+      --sst-soft: #3a2d16;
+
+      --good: #6fbf8f;
+      --good-soft: #1c342e;
+      --warn: #e0b878;
+      --warn-soft: #3a2d16;
+      --bad: #e39aa2;
+      --bad-soft: #3a2226;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 12px 28px -14px rgba(0,0,0,.6);
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #12151f; --paper-raised: #1a1f2e; --ink: #e9ebf2; --ink-soft: #a3aabd;
+    --rule: #2a3040; --rule-strong: #3a4256; --accent: #8291d1; --accent-ink: #10142a; --accent-soft: #232a44;
+    --maths: #6fbfa8; --maths-soft: #1c342e; --science: #b79ce0; --science-soft: #2c2440;
+    --english: #e39aa2; --english-soft: #3a2226; --sst: #e0b878; --sst-soft: #3a2d16;
+    --good: #6fbf8f; --good-soft: #1c342e; --warn: #e0b878; --warn-soft: #3a2d16; --bad: #e39aa2; --bad-soft: #3a2226;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 12px 28px -14px rgba(0,0,0,.6);
+  }
+  :root[data-theme="light"] {
+    --paper: #eef1f4; --paper-raised: #ffffff; --ink: #171d31; --ink-soft: #4c5468;
+    --rule: #d6dce3; --rule-strong: #b7c0cb; --accent: #33468c; --accent-ink: #ffffff; --accent-soft: #e4e8f6;
+    --maths: #276b5f; --maths-soft: #dcece7; --science: #6a4c93; --science-soft: #e8e1f0;
+    --english: #a83a48; --english-soft: #f2dfe1; --sst: #a8721f; --sst-soft: #f2e6d2;
+    --good: #2f7a4d; --good-soft: #dcefe1; --warn: #a8721f; --warn-soft: #f2e6d2; --bad: #a83a48; --bad-soft: #f2dfe1;
+    --shadow: 0 1px 2px rgba(23,29,49,.06), 0 8px 24px -12px rgba(23,29,49,.18);
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-body);
+    font-size: 15px;
+    line-height: 1.5;
+    padding: clamp(20px, 4vw, 48px);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    * { animation-duration: .001ms !important; transition-duration: .001ms !important; }
+  }
+
+  .page { max-width: 1100px; margin: 0 auto; }
+
+  /* ---------- Header / ledger band ---------- */
+  header.masthead {
+    border: 1px solid var(--rule-strong);
+    border-radius: 4px;
+    background: var(--paper-raised);
+    box-shadow: var(--shadow);
+    padding: clamp(20px, 3vw, 32px) clamp(20px, 4vw, 40px);
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 24px;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+  header.masthead::before {
+    content: "";
+    position: absolute;
+    inset: 0 0 auto 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--maths), var(--science), var(--english), var(--sst));
+  }
+  .masthead-title .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+  }
+  .masthead-title h1 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(26px, 3.4vw, 36px);
+    margin: .18em 0 .1em;
+    text-wrap: balance;
+  }
+  .masthead-title p {
+    margin: 0;
+    color: var(--ink-soft);
+    font-size: 14px;
+    max-width: 46ch;
+  }
+
+  .countdown {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 6px;
+  }
+  .countdown .days {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+    font-size: clamp(40px, 6vw, 58px);
+    font-weight: 600;
+    line-height: 1;
+    color: var(--accent);
+  }
+  .countdown .days-label {
+    font-size: 12px;
+    color: var(--ink-soft);
+    letter-spacing: .04em;
+  }
+  .countdown .date-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 4px;
+  }
+  .countdown label {
+    font-size: 11px;
+    color: var(--ink-soft);
+    text-transform: uppercase;
+    letter-spacing: .08em;
+  }
+  .countdown input[type="date"] {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    color: var(--ink);
+    background: var(--accent-soft);
+    border: 1px solid var(--rule-strong);
+    border-radius: 3px;
+    padding: 4px 8px;
+  }
+  .countdown input[type="date"]:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 1px;
+  }
+
+  /* ---------- In-page nav ---------- */
+  nav.jump {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    margin-top: 14px;
+  }
+  nav.jump a {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+  }
+  nav.jump a:hover, nav.jump a:focus-visible { border-color: var(--rule-strong); color: var(--ink); outline: none; }
+
+  /* ---------- Section headings ---------- */
+  section { margin-top: 44px; scroll-margin-top: 18px; }
+  .section-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 10px;
+  }
+  .section-head h2 {
+    font-family: var(--font-display);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+  }
+  .section-head .hint {
+    font-size: 12.5px;
+    color: var(--ink-soft);
+    text-align: right;
+  }
+
+  /* ---------- Marks weightage ---------- */
+  .weightage-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 18px;
+  }
+  .weightage-card {
+    background: var(--paper-raised);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    box-shadow: var(--shadow);
+    padding: 16px 18px;
+    border-left: 4px solid var(--c);
+  }
+  .weightage-card .card-top {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+  .weightage-card h3 {
+    font-family: var(--font-display);
+    font-size: 16px;
+    margin: 0;
+  }
+  .weightage-card .total {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--ink-soft);
+  }
+  .unit-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 7px;
+  }
+  .unit-row:last-child { margin-bottom: 0; }
+  .unit-name {
+    font-size: 12.5px;
+    color: var(--ink);
+    width: 42%;
+    flex-shrink: 0;
+  }
+  .unit-bar-track {
+    flex: 1;
+    height: 8px;
+    border-radius: 4px;
+    background: var(--rule);
+    overflow: hidden;
+  }
+  .unit-bar-fill { height: 100%; background: var(--c); border-radius: 4px; }
+  .unit-marks {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--ink-soft);
+    width: 34px;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    flex-shrink: 0;
+  }
+
+  /* ---------- Subject cards (tracker) ---------- */
+  .subject-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 18px;
+  }
+  .subject-card {
+    background: var(--paper-raised);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    box-shadow: var(--shadow);
+    padding: 18px 18px 16px;
+    border-left: 4px solid var(--c);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .subject-card .card-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .subject-card h3 { font-family: var(--font-display); font-size: 17px; margin: 0; }
+  .subject-source {
+    display: block;
+    font-size: 11px;
+    color: var(--ink-soft);
+    margin-top: 2px;
+    font-style: italic;
+  }
+  .subject-tag {
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    padding: 3px 7px;
+    border-radius: 3px;
+    background: var(--soft);
+    color: var(--c);
+    white-space: nowrap;
+  }
+  .progress-row { display: flex; align-items: center; gap: 10px; }
+  .progress-track { flex: 1; height: 6px; border-radius: 4px; background: var(--rule); overflow: hidden; }
+  .progress-fill { height: 100%; background: var(--c); border-radius: 4px; width: 0%; transition: width .25s ease; }
+  .progress-count {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--ink-soft);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+  .chapter-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 5px; max-height: 340px; overflow-y: auto; padding-right: 4px; }
+  .chapter-group-label {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: .07em;
+    text-transform: uppercase;
+    color: var(--c);
+    margin: 8px 0 2px;
+  }
+  .chapter-group-label:first-child { margin-top: 0; }
+  .chapter-list li { display: flex; align-items: flex-start; gap: 8px; }
+  .chapter-list input[type="checkbox"] {
+    appearance: none;
+    width: 15px; height: 15px;
+    margin-top: 2px;
+    flex-shrink: 0;
+    border: 1.5px solid var(--rule-strong);
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+    background: var(--paper);
+  }
+  .chapter-list input[type="checkbox"]:checked { background: var(--c); border-color: var(--c); }
+  .chapter-list input[type="checkbox"]:checked::after {
+    content: "";
+    position: absolute;
+    left: 4px; top: 1px;
+    width: 4px; height: 8px;
+    border: solid var(--accent-ink);
+    border-width: 0 2px 2px 0;
+    transform: rotate(40deg);
+  }
+  .chapter-list input[type="checkbox"]:focus-visible { outline: 2px solid var(--c); outline-offset: 2px; }
+  .chapter-list label { font-size: 13.5px; color: var(--ink); cursor: pointer; }
+  .chapter-list input[type="checkbox"]:checked + label {
+    color: var(--ink-soft);
+    text-decoration: line-through;
+    text-decoration-color: var(--rule-strong);
+  }
+
+  /* ---------- Study schedule ---------- */
+  .schedule-wrap { display: flex; flex-direction: column; gap: 10px; }
+  .week-card {
+    background: var(--paper-raised);
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--accent);
+    border-radius: 6px;
+    padding: 12px 16px;
+    box-shadow: var(--shadow);
+  }
+  .week-head {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+  .week-head .week-num {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: .06em;
+  }
+  .week-head .week-range { font-size: 13px; color: var(--ink-soft); font-family: var(--font-mono); }
+  .chip-row { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chapter-chip {
+    font-size: 12px;
+    padding: 3px 9px;
+    border-radius: 999px;
+    background: var(--soft);
+    color: var(--c);
+    white-space: nowrap;
+  }
+  .schedule-final {
+    background: var(--accent-soft);
+    border: 1px solid var(--rule-strong);
+    border-left: 3px solid var(--accent);
+    border-radius: 6px;
+    padding: 14px 16px;
+  }
+  .schedule-final .week-range { font-family: var(--font-mono); font-size: 13px; color: var(--ink-soft); }
+  .schedule-final p { margin: 6px 0 0; font-size: 13.5px; color: var(--ink); }
+  .schedule-empty { font-size: 13.5px; color: var(--ink-soft); padding: 10px 2px; }
+
+  /* ---------- Mock test log ---------- */
+  .mocklog-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 14px;
+    margin-bottom: 20px;
+  }
+  .mock-stat-card {
+    background: var(--paper-raised);
+    border: 1px solid var(--rule);
+    border-left: 4px solid var(--c);
+    border-radius: 6px;
+    padding: 12px 14px;
+    box-shadow: var(--shadow);
+  }
+  .mock-stat-top { display: flex; align-items: baseline; justify-content: space-between; }
+  .mock-stat-top h4 { margin: 0; font-family: var(--font-display); font-size: 14.5px; }
+  .mock-stat-avg { font-family: var(--font-mono); font-size: 18px; font-variant-numeric: tabular-nums; color: var(--c); }
+  .mock-stat-sub { font-size: 11px; color: var(--ink-soft); display: flex; align-items: center; gap: 6px; margin-top: 2px; }
+  .trend { font-size: 12px; }
+  .trend.up { color: var(--good); }
+  .trend.down { color: var(--bad); }
+  .trend.flat { color: var(--ink-soft); }
+  .sparkline { display: block; margin-top: 8px; }
+
+  .mocklog-form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 10px;
+    background: var(--paper-raised);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    padding: 14px 16px;
+    box-shadow: var(--shadow);
+  }
+  .field { display: flex; flex-direction: column; gap: 4px; }
+  .field label { font-size: 10.5px; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-soft); }
+  .field input, .field select {
+    font-family: var(--font-body);
+    font-size: 13.5px;
+    color: var(--ink);
+    background: var(--paper);
+    border: 1px solid var(--rule-strong);
+    border-radius: 4px;
+    padding: 6px 8px;
+  }
+  .field input:focus-visible, .field select:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .field.grow { flex: 1; min-width: 160px; }
+  .field.narrow input { width: 68px; }
+  button.btn-add {
+    font-family: var(--font-body);
+    font-size: 13.5px;
+    font-weight: 600;
+    color: var(--accent-ink);
+    background: var(--accent);
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  button.btn-add:hover { filter: brightness(1.08); }
+  button.btn-add:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+
+  .mocklog-table-wrap { margin-top: 16px; overflow-x: auto; border: 1px solid var(--rule); border-radius: 6px; background: var(--paper-raised); box-shadow: var(--shadow); }
+  .score-pill { font-family: var(--font-mono); font-size: 12px; padding: 2px 8px; border-radius: 999px; font-variant-numeric: tabular-nums; }
+  .score-pill.good { background: var(--good-soft); color: var(--good); }
+  .score-pill.warn { background: var(--warn-soft); color: var(--warn); }
+  .score-pill.bad { background: var(--bad-soft); color: var(--bad); }
+  button.row-remove {
+    background: none; border: none; color: var(--ink-soft); cursor: pointer; font-size: 15px; line-height: 1; padding: 2px 6px;
+  }
+  button.row-remove:hover { color: var(--bad); }
+
+  /* ---------- Tables (shared: mock log + paper archive) ---------- */
+  table.data { width: 100%; border-collapse: collapse; min-width: 560px; }
+  table.data thead th {
+    text-align: left;
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    padding: 10px 16px;
+    border-bottom: 1px solid var(--rule-strong);
+    position: sticky;
+    top: 0;
+    background: var(--paper-raised);
+  }
+  table.data td { padding: 9px 16px; border-bottom: 1px solid var(--rule); font-size: 13.5px; vertical-align: middle; }
+  table.data tbody tr:last-child td { border-bottom: none; }
+  table.data tbody tr:hover { background: var(--accent-soft); }
+  td.file-name { font-family: var(--font-mono); font-size: 12.5px; }
+  td.num { font-family: var(--font-mono); font-variant-numeric: tabular-nums; text-align: right; }
+  .subj-chip {
+    display: inline-block;
+    font-size: 10.5px;
+    font-family: var(--font-mono);
+    letter-spacing: .04em;
+    padding: 2px 7px;
+    border-radius: 3px;
+    color: var(--c);
+    background: var(--soft);
+  }
+  .session-chip {
+    display: inline-block;
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 999px;
+    border: 1px solid var(--rule-strong);
+    color: var(--ink-soft);
+  }
+  .type-chip { font-size: 11.5px; color: var(--ink-soft); }
+
+  /* ---------- Archive section ---------- */
+  .filter-tabs { display: flex; gap: 6px; flex-wrap: wrap; }
+  .filter-tabs button {
+    font-family: var(--font-mono);
+    font-size: 11.5px;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+    padding: 6px 12px;
+    border-radius: 999px;
+    border: 1px solid var(--rule-strong);
+    background: var(--paper-raised);
+    color: var(--ink-soft);
+    cursor: pointer;
+  }
+  .filter-tabs button:hover { border-color: var(--accent); color: var(--ink); }
+  .filter-tabs button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .filter-tabs button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+
+  .table-wrap { margin-top: 16px; overflow-x: auto; border: 1px solid var(--rule); border-radius: 6px; background: var(--paper-raised); box-shadow: var(--shadow); }
+  h3.subhead {
+    font-family: var(--font-display);
+    font-size: 15px;
+    margin: 28px 0 0;
+    color: var(--ink);
+  }
+  h3.subhead:first-of-type { margin-top: 22px; }
+
+  footer {
+    margin-top: 52px;
+    padding-top: 18px;
+    border-top: 1px solid var(--rule);
+    font-size: 12px;
+    color: var(--ink-soft);
+    text-align: center;
+  }
+</style>
+
+<div class="page">
+
+  <header class="masthead">
+    <div class="masthead-title">
+      <div class="eyebrow">CBSE &middot; Class X &middot; Board Examinations</div>
+      <h1>Board Prep 2027</h1>
+      <p>Revision tracker, weightage, study schedule, mock test log and previous-year paper archive across Maths, Science, Social Science and English.</p>
+      <nav class="jump" aria-label="Section navigation">
+        <a href="#weightage-head">Weightage</a>
+        <a href="#tracker-head">Tracker</a>
+        <a href="#schedule-head">Schedule</a>
+        <a href="#mocklog-head">Mock Tests</a>
+        <a href="#archive-head">Papers</a>
+      </nav>
+    </div>
+    <div class="countdown">
+      <div class="days" id="daysLeft">&mdash;</div>
+      <div class="days-label" id="daysLabel">days to go</div>
+      <div class="date-row">
+        <label for="examDate">Exam starts</label>
+        <input type="date" id="examDate" value="2027-02-15" />
+      </div>
+    </div>
+  </header>
+
+  <section id="weightage" aria-labelledby="weightage-head">
+    <div class="section-head">
+      <h2 id="weightage-head">Marks Weightage</h2>
+      <span class="hint">Indicative CBSE unit-wise split, 80 theory + 20 internal assessment</span>
+    </div>
+    <div class="weightage-grid" id="weightageGrid"></div>
+  </section>
+
+  <section id="tracker" aria-labelledby="tracker-head">
+    <div class="section-head">
+      <h2 id="tracker-head">Revision Tracker</h2>
+      <span class="hint">Check off chapters as you finish them &mdash; saved automatically in this browser</span>
+    </div>
+    <div class="subject-grid" id="subjectGrid"></div>
+  </section>
+
+  <section id="schedule" aria-labelledby="schedule-head">
+    <div class="section-head">
+      <h2 id="schedule-head">Study Schedule</h2>
+      <span class="hint" id="scheduleHint"></span>
+    </div>
+    <div class="schedule-wrap" id="scheduleWrap"></div>
+  </section>
+
+  <section id="mocklog" aria-labelledby="mocklog-head">
+    <div class="section-head">
+      <h2 id="mocklog-head">Mock Test Log</h2>
+      <span class="hint">Saved automatically in this browser &mdash; jot down your score after every paper</span>
+    </div>
+    <div class="mocklog-stats" id="mockStats"></div>
+    <form class="mocklog-form" id="mockForm">
+      <div class="field">
+        <label for="mockDate">Date</label>
+        <input type="date" id="mockDate" required />
+      </div>
+      <div class="field">
+        <label for="mockSubject">Subject</label>
+        <select id="mockSubject"></select>
+      </div>
+      <div class="field grow">
+        <label for="mockPaper">Paper</label>
+        <input type="text" id="mockPaper" placeholder="e.g. 2025 Main, Set 31-1-1" required />
+      </div>
+      <div class="field narrow">
+        <label for="mockScore">Score</label>
+        <input type="number" id="mockScore" min="0" max="100" required />
+      </div>
+      <div class="field narrow">
+        <label for="mockMax">Out of</label>
+        <input type="number" id="mockMax" min="1" max="100" value="80" required />
+      </div>
+      <button type="submit" class="btn-add">Add entry</button>
+    </form>
+    <div class="mocklog-table-wrap">
+      <table class="data">
+        <thead><tr><th>Date</th><th>Subject</th><th>Paper</th><th>Score</th><th></th></tr></thead>
+        <tbody id="mockBody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="archive" aria-labelledby="archive-head">
+    <div class="section-head">
+      <h2 id="archive-head">Previous Year Paper Archive</h2>
+      <span class="hint" id="archiveCount"></span>
+    </div>
+    <div class="filter-tabs" id="filterTabs"></div>
+
+    <h3 class="subhead">Official board papers by year</h3>
+    <div class="table-wrap">
+      <table class="data">
+        <thead><tr><th>Subject</th><th>Year</th><th>Session</th><th>Paper sets</th></tr></thead>
+        <tbody id="archiveBody"></tbody>
+      </table>
+    </div>
+
+    <h3 class="subhead">Practice sets &amp; question banks</h3>
+    <div class="table-wrap">
+      <table class="data">
+        <thead><tr><th>Subject</th><th>File</th><th>Type</th></tr></thead>
+        <tbody id="paperBody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>Personal study dashboard &middot; not affiliated with CBSE &middot; syllabus drawn from the NCERT Class X textbook (2026&ndash;27 reprint) and official CBSE question banks where available &middot; your progress, exam date and mock scores are saved automatically in this browser (localStorage) &mdash; they'll persist across reloads on this device/browser, but won't follow you to a different device or browser</footer>
+</div>
+
+<script>
+  const SUBJECTS = [
+    {
+      key: "maths", name: "Mathematics", tag: "041 Standard", color: "var(--maths)", soft: "var(--maths-soft)",
+      source: "NCERT textbook, 2026–27 reprint",
+      units: [
+        { name: "Algebra", marks: 20 },
+        { name: "Geometry", marks: 15 },
+        { name: "Trigonometry", marks: 12 },
+        { name: "Statistics & Probability", marks: 11 },
+        { name: "Mensuration", marks: 10 },
+        { name: "Coordinate Geometry", marks: 6 },
+        { name: "Number Systems", marks: 6 }
+      ],
+      chapters: [
+        { name: "Real Numbers", unit: "Number Systems" },
+        { name: "Polynomials", unit: "Algebra" },
+        { name: "Pair of Linear Equations in Two Variables", unit: "Algebra" },
+        { name: "Quadratic Equations", unit: "Algebra" },
+        { name: "Arithmetic Progressions", unit: "Algebra" },
+        { name: "Triangles", unit: "Geometry" },
+        { name: "Coordinate Geometry", unit: "Coordinate Geometry" },
+        { name: "Introduction to Trigonometry", unit: "Trigonometry" },
+        { name: "Some Applications of Trigonometry", unit: "Trigonometry" },
+        { name: "Circles", unit: "Geometry" },
+        { name: "Areas Related to Circles", unit: "Geometry" },
+        { name: "Surface Areas and Volumes", unit: "Mensuration" },
+        { name: "Statistics", unit: "Statistics & Probability" },
+        { name: "Probability", unit: "Statistics & Probability" }
+      ]
+    },
+    {
+      key: "science", name: "Science", tag: "086", color: "var(--science)", soft: "var(--science-soft)",
+      source: "NCERT textbook, 2026–27 reprint",
+      units: [
+        { name: "Chemical Substances", marks: 25 },
+        { name: "World of Living", marks: 25 },
+        { name: "Effects of Current", marks: 13 },
+        { name: "Natural Phenomena", marks: 12 },
+        { name: "Natural Resources", marks: 5 }
+      ],
+      chapters: [
+        { name: "Chemical Reactions and Equations", unit: "Chemical Substances" },
+        { name: "Acids, Bases and Salts", unit: "Chemical Substances" },
+        { name: "Metals and Non-metals", unit: "Chemical Substances" },
+        { name: "Carbon and its Compounds", unit: "Chemical Substances" },
+        { name: "Life Processes", unit: "World of Living" },
+        { name: "Control and Coordination", unit: "World of Living" },
+        { name: "How do Organisms Reproduce?", unit: "World of Living" },
+        { name: "Heredity and Evolution", unit: "World of Living" },
+        { name: "Light — Reflection and Refraction", unit: "Natural Phenomena" },
+        { name: "The Human Eye and the Colourful World", unit: "Natural Phenomena" },
+        { name: "Electricity", unit: "Effects of Current" },
+        { name: "Magnetic Effects of Electric Current", unit: "Effects of Current" },
+        { name: "Our Environment", unit: "Natural Resources" }
+      ]
+    },
+    {
+      key: "sst", name: "Social Science", tag: "087", color: "var(--sst)", soft: "var(--sst-soft)",
+      source: "Indicative — add your SST NCERT PDFs for an exact match",
+      units: [
+        { name: "History", marks: 20 },
+        { name: "Geography", marks: 20 },
+        { name: "Political Science", marks: 20 },
+        { name: "Economics", marks: 20 }
+      ],
+      chapters: [
+        { name: "Nationalism in India", unit: "History" },
+        { name: "The Making of a Global World", unit: "History" },
+        { name: "Resources and Development", unit: "Geography" },
+        { name: "Water Resources", unit: "Geography" },
+        { name: "Power Sharing", unit: "Political Science" },
+        { name: "Federalism", unit: "Political Science" },
+        { name: "Development", unit: "Economics" },
+        { name: "Sectors of the Indian Economy", unit: "Economics" }
+      ]
+    },
+    {
+      key: "english", name: "English", tag: "Communicative", color: "var(--english)", soft: "var(--english-soft)",
+      source: "CBSE Class X English question bank (rationalised syllabus)",
+      units: [
+        { name: "Reading", marks: 20 },
+        { name: "Writing & Grammar", marks: 20 },
+        { name: "Literature", marks: 40 }
+      ],
+      chapters: [
+        { name: "Grammar & Writing Skills", unit: "Writing & Grammar" },
+        { name: "Two Gentlemen of Verona", unit: "Literature", group: "Fiction" },
+        { name: "Mrs Packletide's Tiger", unit: "Literature", group: "Fiction" },
+        { name: "The Letter", unit: "Literature", group: "Fiction" },
+        { name: "A Shady Plot", unit: "Literature", group: "Fiction" },
+        { name: "Patol Babu, Film Star", unit: "Literature", group: "Fiction" },
+        { name: "Virtually True", unit: "Literature", group: "Fiction" },
+        { name: "The Frog and the Nightingale", unit: "Literature", group: "Poetry" },
+        { name: "Not Marble, Nor the Gilded Monuments", unit: "Literature", group: "Poetry" },
+        { name: "Mirror", unit: "Literature", group: "Poetry" },
+        { name: "Ozymandias", unit: "Literature", group: "Poetry" },
+        { name: "The Rime of the Ancient Mariner", unit: "Literature", group: "Poetry" },
+        { name: "Snake", unit: "Literature", group: "Poetry" },
+        { name: "The Dear Departed", unit: "Literature", group: "Drama" },
+        { name: "Julius Caesar", unit: "Literature", group: "Drama" }
+      ]
+    }
+  ];
+
+  // Official CBSE board question papers found in the local archive, grouped by
+  // subject / year / session, with real per-zip paper-set counts.
+  const ARCHIVE = [
+    { subj: "maths", year: 2023, session: "Main Exam", count: 24 },
+    { subj: "maths", year: 2023, session: "Compartment", count: 4 },
+    { subj: "maths", year: 2024, session: "Main Exam", count: 16 },
+    { subj: "maths", year: 2025, session: "Main Exam", count: 19 },
+    { subj: "maths", year: 2025, session: "Compartment", count: 4 },
+    { subj: "maths", year: 2026, session: "Main Exam", count: 32 },
+    { subj: "maths", year: 2026, session: "Compartment", count: 7 },
+
+    { subj: "science", year: 2023, session: "Main Exam", count: 24 },
+    { subj: "science", year: 2023, session: "Compartment", count: 10 },
+    { subj: "science", year: 2024, session: "Main Exam", count: 16 },
+    { subj: "science", year: 2025, session: "Main Exam", count: 19 },
+    { subj: "science", year: 2025, session: "Compartment", count: 4 },
+    { subj: "science", year: 2026, session: "Main Exam", count: 16 },
+    { subj: "science", year: 2026, session: "Compartment", count: 7 },
+
+    { subj: "sst", year: 2023, session: "Main Exam", count: 21 },
+    { subj: "sst", year: 2023, session: "Compartment", count: 6 },
+    { subj: "sst", year: 2024, session: "Main Exam", count: 15 },
+    { subj: "sst", year: 2025, session: "Main Exam", count: 18 },
+    { subj: "sst", year: 2025, session: "Compartment", count: 3 },
+    { subj: "sst", year: 2026, session: "Main Exam", count: 15 },
+    { subj: "sst", year: 2026, session: "Compartment", count: 6 },
+
+    { subj: "english", year: 2024, session: "Main Exam", count: 1 },
+    { subj: "english", year: 2025, session: "Compartment", count: 1 },
+    { subj: "english", year: 2026, session: "Main Exam", count: 1 },
+    { subj: "english", year: 2026, session: "Compartment", count: 1 }
+  ];
+
+  // Standalone practice-question / marking-scheme / question-bank documents.
+  const PAPERS = [
+    { subj: "maths", file: "MathsX.pdf", type: "Case Studies" },
+    { subj: "maths", file: "Mathematics-PQ.pdf", type: "Practice Questions 2023–24" },
+    { subj: "maths", file: "Mathematics-PQ (1).pdf", type: "Practice Questions 2023–24" },
+    { subj: "maths", file: "Mathematics-PQ2.pdf", type: "Practice Questions 2023–24" },
+    { subj: "maths", file: "Mathematics-PQMS.pdf", type: "Practice Q + Marking Scheme" },
+    { subj: "maths", file: "Mathematics-PQMS (1).pdf", type: "Practice Q + Marking Scheme" },
+    { subj: "maths", file: "Mathematics-PQMS2.pdf", type: "Practice Q + Marking Scheme" },
+
+    { subj: "science", file: "ScienceX.pdf", type: "Case Studies" },
+    { subj: "science", file: "Science-PQ.pdf", type: "Practice Questions 2023–24" },
+    { subj: "science", file: "Science-PQ (1).pdf", type: "Practice Questions 2023–24" },
+    { subj: "science", file: "Science-PQ2.pdf", type: "Practice Questions 2023–24" },
+    { subj: "science", file: "Science-PQMS.pdf", type: "Practice Q + Marking Scheme" },
+    { subj: "science", file: "Science-PQMS (1).pdf", type: "Practice Q + Marking Scheme" },
+    { subj: "science", file: "Science-PQMS2.pdf", type: "Practice Q + Marking Scheme" },
+
+    { subj: "sst", file: "SS-PQ.pdf", type: "Practice Questions 2023–24" },
+    { subj: "sst", file: "SS-PQ (1).pdf", type: "Practice Questions 2023–24" },
+    { subj: "sst", file: "SS-PQ2.pdf", type: "Practice Questions 2023–24" },
+    { subj: "sst", file: "SS-PQMS.pdf", type: "Practice Q + Marking Scheme" },
+    { subj: "sst", file: "SS-PQMS (1).pdf", type: "Practice Q + Marking Scheme" },
+    { subj: "sst", file: "SS-PQMS2.pdf", type: "Practice Q + Marking Scheme" },
+
+    { subj: "english", file: "EnglishX.pdf", type: "Question Bank" },
+    { subj: "english", file: "1_eng_communicative_2025.pdf", type: "Practice Questions" }
+  ];
+
+  const subjectByKey = Object.fromEntries(SUBJECTS.map(s => [s.key, s]));
+
+  /* ---------- Persistence (localStorage) ---------- */
+  const STORAGE_KEY = "boardPrep2027State";
+
+  function loadState() {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      if (!raw) return { examDate: null, checked: {}, mockLog: [] };
+      const parsed = JSON.parse(raw);
+      return {
+        examDate: typeof parsed.examDate === "string" ? parsed.examDate : null,
+        checked: (parsed.checked && typeof parsed.checked === "object") ? parsed.checked : {},
+        mockLog: Array.isArray(parsed.mockLog) ? parsed.mockLog : []
+      };
+    } catch (e) {
+      return { examDate: null, checked: {}, mockLog: [] };
+    }
+  }
+
+  function saveState() {
+    const checked = {};
+    document.querySelectorAll('input[type="checkbox"][data-subj]').forEach(box => {
+      checked[box.id] = box.checked;
+    });
+    const examDate = document.getElementById("examDate").value;
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify({ examDate, checked, mockLog }));
+    } catch (e) {
+      // localStorage unavailable or full — data just won't persist this time.
+    }
+  }
+
+  const savedState = loadState();
+  let mockLog = savedState.mockLog
+    .map(e => ({
+      id: e.id != null ? e.id : Date.now() + Math.random(),
+      date: e.date, subj: e.subj, paper: e.paper,
+      score: Number(e.score), max: Number(e.max)
+    }))
+    .filter(e => e.date && e.subj && e.paper && !isNaN(e.score) && !isNaN(e.max));
+
+  if (savedState.examDate) {
+    document.getElementById("examDate").value = savedState.examDate;
+  }
+
+  function unitMarksLookup(subject) {
+    return Object.fromEntries(subject.units.map(u => [u.name, u.marks]));
+  }
+
+  function chapterWeight(subject, chapter) {
+    const unitMarks = unitMarksLookup(subject)[chapter.unit] || 1;
+    const chaptersInUnit = subject.chapters.filter(c => c.unit === chapter.unit).length || 1;
+    return unitMarks / chaptersInUnit;
+  }
+
+  /* ---------- Marks weightage ---------- */
+  function renderWeightage() {
+    const grid = document.getElementById("weightageGrid");
+    grid.innerHTML = SUBJECTS.map(s => {
+      const total = s.units.reduce((sum, u) => sum + u.marks, 0);
+      return `
+        <div class="weightage-card" style="--c:${s.color}; --soft:${s.soft};">
+          <div class="card-top">
+            <h3>${s.name}</h3>
+            <span class="total">${total} + 20 IA</span>
+          </div>
+          ${s.units.map(u => `
+            <div class="unit-row">
+              <span class="unit-name">${u.name}</span>
+              <div class="unit-bar-track"><div class="unit-bar-fill" style="width:${(u.marks / total * 100).toFixed(0)}%"></div></div>
+              <span class="unit-marks">${u.marks}</span>
+            </div>
+          `).join("")}
+        </div>
+      `;
+    }).join("");
+  }
+
+  /* ---------- Revision tracker ---------- */
+  function renderSubjects() {
+    const grid = document.getElementById("subjectGrid");
+    grid.innerHTML = SUBJECTS.map(s => {
+      let lastGroup = null;
+      const items = s.chapters.map((c, i) => {
+        const groupHtml = (c.group && c.group !== lastGroup)
+          ? `<div class="chapter-group-label">${c.group}</div>` : "";
+        lastGroup = c.group || lastGroup;
+        const boxId = `${s.key}-${i}`;
+        const isChecked = savedState.checked[boxId] ? "checked" : "";
+        return `${groupHtml}
+          <li>
+            <input type="checkbox" id="${boxId}" data-subj="${s.key}" ${isChecked} />
+            <label for="${boxId}">${c.name}</label>
+          </li>`;
+      }).join("");
+      return `
+        <div class="subject-card" style="--c:${s.color}; --soft:${s.soft};">
+          <div class="card-top">
+            <div>
+              <h3>${s.name}</h3>
+              <span class="subject-source">${s.source}</span>
+            </div>
+            <span class="subject-tag">${s.tag}</span>
+          </div>
+          <div class="progress-row">
+            <div class="progress-track"><div class="progress-fill" id="fill-${s.key}"></div></div>
+            <div class="progress-count" id="count-${s.key}">0 / ${s.chapters.length}</div>
+          </div>
+          <ul class="chapter-list">${items}</ul>
+        </div>
+      `;
+    }).join("");
+
+    grid.querySelectorAll('input[type="checkbox"]').forEach(box => {
+      box.addEventListener("change", () => {
+        updateProgress(box.dataset.subj);
+        renderSchedule();
+        saveState();
+      });
+    });
+
+    SUBJECTS.forEach(s => updateProgress(s.key));
+  }
+
+  function updateProgress(key) {
+    const s = subjectByKey[key];
+    const boxes = document.querySelectorAll(`input[data-subj="${key}"]`);
+    const checked = Array.from(boxes).filter(b => b.checked).length;
+    document.getElementById(`fill-${key}`).style.width = (checked / s.chapters.length * 100) + "%";
+    document.getElementById(`count-${key}`).textContent = `${checked} / ${s.chapters.length}`;
+  }
+
+  function uncheckedChapters(key) {
+    const boxes = Array.from(document.querySelectorAll(`input[data-subj="${key}"]`));
+    return subjectByKey[key].chapters.filter((c, i) => !(boxes[i] && boxes[i].checked));
+  }
+
+  /* ---------- Study schedule ---------- */
+  function archiveTotalFor(key) {
+    return ARCHIVE.filter(a => a.subj === key).reduce((sum, a) => sum + a.count, 0);
+  }
+
+  function formatDate(d) {
+    return d.toLocaleDateString(undefined, { month: "short", day: "numeric" });
+  }
+
+  function renderSchedule() {
+    const wrap = document.getElementById("scheduleWrap");
+    const hint = document.getElementById("scheduleHint");
+    const examInput = document.getElementById("examDate");
+    const examDate = new Date(examInput.value + "T00:00:00");
+    const today = new Date(); today.setHours(0, 0, 0, 0);
+    const daysUntilExam = Math.round((examDate - today) / 86400000);
+
+    if (isNaN(daysUntilExam)) {
+      wrap.innerHTML = `<div class="schedule-empty">Set an exam date above to generate a schedule.</div>`;
+      hint.textContent = "";
+      return;
+    }
+
+    const REVISION_BUFFER = 14;
+    const daysForNewContent = daysUntilExam - REVISION_BUFFER;
+
+    // Build a weighted, subject-interleaved queue of unfinished chapters.
+    const perSubjectQueues = SUBJECTS.map(s => {
+      const remaining = uncheckedChapters(s.key)
+        .map(c => ({ subj: s.key, name: c.name, color: s.color, soft: s.soft, weight: chapterWeight(s, c) }))
+        .sort((a, b) => b.weight - a.weight);
+      return remaining;
+    });
+    const pool = [];
+    let added = true;
+    while (added) {
+      added = false;
+      for (const q of perSubjectQueues) {
+        if (q.length) { pool.push(q.shift()); added = true; }
+      }
+    }
+
+    if (daysUntilExam <= 0) {
+      wrap.innerHTML = `<div class="schedule-empty">Exam date has passed — update the date above.</div>`;
+      hint.textContent = "";
+      return;
+    }
+
+    if (pool.length === 0) {
+      wrap.innerHTML = `<div class="schedule-empty">Every chapter is checked off — spend remaining time on previous-year papers and quick revision.</div>`;
+      hint.textContent = "tracker fully complete";
+      return;
+    }
+
+    if (daysForNewContent < 7) {
+      wrap.innerHTML = `<div class="schedule-empty">Fewer than ${REVISION_BUFFER + 7} days remain — too tight for a fresh pass through ${pool.length} pending chapter${pool.length === 1 ? "" : "s"}. Go straight to previous-year papers and rapid revision.</div>`;
+      hint.textContent = `${pool.length} chapters still open`;
+      return;
+    }
+
+    const weeksAvailable = Math.max(1, Math.round(daysForNewContent / 7));
+    // Spread chapters proportionally across every available week (not just enough
+    // weeks to hold them) so the plan runs right up to the revision buffer with no gap.
+    const weeks = [];
+    for (let w = 0; w < weeksAvailable; w++) {
+      const startIdx = Math.round((w * pool.length) / weeksAvailable);
+      const endIdx = Math.round(((w + 1) * pool.length) / weeksAvailable);
+      const slice = pool.slice(startIdx, endIdx);
+      if (slice.length) weeks.push({ weekIndex: w, chapters: slice });
+    }
+
+    let html = weeks.map(({ weekIndex, chapters }, i) => {
+      const start = new Date(today); start.setDate(start.getDate() + weekIndex * 7);
+      const end = new Date(start); end.setDate(end.getDate() + 6);
+      return `
+        <div class="week-card">
+          <div class="week-head">
+            <span class="week-num">Week ${i + 1}</span>
+            <span class="week-range">${formatDate(start)} – ${formatDate(end)}</span>
+          </div>
+          <div class="chip-row">
+            ${chapters.map(c => `<span class="chapter-chip" style="--c:${c.color}; --soft:${c.soft};">${c.name}</span>`).join("")}
+          </div>
+        </div>
+      `;
+    }).join("");
+
+    const finalStart = new Date(examDate); finalStart.setDate(finalStart.getDate() - REVISION_BUFFER);
+    const finalEnd = new Date(examDate); finalEnd.setDate(finalEnd.getDate() - 1);
+    const archiveNote = SUBJECTS.map(s => `${archiveTotalFor(s.key)} ${s.name}`).join(", ");
+    html += `
+      <div class="schedule-final">
+        <span class="week-num" style="color:var(--accent)">Final stretch</span>
+        <span class="week-range"> ${formatDate(finalStart)} – ${formatDate(finalEnd)}</span>
+        <p>Reserved for full previous-year mock tests and quick revision — the archive below has ${archiveNote} official paper sets to draw from.</p>
+      </div>
+    `;
+
+    wrap.innerHTML = html;
+    hint.textContent = `${pool.length} chapters across ${weeks.length} week${weeks.length === 1 ? "" : "s"}`;
+  }
+
+  /* ---------- Mock test log ---------- */
+  function renderMockSubjectSelect() {
+    const sel = document.getElementById("mockSubject");
+    sel.innerHTML = SUBJECTS.map(s => `<option value="${s.key}">${s.name}</option>`).join("");
+  }
+
+  function scoreTier(pct) {
+    if (pct >= 80) return "good";
+    if (pct >= 60) return "warn";
+    return "bad";
+  }
+
+  function sparklineSvg(scores, color) {
+    if (scores.length < 2) return "";
+    const w = 140, h = 32, pad = 3;
+    const max = 100, min = 0;
+    const stepX = (w - pad * 2) / (scores.length - 1);
+    const pts = scores.map((s, i) => {
+      const x = pad + i * stepX;
+      const y = h - pad - ((s - min) / (max - min)) * (h - pad * 2);
+      return [x, y];
+    });
+    const line = pts.map(p => p.join(",")).join(" ");
+    const area = `${pad},${h - pad} ` + line + ` ${w - pad},${h - pad}`;
+    const last = pts[pts.length - 1];
+    return `
+      <svg class="sparkline" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="Score trend">
+        <polyline points="${area}" fill="${color}" opacity="0.12" stroke="none" />
+        <polyline points="${line}" fill="none" stroke="${color}" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" />
+        <circle cx="${last[0]}" cy="${last[1]}" r="2.6" fill="${color}" />
+      </svg>
+    `;
+  }
+
+  function renderMockStats() {
+    const wrap = document.getElementById("mockStats");
+    wrap.innerHTML = SUBJECTS.map(s => {
+      const entries = mockLog.filter(e => e.subj === s.key).slice().sort((a, b) => a.date.localeCompare(b.date));
+      if (entries.length === 0) {
+        return `
+          <div class="mock-stat-card" style="--c:${s.color}; --soft:${s.soft};">
+            <div class="mock-stat-top"><h4>${s.name}</h4></div>
+            <div class="mock-stat-sub">No tests logged yet</div>
+          </div>
+        `;
+      }
+      const pcts = entries.map(e => Math.round((e.score / e.max) * 100));
+      const avg = Math.round(pcts.reduce((a, b) => a + b, 0) / pcts.length);
+      let trendClass = "flat", trendGlyph = "→";
+      if (pcts.length >= 2) {
+        const diff = pcts[pcts.length - 1] - pcts[pcts.length - 2];
+        if (diff > 0) { trendClass = "up"; trendGlyph = "↑"; }
+        else if (diff < 0) { trendClass = "down"; trendGlyph = "↓"; }
+      }
+      return `
+        <div class="mock-stat-card" style="--c:${s.color}; --soft:${s.soft};">
+          <div class="mock-stat-top">
+            <h4>${s.name}</h4>
+            <span class="mock-stat-avg">${avg}%</span>
+          </div>
+          <div class="mock-stat-sub">${entries.length} test${entries.length === 1 ? "" : "s"} logged &middot; <span class="trend ${trendClass}">${trendGlyph}</span></div>
+          ${sparklineSvg(pcts, getComputedStyle(document.documentElement).getPropertyValue(`--${s.key}`).trim())}
+        </div>
+      `;
+    }).join("");
+  }
+
+  function renderMockTable() {
+    const body = document.getElementById("mockBody");
+    const rows = mockLog.slice().sort((a, b) => b.date.localeCompare(a.date));
+    body.innerHTML = rows.map(e => {
+      const s = subjectByKey[e.subj];
+      const pct = Math.round((e.score / e.max) * 100);
+      return `
+        <tr>
+          <td class="file-name">${e.date}</td>
+          <td><span class="subj-chip" style="--c:${s.color}; --soft:${s.soft};">${s.name}</span></td>
+          <td>${e.paper}</td>
+          <td><span class="score-pill ${scoreTier(pct)}">${e.score}/${e.max} &middot; ${pct}%</span></td>
+          <td><button class="row-remove" data-id="${e.id}" aria-label="Remove entry">&times;</button></td>
+        </tr>
+      `;
+    }).join("");
+    body.querySelectorAll(".row-remove").forEach(btn => {
+      btn.addEventListener("click", () => {
+        mockLog = mockLog.filter(e => String(e.id) !== btn.dataset.id);
+        renderMockStats(); renderMockTable();
+        saveState();
+      });
+    });
+  }
+
+  document.getElementById("mockForm").addEventListener("submit", (ev) => {
+    ev.preventDefault();
+    const date = document.getElementById("mockDate").value;
+    const subj = document.getElementById("mockSubject").value;
+    const paper = document.getElementById("mockPaper").value.trim();
+    const score = Number(document.getElementById("mockScore").value);
+    const max = Number(document.getElementById("mockMax").value);
+    if (!date || !paper || isNaN(score) || isNaN(max) || max <= 0) return;
+    mockLog.push({ id: Date.now(), date, subj, paper, score, max });
+    document.getElementById("mockPaper").value = "";
+    document.getElementById("mockScore").value = "";
+    renderMockStats(); renderMockTable();
+    saveState();
+  });
+
+  /* ---------- Archive ---------- */
+  function renderArchive(filter) {
+    const archBody = document.getElementById("archiveBody");
+    const archRows = (filter === "all" ? ARCHIVE : ARCHIVE.filter(a => a.subj === filter))
+      .slice().sort((a, b) => a.subj.localeCompare(b.subj) || b.year - a.year || a.session.localeCompare(b.session));
+    archBody.innerHTML = archRows.map(a => {
+      const s = subjectByKey[a.subj];
+      return `
+        <tr>
+          <td><span class="subj-chip" style="--c:${s.color}; --soft:${s.soft};">${s.name}</span></td>
+          <td class="file-name">${a.year}</td>
+          <td><span class="session-chip">${a.session}</span></td>
+          <td class="num">${a.count}</td>
+        </tr>
+      `;
+    }).join("");
+
+    const body = document.getElementById("paperBody");
+    const rows = filter === "all" ? PAPERS : PAPERS.filter(p => p.subj === filter);
+    body.innerHTML = rows.map(p => {
+      const s = subjectByKey[p.subj];
+      return `
+        <tr>
+          <td><span class="subj-chip" style="--c:${s.color}; --soft:${s.soft};">${s.name}</span></td>
+          <td class="file-name">${p.file}</td>
+          <td class="type-chip">${p.type}</td>
+        </tr>
+      `;
+    }).join("");
+
+    const totalPapers = archRows.reduce((sum, a) => sum + a.count, 0);
+    document.getElementById("archiveCount").textContent = `${totalPapers} official paper sets · ${rows.length} reference document${rows.length === 1 ? "" : "s"}`;
+  }
+
+  function renderFilters() {
+    const tabs = document.getElementById("filterTabs");
+    const options = [{ key: "all", name: "All" }, ...SUBJECTS.map(s => ({ key: s.key, name: s.name }))];
+    tabs.innerHTML = options.map((o, i) => `
+      <button data-filter="${o.key}" aria-pressed="${i === 0}">${o.name}</button>
+    `).join("");
+    tabs.querySelectorAll("button").forEach(btn => {
+      btn.addEventListener("click", () => {
+        tabs.querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", "false"));
+        btn.setAttribute("aria-pressed", "true");
+        renderArchive(btn.dataset.filter);
+      });
+    });
+  }
+
+  /* ---------- Countdown ---------- */
+  function updateCountdown() {
+    const input = document.getElementById("examDate");
+    const target = new Date(input.value + "T00:00:00");
+    const now = new Date();
+    const startOfToday = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    const diffDays = Math.round((target - startOfToday) / 86400000);
+    const daysEl = document.getElementById("daysLeft");
+    const labelEl = document.getElementById("daysLabel");
+    if (isNaN(diffDays)) { daysEl.textContent = "—"; labelEl.textContent = "set a date"; return; }
+    if (diffDays > 0) {
+      daysEl.textContent = diffDays;
+      labelEl.textContent = "days to go";
+    } else if (diffDays === 0) {
+      daysEl.textContent = "Today";
+      labelEl.textContent = "exams begin";
+    } else {
+      daysEl.textContent = Math.abs(diffDays);
+      labelEl.textContent = "days since exams began";
+    }
+  }
+
+  document.getElementById("examDate").addEventListener("change", () => { updateCountdown(); renderSchedule(); saveState(); });
+
+  renderWeightage();
+  renderSubjects();
+  renderMockSubjectSelect();
+  document.getElementById("mockDate").value = new Date().toISOString().slice(0, 10);
+  renderMockStats();
+  renderMockTable();
+  renderFilters();
+  renderArchive("all");
+  updateCountdown();
+  renderSchedule();
+</script>

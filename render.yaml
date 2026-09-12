@@ -1,0 +1,45 @@
+# Render Blueprint for the CBSE backend API.
+#
+# Deploy: push this repo to GitHub, then in Render choose
+# "New +" -> "Blueprint" and point it at the repo. Render reads this file
+# and creates the service automatically - no manual field-filling needed.
+#
+# PERSISTENCE: the service below runs on Render's free plan, which has an
+# *ephemeral* filesystem - a local SQLite database would be wiped every
+# time the service restarts, redeploys, or spins down from inactivity.
+# Two ways to fix that, pick one:
+#
+#   1. (Recommended, still free) Add a DATABASE_URL env var in Render's
+#      dashboard pointing at a Supabase Postgres database. backend/db.py
+#      detects this automatically and stores everything there instead of
+#      local SQLite - data survives restarts/redeploys. Use Supabase's
+#      "Session pooler" connection string, NOT "Direct connection" - the
+#      direct one is IPv6-only and Render can't reach it. Full steps in
+#      DEPLOY.md.
+#
+#   2. (Paid, ~$7/mo) Upgrade this service to the Starter plan and
+#      uncomment the `disk:` block below, which mounts a real persistent
+#      volume at backend/ so the local SQLite file survives. See
+#      render.com/docs/disks for details.
+#
+# Without either, the app still works fine - generated papers and attempt
+# history just reset whenever the service restarts.
+
+services:
+  - type: web
+    name: cbse-sst-backend
+    runtime: python
+    plan: free
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: cd backend && python3 server.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      # Add this in Render's dashboard (Environment tab) rather than here,
+      # since it contains your Supabase database password:
+      # - key: DATABASE_URL
+      #   value: postgresql://postgres.xxxx:[password]@aws-0-<region>.pooler.supabase.com:5432/postgres
+    # disk:
+    #   name: cbse-sst-data
+    #   mountPath: /opt/render/project/src/backend
+    #   sizeGB: 1

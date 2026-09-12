@@ -1,0 +1,2767 @@
+{
+  "subject": "civics",
+  "subject_label": "Civics (Democratic Politics II)",
+  "chapters": [
+    {
+      "id": "power_sharing",
+      "title": "Power Sharing",
+      "notes": {
+        "overview": "This chapter introduces power sharing as a basic feature of democracy through the case studies of Belgium and Sri Lanka, and explains the forms and prudential/moral reasons for power sharing.",
+        "key_points": [
+          "Belgium accommodated its diverse population (Dutch, French, German speakers) through a complex power-sharing arrangement, becoming a federal state with a separate community government for cultural affairs.",
+          "Sri Lanka, in contrast, adopted majoritarianism, favouring the Sinhala majority over the Tamil minority, which led to alienation, civil war and prolonged ethnic conflict.",
+          "Power sharing is desirable because it helps reduce conflict between social groups (prudential reason) and it is the very spirit of democracy (moral reason) since people have a right to be consulted.",
+          "Horizontal power sharing occurs among different organs of government - legislature, executive and judiciary - so that no one organ exercises unchecked power (separation of powers, checks and balances).",
+          "Vertical power sharing occurs among governments at different levels - general/national government, state governments and local governments (federalism).",
+          "Power can also be shared among social groups through community government (as in Belgium) or reserved constituencies/seats for particular communities.",
+          "Power sharing arrangements can also be seen in the form of coalition governments among political parties, pressure groups and movements."
+        ],
+        "key_terms": {
+          "Majoritarianism": "The belief that the majority community should rule in whatever way it wants, disregarding minority wishes.",
+          "Federalism": "A system of government with multiple levels, where power is constitutionally divided among them.",
+          "Community government": "A government where members of even smaller communities can exercise control over certain matters concerning them, as in Belgium.",
+          "Prudential reason": "A reason based on practical benefits, e.g. power sharing reduces the possibility of conflict.",
+          "Moral reason": "A reason based on principle, e.g. power sharing is valuable in itself as it reflects democratic spirit."
+        },
+        "important_facts": [
+          "Belgium's constitution was reformed four times between 1970 and 1993 to work out a power-sharing arrangement.",
+          "Sri Lanka gained independence in 1948; the Sinhala-only Act was passed in 1956.",
+          "The Sri Lankan Civil War between the government and Tamil groups (LTTE) lasted for decades, ending in 2009.",
+          "Belgium's central government shares power with the regional/community governments of Flemish, French and German-speaking regions."
+        ],
+        "exam_tips": [
+          "Be ready to contrast the Belgium and Sri Lanka models with reasons for their differing outcomes - a very common 3 or 5 mark question.",
+          "Clearly distinguish horizontal and vertical power sharing with examples.",
+          "Learn prudential vs moral reasons for power sharing with one line of explanation each."
+        ],
+        "sections": [
+          {
+            "title": "1. The Case of Belgium",
+            "content": "Belgium is a small country in Europe, bordering the Netherlands, France and Germany, with a population roughly divided between Dutch-speaking Flemish people (59 percent) in the Flanders region, French-speaking Walloons (40 percent) in the Wallonia region, and a small German-speaking population. The capital, Brussels, presents a complex picture, where the French-speaking are a majority but the native Dutch-speaking population has been slowly increasing. Recognising this complexity, Belgian leaders adopted a strategy of accommodation of regional and cultural diversity: the constitution was amended four times between 1970 and 1993 to work out a power-sharing arrangement, ensuring equal numbers of ministers from both regions in the central government and giving the Brussels-Capital Region a separate government, along with a 'community government' elected by people belonging to a language community regardless of where they live, having powers over cultural, educational and language-related issues.",
+            "keywords": [
+              "Belgium",
+              "Flemish Walloon",
+              "Brussels",
+              "1970-1993 amendments",
+              "community government"
+            ]
+          },
+          {
+            "title": "2. The Case of Sri Lanka",
+            "content": "Sri Lanka emerged as an independent country in 1948, with the Sinhala community, comprising 74 percent of the population, being predominantly Buddhist, and the Tamils, forming 18 percent, divided between 'Sri Lankan Tamils' (whose ancestors migrated from India in ancient times, mostly Hindu) and 'Indian Tamils' (brought by the British as plantation workers). Sri Lankan leaders sought to secure dominance of the Sinhala community, and in 1956 an act was passed to recognise Sinhala as the only official language, disadvantaging Tamil speakers, along with preferential treatment for Sinhala Buddhists in university admissions and government jobs. These majoritarian measures, which assumed that the majority community could rule the country in whatever way it wanted, deepened the feeling of alienation among the Tamils, leading to demands for autonomy and eventually a prolonged civil war between the government and the Liberation Tigers of Tamil Eelam (LTTE), ending only in 2009.",
+            "keywords": [
+              "Sri Lanka 1948",
+              "Sinhala majority",
+              "Tamil minority",
+              "Sinhala-only Act 1956",
+              "LTTE civil war"
+            ]
+          },
+          {
+            "title": "3. Why Power Sharing is Desirable",
+            "content": "There are two distinct reasons for power sharing. Prudential reasons emphasise that power sharing helps to reduce the possibility of conflict between social groups, since imposing the will of a majority over other groups often leads to resentment and instability - power-sharing arrangements bring greater legitimacy to government and reduce the likelihood of tyranny of the majority. Moral reasons see power sharing as the very spirit of democracy: a democratic rule involves sharing power with those affected by its exercise, and citizens have the right to be consulted on how they are governed, meaning that legitimate democratic government must always be a power-sharing government.",
+            "keywords": [
+              "prudential reason",
+              "moral reason",
+              "tyranny of majority",
+              "legitimacy",
+              "democratic spirit"
+            ]
+          },
+          {
+            "title": "4. Forms of Power Sharing",
+            "content": "Power can be shared among different organs of government - the legislature, executive and judiciary - known as horizontal power sharing, ensuring separation of powers so that none of the organs can exercise unlimited power, with each organ checking the others and maintaining a balance of power (e.g. the judiciary in India can strike down a law passed by the legislature). Power can be shared among governments at different levels - a general government for the entire country and governments at provincial or regional levels - known as vertical power sharing, or federalism. Power can also be shared among different social groups, such as the religious and linguistic groups, through mechanisms like community government in Belgium or reserved constituencies in India's legislatures. Finally, power sharing arrangements can also be seen in the way political parties, pressure groups and movements control or influence those in power, such as through coalition governments.",
+            "keywords": [
+              "horizontal power sharing",
+              "vertical power sharing",
+              "federalism",
+              "community government",
+              "coalition governments"
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "c1_mcq1",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Sri Lanka",
+          "question": "The Sri Lankan Sinhala-only policy that alienated Tamils was passed in:",
+          "options": [
+            "1948",
+            "1956",
+            "1972",
+            "2009"
+          ],
+          "answer_index": 1,
+          "explanation": "The Sinhala-only Act was passed in 1956, making Sinhala the only official language."
+        },
+        {
+          "id": "c1_mcq2",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Belgium model",
+          "question": "Belgium's power-sharing model is best described as:",
+          "options": [
+            "Majoritarian",
+            "Community government/federal accommodation",
+            "One-party rule",
+            "Monarchy without parliament"
+          ],
+          "answer_index": 1,
+          "explanation": "Belgium adopted a federal, community-based power-sharing model."
+        },
+        {
+          "id": "c1_mcq3",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Horizontal power sharing",
+          "question": "Power sharing among the legislature, executive and judiciary is called:",
+          "options": [
+            "Vertical power sharing",
+            "Horizontal power sharing",
+            "Community power sharing",
+            "Coalition power sharing"
+          ],
+          "answer_index": 1,
+          "explanation": "This is horizontal power sharing, involving separation of powers among organs of government at the same level."
+        },
+        {
+          "id": "c1_mcq4",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Vertical power sharing",
+          "question": "Power sharing among national, state and local governments is an example of:",
+          "options": [
+            "Horizontal power sharing",
+            "Community government",
+            "Vertical power sharing",
+            "Majoritarianism"
+          ],
+          "answer_index": 2,
+          "explanation": "This is vertical power sharing, a feature of federalism."
+        },
+        {
+          "id": "c1_mcq5",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Reasons for power sharing",
+          "question": "Which of the following is a 'prudential' reason for power sharing?",
+          "options": [
+            "It is inherently valuable",
+            "It reduces the possibility of conflict between social groups",
+            "It is required by international law",
+            "It has no real benefit"
+          ],
+          "answer_index": 1,
+          "explanation": "Prudential reasons refer to practical benefits, such as reduced conflict."
+        },
+        {
+          "id": "c1_2m1",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Belgium vs Sri Lanka",
+          "question": "Why is Belgium considered a successful example of power sharing while Sri Lanka is not?",
+          "rubric": [
+            {
+              "point": "Belgium accommodated regional/linguistic diversity through federal and community government arrangements",
+              "keywords": [
+                "belgium accommodated",
+                "federal",
+                "community government"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Sri Lanka adopted majoritarian policies favouring the Sinhala majority, alienating the Tamil minority and causing conflict",
+              "keywords": [
+                "sri lanka majoritarian",
+                "sinhala majority",
+                "tamil minority",
+                "alienated"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Belgium is considered successful because its leaders recognised the differences between regional and linguistic groups and evolved a power-sharing arrangement through constitutional reforms that gave equal representation to different communities. Sri Lanka, in contrast, adopted majoritarian policies that favoured the Sinhala-speaking majority over the Tamil minority, leading to alienation, resentment and eventually a prolonged civil war."
+        },
+        {
+          "id": "c1_2m2",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Moral reason for power sharing",
+          "question": "Explain the moral reason for power sharing in a democracy.",
+          "rubric": [
+            {
+              "point": "Power sharing upholds the spirit of democracy - people have a right to be consulted in decisions that affect them",
+              "keywords": [
+                "democratic spirit",
+                "right to be consulted",
+                "decisions affect them"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "It is valuable in itself, not merely for reducing conflict, since legitimate government requires participation of all groups",
+              "keywords": [
+                "valuable in itself",
+                "legitimate government",
+                "participation of all"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The moral reason for power sharing is that it is the very essence of democracy: a democratic rule involves sharing power with those affected by its exercise, and citizens have a right to be consulted on how they are governed. Power sharing is thus valuable in itself, ensuring legitimacy, and not merely a device to prevent conflict."
+        },
+        {
+          "id": "c1_3m1",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Forms of power sharing",
+          "question": "Describe any three forms/ways in which power is shared in modern democracies.",
+          "rubric": [
+            {
+              "point": "Horizontal sharing among legislature, executive and judiciary",
+              "keywords": [
+                "horizontal",
+                "legislature",
+                "executive",
+                "judiciary"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Vertical sharing among different levels of government (federal, state, local)",
+              "keywords": [
+                "vertical",
+                "federal",
+                "state government",
+                "local government"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Sharing among social groups (community government, reserved seats) or among political parties/pressure groups (coalitions)",
+              "keywords": [
+                "social groups",
+                "community government",
+                "coalition",
+                "pressure groups"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Power can be shared in several ways: horizontally, among different organs of government such as the legislature, executive and judiciary, so that each checks the others; vertically, among governments at different levels - national, state and local - as seen in federal systems; and among social groups, through arrangements like community government or reserved constituencies, as well as among political parties, pressure groups and movements through coalition governments."
+        },
+        {
+          "id": "c1_3m2",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Sri Lankan ethnic conflict",
+          "question": "Explain how majoritarian policies in Sri Lanka led to a prolonged civil war.",
+          "rubric": [
+            {
+              "point": "Sinhala was made the only official language in 1956, disadvantaging Tamil speakers",
+              "keywords": [
+                "sinhala official language",
+                "1956",
+                "tamil disadvantaged"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Government favoured Sinhala Buddhists in university and government job preferences",
+              "keywords": [
+                "preference sinhala buddhist",
+                "university",
+                "government jobs"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Tamils felt alienated and their resentment led to demand for a separate Tamil Eelam and a long civil war",
+              "keywords": [
+                "alienated tamils",
+                "tamil eelam",
+                "civil war"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "After independence, Sri Lankan governments pursued majoritarian policies that favoured the Sinhala-speaking Buddhist majority. In 1956, an act was passed to recognise Sinhala as the only official language, disadvantaging those whose mother tongue was Tamil. The government also gave preference to Sinhala Buddhists in university admissions and government jobs. These majoritarian measures increased the feeling of alienation among the Tamils, who felt neither their interests nor identity were being respected, eventually leading to demands for a separate Tamil Eelam and a prolonged, violent civil war."
+        },
+        {
+          "id": "c1_5m1",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Need for power sharing",
+          "question": "Explain the prudential and moral reasons for power sharing in a democracy, using examples of horizontal and vertical power sharing.",
+          "rubric": [
+            {
+              "point": "Prudential reason: reduces conflict between social groups since imposed rule of majority often produces resentment among the minority",
+              "keywords": [
+                "prudential",
+                "reduce conflict",
+                "resentment minority"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Prudential outcome: power-sharing decisions have broader legitimacy and are more stable, as seen when instability results from denial of power sharing (e.g., Sri Lanka)",
+              "keywords": [
+                "legitimacy",
+                "stability",
+                "sri lanka example"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Moral reason: power sharing is the spirit of democracy; people have the right to be consulted",
+              "keywords": [
+                "spirit of democracy",
+                "right to be consulted"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Horizontal power sharing example: separation of powers among legislature, executive, judiciary with checks and balances",
+              "keywords": [
+                "separation of powers",
+                "checks and balances"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Vertical power sharing example: federal division of power between union, state and local governments in India",
+              "keywords": [
+                "federal division",
+                "union state local",
+                "india"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "There are two kinds of reasons for power sharing in a democracy. Prudential reasons emphasise its practical benefits: power sharing helps reduce the possibility of conflict between social groups, since imposing the will of a majority over a minority often produces resentment and instability, as seen in Sri Lanka's civil war. Decisions taken through power sharing also have wider acceptance and are more stable. Moral reasons view power sharing as valuable in itself, reflecting the very spirit of democracy, since people have a right to be consulted about how they are governed. These principles operate through horizontal power sharing - the separation of powers among the legislature, executive and judiciary, each checking the others - and vertical power sharing, seen in federal systems like India, where power is constitutionally divided between the union government, state governments and local bodies."
+        },
+        {
+          "id": "c1_mcq6",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Belgium population",
+          "question": "Roughly what percentage of Belgium's population are French-speaking Walloons?",
+          "options": [
+            "40 percent",
+            "59 percent",
+            "74 percent",
+            "18 percent"
+          ],
+          "answer_index": 0,
+          "explanation": "Walloons, who speak French, make up about 40 percent of Belgium's population, while the Dutch-speaking Flemish form about 59 percent."
+        },
+        {
+          "id": "c1_mcq7",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Brussels",
+          "question": "Brussels, the capital of Belgium, is unique because:",
+          "options": [
+            "It has no government of its own",
+            "A Dutch-speaking majority dominates it entirely",
+            "French-speakers are a majority, but the Dutch-speaking population has been slowly increasing",
+            "It was excluded from the power-sharing arrangement"
+          ],
+          "answer_index": 2,
+          "explanation": "In Brussels, French-speaking people are in the majority, but the native Dutch-speaking population has been increasing steadily, making its governance especially delicate."
+        },
+        {
+          "id": "c1_mcq8",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Sri Lanka population",
+          "question": "According to the chapter, roughly what percentage of Sri Lanka's population is Sinhala-speaking?",
+          "options": [
+            "18 percent",
+            "40 percent",
+            "59 percent",
+            "74 percent"
+          ],
+          "answer_index": 3,
+          "explanation": "The Sinhala community forms about 74 percent of Sri Lanka's population."
+        },
+        {
+          "id": "c1_mcq9",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Sri Lankan Tamils",
+          "question": "'Indian Tamils' in Sri Lanka refers to:",
+          "options": [
+            "Tamils whose ancestors migrated from India as plantation workers brought by the British",
+            "Tamils who hold Indian citizenship and live in India",
+            "Sinhala-speaking Buddhists who migrated to India",
+            "Tamils who migrated to Sri Lanka after 2009"
+          ],
+          "answer_index": 0,
+          "explanation": "'Indian Tamils' were descendants of workers brought from India by the British to work on plantations, distinct from 'Sri Lankan Tamils' whose ancestors lived there since ancient times."
+        },
+        {
+          "id": "c1_mcq10",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Horizontal power sharing example",
+          "question": "Which of the following is an example of horizontal power sharing in India?",
+          "options": [
+            "The Supreme Court striking down a law passed by Parliament",
+            "The union government sharing power with state governments",
+            "Reservation of seats for a religious community",
+            "A coalition of two parties forming the government"
+          ],
+          "answer_index": 0,
+          "explanation": "The judiciary checking the legislature by striking down an unconstitutional law is a classic example of horizontal power sharing/separation of powers."
+        },
+        {
+          "id": "c1_mcq11",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Community government",
+          "question": "In Belgium, the 'community government' is elected by:",
+          "options": [
+            "Residents of a particular city only",
+            "People belonging to one language community, regardless of where they live",
+            "Members of the national parliament",
+            "Only the majority linguistic group"
+          ],
+          "answer_index": 1,
+          "explanation": "The community government is elected by people belonging to a language community - Dutch, French or German-speaking - no matter where they reside."
+        },
+        {
+          "id": "c1_mcq12",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Power sharing among social groups",
+          "question": "Reserving constituencies/seats in a legislature for a particular community is an example of power sharing among:",
+          "options": [
+            "Organs of government",
+            "Levels of government",
+            "Social groups",
+            "Foreign nations"
+          ],
+          "answer_index": 2,
+          "explanation": "Reserved constituencies are a way of sharing power among different social groups, such as religious or linguistic communities."
+        },
+        {
+          "id": "c1_mcq13",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Coalition governments",
+          "question": "When two or more political parties come together to form a government, it is an example of power sharing among:",
+          "options": [
+            "Political parties, pressure groups and movements",
+            "Organs of government",
+            "Levels of government",
+            "Language communities"
+          ],
+          "answer_index": 0,
+          "explanation": "Coalition governments represent power sharing among different political parties, pressure groups and movements."
+        },
+        {
+          "id": "c1_mcq14",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Belgium constitutional reform",
+          "question": "How many times was Belgium's constitution amended between 1970 and 1993 to work out its power-sharing arrangement?",
+          "options": [
+            "Two",
+            "Three",
+            "Four",
+            "Five"
+          ],
+          "answer_index": 2,
+          "explanation": "The Belgian constitution was amended four times between 1970 and 1993."
+        },
+        {
+          "id": "c1_mcq15",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "LTTE",
+          "question": "The LTTE, which fought a prolonged civil war against the Sri Lankan government, stood for:",
+          "options": [
+            "Liberation Tigers of Tamil Eelam",
+            "League of Tamil Traditional Elders",
+            "Lanka Tamil Trade Executive",
+            "Liberation Team of Tamil Eelam"
+          ],
+          "answer_index": 0,
+          "explanation": "LTTE stands for Liberation Tigers of Tamil Eelam, which fought for a separate Tamil state."
+        },
+        {
+          "id": "c1_mcq16",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Federalism and vertical power sharing",
+          "question": "Vertical power sharing, involving governments at different levels, is also known as:",
+          "options": [
+            "Majoritarianism",
+            "Federalism",
+            "Community government",
+            "Coalition politics"
+          ],
+          "answer_index": 1,
+          "explanation": "Vertical power sharing among different levels of government is also called federalism."
+        },
+        {
+          "id": "c1_mcq17",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Majoritarianism",
+          "question": "'Majoritarianism' refers to the belief that:",
+          "options": [
+            "All communities should share power equally",
+            "The majority community should rule in whatever way it wants, disregarding minority wishes",
+            "Minorities should always govern",
+            "Power should be divided vertically only"
+          ],
+          "answer_index": 1,
+          "explanation": "Majoritarianism is the belief that the majority community should rule as it wishes, ignoring minority interests - the approach Sri Lanka adopted."
+        },
+        {
+          "id": "c1_mcq18",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Legitimacy and power sharing",
+          "question": "Power-sharing arrangements are considered desirable, in prudential terms, mainly because they:",
+          "options": [
+            "Guarantee economic growth",
+            "Bring greater legitimacy to government and reduce the possibility of conflict/tyranny of the majority",
+            "Eliminate the need for elections",
+            "Ensure one community always dominates"
+          ],
+          "answer_index": 1,
+          "explanation": "Prudentially, power sharing reduces conflict and gives government greater legitimacy by avoiding the tyranny of the majority."
+        },
+        {
+          "id": "c1_2m3",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Sri Lankan Tamils vs Indian Tamils",
+          "question": "Distinguish between 'Sri Lankan Tamils' and 'Indian Tamils' as described in the chapter.",
+          "rubric": [
+            {
+              "point": "Sri Lankan Tamils are descendants of Tamils who have lived in Sri Lanka since ancient times, mostly Hindu",
+              "keywords": [
+                "sri lankan tamils",
+                "ancient times",
+                "hindu"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Indian Tamils are descendants of plantation workers brought from India to Sri Lanka by the British",
+              "keywords": [
+                "indian tamils",
+                "plantation workers",
+                "brought by british"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Sri Lankan Tamils are those whose ancestors had lived in Sri Lanka since ancient times, and are mostly Hindu. Indian Tamils, on the other hand, are descendants of labourers who were brought to Sri Lanka from India by the British colonial rulers to work on tea plantations."
+        },
+        {
+          "id": "c1_2m4",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Judiciary and horizontal power sharing",
+          "question": "Explain, with an example, how the judiciary acts as a check on the legislature under horizontal power sharing.",
+          "rubric": [
+            {
+              "point": "Horizontal power sharing distributes power among legislature, executive and judiciary so no organ has unlimited power",
+              "keywords": [
+                "horizontal power sharing",
+                "no unlimited power",
+                "checks each other"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Example: the judiciary (e.g. Supreme Court in India) can strike down/declare invalid a law passed by the legislature if it violates the constitution",
+              "keywords": [
+                "judiciary strike down law",
+                "supreme court",
+                "violates constitution"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Under horizontal power sharing, power is distributed among the legislature, executive and judiciary so that each organ checks the others and none can exercise unlimited power. For example, the judiciary in India can strike down a law passed by Parliament if it is found to violate the Constitution, thereby keeping a check on the legislature."
+        },
+        {
+          "id": "c1_2m5",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Majoritarianism",
+          "question": "What is majoritarianism? Why is it considered harmful for democracy?",
+          "rubric": [
+            {
+              "point": "Majoritarianism is the belief that the majority community should rule the country in whatever way it wants, disregarding minority wishes",
+              "keywords": [
+                "majority rule as it wants",
+                "disregard minority"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "It is harmful because it alienates and suppresses minorities, undermining democratic legitimacy and often leading to conflict, as in Sri Lanka",
+              "keywords": [
+                "alienates minorities",
+                "undermines legitimacy",
+                "conflict sri lanka"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Majoritarianism is the belief that the majority community should be able to rule a country in whatever way it wants, disregarding the wishes and needs of minority communities. It is harmful for democracy because it alienates minorities, denies them a fair say in governance, and can lead to resentment and conflict, as seen in Sri Lanka where majoritarian policies led to a prolonged civil war."
+        },
+        {
+          "id": "c1_2m6",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Community government in Belgium",
+          "question": "Explain the concept of 'community government' as practised in Belgium.",
+          "rubric": [
+            {
+              "point": "A third kind of government, apart from the central and regional/state governments",
+              "keywords": [
+                "third government",
+                "central and regional"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Elected by people belonging to one language community (Dutch, French, German) regardless of where they live, with powers over cultural/educational/language matters",
+              "keywords": [
+                "language community",
+                "regardless of residence",
+                "cultural educational powers"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The 'community government' is a third kind of government in Belgium, in addition to the central and regional governments. It is elected by people belonging to one language community - Dutch, French or German-speaking - no matter where they live, and has powers over cultural, educational and language-related matters concerning that community."
+        },
+        {
+          "id": "c1_2m7",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Power sharing among social groups",
+          "question": "How can power be shared among social groups? Give one example.",
+          "rubric": [
+            {
+              "point": "Power can be shared among social groups such as religious and linguistic communities through special mechanisms",
+              "keywords": [
+                "social groups",
+                "religious linguistic communities"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Example: community government in Belgium, or reserved constituencies/seats for particular communities in India",
+              "keywords": [
+                "community government example",
+                "reserved constituencies india"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Power can be shared among different social groups, such as religious and linguistic communities, through special arrangements that give them a share in governance. For example, Belgium has a 'community government' for each language community, while India has reserved constituencies in its legislatures for Scheduled Castes and Scheduled Tribes."
+        },
+        {
+          "id": "c1_3m3",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Belgium's diversity and constitutional reform",
+          "question": "Describe the population composition of Belgium and explain how its leaders addressed this diversity through constitutional reform.",
+          "rubric": [
+            {
+              "point": "Population composed of Dutch-speaking Flemish (about 59%), French-speaking Walloons (about 40%) and a small German-speaking minority",
+              "keywords": [
+                "flemish 59",
+                "walloons 40",
+                "german minority"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Brussels has a complex mix, with French-speakers in the majority but a growing Dutch-speaking population",
+              "keywords": [
+                "brussels complex",
+                "french majority",
+                "dutch increasing"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Leaders amended the constitution four times (1970-1993) to create equal ministers from both regions, a separate Brussels government, and community governments",
+              "keywords": [
+                "four amendments 1970 1993",
+                "equal ministers",
+                "community government"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Belgium's population is divided between Dutch-speaking Flemish people (about 59 percent) in the Flanders region, French-speaking Walloons (about 40 percent) in Wallonia, and a small German-speaking minority. Brussels, the capital, has a particularly complex mix, where French-speakers are a majority but the Dutch-speaking population has been slowly increasing. To accommodate this diversity, Belgian leaders amended the constitution four times between 1970 and 1993, ensuring equal numbers of ministers from both major regions in the central government, giving Brussels a separate regional government, and creating community governments elected by each language group."
+        },
+        {
+          "id": "c1_3m4",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Tyranny of the majority",
+          "question": "Explain the concept of 'tyranny of the majority' using the example of Sri Lanka.",
+          "rubric": [
+            {
+              "point": "Tyranny of the majority occurs when the majority community uses its numerical strength to dominate and disregard the interests of minorities",
+              "keywords": [
+                "majority dominates",
+                "disregard minority interests"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "In Sri Lanka, the Sinhala majority government imposed Sinhala as the sole official language (1956) and gave preference to Sinhala Buddhists in jobs/education",
+              "keywords": [
+                "sinhala only 1956",
+                "preference sinhala buddhists"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "This alienated the Tamil minority, showing how majoritarian rule without power sharing can be oppressive and destabilising",
+              "keywords": [
+                "alienated tamils",
+                "oppressive majoritarian rule",
+                "destabilising"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "'Tyranny of the majority' refers to a situation where the majority community uses its numerical strength to dominate the government and disregard the interests of minority communities. In Sri Lanka, the Sinhala majority, once in power, passed the Sinhala-only Act in 1956 and gave preferential treatment to Sinhala Buddhists in university admissions and government jobs. This majoritarian approach alienated the Tamil minority, showing how the tyranny of the majority, in the absence of power sharing, can destabilise a country and lead to conflict."
+        },
+        {
+          "id": "c1_3m5",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Horizontal power sharing",
+          "question": "Explain horizontal power sharing with reference to separation of powers and checks and balances.",
+          "rubric": [
+            {
+              "point": "Power is shared among the legislature, executive and judiciary, organs of government at the same level",
+              "keywords": [
+                "legislature executive judiciary",
+                "same level"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Each organ checks the others so that no single organ can exercise unlimited power (separation of powers)",
+              "keywords": [
+                "checks the others",
+                "separation of powers",
+                "no unlimited power"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Example: the judiciary can strike down laws passed by the legislature that violate the constitution, maintaining a balance of power",
+              "keywords": [
+                "judiciary strike down",
+                "balance of power",
+                "example"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Horizontal power sharing means dividing power among different organs of government that are at the same level - the legislature, the executive and the judiciary. This is known as the separation of powers: each organ checks the actions of the others, ensuring that none of them can exercise unlimited power. For example, in India the judiciary can strike down a law passed by the legislature if it is found unconstitutional, thereby maintaining a balance of power among the three organs."
+        },
+        {
+          "id": "c1_3m6",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Vertical power sharing",
+          "question": "Explain vertical power sharing/federalism with reference to India's three tiers of government.",
+          "rubric": [
+            {
+              "point": "Vertical power sharing means power is shared among governments at different levels - general/national, state and local",
+              "keywords": [
+                "different levels",
+                "national state local"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "This is the basis of federalism, where power is constitutionally divided among these tiers",
+              "keywords": [
+                "federalism",
+                "constitutionally divided"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "In India, the three tiers are the union government, state governments, and (since 1992) local governments (panchayats/municipalities)",
+              "keywords": [
+                "union government",
+                "state governments",
+                "local government 1992"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Vertical power sharing means power is shared among governments at different levels - a general or national government, provincial or state governments, and local governments. This kind of power sharing forms the basis of federalism, where power is constitutionally divided among the different tiers so that each can exercise authority independently. In India, the three tiers are the union government, the state governments, and, since the 1992 constitutional amendments, local governments in the form of panchayats and municipalities."
+        },
+        {
+          "id": "c1_3m7",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Power sharing among social groups and political parties",
+          "question": "Discuss reserved constituencies and coalition governments as forms of power sharing.",
+          "rubric": [
+            {
+              "point": "Reserved constituencies/seats give particular social groups (e.g. religious, linguistic or caste communities) guaranteed representation in the legislature",
+              "keywords": [
+                "reserved constituencies",
+                "guaranteed representation",
+                "social groups"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "This is a way of sharing power among social groups so that no single community or group dominates decision-making",
+              "keywords": [
+                "sharing among social groups",
+                "no single community dominates"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Coalition governments, formed by two or more political parties, are a way of sharing power among political parties, pressure groups and movements",
+              "keywords": [
+                "coalition government",
+                "two or more parties",
+                "pressure groups movements"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Reserved constituencies or seats are set aside in a legislature for particular social groups, such as religious, linguistic or caste communities, guaranteeing them representation and a share in decision-making, so that no single community can dominate. Similarly, coalition governments - formed when two or more political parties come together to run the government - represent a way in which power is shared among political parties, pressure groups and movements, ensuring that a wider range of interests is represented in governance."
+        },
+        {
+          "id": "c1_5m2",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Comparing Belgium and Sri Lanka",
+          "question": "Compare the power-sharing experiences of Belgium and Sri Lanka, bringing out the reasons for their differing outcomes.",
+          "rubric": [
+            {
+              "point": "Belgium's population is diverse (Flemish, Walloon, small German minority) with a complex mix in Brussels",
+              "keywords": [
+                "belgium diverse population",
+                "brussels complex mix"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Belgian leaders recognised this diversity and reformed the constitution four times (1970-1993) to create a power-sharing federal/community government system",
+              "keywords": [
+                "constitutional reform",
+                "1970 1993",
+                "community government"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Sri Lanka's Sinhala majority (74%) government adopted majoritarian policies, e.g. the Sinhala-only Act of 1956, disadvantaging the Tamil minority",
+              "keywords": [
+                "sinhala majority",
+                "sinhala only act 1956",
+                "tamil disadvantaged"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Preferential treatment to Sinhala Buddhists in jobs/education deepened Tamil alienation",
+              "keywords": [
+                "preferential treatment",
+                "tamil alienation"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Consequently, Belgium has remained united and stable while Sri Lanka faced a prolonged civil war (ending 2009), showing accommodation succeeds where majoritarianism fails",
+              "keywords": [
+                "belgium stable",
+                "sri lanka civil war 2009",
+                "accommodation vs majoritarianism"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Belgium and Sri Lanka present a study in contrasts in dealing with social diversity. Belgium's population is divided between Dutch-speaking Flemish people, French-speaking Walloons and a small German-speaking minority, with Brussels having an especially complex mix. Recognising this diversity, Belgian leaders reformed the constitution four times between 1970 and 1993, creating a federal structure with equal representation for both major regions in the central government and a separate community government for each language group, allowing the country to remain united and stable. Sri Lanka, by contrast, is dominated by the Sinhala community, which forms about 74 percent of the population. After independence, Sri Lankan governments pursued majoritarian policies, such as the Sinhala-only Act of 1956 and preferential treatment for Sinhala Buddhists in university admissions and government jobs. These policies deepened the alienation of the Tamil minority, leading to demands for a separate Tamil Eelam and a prolonged civil war that lasted until 2009. Thus, while Belgium's power-sharing arrangements accommodated diversity and preserved unity, Sri Lanka's majoritarian approach fuelled conflict and instability."
+        },
+        {
+          "id": "c1_5m3",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Forms of power sharing",
+          "question": "Explain the four forms of power sharing found in modern democracies, giving one example of each.",
+          "rubric": [
+            {
+              "point": "Horizontal power sharing: among legislature, executive and judiciary, e.g. judiciary striking down unconstitutional laws",
+              "keywords": [
+                "horizontal power sharing",
+                "judiciary strikes down laws"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Vertical power sharing: among national, state and local governments, e.g. federalism in India",
+              "keywords": [
+                "vertical power sharing",
+                "federalism india"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Power sharing among social groups: through mechanisms like community government or reserved constituencies",
+              "keywords": [
+                "social groups",
+                "community government",
+                "reserved constituencies"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Power sharing among political parties/pressure groups/movements: through coalition governments",
+              "keywords": [
+                "political parties",
+                "pressure groups",
+                "coalition governments"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Overall significance: these arrangements prevent concentration of power, reduce conflict, and reflect democratic spirit of consultation",
+              "keywords": [
+                "prevent concentration of power",
+                "reduce conflict",
+                "democratic spirit"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Power can be shared in modern democracies in four broad ways. First, horizontal power sharing takes place among different organs of government - the legislature, executive and judiciary - so that each checks the others; for example, the judiciary can strike down a law passed by the legislature if it violates the constitution. Second, vertical power sharing occurs among governments at different levels - national, state and local - forming the basis of federalism, as seen in India's three-tier government. Third, power can be shared among different social groups, such as religious or linguistic communities, through mechanisms like Belgium's community government or reserved constituencies for particular communities in India. Fourth, power is shared among political parties, pressure groups and movements, most visibly through coalition governments formed by two or more parties. Together, these arrangements prevent the concentration of power in any single hand, reduce the possibility of conflict, and reflect the very spirit of democratic consultation."
+        },
+        {
+          "id": "c1_ar1",
+          "type": "AR",
+          "marks": 1,
+          "topic": "Sri Lanka majoritarianism",
+          "question": "Assertion (A): In Sri Lanka, majoritarian policies led to alienation of the Tamil minority.\nReason (R): The government reserved government jobs and university seats preferentially for the Sinhala-speaking Buddhist majority.",
+          "options": [
+            "Both A and R are true and R is the correct explanation of A.",
+            "Both A and R are true but R is not the correct explanation of A.",
+            "A is true but R is false.",
+            "A is false but R is true."
+          ],
+          "answer_index": 0,
+          "explanation": "Both statements are true, and the preferential treatment (R) is exactly why the Tamils felt alienated (A)."
+        },
+        {
+          "id": "c1_ar2",
+          "type": "AR",
+          "marks": 1,
+          "topic": "Belgium power sharing",
+          "question": "Assertion (A): Belgium's constitution guarantees equal representation for all religious groups in the national government.\nReason (R): Belgium's power-sharing arrangement was designed mainly to accommodate regional and linguistic differences between the Dutch, French and German-speaking communities, not religious ones.",
+          "options": [
+            "Both A and R are true and R is the correct explanation of A.",
+            "Both A and R are true but R is not the correct explanation of A.",
+            "A is true but R is false.",
+            "A is false but R is true."
+          ],
+          "answer_index": 3,
+          "explanation": "Belgium's arrangement addresses linguistic and regional divisions, not religious representation, so A is false while R is an accurate statement."
+        },
+        {
+          "id": "c1_cbq1",
+          "type": "CBQ",
+          "marks": 2,
+          "topic": "Belgium constitutional reform",
+          "passage": "Between 1970 and 1993, the Belgian parliament amended its constitution four times to work out a complex power-sharing arrangement so that Belgium does not disintegrate along regional and linguistic lines. As a result, apart from the central and the state governments, a third kind of government was set up: the 'community government', elected by people belonging to one language community - Dutch, French and German-speaking - no matter where they live.",
+          "subquestions": [
+            {
+              "id": "c1_cbq1_a",
+              "question": "How many times, and over what period, was the Belgian constitution amended to work out its power-sharing arrangement?",
+              "marks": 1,
+              "rubric": [
+                {
+                  "point": "Four times, between 1970 and 1993",
+                  "keywords": [
+                    "four times",
+                    "1970",
+                    "1993"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "The Belgian constitution was amended four times between 1970 and 1993."
+            },
+            {
+              "id": "c1_cbq1_b",
+              "question": "Apart from the central and state governments, what third kind of government exists in Belgium, and who elects it?",
+              "marks": 1,
+              "rubric": [
+                {
+                  "point": "Community government, elected by people belonging to one language community (Dutch/French/German) regardless of where they live",
+                  "keywords": [
+                    "community government",
+                    "language community",
+                    "dutch french german"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "A 'community government', elected by people belonging to one language community - Dutch, French or German-speaking - no matter where they live."
+            }
+          ]
+        },
+        {
+          "id": "c1_cbq2",
+          "type": "CBQ",
+          "marks": 2,
+          "topic": "Sri Lanka ethnic conflict",
+          "passage": "Sri Lanka emerged as an independent country in 1948. The leaders of the Sinhala community sought to secure dominance over government by virtue of their majority. In 1956, an Act was passed to recognise Sinhala as the only official language, disadvantaging those whose mother tongue was Tamil. The government also pursued a policy of preference to Sinhala Buddhists in university admission and government jobs, deepening the alienation felt by the Tamil community.",
+          "subquestions": [
+            {
+              "id": "c1_cbq2_a",
+              "question": "In which year did Sri Lanka become independent, and in which year was the Sinhala-only Act passed?",
+              "marks": 1,
+              "rubric": [
+                {
+                  "point": "Independence in 1948; Sinhala-only Act passed in 1956",
+                  "keywords": [
+                    "1948",
+                    "1956"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "Sri Lanka became independent in 1948, and the Sinhala-only Act was passed in 1956."
+            },
+            {
+              "id": "c1_cbq2_b",
+              "question": "Name the two communities whose relations grew increasingly strained in Sri Lanka as a result of such majoritarian policies.",
+              "marks": 1,
+              "rubric": [
+                {
+                  "point": "The Sinhala majority and the Tamil minority",
+                  "keywords": [
+                    "sinhala majority",
+                    "tamil minority"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "The Sinhala majority community and the Tamil minority community."
+            }
+          ]
+        },
+        {
+          "id": "c1_pq_ar1",
+          "type": "AR",
+          "marks": 1,
+          "topic": "Power sharing and conflict prevention",
+          "question": "Assertion (A): Power sharing can help to prevent conflict in society.\nReason (R): Power sharing ensures that different social groups are included in decision-making processes, reducing marginalisation and fostering inclusivity.",
+          "options": [
+            "A is true but R is false.",
+            "A is false but R is true.",
+            "Both A and R are true and R explains A.",
+            "Both A and R are true but R does not explain A."
+          ],
+          "answer_index": 2,
+          "explanation": "Both statements are true, and R correctly explains A: by including different social groups in decision-making, power sharing reduces their marginalisation and fosters inclusivity, which is precisely the mechanism through which it helps prevent conflict.",
+          "chapter_id": "power_sharing",
+          "chapter_title": "Power Sharing",
+          "subject": "civics"
+        },
+        {
+          "id": "c1_pq_mcq1",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Resolving conflict through power-sharing arrangements",
+          "question": "In an Indian state, communities X and Y have had a long-standing conflict over co-existence and resource sharing, with both now demanding self-administration. What is the BEST resolution to this conflict?",
+          "options": [
+            "collapsing the present government due to its inefficiency in governing the state",
+            "delaying the demands of self-administration and maintaining the current power structure",
+            "imposing strict regulations to control the movements and interactions of both communities",
+            "establishing a power-sharing arrangement where both communities have a role in decision-making"
+          ],
+          "answer_index": 3,
+          "explanation": "A power-sharing arrangement that gives both communities a genuine role in decision-making directly addresses the root grievance (exclusion from decision-making) and is the approach most likely to durably reduce conflict, consistent with power-sharing's core rationale in the civics syllabus.",
+          "chapter_id": "power_sharing",
+          "chapter_title": "Power Sharing",
+          "subject": "civics"
+        },
+        {
+          "id": "c1_pq2_ar1",
+          "type": "AR",
+          "marks": 1,
+          "topic": "Desirability of power sharing",
+          "question": "Assertion (A): Power sharing is desirable.\nReason (R): Power sharing is good because it helps to reduce the possibility of conflict between social groups.",
+          "options": [
+            "Both A and R are true and R is the correct explanation of A.",
+            "Both A and R are true but R is not the correct explanation of A.",
+            "A is correct but R is wrong.",
+            "A is wrong but R is correct."
+          ],
+          "answer_index": 0,
+          "explanation": "Both statements are true, and R correctly explains why A is true: power sharing is desirable precisely because it reduces the possibility of conflict between social groups by accommodating diverse interests in governance.",
+          "chapter_id": "power_sharing",
+          "chapter_title": "Power Sharing",
+          "subject": "civics"
+        },
+        {
+          "id": "c1_pq2_mcq1",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Horizontal distribution of power among government organs",
+          "question": "Why is power shared among different organs of government - the executive, legislature and judiciary - in what is called horizontal distribution of power? What does it result in?",
+          "options": [
+            "It allows different organs at the same level to exercise different powers, resulting in a balance of power among institutions.",
+            "It allows different organs at the same level to exercise different powers, resulting in an imbalance of power among institutions.",
+            "It allows different organs at the same level to exercise the same powers, resulting in a balance of power among institutions.",
+            "It does not allow different organs at the same level to exercise different powers, resulting in a balance of power among institutions."
+          ],
+          "answer_index": 0,
+          "explanation": "Horizontal distribution of power assigns distinct powers to different organs of government (executive, legislature, judiciary) that operate at the same level, so that each can check the others - this system of checks and balances results in a balance of power among institutions, preventing any one organ from becoming too dominant.",
+          "chapter_id": "power_sharing",
+          "chapter_title": "Power Sharing",
+          "subject": "civics"
+        },
+        {
+          "id": "c1_bp_mcq1",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Belgium's federal solution to majoritarianism",
+          "question": "Belgium solved its problem of majoritarianism by strengthening which of the following types of government?",
+          "options": [
+            "Unitary",
+            "Presidential",
+            "Federal",
+            "Parliamentary"
+          ],
+          "answer_index": 2,
+          "explanation": "Belgium adopted a federal system of government, along with community government and constitutional guarantees of equal representation, to accommodate the diversity between the Dutch-speaking Flemish region and the French-speaking Walloon region, preventing the Dutch-speaking majority from dominating the French-speaking minority.",
+          "chapter_id": "power_sharing",
+          "chapter_title": "Power Sharing",
+          "subject": "civics"
+        },
+        {
+          "id": "c1_bp_2m1",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Sri Lankan Tamils and majoritarianism (1956)",
+          "question": "Why did the feeling of alienation increase among the Sri Lankan Tamils in 1956? Explain.",
+          "rubric": [
+            {
+              "point": "in 1956 the Sri Lankan government passed an Act recognising Sinhala as the only official language, disadvantaging Tamil-speakers in government jobs and education",
+              "keywords": [
+                "sinhala only official language",
+                "disadvantaged tamil"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "the government also favoured Buddhism (the religion of the Sinhala majority); these majoritarian measures made Tamils feel neglected and discriminated against, deepening alienation",
+              "keywords": [
+                "favoured buddhism",
+                "majoritarian measures",
+                "alienation"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "In 1956, the Sri Lankan government passed an Act recognising Sinhala as the only official language, which disadvantaged Tamil-speakers in access to government jobs and education. The government's policies also favoured Buddhism, the religion of the Sinhala majority. These majoritarian measures, which ignored the interests and identity of the Tamil minority, made the Tamils feel neglected and discriminated against, sharply increasing their sense of alienation from the Sri Lankan state.",
+          "chapter_id": "power_sharing",
+          "chapter_title": "Power Sharing",
+          "subject": "civics"
+        },
+        {
+          "id": "c1_bp_2m2",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Reasons power sharing is essential",
+          "question": "Why is power sharing essential? Explain.",
+          "rubric": [
+            {
+              "point": "prudential reason - power sharing helps reduce conflict between social groups and ensures the stability of the political order, preventing one group from dominating others",
+              "keywords": [
+                "reduce conflict",
+                "stability",
+                "prevents domination"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "moral reason - power sharing is the very spirit of democracy, since people have a right to be consulted and to have a say in decisions that affect them",
+              "keywords": [
+                "spirit of democracy",
+                "right to be consulted"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Power sharing is essential for two kinds of reasons. The prudential reason is that power sharing helps reduce conflict between social groups, since it prevents one group from dominating others and thus ensures the stability of the political order. The moral reason is that power sharing is itself the spirit of democracy - people have a right to be consulted and to have a say in decisions that affect them, and a legitimate government must share power among as many stakeholders as possible.",
+          "chapter_id": "power_sharing",
+          "chapter_title": "Power Sharing",
+          "subject": "civics"
+        },
+        {
+          "id": "c1_bp_5m1",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Conditions for accommodating social diversity",
+          "question": "Analyse the conditions under which democratic power-sharing arrangements accommodate social diversities.",
+          "rubric": [
+            {
+              "point": "recognising and respecting diversity instead of suppressing it, as with Belgium's constitutional recognition of its Dutch, French and German-speaking communities",
+              "keywords": [
+                "recognising diversity",
+                "belgium constitutional recognition"
+              ],
+              "weight": 2
+            },
+            {
+              "point": "combining different forms of power sharing - such as community government alongside central and regional governments - so that no single social group can dominate",
+              "keywords": [
+                "community government",
+                "no single group dominates"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "guaranteeing representation of minority groups through rules/institutions, so all groups feel like equal partners rather than needing to break away",
+              "keywords": [
+                "guarantee representation",
+                "equal partners"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "requiring mutual respect and a genuine willingness of majority and minority communities to live together",
+              "keywords": [
+                "mutual respect",
+                "willingness to live together"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Democracies can accommodate social diversity when they recognise and respect diversity instead of trying to suppress it - as Belgium did by constitutionally recognising its Dutch, French and German-speaking communities. This often involves combining different forms of power sharing, such as a community government operating alongside the central and regional governments, so that no single social group can dominate the others. Institutional rules that guarantee representation to minority groups help every social group feel like an equal and valued partner in the nation, reducing the risk that any group feels the need to break away. Ultimately, this depends on a foundation of mutual respect and a genuine willingness among majority and minority communities to live together and share power.",
+          "chapter_id": "power_sharing",
+          "chapter_title": "Power Sharing",
+          "subject": "civics"
+        },
+        {
+          "id": "c1_bp_cbq1",
+          "type": "CBQ",
+          "marks": 4,
+          "topic": "Case study - forms of power sharing through parties and pressure groups",
+          "passage": "Power sharing arrangements can also be seen in the way political parties, pressure groups and movements control or influence those in power. In a democracy, the citizens must have freedom to choose among various contenders for power. In contemporary democracies, this takes the form of competition among different parties. Such competition ensures that power does not remain in one hand. In the long run, power is shared among different political parties that represent different ideologies and social groups. Sometimes this kind of sharing can be direct, when two or more parties form an alliance to contest elections. If their alliance is elected, they form a coalition government and thus share power. In a democracy, we find interest groups, such as those of traders, businessmen, industrialists, farmers and industrial workers. They also will have a share in governmental power, either through participation in governmental committees or bringing influence on the decision-making process.",
+          "subquestions": [
+            {
+              "id": "c1_bp_cbq1_a",
+              "marks": 1,
+              "question": "What does competition among different parties ensure?",
+              "rubric": [
+                {
+                  "point": "it ensures power does not remain concentrated in one hand, since parties representing different ideologies/social groups compete for power",
+                  "keywords": [
+                    "power does not remain in one hand",
+                    "parties compete"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "It ensures that power does not remain concentrated in one hand, since different parties representing different ideologies and social groups compete for it."
+            },
+            {
+              "id": "c1_bp_cbq1_b",
+              "marks": 1,
+              "question": "How are interest groups associated with politics?",
+              "rubric": [
+                {
+                  "point": "interest/pressure groups get a share in governmental power either by participating in government committees or by influencing government decision-making",
+                  "keywords": [
+                    "participating in committees",
+                    "influencing decision-making"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "Interest groups (such as those of traders, businessmen, industrialists, farmers and workers) get a share in governmental power either through participating in governmental committees or by bringing influence on the decision-making process."
+            },
+            {
+              "id": "c1_bp_cbq1_c",
+              "marks": 2,
+              "question": "Explain the different forms of power sharing.",
+              "rubric": [
+                {
+                  "point": "power can be shared directly when two or more parties form an alliance to contest elections and, if elected, form a coalition government together",
+                  "keywords": [
+                    "alliance",
+                    "coalition government"
+                  ],
+                  "weight": 1
+                },
+                {
+                  "point": "power is also shared indirectly among competing political parties through electoral competition, and among interest/pressure groups through their participation in or influence over government committees and decisions",
+                  "keywords": [
+                    "electoral competition",
+                    "pressure groups influence"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "Power can be shared directly when two or more parties form a pre- or post-election alliance and, if elected, form a coalition government together. It is also shared indirectly among political parties representing different ideologies and social groups through ongoing electoral competition, and among interest/pressure groups (of traders, farmers, workers, etc.) through their participation in government committees or their influence over government decision-making."
+            }
+          ],
+          "chapter_id": "power_sharing",
+          "chapter_title": "Power Sharing",
+          "subject": "civics"
+        }
+      ]
+    },
+    {
+      "id": "federalism",
+      "title": "Federalism",
+      "notes": {
+        "overview": "This chapter explains federalism as a system of government with multiple levels, describes India's federal features, and discusses the practice of decentralisation through local self-government.",
+        "key_points": [
+          "Federalism is a system where power is divided between a central authority and various constituent units of the country, both operating in their own jurisdiction as per the constitution.",
+          "There are two kinds of routes through which federations are formed: 'coming together' federations (e.g. USA, Switzerland, Australia) where independent states pool sovereignty for security, and 'holding together' federations (e.g. India, Spain, Belgium) where a large country decides to divide power between constituent states and the national government.",
+          "In India, the Constitution originally provided a three-tier government: union, state, and after the 73rd and 74th amendments (1992), local government (Panchayats and Municipalities) was added as the third tier.",
+          "Powers are distributed through three lists in the Seventh Schedule: Union List (defence, foreign affairs, currency), State List (police, trade, agriculture) and Concurrent List (education, forest, marriage, adoption) where both centre and states can legislate, with union law prevailing in case of conflict.",
+          "Any matter not mentioned in the three lists (residuary powers) falls under the jurisdiction of the union government.",
+          "Linguistic states, language policy (recognising many languages officially, no single national language imposed) and restructuring of centre-state relations have strengthened federalism in India.",
+          "The 73rd Amendment (1992) mandated regular elections to Panchayati Raj institutions, reservation of seats for SC/ST/OBC and women (at least one-third), and a State Election Commission.",
+          "The 74th Amendment (1992) similarly gave constitutional status to urban local bodies (Municipalities, Municipal Corporations, Nagar Panchayats)."
+        ],
+        "key_terms": {
+          "Federalism": "A system of government with two or more levels/tiers, each with its own jurisdiction in specific matters of legislation, taxation and administration.",
+          "Coming together federation": "Formed when independent states come together to form a bigger unit by pooling sovereignty, e.g. USA.",
+          "Holding together federation": "Formed when a large country divides power between constituent states and the national government, e.g. India.",
+          "Residuary powers": "Powers not mentioned in any of the three lists, which rest with the union government in India.",
+          "Decentralisation": "Transfer of power from central and state governments to local government, bringing government closer to the people."
+        },
+        "important_facts": [
+          "73rd Constitutional Amendment (Panchayati Raj): 1992",
+          "74th Constitutional Amendment (Urban local bodies): 1992",
+          "Seventh Schedule of the Constitution contains Union List, State List and Concurrent List.",
+          "India officially recognises 22 scheduled languages; Hindi is the official language but not the sole 'national' language."
+        ],
+        "exam_tips": [
+          "Learn the difference between 'coming together' and 'holding together' federations with examples - frequently asked.",
+          "Be able to name subjects under the Union, State and Concurrent Lists with at least two examples each.",
+          "Practice a 5-mark answer explaining how the 73rd and 74th Amendments strengthened democracy at the grassroots level."
+        ],
+        "sections": [
+          {
+            "title": "1. What is Federalism?",
+            "content": "Federalism is a system of government in which power is divided between a central authority and various constituent units of the country, usually enshrined in the constitution. Federalism has dual objectives: to safeguard and promote the unity of the country while at the same time accommodating regional diversity, requiring two or more levels (or tiers) of government, with the same citizens living under the jurisdiction of different governments (e.g. union, state, and local in India) - each tier of government having its own jurisdiction in specific matters of legislation, taxation and administration, with the fundamental provisions of the constitution protected so that one level cannot unilaterally change it, and an independent judiciary that adjudicates disputes between different levels of government.",
+            "keywords": [
+              "federalism definition",
+              "dual objectives",
+              "two or more tiers",
+              "independent judiciary"
+            ]
+          },
+          {
+            "title": "2. Routes to Federalism: Coming Together vs Holding Together",
+            "content": "Broadly, federations can be formed through two distinct routes. In 'coming together' federations, independent states come together on their own to form a bigger unit through a treaty, so that by pooling sovereignty and retaining identity they can increase their security - this type of federation, exemplified by the USA, Switzerland and Australia, usually involves relatively equal power-sharing among constituent states. In 'holding together' federations, a large country decides to divide its power between constituent states and the national government, as seen in India, Spain and Belgium; in this second category, typically, the central government tends to be more powerful than the states, and different constituent units often get differential powers based on their circumstances (asymmetric federalism), for example some Indian states enjoy special status compared to others.",
+            "keywords": [
+              "coming together federation",
+              "holding together federation",
+              "USA",
+              "India",
+              "asymmetric federalism"
+            ]
+          },
+          {
+            "title": "3. What Makes India a Federal Country?",
+            "content": "The Indian Union is based on the principles of federalism, comprising the Union government (representing the entire nation, dealing with subjects of national importance), state governments (looking after matters within the particular state, enjoying certain autonomy), and, since 1992, local governments through the Panchayats and Municipalities. Originally the Constitution declared India a 'Union of States', although the word 'federation' does not occur in the Constitution, and unlike in the American federal system, Indian states do not have the right to secede from the union, giving the Indian model unique features of a federal government with a strong central bias, sometimes called 'quasi-federal'.",
+            "keywords": [
+              "Union of States",
+              "three tiers",
+              "no right to secede",
+              "quasi-federal"
+            ]
+          },
+          {
+            "title": "4. Federal Power-Sharing: Union, State and Concurrent Lists",
+            "content": "Legislative powers of the union and state governments are clearly demarcated through three lists given in the Seventh Schedule of the Indian Constitution. The Union List includes subjects of national importance such as defence, foreign affairs, banking, communications and currency, on which only the union government can make laws. The State List contains subjects of state and local importance such as police, trade, commerce, agriculture and irrigation, on which state governments alone can legislate. The Concurrent List includes subjects of common interest to both the union and the states, such as education, forest, trade unions, marriage, adoption and succession, where both can make laws, but in case of a conflict, the law made by the union government prevails. Any new subject that comes up (such as space technology or information technology) which is not mentioned in any of the three lists, called residuary powers, comes under the jurisdiction of the union government.",
+            "keywords": [
+              "Union List",
+              "State List",
+              "Concurrent List",
+              "Seventh Schedule",
+              "residuary powers"
+            ]
+          },
+          {
+            "title": "5. Linguistic States and Language Policy",
+            "content": "The creation of linguistic states was among the first and major test cases of democratic politics in independent India: the boundaries of many states were redrawn in order to ensure that people who spoke the same language lived in the same state (e.g. the reorganisation of Andhra Pradesh in 1953 for Telugu speakers). Language policy is another feature of Indian federalism: while Hindi was identified as the official language, it was not imposed as the sole 'national' language, and 22 languages are recognised as Scheduled Languages by the Constitution, with state governments also having their own official languages, ensuring no single culture or language is imposed on the entire country and reducing the possibility of any conflict over language.",
+            "keywords": [
+              "linguistic states",
+              "1953 Andhra Pradesh",
+              "Hindi official language",
+              "22 scheduled languages"
+            ]
+          },
+          {
+            "title": "6. Centre-State Relations",
+            "content": "The changing nature of centre-state relations is also illustrative of the evolution of federalism in India. When one party ruled both at the centre and in most of the states, the union government would often use its power to control the government of a state ruled by a rival party, but this changed significantly after 1990 with the rise of regional political parties and the era of coalition governments at the centre, requiring greater consultation with state governments before taking major policy decisions, which has strengthened the practice of federal power sharing.",
+            "keywords": [
+              "centre-state relations",
+              "coalition era",
+              "regional parties",
+              "1990s political change"
+            ]
+          },
+          {
+            "title": "7. Decentralisation in India: The 73rd and 74th Amendments",
+            "content": "When power is taken away from central and state governments and given to local government, it is called decentralisation - the basic idea is that there are a large number of problems and issues which are best resolved at the local level, with people having better knowledge of these than leaders at the state or national level, and it also allows for more direct participation of citizens in decision-making. Although local government elections were held now and then even before, they were not held regularly and local bodies did not have adequate power or resources of their own. A major step was taken in 1992 through the 73rd and 74th Constitutional Amendments, which made it constitutionally mandatory to hold regular elections to local government bodies (Panchayati Raj institutions in rural areas, Municipalities in urban areas), reserved seats for Scheduled Castes, Scheduled Tribes and Other Backward Classes and at least one-third of all seats for women, created an independent State Election Commission for conducting these elections, and required state governments to share some powers and revenue with local government bodies.",
+            "keywords": [
+              "decentralisation",
+              "73rd Amendment",
+              "74th Amendment",
+              "1992",
+              "Panchayati Raj",
+              "State Election Commission"
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "c2_mcq1",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Types of federation",
+          "question": "The United States of America is an example of a:",
+          "options": [
+            "Holding together federation",
+            "Coming together federation",
+            "Unitary system",
+            "Confederation without a constitution"
+          ],
+          "answer_index": 1,
+          "explanation": "The USA was formed when independent states came together and pooled sovereignty."
+        },
+        {
+          "id": "c2_mcq2",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Lists",
+          "question": "Subjects like police and trade fall under the:",
+          "options": [
+            "Union List",
+            "State List",
+            "Concurrent List",
+            "Residuary List"
+          ],
+          "answer_index": 1,
+          "explanation": "Police and trade are State List subjects, legislated by state governments."
+        },
+        {
+          "id": "c2_mcq3",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Concurrent List",
+          "question": "Education is a subject placed under the:",
+          "options": [
+            "Union List",
+            "State List",
+            "Concurrent List",
+            "None of the lists"
+          ],
+          "answer_index": 2,
+          "explanation": "Education is on the Concurrent List, where both centre and states can legislate."
+        },
+        {
+          "id": "c2_mcq4",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "73rd Amendment",
+          "question": "The 73rd Constitutional Amendment, passed in 1992, relates to:",
+          "options": [
+            "Urban local bodies",
+            "Panchayati Raj institutions",
+            "Reorganisation of states",
+            "Fundamental Rights"
+          ],
+          "answer_index": 1,
+          "explanation": "The 73rd Amendment gave constitutional status to rural local self-government (Panchayati Raj)."
+        },
+        {
+          "id": "c2_mcq5",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Residuary powers",
+          "question": "In India, residuary powers (subjects not in any list) rest with the:",
+          "options": [
+            "State government",
+            "Union government",
+            "Local government",
+            "Judiciary"
+          ],
+          "answer_index": 1,
+          "explanation": "Any subject not covered by the three lists falls under the union government's jurisdiction."
+        },
+        {
+          "id": "c2_2m1",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Coming together vs Holding together",
+          "question": "Differentiate between 'coming together' federations and 'holding together' federations.",
+          "rubric": [
+            {
+              "point": "Coming together: independent states come together to form a larger unit, pooling sovereignty, generally giving equal power to constituent units, e.g. USA",
+              "keywords": [
+                "independent states unite",
+                "pooling sovereignty",
+                "equal power",
+                "usa"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Holding together: a large country decides to divide power between constituent states and the centre, often with the centre being relatively more powerful, e.g. India",
+              "keywords": [
+                "large country divides power",
+                "centre more powerful",
+                "india"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "In 'coming together' federations, independent states come together on their own to form a larger unit by pooling their sovereignty, and all constituent units usually have equal power, as in the USA. In 'holding together' federations, a large country decides to divide its power between constituent states and the national government, with the central government typically being more powerful than the states, as in India."
+        },
+        {
+          "id": "c2_2m2",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Language policy",
+          "question": "How has India's language policy helped strengthen national unity?",
+          "rubric": [
+            {
+              "point": "Hindi was declared the official language but not imposed as the sole national language; 22 languages recognised as scheduled languages",
+              "keywords": [
+                "hindi official",
+                "not imposed",
+                "scheduled languages"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "States were reorganised on a linguistic basis and state governments can use the regional language for official work, accommodating diversity",
+              "keywords": [
+                "states reorganised linguistic",
+                "regional language official work"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "India adopted a flexible language policy - Hindi was declared the official language of the union but was not imposed as the sole national language, and 22 languages are recognised as scheduled languages under the Constitution. States were also reorganised on a linguistic basis, and state governments can conduct official work in the regional language, which has accommodated linguistic diversity and strengthened national unity."
+        },
+        {
+          "id": "c2_3m1",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Federal features of India",
+          "question": "Mention any three features that make India a federal country.",
+          "rubric": [
+            {
+              "point": "Two or more levels/tiers of government (union, state, and after 1992 local)",
+              "keywords": [
+                "two levels",
+                "tiers of government",
+                "union state local"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Different tiers govern the same citizens but each has authority in specific matters as per the constitution (division of powers via lists)",
+              "keywords": [
+                "division of powers",
+                "same citizens",
+                "specific matters"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Constitutional guarantee: powers of each level are specified in the constitution, and changes to fundamental provisions require approval of both levels; independent judiciary resolves disputes",
+              "keywords": [
+                "constitutional guarantee",
+                "judiciary resolves disputes",
+                "amendment approval"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "India is a federal country because, firstly, there are two or more levels (now three, with local government) of government within the country. Secondly, different tiers of government govern the same citizens, but each tier has its own jurisdiction in specific matters of legislation, taxation and administration as laid down in the constitution. Thirdly, the fundamental provisions of the constitution cannot be unilaterally changed by one level of government alone - changes require the consent of both the union and state governments, and an independent judiciary looks after the arbitration of disputes between different levels."
+        },
+        {
+          "id": "c2_3m2",
+          "type": "3M",
+          "marks": 3,
+          "topic": "73rd and 74th Amendments",
+          "question": "What steps were taken through the 73rd and 74th Constitutional Amendments to strengthen local self-government in India?",
+          "rubric": [
+            {
+              "point": "Mandatory regular elections to local government bodies (Panchayats/Municipalities)",
+              "keywords": [
+                "regular elections",
+                "mandatory elections"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Reservation of seats in elected bodies for SC, ST, OBC and at least one-third for women",
+              "keywords": [
+                "reservation sc st",
+                "one-third women"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Creation of an independent State Election Commission and transfer of significant powers/resources to local bodies",
+              "keywords": [
+                "state election commission",
+                "powers transferred",
+                "resources"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The 73rd and 74th Amendments, passed in 1992, made it mandatory to hold regular elections to local government bodies - Panchayati Raj institutions in rural areas and Municipalities in urban areas. They reserved seats in these elected bodies for Scheduled Castes, Scheduled Tribes, Other Backward Classes, and at least one-third of seats for women. They also provided for an independent State Election Commission to conduct these elections and required state governments to share some powers and revenue with these local bodies."
+        },
+        {
+          "id": "c2_5m1",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Decentralisation in India",
+          "question": "Explain the practice of decentralisation in India, describing the significance of the 73rd and 74th Constitutional Amendments for grassroots democracy.",
+          "rubric": [
+            {
+              "point": "Decentralisation means taking power away from central/state governments and giving it to local government, closer to the people",
+              "keywords": [
+                "decentralisation definition",
+                "closer to people",
+                "local government"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Before 1992, local government elections were not held regularly and local bodies had little independent power",
+              "keywords": [
+                "before 1992",
+                "not held regularly",
+                "little power"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "73rd Amendment (1992) gave constitutional status to rural Panchayati Raj, with three-tier structure (village, block/taluka, district)",
+              "keywords": [
+                "73rd amendment",
+                "three-tier",
+                "village block district"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "74th Amendment (1992) gave similar status to urban local bodies (municipalities/corporations)",
+              "keywords": [
+                "74th amendment",
+                "urban local bodies",
+                "municipalities"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Reservation for SC/ST/OBC/women and independent state election commissions ensured genuine, regular and inclusive grassroots democracy, along with devolved funds/functions",
+              "keywords": [
+                "reservation",
+                "inclusive democracy",
+                "devolved funds"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Decentralisation is the process of taking power away from the central and state governments and giving it to local government bodies, bringing decision-making closer to the people who are most affected by it. Before 1992, local government elections in India were not held regularly, and elected local bodies did not have significant powers or resources of their own. The 73rd Constitutional Amendment (1992) changed this by giving constitutional status to rural local government (Panchayati Raj), establishing a three-tier structure at the village, block/taluka and district levels. The 74th Amendment (1992) similarly gave constitutional status to urban local bodies such as municipalities and municipal corporations. Both amendments made it mandatory to hold regular elections, reserved seats for SC, ST, OBC and women (at least one-third), and created independent State Election Commissions. Together, these amendments significantly strengthened grassroots democracy by making local governments more powerful, accountable, and representative of society."
+        },
+        {
+          "id": "c2_mcq6",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Union List",
+          "question": "Defence, foreign affairs and currency are subjects placed under the:",
+          "options": [
+            "State List",
+            "Union List",
+            "Concurrent List",
+            "Residuary powers"
+          ],
+          "answer_index": 1,
+          "explanation": "These are matters of national importance, placed under the Union List, on which only the union government can legislate."
+        },
+        {
+          "id": "c2_mcq7",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Coming together federation examples",
+          "question": "Which of these is an example of a 'coming together' federation?",
+          "options": [
+            "India",
+            "Switzerland",
+            "Spain",
+            "Belgium"
+          ],
+          "answer_index": 1,
+          "explanation": "Switzerland, like the USA and Australia, was formed when independent states came together and pooled sovereignty."
+        },
+        {
+          "id": "c2_mcq8",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Holding together federation examples",
+          "question": "Which of these is an example of a 'holding together' federation?",
+          "options": [
+            "USA",
+            "Australia",
+            "Spain",
+            "Switzerland"
+          ],
+          "answer_index": 2,
+          "explanation": "Spain, like India and Belgium, is a 'holding together' federation, where a large country divided power between the centre and constituent units."
+        },
+        {
+          "id": "c2_mcq9",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Union of States",
+          "question": "The Indian Constitution originally described India as a:",
+          "options": [
+            "Federation of States",
+            "Union of States",
+            "Confederation of Provinces",
+            "Republic of Nations"
+          ],
+          "answer_index": 1,
+          "explanation": "The Constitution declares India a 'Union of States', even though the word 'federation' does not occur in it."
+        },
+        {
+          "id": "c2_mcq10",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Asymmetric federalism",
+          "question": "When different constituent units of a federation are given differential powers based on their circumstances, it is called:",
+          "options": [
+            "Majoritarianism",
+            "Asymmetric federalism",
+            "Decentralisation",
+            "Residuary power"
+          ],
+          "answer_index": 1,
+          "explanation": "Asymmetric federalism refers to some states/units enjoying differential/special status compared to others, common in 'holding together' federations."
+        },
+        {
+          "id": "c2_mcq11",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Seventh Schedule",
+          "question": "The Union, State and Concurrent Lists are given in which part of the Indian Constitution?",
+          "options": [
+            "Fifth Schedule",
+            "Sixth Schedule",
+            "Seventh Schedule",
+            "Ninth Schedule"
+          ],
+          "answer_index": 2,
+          "explanation": "The Seventh Schedule of the Constitution contains the Union List, State List and Concurrent List."
+        },
+        {
+          "id": "c2_mcq12",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "74th Amendment",
+          "question": "The 74th Constitutional Amendment (1992) gave constitutional status to:",
+          "options": [
+            "Panchayati Raj institutions",
+            "Urban local bodies like municipalities",
+            "The Union List",
+            "The Election Commission of India"
+          ],
+          "answer_index": 1,
+          "explanation": "The 74th Amendment gave constitutional status to urban local bodies such as municipalities and municipal corporations."
+        },
+        {
+          "id": "c2_mcq13",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "State Election Commission",
+          "question": "Elections to panchayats and municipalities in each state are conducted by:",
+          "options": [
+            "The Election Commission of India",
+            "The State Election Commission",
+            "The Union Home Ministry",
+            "The Supreme Court"
+          ],
+          "answer_index": 1,
+          "explanation": "The 73rd and 74th Amendments created an independent State Election Commission in each state to conduct local body elections."
+        },
+        {
+          "id": "c2_mcq14",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Linguistic states",
+          "question": "The reorganisation of Andhra Pradesh in 1953 was significant because it:",
+          "options": [
+            "Created India's first state on a linguistic basis, for Telugu speakers",
+            "Abolished the Concurrent List",
+            "Removed reserved seats for women",
+            "Ended the practice of Panchayati Raj"
+          ],
+          "answer_index": 0,
+          "explanation": "Andhra Pradesh, formed in 1953, was the first state created mainly on the basis of a common language, Telugu."
+        },
+        {
+          "id": "c2_mcq15",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Official language",
+          "question": "According to India's language policy, Hindi is:",
+          "options": [
+            "The sole national language, imposed on all states",
+            "The official language of the union but not the sole national language",
+            "Not recognised by the Constitution at all",
+            "Used only in southern states"
+          ],
+          "answer_index": 1,
+          "explanation": "Hindi was identified as the official language of the union but was not imposed as the sole 'national' language."
+        },
+        {
+          "id": "c2_mcq16",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Scheduled languages",
+          "question": "How many languages are currently recognised as Scheduled Languages by the Indian Constitution?",
+          "options": [
+            "15",
+            "18",
+            "22",
+            "28"
+          ],
+          "answer_index": 2,
+          "explanation": "22 languages are recognised as Scheduled Languages under the Indian Constitution."
+        },
+        {
+          "id": "c2_mcq17",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Centre-state relations",
+          "question": "After 1990, centre-state relations in India changed mainly because of:",
+          "options": [
+            "The abolition of the Concurrent List",
+            "The rise of regional parties and the era of coalition governments at the centre",
+            "The removal of the State List",
+            "India becoming a unitary state"
+          ],
+          "answer_index": 1,
+          "explanation": "The rise of regional parties and coalition governments after 1990 required greater consultation between the centre and states, strengthening federal practice."
+        },
+        {
+          "id": "c2_mcq18",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Independent judiciary",
+          "question": "In a federal system, disputes between different levels of government are typically resolved by:",
+          "options": [
+            "The ruling political party",
+            "An independent judiciary",
+            "The Prime Minister alone",
+            "The State Election Commission"
+          ],
+          "answer_index": 1,
+          "explanation": "An independent judiciary that can interpret the constitution and adjudicate disputes between different levels of government is a key feature of federalism."
+        },
+        {
+          "id": "c2_2m3",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Residuary powers",
+          "question": "What is meant by 'residuary powers'? Give one example of a subject that would fall under this category.",
+          "rubric": [
+            {
+              "point": "Residuary powers are powers over subjects not mentioned in the Union, State or Concurrent Lists",
+              "keywords": [
+                "not mentioned in three lists",
+                "residuary powers definition"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Such powers rest with the union government; example - a new subject like information technology/space technology",
+              "keywords": [
+                "rest with union government",
+                "information technology example",
+                "space technology"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Residuary powers refer to authority over any new or unlisted subject that is not mentioned in the Union, State or Concurrent Lists of the Seventh Schedule. Under the Indian Constitution, such residuary powers rest with the union government. For example, a relatively new subject like information technology, which did not exist when the lists were originally drawn up, falls under the union government's jurisdiction as a residuary power."
+        },
+        {
+          "id": "c2_2m4",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Independent judiciary in federalism",
+          "question": "Why is an independent judiciary considered essential for a federal system to work?",
+          "rubric": [
+            {
+              "point": "Disputes can arise between different levels of government (union and states) over their respective jurisdictions",
+              "keywords": [
+                "disputes between levels",
+                "union and states"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "An independent judiciary interprets the constitution and settles such disputes impartially, protecting the federal division of power",
+              "keywords": [
+                "interprets constitution",
+                "settles disputes impartially",
+                "protects federal division"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "In a federal system, disagreements can arise between the union and state governments about their respective powers and jurisdictions. An independent judiciary, which has the power to interpret the constitution and adjudicate such disputes impartially, is essential to protect the agreed division of powers and ensure that no level of government oversteps its authority."
+        },
+        {
+          "id": "c2_2m5",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Linguistic states",
+          "question": "Explain how the creation of linguistic states helped strengthen democracy in India.",
+          "rubric": [
+            {
+              "point": "State boundaries were redrawn so that people speaking the same language lived in the same state, e.g. Andhra Pradesh (1953) for Telugu speakers",
+              "keywords": [
+                "state boundaries redrawn",
+                "same language same state",
+                "andhra pradesh 1953"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "This reduced regional/linguistic resentment and made administration more responsive to people's needs, strengthening national unity",
+              "keywords": [
+                "reduced resentment",
+                "administration responsive",
+                "strengthened unity"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The creation of linguistic states involved redrawing the boundaries of many Indian states so that people speaking the same language would live in the same state, as with the formation of Andhra Pradesh in 1953 for Telugu speakers. This reduced resentment among linguistic communities, made state administration more responsive to local needs, and, contrary to fears that it would divide the country, actually strengthened national unity and democracy."
+        },
+        {
+          "id": "c2_2m6",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Centre-state relations",
+          "question": "What changes took place in centre-state relations in India after 1990?",
+          "rubric": [
+            {
+              "point": "Rise of regional political parties and era of coalition governments at the centre",
+              "keywords": [
+                "regional parties rise",
+                "coalition governments"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Union government had to consult state governments more before taking major policy decisions, strengthening federal power sharing",
+              "keywords": [
+                "greater consultation",
+                "strengthened federal sharing"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "After 1990, the rise of regional political parties and the formation of coalition governments at the centre meant that the union government could no longer act unilaterally. It had to consult state governments more closely before taking major policy decisions, which strengthened the practice of federal power sharing in India."
+        },
+        {
+          "id": "c2_2m7",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Union List vs Concurrent List",
+          "question": "Distinguish between the Union List and the Concurrent List with one example each.",
+          "rubric": [
+            {
+              "point": "Union List: subjects of national importance on which only the union government can legislate, e.g. defence, currency",
+              "keywords": [
+                "union list only union legislates",
+                "defence currency"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Concurrent List: subjects on which both union and state governments can legislate, with union law prevailing in conflict, e.g. education, forests",
+              "keywords": [
+                "concurrent list both legislate",
+                "union law prevails",
+                "education forests"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The Union List contains subjects of national importance, such as defence, foreign affairs and currency, on which only the union government can make laws. The Concurrent List contains subjects like education and forests, on which both the union and state governments can legislate, but if their laws conflict, the law made by the union government prevails."
+        },
+        {
+          "id": "c2_3m3",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Seventh Schedule lists",
+          "question": "Explain the three lists given in the Seventh Schedule of the Indian Constitution, with an example of a subject from each.",
+          "rubric": [
+            {
+              "point": "Union List: national importance subjects, only union can legislate, e.g. defence/currency/banking",
+              "keywords": [
+                "union list",
+                "defence",
+                "currency banking"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "State List: state/local importance subjects, only states can legislate, e.g. police/agriculture/trade",
+              "keywords": [
+                "state list",
+                "police agriculture trade"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Concurrent List: subjects of common interest, both can legislate, union law prevails in conflict, e.g. education/forests/marriage",
+              "keywords": [
+                "concurrent list",
+                "union law prevails",
+                "education forests marriage"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The Seventh Schedule of the Constitution divides legislative subjects into three lists. The Union List includes subjects of national importance, such as defence, banking and currency, on which only the union government can legislate. The State List includes subjects of state and local importance, such as police, agriculture and trade, on which only state governments can legislate. The Concurrent List includes subjects of common interest to both, such as education, forests and marriage/adoption, on which both can legislate, though the union law prevails in case of a conflict."
+        },
+        {
+          "id": "c2_3m4",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Asymmetric federalism",
+          "question": "What is meant by 'asymmetric federalism'? Explain with reference to Indian states.",
+          "rubric": [
+            {
+              "point": "In 'holding together' federations, different constituent units are often given differential powers based on their circumstances",
+              "keywords": [
+                "holding together",
+                "differential powers"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "This unequal distribution of power/status among units is called asymmetric federalism",
+              "keywords": [
+                "asymmetric federalism definition",
+                "unequal distribution"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Example: some Indian states have enjoyed special status/provisions compared to others under the constitution",
+              "keywords": [
+                "indian states special status",
+                "example"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "In 'holding together' federations like India, different constituent units are sometimes given differential powers depending on their particular circumstances, rather than identical powers for every unit; this unequal arrangement is called asymmetric federalism. For example, some Indian states have enjoyed special constitutional provisions or status compared to other states, reflecting their distinct historical, geographical or cultural situations."
+        },
+        {
+          "id": "c2_3m5",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Language policy and diversity",
+          "question": "Explain how India's language policy has helped accommodate diversity and reduce the possibility of conflict.",
+          "rubric": [
+            {
+              "point": "Hindi was made the official language of the union but not imposed as the sole 'national' language",
+              "keywords": [
+                "hindi official not national"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "22 languages are recognised as Scheduled Languages, and states may adopt their own official languages for official work",
+              "keywords": [
+                "22 scheduled languages",
+                "state official language"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "This flexible approach avoided alienating non-Hindi-speaking regions and reduced potential conflict over language, strengthening unity",
+              "keywords": [
+                "avoided alienation",
+                "reduced conflict",
+                "strengthened unity"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "India's language policy has been deliberately flexible to accommodate its vast linguistic diversity. Hindi was identified as the official language of the union, but it was not imposed as the sole 'national' language on the whole country. The Constitution recognises 22 languages as Scheduled Languages, and state governments are free to conduct official work in their own regional languages. This approach avoided alienating non-Hindi-speaking states and regions, reduced the possibility of conflict over language, and strengthened the sense of unity within diversity."
+        },
+        {
+          "id": "c2_3m6",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Quasi-federal nature of India",
+          "question": "Why is India sometimes described as having 'quasi-federal' features, with a relatively strong centre, unlike the USA?",
+          "rubric": [
+            {
+              "point": "India is a 'holding together' federation formed by a large country dividing power, unlike USA's 'coming together' model",
+              "keywords": [
+                "holding together",
+                "usa coming together"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Indian states, unlike American states, do not have the right to secede from the union",
+              "keywords": [
+                "no right to secede"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Though the Constitution declares India a 'Union of States' and does not even use the word 'federation', the union government tends to be relatively more powerful than the states",
+              "keywords": [
+                "union of states",
+                "word federation absent",
+                "union more powerful"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "India is often described as 'quasi-federal' because, unlike the USA which is a 'coming together' federation of equally powerful states, India is a 'holding together' federation where a large country decided to divide power between the centre and constituent states. Indian states, unlike American states, do not enjoy the right to secede from the union. Furthermore, the Constitution declares India a 'Union of States' and does not even use the word 'federation', and in practice the union government tends to be relatively more powerful than the state governments, giving the Indian model a strong central bias."
+        },
+        {
+          "id": "c2_3m7",
+          "type": "3M",
+          "marks": 3,
+          "topic": "State Election Commission and reservation",
+          "question": "Explain the significance of the State Election Commission and reservation of seats in strengthening local self-government in India.",
+          "rubric": [
+            {
+              "point": "The State Election Commission, created by the 73rd/74th Amendments, is an independent body responsible for conducting regular, fair elections to local bodies",
+              "keywords": [
+                "state election commission",
+                "independent body",
+                "regular fair elections"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Reservation of seats for SC, ST, OBC ensures representation of historically disadvantaged groups in local government",
+              "keywords": [
+                "reservation sc st obc",
+                "disadvantaged groups represented"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Reservation of at least one-third of seats for women ensures their participation in grassroots decision-making",
+              "keywords": [
+                "one-third women",
+                "grassroots participation"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The 73rd and 74th Amendments created an independent State Election Commission in every state to conduct regular and fair elections to panchayats and municipalities, ensuring that local government elections could not be postponed or manipulated by the state government. They also reserved seats for Scheduled Castes, Scheduled Tribes and Other Backward Classes, ensuring representation of historically disadvantaged groups, and reserved at least one-third of all seats for women, ensuring their participation in grassroots decision-making. Together, these provisions made local self-government more regular, inclusive and genuinely democratic."
+        },
+        {
+          "id": "c2_5m2",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Federal power sharing through lists and language policy",
+          "question": "Explain how legislative power is distributed between the union and state governments in India through the Seventh Schedule, and discuss how language policy has strengthened Indian federalism.",
+          "rubric": [
+            {
+              "point": "Union List: national importance subjects like defence, foreign affairs, currency; only union legislates",
+              "keywords": [
+                "union list",
+                "defence foreign affairs currency"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "State List: state/local subjects like police, trade, agriculture; only states legislate",
+              "keywords": [
+                "state list",
+                "police trade agriculture"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Concurrent List: subjects like education, forests, marriage; both can legislate, union law prevails in conflict",
+              "keywords": [
+                "concurrent list",
+                "education forests marriage",
+                "union law prevails"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Residuary powers (subjects not in any list, e.g. IT) rest with the union government",
+              "keywords": [
+                "residuary powers",
+                "information technology"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Language policy: Hindi as official but not sole national language, 22 scheduled languages, states use regional languages - accommodating diversity and reducing conflict",
+              "keywords": [
+                "hindi official not national",
+                "22 scheduled languages",
+                "regional languages"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The Indian Constitution distributes legislative powers between the union and states through three lists in the Seventh Schedule. The Union List contains subjects of national importance, such as defence, foreign affairs and currency, on which only the union government can legislate. The State List contains subjects of state and local importance, such as police, trade and agriculture, on which only state governments can legislate. The Concurrent List contains subjects of common interest, such as education, forests, and marriage and adoption, on which both can legislate, with the union law prevailing in case of a conflict. Any subject not covered by these three lists, called a residuary power, such as information technology, falls under the jurisdiction of the union government. Alongside this legal division of power, India's flexible language policy has also strengthened federalism: Hindi was made the official language of the union but was never imposed as the sole national language, 22 languages are recognised as Scheduled Languages, and states are free to use their own regional languages for official work. This has accommodated India's immense linguistic diversity and reduced the potential for conflict, reinforcing the federal spirit of the country."
+        },
+        {
+          "id": "c2_5m3",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Routes to federalism and India's holding-together character",
+          "question": "Discuss the two routes through which federations are formed, and explain why India is described as a 'holding together' federation with a relatively powerful centre.",
+          "rubric": [
+            {
+              "point": "Coming together federations: independent states pool sovereignty to increase security, generally equal power among units, e.g. USA, Switzerland, Australia",
+              "keywords": [
+                "coming together",
+                "pool sovereignty",
+                "usa switzerland australia"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Holding together federations: a large country divides power between centre and constituent units, e.g. India, Spain, Belgium",
+              "keywords": [
+                "holding together",
+                "divides power",
+                "india spain belgium"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "In holding together federations, the centre tends to be more powerful, and units may get differential/asymmetric powers",
+              "keywords": [
+                "centre more powerful",
+                "asymmetric powers"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "India: declared a 'Union of States', states have no right to secede, giving it a quasi-federal, strong-centre character",
+              "keywords": [
+                "union of states",
+                "no right to secede",
+                "quasi-federal"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Post-1990 rise of regional parties and coalition governments has required greater centre-state consultation, somewhat balancing this centre-heavy structure",
+              "keywords": [
+                "regional parties",
+                "coalition governments",
+                "greater consultation"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Federations are generally formed through two distinct routes. In 'coming together' federations, independent states come together on their own, pooling sovereignty to increase their collective security while retaining their own identity; this route, seen in the USA, Switzerland and Australia, usually results in relatively equal power-sharing among the constituent units. In 'holding together' federations, a large country decides to divide its power between constituent states and the national government, as in India, Spain and Belgium; here, the central government tends to be more powerful, and different units may be given differential or asymmetric powers based on their circumstances. India exemplifies this second route: the Constitution declares it a 'Union of States' rather than a federation, and Indian states, unlike American states, have no right to secede from the union, giving Indian federalism a distinctly centre-heavy, 'quasi-federal' character. However, since 1990, the rise of regional political parties and the era of coalition governments at the centre have required the union government to consult state governments more closely before taking major decisions, somewhat balancing this centre-heavy structure and strengthening the practical exercise of federal power sharing."
+        },
+        {
+          "id": "c2_ar1",
+          "type": "AR",
+          "marks": 1,
+          "topic": "India as a holding-together federation",
+          "question": "Assertion (A): India is an example of a 'holding together' federation.\nReason (R): A large country like India decided to divide its powers between the constituent states and the national government to accommodate regional diversity.",
+          "options": [
+            "Both A and R are true and R is the correct explanation of A.",
+            "Both A and R are true but R is not the correct explanation of A.",
+            "A is true but R is false.",
+            "A is false but R is true."
+          ],
+          "answer_index": 0,
+          "explanation": "Both statements are true, and R correctly explains why India is classified as a 'holding together' federation."
+        },
+        {
+          "id": "c2_ar2",
+          "type": "AR",
+          "marks": 1,
+          "topic": "Concurrent List",
+          "question": "Assertion (A): The Concurrent List allows only the state governments to make laws on subjects like education and forests.\nReason (R): Subjects on the Concurrent List can be legislated upon by both the union and state governments, with union law prevailing in case of conflict.",
+          "options": [
+            "Both A and R are true and R is the correct explanation of A.",
+            "Both A and R are true but R is not the correct explanation of A.",
+            "A is true but R is false.",
+            "A is false but R is true."
+          ],
+          "answer_index": 3,
+          "explanation": "A is false - the Concurrent List allows both the union and states to legislate, not states alone. R correctly describes the Concurrent List, so A is false but R is true."
+        },
+        {
+          "id": "c2_cbq1",
+          "type": "CBQ",
+          "marks": 2,
+          "topic": "73rd and 74th Amendments",
+          "passage": "In 1992, the Constitution of India was amended to make the third tier of democracy more effective and powerful. Reserved seats were created in local government bodies for scheduled castes, scheduled tribes and other backward classes, and at least one-third of all seats reserved for women. A State Election Commission was created in each state to conduct panchayat and municipal elections.",
+          "subquestions": [
+            {
+              "id": "c2_cbq1_a",
+              "question": "In which year were the 73rd and 74th Constitutional Amendments passed, and what is the three-tier structure of the Panchayati Raj system they established?",
+              "marks": 1,
+              "rubric": [
+                {
+                  "point": "1992; village, block/taluka (intermediate) and district levels",
+                  "keywords": [
+                    "1992",
+                    "village",
+                    "block",
+                    "district"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "The amendments were passed in 1992, establishing a three-tier structure at the village, block/taluka and district levels."
+            },
+            {
+              "id": "c2_cbq1_b",
+              "question": "What proportion of seats in these local bodies is reserved for women?",
+              "marks": 1,
+              "rubric": [
+                {
+                  "point": "At least one-third of seats",
+                  "keywords": [
+                    "one-third",
+                    "women reserved"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "At least one-third of the seats are reserved for women."
+            }
+          ]
+        },
+        {
+          "id": "c2_cbq2",
+          "type": "CBQ",
+          "marks": 2,
+          "topic": "Language policy",
+          "passage": "The Indian Constitution did not give the status of national language to any one language. Hindi was identified as the official language, but it is not to be seen as a 'national' language. India recognises several languages spoken in different parts of the country as scheduled languages, and state governments are permitted to use the regional language for official work.",
+          "subquestions": [
+            {
+              "id": "c2_cbq2_a",
+              "question": "How many languages are currently recognised as scheduled languages under the Indian Constitution?",
+              "marks": 1,
+              "rubric": [
+                {
+                  "point": "22 scheduled languages",
+                  "keywords": [
+                    "22",
+                    "twenty two",
+                    "twenty-two"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "22 languages are recognised as scheduled languages."
+            },
+            {
+              "id": "c2_cbq2_b",
+              "question": "Why did India avoid imposing Hindi as the sole national language?",
+              "marks": 1,
+              "rubric": [
+                {
+                  "point": "To respect and accommodate the country's vast linguistic diversity and avoid alienating non-Hindi-speaking states/regions",
+                  "keywords": [
+                    "linguistic diversity",
+                    "avoid alienating",
+                    "non-hindi speaking"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "To respect and accommodate the country's vast linguistic diversity and avoid alienating people in non-Hindi-speaking states and regions."
+            }
+          ]
+        },
+        {
+          "id": "c2_pq_mcq1",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Subsidiarity and decentralised governance",
+          "question": "The principle of subsidiarity holds that decisions should be made by the people most affected by them, promoting decentralisation, efficiency and citizen participation, with higher authorities intervening only when lower-level authorities cannot effectively address an issue. Which constitutional principle/legislation aligns most closely with this?",
+          "options": [
+            "separation of power between the executive, legislature and judiciary",
+            "division of power between the central, state and local government",
+            "right of individuals to form and join political parties of their choice",
+            "reservation for women in the highest law-making bodies"
+          ],
+          "answer_index": 1,
+          "explanation": "Subsidiarity - pushing decisions down to the level closest to those affected - aligns most directly with federalism's division of power between the central, state and local (third-tier) governments, which is designed to bring governance closer to the people.",
+          "chapter_id": "federalism",
+          "chapter_title": "Federalism",
+          "subject": "civics"
+        },
+        {
+          "id": "c2_pq2_mcq1",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Sri Lankan Tamils' demand for autonomy",
+          "question": "Which demand of the Sri Lankan Tamils was repeatedly denied by the Sri Lankan government?",
+          "options": [
+            "Their demand for a separate electorate",
+            "Their demand for freedom of expression",
+            "Their demand for the right to vote",
+            "Their demand for more autonomy for provinces where Tamils were in the majority"
+          ],
+          "answer_index": 3,
+          "explanation": "Sri Lankan Tamils repeatedly demanded a federal arrangement granting greater autonomy to the provinces where they formed a majority; the majoritarian Sinhala-dominated Sri Lankan state repeatedly denied this demand, a key case study in the syllabus's discussion of what happens when power sharing/federal accommodation is refused.",
+          "chapter_id": "federalism",
+          "chapter_title": "Federalism",
+          "subject": "civics"
+        },
+        {
+          "id": "c2_pq2_mcq2",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Belgium's community government",
+          "question": "Which of the following statements accurately describes Belgium's 'community government'? (i) It is elected by people belonging to one language community - Dutch, French and German-speaking - no matter where they live. (ii) It has power over cultural, educational and language-related issues.",
+          "options": [
+            "Only (i)",
+            "Only (ii)",
+            "Neither (i) nor (ii)",
+            "Both (i) and (ii)"
+          ],
+          "answer_index": 3,
+          "explanation": "Belgium's unique 'community government' is indeed elected by members of a specific language community (Dutch, French or German-speaking) regardless of where in the country they live, and it holds powers specifically over cultural, educational and language-related matters - both (i) and (ii) are accurate.",
+          "chapter_id": "federalism",
+          "chapter_title": "Federalism",
+          "subject": "civics"
+        },
+        {
+          "id": "c2_pq_3m1",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Consequences of India abandoning its federal system",
+          "question": "Discuss the most likely impact if India operated without a federal system, considering regional autonomy, effectiveness of governance, and the decision-making process.",
+          "rubric": [
+            {
+              "point": "Regional autonomy: regional governments would have little to no decision-making power, and regional aspirations might get suppressed",
+              "keywords": [
+                "little decision-making power",
+                "regional aspirations suppressed"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Effectiveness of governance: local issues might not receive due attention, creating a disconnect between grassroots reality and governance",
+              "keywords": [
+                "local issues neglected",
+                "disconnect from grassroots"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Decision-making process: it might become undemocratic and less inclusive, likely neglecting regional aspirations",
+              "keywords": [
+                "undemocratic",
+                "less inclusive"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Without a federal system, regional governments would have little or no decision-making power of their own, meaning regional aspirations and local identities could be suppressed under a purely centralised structure. This would likely reduce the effectiveness of governance, since local issues might not receive the attention they need, creating a disconnect between the realities faced at the grassroots and the decisions made at the centre. Finally, the overall decision-making process would likely become less democratic and less inclusive, tending to neglect regional aspirations in favour of uniform, centrally-imposed policy - which is precisely why India's Constitution instead adopted a federal structure that shares power between central, state and local governments.",
+          "chapter_id": "federalism",
+          "chapter_title": "Federalism",
+          "subject": "civics"
+        },
+        {
+          "id": "c2_pq_3m2",
+          "type": "3M",
+          "marks": 3,
+          "topic": "The balance of power varying between federations",
+          "question": "'The exact balance of power between the central and the state governments varies from one federation to another.' Substantiate this statement with suitable examples.",
+          "rubric": [
+            {
+              "point": "This balance depends mainly on the historical route by which the federation was formed",
+              "keywords": [
+                "historical context",
+                "route of formation"
+              ],
+              "weight": 0.5
+            },
+            {
+              "point": "'Coming together' federations (e.g. USA, Switzerland, Australia): independent states came together on their own, pooling sovereignty while retaining identity to increase security; in these, constituent states usually have roughly equal power and are strong relative to the federal government",
+              "keywords": [
+                "coming together federations",
+                "usa switzerland australia",
+                "equal power"
+              ],
+              "weight": 1.25
+            },
+            {
+              "point": "'Holding together' federations (e.g. India, Spain, Belgium): a large country chose to divide its power between constituent states and the national government; here the central government tends to be more powerful relative to the states, and different constituent units often have unequal powers, with some granted special status",
+              "keywords": [
+                "holding together federations",
+                "india spain belgium",
+                "central government more powerful",
+                "unequal powers"
+              ],
+              "weight": 1.25
+            }
+          ],
+          "model_answer": "The exact balance of power between central and state governments depends mainly on the historical context in which a federation was formed, and there are two broad routes. In 'coming together' federations - such as the USA, Switzerland and Australia - previously independent states voluntarily came together, pooling sovereignty while retaining their own identity in order to increase collective security; in this type, the constituent states usually hold roughly equal power and are relatively strong compared to the federal government. In 'holding together' federations - such as India, Spain and Belgium - a large country instead chose to divide its power between its constituent states and the national government; here the central government tends to be more powerful relative to the states, and different constituent units often have unequal powers, with some units granted special status or autonomy.",
+          "chapter_id": "federalism",
+          "chapter_title": "Federalism",
+          "subject": "civics"
+        },
+        {
+          "id": "c2_pq2_2m1",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Belgian language-community tensions",
+          "question": "A person who lived in Belgium during the 1950s and 1960s recalled witnessing tensions between the Dutch-speaking and French-speaking communities during that time. Justify this recollection with two reasons.",
+          "rubric": [
+            {
+              "point": "During the 1950s-60s the minority French-speaking community was relatively richer and more powerful in Belgium, which was resented by the Dutch-speaking community, who benefited from economic development and education only later",
+              "keywords": [
+                "french-speaking richer",
+                "resented by dutch-speaking"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "The tension was especially acute in Brussels, the capital: Dutch-speaking people were a majority in the country overall but a minority within Brussels itself, creating a special source of friction",
+              "keywords": [
+                "brussels",
+                "majority in country, minority in capital"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "During the 1950s and 1960s, the minority French-speaking community was relatively rich and powerful in Belgium, which was resented by the Dutch-speaking community, who only gained the benefits of economic development and education somewhat later. This tension was especially acute in Brussels, the capital: while Dutch-speaking people formed a majority in the country as a whole, they were a minority within the city of Brussels itself, creating a distinct point of friction between the two communities.",
+          "chapter_id": "federalism",
+          "chapter_title": "Federalism",
+          "subject": "civics"
+        },
+        {
+          "id": "c2_pq2_2m2",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Distinguishing unitary and federal systems of government",
+          "question": "Distinguish between unitary and federal systems of government.",
+          "rubric": [
+            {
+              "point": "In a unitary system, there is either only one level of government, or sub-units are subordinate to the central government, which can direct the provincial or local government",
+              "keywords": [
+                "one level of government",
+                "subordinate to centre"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "In a federal system, the central government cannot order the state government to do something; the state government has its own powers for which it is not answerable to the centre - both levels are separately answerable to the people",
+              "keywords": [
+                "central cannot order state",
+                "separately answerable to people"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "In a unitary system of government, there is either only a single level of government, or any sub-units that exist are subordinate to the central government, which can issue orders to provincial or local governments. In a federal system, by contrast, the central government cannot simply order the state government to act - the state government holds powers of its own for which it is not answerable to the centre, and both levels of government are instead separately answerable directly to the people.",
+          "chapter_id": "federalism",
+          "chapter_title": "Federalism",
+          "subject": "civics"
+        },
+        {
+          "id": "c2_bp_cbq1",
+          "type": "CBQ",
+          "marks": 4,
+          "topic": "Case study - decentralisation and participatory democracy in Porto Alegre, Brazil",
+          "passage": "A city called Porto Alegre in Brazil has carried out an extraordinary experiment in combining decentralisation with participative democracy. The city has set up a parallel organisation operating alongside the municipal council, enabling local inhabitants to take real decisions for their city. The nearly 13 lakh people in this city get to participate in making the budget for their own city. The city is divided into many sectors or what we call wards. Each sector has a meeting, like that of the gram sabha, in which anyone living in that area can participate. There are some meetings to discuss issues that affect the entire city. Any citizen of the city can participate in those meetings. The budget of the city is discussed in these meetings. The proposals are put to the municipality that takes a final decision about it.",
+          "subquestions": [
+            {
+              "id": "c2_bp_cbq1_a",
+              "marks": 1,
+              "question": "Explain the meaning of 'participatory democracy'.",
+              "rubric": [
+                {
+                  "point": "a form of democracy in which ordinary citizens directly participate in decision-making (such as budget-making) at the local level, not only through elected representatives",
+                  "keywords": [
+                    "citizens directly participate",
+                    "local level decisions"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "Participatory democracy is a form of democracy in which ordinary citizens directly participate in decision-making - such as preparing the city budget - at the local level, rather than only electing representatives to decide on their behalf."
+            },
+            {
+              "id": "c2_bp_cbq1_b",
+              "marks": 1,
+              "question": "The Porto Alegre example illustrates decentralisation of power to which level of government?",
+              "rubric": [
+                {
+                  "point": "local self-government (the ward/local level, similar to India's gram sabha), the third tier of government below the national and state levels",
+                  "keywords": [
+                    "local self-government",
+                    "third tier"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "It illustrates decentralisation of power to local self-government - the local/ward level, similar to India's gram sabha - which functions as the third tier of government below the national and state/provincial levels."
+            },
+            {
+              "id": "c2_bp_cbq1_c",
+              "marks": 2,
+              "question": "Describe the structure of the system in India which is almost similar to the above example of Brazil.",
+              "rubric": [
+                {
+                  "point": "India has a three-tier Panchayati Raj system (73rd Amendment for rural areas) - Gram Panchayat with Gram Sabha, Panchayat Samiti (block) and Zila Parishad (district), with a parallel municipal system for urban areas (74th Amendment)",
+                  "keywords": [
+                    "panchayati raj",
+                    "gram sabha",
+                    "73rd amendment"
+                  ],
+                  "weight": 1
+                },
+                {
+                  "point": "regular elections are held to these local bodies with reservation of seats for women and SC/ST candidates, giving local people a direct say similar to Porto Alegre's ward meetings",
+                  "keywords": [
+                    "regular elections",
+                    "reservation for women"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "India has a three-tier system of local self-government known as Panchayati Raj, established for rural areas by the 73rd Constitutional Amendment: the Gram Panchayat at the village level (with a Gram Sabha of all voters in the village), the Panchayat Samiti at the block level, and the Zila Parishad at the district level - with a parallel Nagarpalika/municipal system for urban areas under the 74th Amendment. Regular elections are held for these local bodies, with a fixed proportion of seats reserved for women and SC/ST candidates, giving local people a direct say in decisions affecting their own area, much like the ward meetings of Porto Alegre."
+            }
+          ],
+          "chapter_id": "federalism",
+          "chapter_title": "Federalism",
+          "subject": "civics"
+        },
+        {
+          "id": "c2_bp_cbq2",
+          "type": "CBQ",
+          "marks": 4,
+          "topic": "Case study - power sharing and Panchayati Raj",
+          "passage": "We need to give more power to the panchayats to realise the dream of Mahatma Gandhi and the hopes of the makers of our Constitution. Panchayati Raj establishes true democracy. It restores power to the only place where power belongs in a democracy - in the hands of the people. Giving power to Panchayats is also a way to reduce corruption and increase administrative efficiency. When people participate in the planning and implementation of developmental schemes, they would naturally exercise greater control over these schemes. This would eliminate the corrupt middlemen. Thus, Panchayati Raj will strengthen the foundations of our democracy.",
+          "subquestions": [
+            {
+              "id": "c2_bp_cbq2_a",
+              "marks": 1,
+              "question": "How does the principle of power sharing promote democracy?",
+              "rubric": [
+                {
+                  "point": "sharing power with local panchayats restores power to the people themselves, giving them a direct say in decisions affecting their own villages, which is the essence of democracy",
+                  "keywords": [
+                    "restores power to the people",
+                    "direct say"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "Sharing power with local panchayats restores power to the people themselves - the ultimate holders of power in a democracy - giving them a direct say in decisions that affect their own villages, which is the essence of democratic governance."
+            },
+            {
+              "id": "c2_bp_cbq2_b",
+              "marks": 1,
+              "question": "Mention the main impact of women's participation in Panchayati Raj.",
+              "rubric": [
+                {
+                  "point": "reservation of seats for women in Panchayati Raj institutions has increased their representation and given them a direct voice in local decision-making that was earlier largely denied to them",
+                  "keywords": [
+                    "reservation for women",
+                    "direct voice in decision-making"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "Reservation of seats for women in Panchayati Raj institutions has increased women's representation in local government and given them a direct voice in local decision-making, a role that was largely denied to them earlier."
+            },
+            {
+              "id": "c2_bp_cbq2_c",
+              "marks": 2,
+              "question": "Explain the role of Panchayats in the development of villages.",
+              "rubric": [
+                {
+                  "point": "panchayats plan and implement local development schemes with direct participation of villagers, giving people greater control/oversight over how funds and projects are used",
+                  "keywords": [
+                    "plan and implement",
+                    "villagers control oversight"
+                  ],
+                  "weight": 1
+                },
+                {
+                  "point": "this participation reduces the role of corrupt middlemen and increases administrative efficiency and accountability, making development more responsive to local needs",
+                  "keywords": [
+                    "reduces corrupt middlemen",
+                    "administrative efficiency"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "Panchayats plan and implement local developmental schemes with the direct participation of villagers, which gives people greater control and oversight over how funds and projects are actually used. This participation reduces the role of corrupt middlemen and increases administrative efficiency and accountability, making development more responsive to the real needs of each village and strengthening the foundations of democracy at the grassroots level."
+            }
+          ],
+          "chapter_id": "federalism",
+          "chapter_title": "Federalism",
+          "subject": "civics"
+        }
+      ]
+    }
+  ],
+  "subject_group": "social_science",
+  "subject_group_label": "Social Science"
+}

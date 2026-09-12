@@ -1,0 +1,3413 @@
+{
+  "subject": "history",
+  "subject_label": "History (India and the Contemporary World II)",
+  "chapters": [
+    {
+      "id": "rise_of_nationalism_in_europe",
+      "title": "The Rise of Nationalism in Europe",
+      "notes": {
+        "overview": "This chapter traces how the idea of nationalism emerged in 19th-century Europe and led to the unification of Italy and Germany, and eventually to the redrawing of Europe's political map after the First World War. Nationalism is the belief that people who share a common language, culture, history or ethnicity should form a single, self-governing nation-state.",
+        "key_points": [
+          "France under Napoleon spread many nationalist ideas (Civil Code, uniform laws, abolition of feudal privileges) even while acting as a conqueror.",
+          "The Congress of Vienna (1815), led by Metternich of Austria, tried to restore conservative monarchies after Napoleon's defeat and suppress nationalist movements.",
+          "Liberal nationalism in the early 19th century stood for individual freedom, equality before law, and constitutional government, alongside national self-determination.",
+          "The Romantic movement (Herder, Fichte) emphasised a shared collective heritage, folklore, language and culture as the true spirit (Volksgeist) of a nation.",
+          "Economic factors mattered: the Zollverein (customs union) of 1834 removed tariff barriers between German states and created a sense of shared economic interest, paving the way for unification.",
+          "Italy was unified between 1859-1870 through the efforts of Mazzini (ideologue), Cavour (diplomat, Sardinia-Piedmont's Prime Minister) and Garibaldi (military leader of the Red Shirts).",
+          "Germany was unified in 1871 under Otto von Bismarck, Chancellor of Prussia, through three wars (against Denmark, Austria, and France) - a process called 'unification from above' led by the army and bureaucracy rather than a popular movement.",
+          "Nationalism also had a darker, exclusionary side: it fuelled visions of national superiority and was used to justify aggression, culminating in extreme forms in the 20th century.",
+          "After the First World War, the map of Europe was redrawn based on the principle of national self-determination, breaking up the multi-national Habsburg, Ottoman and Russian empires."
+        ],
+        "key_terms": {
+          "Nationalism": "A sense of political and cultural unity based on a shared identity, aspiring to a sovereign nation-state.",
+          "Plebiscite": "A direct vote by the people on a single political question, used to decide territorial annexation.",
+          "Zollverein": "A customs union formed in 1834 joining most German states to remove tariff barriers.",
+          "Utopian": "A vision of a society so ideal that it is unlikely to actually exist; used for early socialist thinkers.",
+          "Suffrage": "The right to vote in political elections."
+        },
+        "important_facts": [
+          "Congress of Vienna: 1815",
+          "Formation of Zollverein: 1834",
+          "Unification of Italy completed: 1870",
+          "Unification of Germany: 1871 (Proclaimed at the Hall of Mirrors, Versailles)",
+          "Treaty of Vienna redrew boundaries to prevent future French expansion."
+        ],
+        "exam_tips": [
+          "Be ready to compare the unification processes of Italy and Germany - one led by popular uprising with monarchy (Italy), the other led by state power and war (Germany, 'Blood and Iron' policy).",
+          "Learn the roles of Mazzini, Cavour, Garibaldi and Bismarck clearly - a common 3-mark question.",
+          "Practice a 5-mark answer on 'How did nationalism and imperialism combine to bring about the First World War?'"
+        ],
+        "sections": [
+          {
+            "title": "1. Frederic Sorrieu's Vision (1848)",
+            "content": "In 1848, the French artist Frederic Sorrieu prepared a series of prints imagining a world of democratic and social republics, peopled by people of all ages and social classes, marching in procession to pay homage to the Statue of Liberty. Broken and scattered objects lying on the ground symbolise the defeated absolutist monarchies. Each nation is represented by its own flag and national costume, showing Sorrieu's utopian vision of a world made up of independent nation-states founded on the ideals of liberty, equality and fraternity.",
+            "keywords": [
+              "Frederic Sorrieu",
+              "1848",
+              "Statue of Liberty",
+              "democratic republic",
+              "nation-state",
+              "utopian vision"
+            ]
+          },
+          {
+            "title": "2. The French Revolution and the Birth of Nationalism (1789)",
+            "content": "The French Revolution of 1789 marked the first clear expression of nationalism, ending absolute monarchy and declaring that sovereignty resided in the people, not the king. Citizens became active participants in shaping the nation's destiny. Measures such as a centralised administrative system, uniform laws, abolition of internal customs duties (octroi), and the adoption of a common language (French) and the tricolour flag helped create a sense of collective identity among the French people. The ideals of Liberty, Equality and Fraternity inspired nationalists across Europe throughout the nineteenth century.",
+            "keywords": [
+              "1789",
+              "sovereignty of the people",
+              "tricolour flag",
+              "centralised administration",
+              "Liberty Equality Fraternity"
+            ]
+          },
+          {
+            "title": "3. Napoleon Bonaparte and the Napoleonic Code (1804)",
+            "content": "After the revolutionary years, Napoleon Bonaparte came to power in France and, through his conquests, carried revolutionary administrative ideas across Europe. His Civil Code of 1804, popularly called the Napoleonic Code, abolished privileges based on birth, established equality before the law, and secured the right to property. He simplified administrative divisions, abolished the feudal system, freed peasants from serfdom and manorial dues, and standardised weights, measures and currency. However, increased taxation, censorship and forced conscription into the French army bred resentment, and his rule paradoxically strengthened nationalist sentiment among the very peoples he conquered.",
+            "keywords": [
+              "Napoleonic Code 1804",
+              "Civil Code",
+              "equality before law",
+              "abolition of feudalism",
+              "conscription"
+            ]
+          },
+          {
+            "title": "4. Europe After 1815: The Congress of Vienna and Conservative Restoration",
+            "content": "After Napoleon's defeat in 1815, European powers met at the Congress of Vienna under the guidance of the Austrian Chancellor Duke Metternich to undo most of the changes brought by the revolution and restore conservative monarchies. Conservatives believed in preserving traditional institutions - the monarchy, the church, social hierarchies, property and the family - but did accept some modernisation to strengthen autocracy. The Treaty of Vienna redrew the map of Europe (e.g. the German confederation of 39 states, restoration of the Bourbon dynasty in France) to check future French expansion, but the forces of nationalism this order tried to suppress continued to grow underground.",
+            "keywords": [
+              "Congress of Vienna 1815",
+              "Metternich",
+              "conservatism",
+              "Treaty of Vienna",
+              "German confederation"
+            ]
+          },
+          {
+            "title": "5. Liberalism and the Middle Class",
+            "content": "The word 'liberalism' comes from the Latin 'liber', meaning free. For the new middle classes - industrialists, businessmen and professionals - liberalism stood politically for the end of autocracy, equality before the law, and government by consent through an elected parliament, functioning under a constitution. Economically, liberalism championed free markets and the abolition of state-imposed restrictions on the movement of goods and capital. However, liberal political rights were not universal - voting rights were largely limited to property-owning men, and women and the poor were mostly excluded, which became a source of continuing struggle through the nineteenth century.",
+            "keywords": [
+              "liberalism",
+              "free markets",
+              "constitutional government",
+              "property-owning men",
+              "representative institutions"
+            ]
+          },
+          {
+            "title": "6. Romanticism, Culture and the Idea of the Volk",
+            "content": "Alongside liberal ideas, Romanticism - a cultural movement - sought to build a shared collective heritage as the basis of a nation. Romantic artists and poets criticised the excessive emphasis on reason and science, focusing instead on emotions, intuition and mystical feelings. German philosophers Johann Gottfried Herder and Johann Gottlieb Fichte argued that true German culture was to be discovered among the common people - das Volk - through folk songs, folk poetry and folk dances. Collecting and recording local folklore was thus seen as essential to recovering the true spirit of the nation, as done famously by the Grimm brothers.",
+            "keywords": [
+              "Romanticism",
+              "Herder",
+              "Fichte",
+              "Volksgeist",
+              "folklore",
+              "Grimm brothers"
+            ]
+          },
+          {
+            "title": "7. Economic Nationalism: The Zollverein (1834)",
+            "content": "Nationalism was not only about culture and politics but also economics. In 1834, a customs union or Zollverein was formed at the initiative of Prussia and joined by most German states. It abolished tariff barriers and reduced the number of currencies from over thirty to two, creating a network of railways that further stimulated mobility, and fostering a sense of economic oneness among German-speaking states even before political unification. This economic integration built the foundation on which the eventual political unification of Germany under Prussian leadership would be constructed.",
+            "keywords": [
+              "Zollverein 1834",
+              "Prussia",
+              "customs union",
+              "tariff barriers",
+              "economic nationalism"
+            ]
+          },
+          {
+            "title": "8. The Revolutions of 1830 and 1848",
+            "content": "Liberal-nationalist revolutions swept across Europe in 1830 and 1848. In 1830, the Bourbon kings of France were overthrown by liberal revolutionaries who installed a constitutional monarchy, and Greece won independence from Ottoman rule in 1832 after a long struggle supported by Romantic poets like Lord Byron. In 1848, a wave of revolutions led by the educated middle classes broke out across Europe, combining demands for constitutionalism with nationalist aspirations, most visibly in the Frankfurt Parliament, where German middle-class liberals drafted a constitution for a unified Germany headed by a monarchy subject to parliament - though this liberal initiative was eventually repressed by the combined forces of the monarchy and military.",
+            "keywords": [
+              "1830 revolution",
+              "1848 revolution",
+              "Greek independence",
+              "Frankfurt Parliament",
+              "liberal nationalism"
+            ]
+          },
+          {
+            "title": "9. The Unification of Italy (1859-1870)",
+            "content": "Before unification, Italy was divided into seven states, only one of which - Sardinia-Piedmont - was ruled by an Italian princely house. Giuseppe Mazzini founded the secret society Young Italy to spread the vision of a unified Italian republic. Count Camillo Cavour, the chief minister of Sardinia-Piedmont, engineered unification through diplomacy and an alliance with France to defeat Austria, without believing in democratic or republican ideals himself. Giuseppe Garibaldi led a volunteer army called the Red Shirts and, with popular support, conquered Southern Italy and the Kingdom of the Two Sicilies. In 1861, Victor Emmanuel II was proclaimed king of unified Italy.",
+            "keywords": [
+              "Mazzini",
+              "Young Italy",
+              "Cavour",
+              "Garibaldi",
+              "Red Shirts",
+              "Victor Emmanuel II",
+              "1861"
+            ]
+          },
+          {
+            "title": "10. The Unification of Germany (1866-1871)",
+            "content": "Nationalist feeling among the German middle classes was strong after the failed 1848 revolution, but political unification was ultimately achieved not through popular movements but through the leadership of Prussia's chief minister, Otto von Bismarck, aided by the Prussian army and bureaucracy. Bismarck fought three wars over seven years - against Denmark (1864), Austria (1866) and France (1870-71) - which ended in Prussian victory and completed unification. In January 1871, the Prussian king, Kaiser William I, was proclaimed German Emperor at a ceremony held in the Hall of Mirrors at Versailles, and the new state placed a strong emphasis on modernising currency, banking, legal and judicial systems.",
+            "keywords": [
+              "Bismarck",
+              "blood and iron",
+              "three wars",
+              "Kaiser William I",
+              "Versailles 1871",
+              "unification from above"
+            ]
+          },
+          {
+            "title": "11. Nationalism, Imperialism and the First World War",
+            "content": "By the last quarter of the nineteenth century, nationalism no longer retained its liberal-democratic sentiment of promoting freedom; instead, it became a narrow ideology used to justify imperialist expansion. The Balkans - a region of geographic and ethnic variety comprising modern-day Bosnia, Serbia, Albania, Romania, Macedonia, Montenegro, Bulgaria and Greece - became an area of intense conflict as the Ottoman Empire declined and different Balkan nationalities struggled for independence, while the big European powers manoeuvred to expand their own territories in the region. This tangle of conflicting nationalist and imperialist ambitions in the Balkans was a major factor leading to the outbreak of the First World War in 1914.",
+            "keywords": [
+              "Balkans",
+              "Ottoman decline",
+              "imperialism",
+              "aggressive nationalism",
+              "First World War 1914"
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "h1_mcq1",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Congress of Vienna",
+          "question": "Who led the Congress of Vienna in 1815?",
+          "options": [
+            "Otto von Bismarck",
+            "Duke Metternich",
+            "Giuseppe Mazzini",
+            "Napoleon Bonaparte"
+          ],
+          "answer_index": 1,
+          "explanation": "The Congress of Vienna was hosted by the Austrian Chancellor Duke Metternich."
+        },
+        {
+          "id": "h1_mcq2",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Zollverein",
+          "question": "The Zollverein, formed in 1834, was primarily a:",
+          "options": [
+            "Military alliance",
+            "Customs union",
+            "Religious council",
+            "Parliament"
+          ],
+          "answer_index": 1,
+          "explanation": "It was a customs union that abolished tariff barriers between German states."
+        },
+        {
+          "id": "h1_mcq3",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Unification of Italy",
+          "question": "Who was known as the 'diplomat' of Italian unification and became its first Prime Minister?",
+          "options": [
+            "Garibaldi",
+            "Mazzini",
+            "Cavour",
+            "Victor Emmanuel II"
+          ],
+          "answer_index": 2,
+          "explanation": "Cavour, Chief Minister of Sardinia-Piedmont, engineered Italian unification through diplomacy."
+        },
+        {
+          "id": "h1_mcq4",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Unification of Germany",
+          "question": "Germany's unification in 1871 was achieved mainly through the efforts of:",
+          "options": [
+            "Mazzini",
+            "Bismarck",
+            "Metternich",
+            "Garibaldi"
+          ],
+          "answer_index": 1,
+          "explanation": "Otto von Bismarck, Chancellor of Prussia, unified Germany through a series of wars."
+        },
+        {
+          "id": "h1_mcq5",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Romanticism",
+          "question": "Which movement emphasised emotions, folklore and national spirit (Volksgeist) as the basis of nationalism?",
+          "options": [
+            "Romanticism",
+            "Utilitarianism",
+            "Liberalism",
+            "Socialism"
+          ],
+          "answer_index": 0,
+          "explanation": "Romantic thinkers like Herder and Fichte stressed shared culture and language."
+        },
+        {
+          "id": "h1_2m1",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Liberal Nationalism",
+          "question": "What did liberalism stand for in the political and economic sense in 19th-century Europe?",
+          "rubric": [
+            {
+              "point": "Political: equality before law, constitutional government, end of autocracy",
+              "keywords": [
+                "equality before law",
+                "constitution",
+                "representative government",
+                "autocracy",
+                "rights"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Economic: freedom of markets, abolition of state-imposed restrictions on movement of goods and capital",
+              "keywords": [
+                "free market",
+                "free trade",
+                "abolish restriction",
+                "capital",
+                "goods movement"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Politically, liberalism stood for the end of autocracy, equality before the law, and government by consent through a constitution and parliament. Economically, it stood for the freedom of markets and the abolition of state-imposed restrictions on the movement of goods and capital."
+        },
+        {
+          "id": "h1_2m2",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Napoleonic Code",
+          "question": "Mention two features of the Civil Code of 1804 introduced by Napoleon.",
+          "rubric": [
+            {
+              "point": "Abolished privileges based on birth",
+              "keywords": [
+                "abolish privilege",
+                "birth right",
+                "feudal privilege"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Established equality before the law and secured right to property",
+              "keywords": [
+                "equality before law",
+                "right to property",
+                "uniform laws"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The Civil Code of 1804, also known as the Napoleonic Code, did away with all privileges based on birth, established equality before the law, and secured the right to property."
+        },
+        {
+          "id": "h1_3m1",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Unification of Italy",
+          "question": "Explain the role played by Giuseppe Mazzini, Cavour and Garibaldi in the unification of Italy.",
+          "rubric": [
+            {
+              "point": "Mazzini founded Young Italy and inspired the idea of a unified republic",
+              "keywords": [
+                "young italy",
+                "mazzini",
+                "republic",
+                "secret society"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Cavour, as Chief Minister of Sardinia-Piedmont, used diplomacy and alliance with France to defeat Austria",
+              "keywords": [
+                "cavour",
+                "sardinia-piedmont",
+                "diplomacy",
+                "chief minister"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Garibaldi led the Red Shirts and conquered Southern Italy and the Two Sicilies",
+              "keywords": [
+                "garibaldi",
+                "red shirts",
+                "south italy",
+                "two sicilies"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Mazzini founded the secret society Young Italy and worked to spread the idea of a unified Italian republic. Cavour, the Chief Minister of Sardinia-Piedmont, engineered Italian unification through diplomatic alliances, notably with France against Austria. Garibaldi led a large army of volunteers called the Red Shirts and, with popular support, conquered Southern Italy and the Kingdom of the Two Sicilies, which were later merged into unified Italy under Victor Emmanuel II."
+        },
+        {
+          "id": "h1_3m2",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Nationalism and Exclusion",
+          "question": "How did nationalism come to have an exclusionary and aggressive form by the late 19th century?",
+          "rubric": [
+            {
+              "point": "Nation states used nationalism to promote imperial and colonial aggression",
+              "keywords": [
+                "imperialism",
+                "colonial",
+                "aggression",
+                "expansion"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Balkan nationalism led to intense rivalry among European powers over territory",
+              "keywords": [
+                "balkan",
+                "rivalry",
+                "territory",
+                "ottoman"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "This competitive nationalism was a major cause of the First World War",
+              "keywords": [
+                "first world war",
+                "competition",
+                "military build-up"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "By the late 19th century, nationalism no longer stood only for democracy and freedom; many nation-states used it to justify colonial expansion and aggression against other peoples. In the Balkans especially, intense rivalries between European powers over territory and influence, fuelled by nationalist ambitions, created constant tension. This competitive, aggressive nationalism combined with imperial rivalry to become one of the major causes of the First World War."
+        },
+        {
+          "id": "h1_5m1",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Unification of Germany",
+          "question": "Describe the process of the unification of Germany under the leadership of Otto von Bismarck.",
+          "rubric": [
+            {
+              "point": "Nationalist sentiments were strong among middle-class Germans but Germany remained divided into many states",
+              "keywords": [
+                "divided states",
+                "middle class",
+                "confederation"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Bismarck, Chief Minister of Prussia, was the architect of the process, aided by the Prussian army and bureaucracy",
+              "keywords": [
+                "bismarck",
+                "prussia",
+                "army",
+                "bureaucracy"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Unification was achieved through three wars over seven years - against Denmark, Austria and France",
+              "keywords": [
+                "three wars",
+                "denmark",
+                "austria",
+                "france"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Prussian victory over France in 1871 led to the proclamation of the German Empire at Versailles",
+              "keywords": [
+                "1871",
+                "versailles",
+                "german empire",
+                "proclaimed"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "This is called unification 'from above' as it was achieved by state power and military strength rather than a democratic popular movement",
+              "keywords": [
+                "from above",
+                "state power",
+                "not democratic",
+                "military strength"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Nationalist feeling was strong among the German middle classes, who in 1848 had attempted to unite the many German-speaking states into a nation-state with a parliament, but this liberal initiative was repressed. Thereafter, Prussia, under its Chief Minister Otto von Bismarck, took over the leadership of the unification movement, aided by the Prussian army and bureaucracy. Bismarck fought three wars over seven years - with Denmark (1864), Austria (1866) and France (1870-71) - which ended in Prussian victory and completed the process of unification. In January 1871, the Prussian king, Kaiser William I, was proclaimed German Emperor in a ceremony at Versailles. This process is often described as unification 'from above' because it was carried out through state power, war and diplomacy rather than through a broad-based democratic movement."
+        },
+        {
+          "id": "h1_mcq6",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Frederic Sorrieu",
+          "question": "Frederic Sorrieu's 1848 prints depicted a vision of:",
+          "options": [
+            "A world of democratic and social republics",
+            "The British Empire's expansion",
+            "The defeat of the French Revolution",
+            "Absolute monarchy restored"
+          ],
+          "answer_index": 0,
+          "explanation": "Sorrieu imagined a utopian world of independent, democratic nation-states."
+        },
+        {
+          "id": "h1_mcq7",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "French Revolution",
+          "question": "The French Revolution of 1789 declared that sovereignty resided in:",
+          "options": [
+            "The Church",
+            "The king alone",
+            "The people",
+            "The aristocracy"
+          ],
+          "answer_index": 2,
+          "explanation": "The Revolution ended absolute monarchy and vested sovereignty in the people."
+        },
+        {
+          "id": "h1_mcq8",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "French national identity",
+          "question": "Which measures did revolutionary France adopt to foster a sense of collective national identity?",
+          "options": [
+            "A common language (French) and the tricolour flag",
+            "A new religion",
+            "Return to feudalism",
+            "Restoration of absolute monarchy"
+          ],
+          "answer_index": 0,
+          "explanation": "A common language and the tricolour flag helped unify the French people around a shared identity."
+        },
+        {
+          "id": "h1_mcq9",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Napoleonic Code",
+          "question": "The Civil Code of 1804 introduced by Napoleon is also known as the:",
+          "options": [
+            "Treaty of Vienna",
+            "Napoleonic Code",
+            "Zollverein Agreement",
+            "Frankfurt Constitution"
+          ],
+          "answer_index": 1,
+          "explanation": "Napoleon's Civil Code of 1804 is popularly called the Napoleonic Code."
+        },
+        {
+          "id": "h1_mcq10",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Congress of Vienna",
+          "question": "Which of the following was a conservative belief upheld at the Congress of Vienna?",
+          "options": [
+            "Restoration of traditional monarchy",
+            "National self-determination",
+            "Universal suffrage",
+            "Abolition of the church's role"
+          ],
+          "answer_index": 0,
+          "explanation": "Conservatives at Vienna sought to restore traditional monarchies and institutions."
+        },
+        {
+          "id": "h1_mcq11",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Liberalism",
+          "question": "The term 'liberalism' is derived from the Latin word 'liber', meaning:",
+          "options": [
+            "Law",
+            "Free",
+            "Nation",
+            "Land"
+          ],
+          "answer_index": 1,
+          "explanation": "'Liber' is Latin for 'free', reflecting liberalism's focus on freedom."
+        },
+        {
+          "id": "h1_mcq12",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Liberalism and voting rights",
+          "question": "Who were largely excluded from voting rights even under liberal constitutions in the early 19th century?",
+          "options": [
+            "Property-owning men",
+            "Women and the poor",
+            "Industrialists",
+            "Government officials"
+          ],
+          "answer_index": 1,
+          "explanation": "Liberal voting rights were mostly restricted to property-owning men, excluding women and the poor."
+        },
+        {
+          "id": "h1_mcq13",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Romanticism and folklore",
+          "question": "The Grimm brothers are best known for their contribution to nationalism through:",
+          "options": [
+            "Military reforms",
+            "Collecting and recording German folk tales",
+            "Drafting the Napoleonic Code",
+            "Leading the Frankfurt Parliament"
+          ],
+          "answer_index": 1,
+          "explanation": "The Grimm brothers collected German folklore to help recover the nation's true spirit."
+        },
+        {
+          "id": "h1_mcq14",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Revolutions of 1830",
+          "question": "In 1830, which European country's Bourbon kings were overthrown by liberal revolutionaries?",
+          "options": [
+            "France",
+            "Italy",
+            "Germany",
+            "Greece"
+          ],
+          "answer_index": 0,
+          "explanation": "The July Revolution of 1830 overthrew the Bourbon kings in France."
+        },
+        {
+          "id": "h1_mcq15",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Greek independence",
+          "question": "Greece won independence from which empire in 1832?",
+          "options": [
+            "Austrian Empire",
+            "Ottoman Empire",
+            "Russian Empire",
+            "British Empire"
+          ],
+          "answer_index": 1,
+          "explanation": "Greece gained independence from Ottoman rule in 1832."
+        },
+        {
+          "id": "h1_mcq16",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Frankfurt Parliament",
+          "question": "The Frankfurt Parliament of 1848 was significant because it:",
+          "options": [
+            "Drafted a constitution for a unified Germany under parliamentary monarchy",
+            "Declared Italy's independence",
+            "Abolished the Zollverein",
+            "Started the First World War"
+          ],
+          "answer_index": 0,
+          "explanation": "German middle-class liberals at the Frankfurt Parliament drafted a constitution for a unified Germany."
+        },
+        {
+          "id": "h1_mcq17",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Unification of Italy",
+          "question": "Before unification, how many states was Italy divided into?",
+          "options": [
+            "Five",
+            "Seven",
+            "Ten",
+            "Three"
+          ],
+          "answer_index": 1,
+          "explanation": "Italy was divided into seven states before unification, only one ruled by an Italian princely house."
+        },
+        {
+          "id": "h1_mcq18",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Unification of Italy",
+          "question": "In 1861, who was proclaimed king of unified Italy?",
+          "options": [
+            "Giuseppe Garibaldi",
+            "Victor Emmanuel II",
+            "Camillo Cavour",
+            "Giuseppe Mazzini"
+          ],
+          "answer_index": 1,
+          "explanation": "Victor Emmanuel II was proclaimed king of a unified Italy in 1861."
+        },
+        {
+          "id": "h1_2m3",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Frederic Sorrieu",
+          "question": "What vision did Frederic Sorrieu depict in his 1848 prints?",
+          "rubric": [
+            {
+              "point": "A world of democratic and social republics, with people of all nations marching in procession to honour liberty",
+              "keywords": [
+                "democratic republics",
+                "procession",
+                "liberty"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Broken/scattered objects on the ground symbolised the defeated absolutist monarchies",
+              "keywords": [
+                "broken objects",
+                "defeated monarchies"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Frederic Sorrieu's 1848 prints depicted a utopian vision of a world made up of democratic and social republics, with people of different nations marching in procession to pay homage to the Statue of Liberty. Broken and scattered objects lying on the ground symbolised the defeat of absolutist monarchies."
+        },
+        {
+          "id": "h1_2m4",
+          "type": "2M",
+          "marks": 2,
+          "topic": "French national identity",
+          "question": "State two measures taken by revolutionary France to create a sense of collective national identity.",
+          "rubric": [
+            {
+              "point": "Centralised administration, uniform laws, abolition of internal customs duties",
+              "keywords": [
+                "centralised administration",
+                "uniform laws"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Adoption of a common language (French) and the tricolour flag",
+              "keywords": [
+                "common language",
+                "tricolour flag"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Revolutionary France introduced a centralised administrative system with uniform laws and abolished internal customs duties. It also adopted a common language (French) and the tricolour flag, both of which helped foster a shared sense of national identity."
+        },
+        {
+          "id": "h1_2m5",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Congress of Vienna",
+          "question": "What was the Congress of Vienna (1815) and what was its main aim?",
+          "rubric": [
+            {
+              "point": "A meeting of European powers after Napoleon's defeat, led by Austrian Chancellor Metternich",
+              "keywords": [
+                "European powers",
+                "Metternich",
+                "1815"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Aimed to restore conservative monarchies and undo the changes brought by the French Revolution",
+              "keywords": [
+                "restore monarchies",
+                "undo revolution"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The Congress of Vienna was a meeting of European powers in 1815, led by the Austrian Chancellor Duke Metternich, held after Napoleon's defeat. Its main aim was to restore conservative monarchies and undo most of the changes brought about by the French Revolution."
+        },
+        {
+          "id": "h1_2m6",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Volksgeist",
+          "question": "What is meant by the term 'Volksgeist' as used by Herder and Fichte?",
+          "rubric": [
+            {
+              "point": "The true spirit of a nation, believed to be found among its common people (das volk)",
+              "keywords": [
+                "true spirit of nation",
+                "common people"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Expressed through folk songs, folk poetry and folk dances",
+              "keywords": [
+                "folk songs",
+                "folk poetry",
+                "folk dances"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "'Volksgeist' refers to the true spirit of a nation, which German philosophers Herder and Fichte believed was to be discovered among the common people (das volk), expressed through their folk songs, folk poetry and folk dances."
+        },
+        {
+          "id": "h1_2m7",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Zollverein",
+          "question": "Why was the formation of the Zollverein (1834) significant for German unification?",
+          "rubric": [
+            {
+              "point": "It abolished tariff barriers between German states and reduced the number of currencies",
+              "keywords": [
+                "abolished tariff barriers",
+                "reduced currencies"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "It created a sense of economic oneness among German states, laying the foundation for political unification",
+              "keywords": [
+                "economic oneness",
+                "foundation for unification"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The Zollverein, formed in 1834, abolished tariff barriers between most German states and reduced the number of currencies from over thirty to two. This created a sense of economic oneness among the German-speaking states, laying the foundation for their eventual political unification."
+        },
+        {
+          "id": "h1_3m3",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Napoleon and nationalism",
+          "question": "Explain how Napoleon's rule, despite being a conqueror, helped spread nationalist ideas across Europe.",
+          "rubric": [
+            {
+              "point": "His Civil Code established equality before the law and abolished feudal privileges wherever he conquered",
+              "keywords": [
+                "civil code",
+                "equality before law",
+                "abolished feudal privileges"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "He standardised administration, weights, measures and currency across conquered territories",
+              "keywords": [
+                "standardised administration",
+                "weights measures currency"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Increased taxation, censorship and conscription bred resentment, paradoxically strengthening nationalist sentiment among conquered peoples",
+              "keywords": [
+                "resentment",
+                "conscription",
+                "strengthened nationalism"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Napoleon's Civil Code of 1804 abolished feudal privileges and established equality before the law wherever French rule extended, while his administration standardised weights, measures, currency and legal systems across conquered Europe. However, increased taxation, censorship and forced conscription into the French army bred resentment among conquered peoples, and paradoxically this resentment strengthened nationalist sentiment against foreign (French) rule itself."
+        },
+        {
+          "id": "h1_3m4",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Romanticism and cultural nationalism",
+          "question": "What role did Romanticism play in the growth of cultural nationalism in Germany?",
+          "rubric": [
+            {
+              "point": "Romantic thinkers emphasised emotions, intuition and mystical feelings over reason and science",
+              "keywords": [
+                "emotions",
+                "intuition",
+                "over reason"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Herder and Fichte argued that true German culture was to be found among the common people (das volk)",
+              "keywords": [
+                "Herder",
+                "Fichte",
+                "das volk"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Collecting and recording folklore (e.g. the Grimm brothers) was seen as essential to recovering the nation's true spirit",
+              "keywords": [
+                "collecting folklore",
+                "Grimm brothers",
+                "true spirit"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Romantic thinkers and artists criticised the excessive emphasis on reason and science, focusing instead on emotions, intuition and mystical feelings as the basis of national culture. German philosophers Herder and Fichte argued that true German culture was to be discovered among the common people (das volk), expressed through folk songs, poetry and dances. Consequently, collecting and recording local folklore, as done famously by the Grimm brothers, was seen as essential to recovering a nation's true spirit and history."
+        },
+        {
+          "id": "h1_3m5",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Revolutions of 1830 and 1848",
+          "question": "Explain the events and outcome of the revolutions of 1830 and 1848 in Europe.",
+          "rubric": [
+            {
+              "point": "1830: Bourbon kings overthrown in France by liberal revolutionaries; Greece won independence from the Ottomans in 1832",
+              "keywords": [
+                "1830 France Bourbon",
+                "Greece independence"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "1848: middle-class-led revolutions combining constitutionalism and nationalism swept across Europe",
+              "keywords": [
+                "1848 revolutions",
+                "middle class",
+                "constitutionalism"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "The Frankfurt Parliament drafted a German constitution but this liberal initiative was eventually repressed by monarchy and military",
+              "keywords": [
+                "Frankfurt Parliament",
+                "repressed"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "In 1830, liberal revolutionaries in France overthrew the Bourbon kings and installed a constitutional monarchy, while Greece won independence from Ottoman rule in 1832. In 1848, a wave of revolutions led by the educated middle classes broke out across Europe, combining demands for constitutionalism with nationalist aspirations - most visibly in the Frankfurt Parliament, where German liberals drafted a constitution for a unified Germany under a monarchy subject to parliament. However, this liberal initiative was eventually repressed by the combined forces of the monarchy and the military."
+        },
+        {
+          "id": "h1_3m6",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Unification of Germany 'from above'",
+          "question": "Why is the German unification described as 'unification from above'? Explain.",
+          "rubric": [
+            {
+              "point": "It was achieved through state power, the army and bureaucracy under Bismarck's leadership, rather than through a popular movement",
+              "keywords": [
+                "state power",
+                "Bismarck leadership",
+                "not popular movement"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "It was accomplished through three wars fought by Prussia against Denmark, Austria and France",
+              "keywords": [
+                "three wars",
+                "Denmark Austria France"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Unlike the 1848 Frankfurt Parliament's democratic effort, there was no broad-based popular or parliamentary process central to its success",
+              "keywords": [
+                "no democratic process",
+                "contrast 1848"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "German unification is described as 'unification from above' because it was achieved through the state power of Prussia, led by Chief Minister Otto von Bismarck and aided by the Prussian army and bureaucracy, rather than through a popular, democratic movement. Unification was accomplished through three wars fought by Prussia against Denmark, Austria and France over seven years. This stands in contrast to the failed 1848 Frankfurt Parliament, where German middle-class liberals had tried but failed to unify Germany through a democratic, parliamentary process."
+        },
+        {
+          "id": "h1_3m7",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Balkans and First World War",
+          "question": "How did nationalism in the Balkans contribute to the outbreak of the First World War?",
+          "rubric": [
+            {
+              "point": "The Balkans were ethnically and geographically diverse, and the decline of the Ottoman Empire created instability in the region",
+              "keywords": [
+                "Balkans diverse",
+                "Ottoman decline"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Different Balkan nationalities struggled for independence, while European powers manoeuvred to expand their own influence/territory there",
+              "keywords": [
+                "Balkan nationalities independence",
+                "European powers manoeuvred"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "This tangle of competing nationalist and imperialist ambitions in the Balkans was a major factor leading to the outbreak of WWI in 1914",
+              "keywords": [
+                "competing ambitions",
+                "WWI 1914"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The Balkans were a region of great ethnic and geographic diversity, and as the Ottoman Empire declined, various Balkan nationalities struggled to gain independence and establish their own nation-states. At the same time, the major European powers manoeuvred to expand their own territorial influence in the region. This tangled combination of competing nationalist aspirations and imperialist ambitions in the Balkans created constant tension and was a major factor leading to the outbreak of the First World War in 1914."
+        },
+        {
+          "id": "h1_5m2",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Unification of Italy in detail",
+          "question": "Trace the process of Italian unification from Mazzini's Young Italy to the proclamation of Victor Emmanuel II as king in 1861, mentioning the roles of Cavour and Garibaldi.",
+          "rubric": [
+            {
+              "point": "Mazzini founded Young Italy and inspired the vision of a unified Italian republic",
+              "keywords": [
+                "Mazzini",
+                "Young Italy",
+                "republic"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Cavour, Chief Minister of Sardinia-Piedmont, used diplomacy and an alliance with France to defeat Austria",
+              "keywords": [
+                "Cavour",
+                "diplomacy",
+                "alliance with France"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Garibaldi led the Red Shirts and conquered Southern Italy and the Kingdom of the Two Sicilies with popular support",
+              "keywords": [
+                "Garibaldi",
+                "Red Shirts",
+                "Two Sicilies"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Unification was achieved through a combination of popular movements, diplomacy and war",
+              "keywords": [
+                "combination popular movement diplomacy war"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Victor Emmanuel II was proclaimed king of unified Italy in 1861",
+              "keywords": [
+                "Victor Emmanuel II",
+                "1861"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Giuseppe Mazzini founded the secret society Young Italy to spread the vision of a unified Italian republic among the people. Count Camillo Cavour, Chief Minister of Sardinia-Piedmont, engineered unification through diplomacy, notably an alliance with France that helped defeat Austria. Giuseppe Garibaldi led a volunteer army called the Red Shirts and, with popular support, conquered Southern Italy and the Kingdom of the Two Sicilies. Italian unification was thus achieved through a combination of popular nationalist movements, diplomatic manoeuvring and military conquest, and in 1861 Victor Emmanuel II was proclaimed king of a unified Italy."
+        },
+        {
+          "id": "h1_5m3",
+          "type": "5M",
+          "marks": 5,
+          "topic": "French Revolution, Napoleon and nationalism",
+          "question": "Explain how the ideas of the French Revolution (1789) and the rule of Napoleon together laid the foundations of modern nationalism in Europe.",
+          "rubric": [
+            {
+              "point": "The French Revolution declared sovereignty of the people and ended absolute monarchy",
+              "keywords": [
+                "sovereignty of people",
+                "ended absolute monarchy"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Measures like centralised administration, a common language and the tricolour flag created a French national identity",
+              "keywords": [
+                "centralised administration",
+                "common language",
+                "tricolour flag"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Napoleon's Civil Code spread equality before the law and abolished feudal privileges across conquered Europe",
+              "keywords": [
+                "Civil Code",
+                "equality before law",
+                "abolished feudal privileges"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Napoleon standardised administration, currency, and weights and measures in conquered territories",
+              "keywords": [
+                "standardised administration currency"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "His conquests provoked resentment and nationalist resistance among conquered peoples, spreading the very idea of nationalism he had exported",
+              "keywords": [
+                "provoked resentment",
+                "spread nationalism"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The French Revolution of 1789 ended absolute monarchy and declared that sovereignty resided in the people, and measures such as centralised administration, a common language and the tricolour flag helped build a shared French national identity based on the ideals of liberty, equality and fraternity. Napoleon Bonaparte, who came to power after the revolutionary years, carried these ideas across Europe through conquest - his Civil Code of 1804 abolished feudal privileges and established equality before the law, while his administration standardised currency, weights and measures wherever French rule extended. However, increased taxation, censorship and forced conscription under Napoleonic rule bred resentment among conquered peoples, and this resentment against foreign domination paradoxically strengthened nationalist sentiment in the very regions he had conquered, spreading the idea of nationalism across Europe."
+        },
+        {
+          "id": "h1_4m1",
+          "type": "4M",
+          "marks": 4,
+          "topic": "Romanticism and culture",
+          "question": "Explain any four ways in which culture, folklore and the Romantic movement contributed to the growth of nationalism in Europe.",
+          "rubric": [
+            {
+              "point": "Romantic artists and poets criticised the glorification of reason and science and focused instead on emotions, intuition and mystical feelings",
+              "keywords": [
+                "romantic artists",
+                "emotions",
+                "intuition",
+                "criticised reason"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Culture played an important role in creating the idea of the nation: art, poetry, stories and music helped express and shape nationalist feeling",
+              "keywords": [
+                "culture created nation",
+                "poetry stories music",
+                "shaped nationalism"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "German philosophers Herder and Fichte claimed true German culture was to be discovered among the common people (das volk) through folk songs, folk poetry and folk dances",
+              "keywords": [
+                "herder",
+                "fichte",
+                "das volk",
+                "folk songs"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Collecting and recording local folklore was seen as necessary to recover a nation's true spirit and history, e.g. the Grimm brothers' folk tales",
+              "keywords": [
+                "folklore recovery",
+                "grimm brothers",
+                "true spirit history"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Romantic artists and poets criticised the excessive glorification of reason and science and emphasised emotions, intuition and mystical feelings instead, and through their work they helped express and build a shared national feeling. Culture in general - art, poetry, stories and music - played an important part in creating the idea of the nation. German philosophers such as Herder and Fichte argued that true German culture was to be found among the common people (das volk), in their folk songs, folk poetry and folk dances. Consequently, collecting and recording local folklore was considered essential to recover a nation's true spirit and past, as done famously by the Grimm brothers with their collection of folk tales."
+        },
+        {
+          "id": "h1_4m2",
+          "type": "4M",
+          "marks": 4,
+          "topic": "Unification of Italy and Germany compared",
+          "question": "Explain any four similarities or differences between the processes of unification of Italy and Germany.",
+          "rubric": [
+            {
+              "point": "Both Italy and Germany were unified in the second half of the 19th century (Italy by 1870, Germany by 1871)",
+              "keywords": [
+                "19th century",
+                "1870",
+                "1871",
+                "both unified"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Italy's unification involved a mix of popular movements (Mazzini, Garibaldi) and diplomacy (Cavour), while Germany's was led almost entirely 'from above' by Bismarck and the Prussian state",
+              "keywords": [
+                "italy popular movement",
+                "germany from above",
+                "bismarck led"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Germany's unification was achieved primarily through a series of wars fought by Prussia (against Denmark, Austria, France), while Italy's involved wars, uprisings and plebiscites across various regions",
+              "keywords": [
+                "germany wars prussia",
+                "italy plebiscites uprisings"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Both processes ended with the creation of a constitutional monarchy (Victor Emmanuel II in Italy, Kaiser William I in Germany) rather than a republic",
+              "keywords": [
+                "constitutional monarchy",
+                "victor emmanuel",
+                "kaiser william",
+                "not republic"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Both Italy and Germany were unified in the second half of the 19th century - Italy by 1870 and Germany by 1871. However, Italy's unification combined popular nationalist movements, such as those inspired by Mazzini and led militarily by Garibaldi, with the diplomacy of Cavour, while Germany's unification was carried out almost entirely 'from above' under the leadership of Bismarck and the Prussian state and army. Germany's unification was achieved chiefly through a sequence of wars fought by Prussia against Denmark, Austria and France, whereas Italy's process involved a combination of wars, local uprisings and plebiscites across different Italian states. In both cases, the outcome was a constitutional monarchy rather than a republic - Victor Emmanuel II became king of a unified Italy, and Kaiser William I was proclaimed German Emperor."
+        },
+        {
+          "id": "h1_cbq1",
+          "type": "CBQ",
+          "marks": 4,
+          "topic": "Case study - the Frankfurt Parliament and the Revolutions of 1848",
+          "passage": "In 1848, a wave of political upheavals swept across Europe, led mostly by the educated middle classes. In the German regions, an all-German National Assembly convened in the Church of St Paul at Frankfurt, where 831 elected representatives drafted a constitution for a unified German nation to be headed by a constitutional monarchy. However, the Prussian king rejected the crown offered by this assembly, and the parliament - which had no support from the army or the masses - was eventually forced to disband.",
+          "subquestions": [
+            {
+              "id": "h1_cbq1_a",
+              "marks": 1,
+              "question": "The 1848 Frankfurt Parliament aimed to achieve:",
+              "options": [
+                "Abolition of the monarchy across Europe",
+                "A constitution for a unified German nation under a constitutional monarchy",
+                "Independence of the Balkan states",
+                "A military alliance between France and Prussia"
+              ],
+              "answer_index": 1,
+              "explanation": "The Frankfurt Parliament drafted a constitution for a unified Germany headed by a monarch subject to a parliament."
+            },
+            {
+              "id": "h1_cbq1_b",
+              "marks": 1,
+              "question": "Why did the Frankfurt Parliament ultimately fail?",
+              "options": [
+                "It was dissolved by a foreign invasion before it could meet",
+                "It lacked support from the Prussian king, the army, and the masses",
+                "The delegates could not agree to draft any constitution at all",
+                "The French army crushed the assembly by force"
+              ],
+              "answer_index": 1,
+              "explanation": "The Prussian king refused the crown, and without backing from the army or wider popular support, the assembly could not enforce its constitution."
+            },
+            {
+              "id": "h1_cbq1_c",
+              "marks": 2,
+              "question": "Who were the main leaders of the 1848 revolutions in Europe, and what does this reveal about the nature of the movement at that stage?",
+              "rubric": [
+                {
+                  "point": "The 1848 revolutions/Frankfurt Parliament were led mainly by educated, propertied middle classes (professionals, businessmen, prosperous artisans)",
+                  "keywords": [
+                    "educated middle classes",
+                    "professionals businessmen"
+                  ],
+                  "weight": 1
+                },
+                {
+                  "point": "This shows liberal nationalism at this stage was largely a middle-class movement - women and workers, who had their own separate demands, were largely excluded from these liberal assemblies",
+                  "keywords": [
+                    "middle-class movement",
+                    "women and workers excluded"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "The 1848 revolutions, including the Frankfurt Parliament, were led mainly by the educated, propertied middle classes - professionals, businessmen and prosperous artisans. This shows that, at this stage, liberal nationalism was largely a middle-class movement: women and working-class people, who had their own separate concerns and demands, were largely excluded from formal representation in these liberal assemblies, even though many took part in the surrounding events."
+            }
+          ]
+        },
+        {
+          "id": "h1_ar1",
+          "type": "AR",
+          "marks": 1,
+          "topic": "Outcome of the Frankfurt Parliament",
+          "question": "Assertion (A): The Frankfurt Parliament of 1848 successfully unified Germany under a constitutional monarchy.\nReason (R): The Prussian king refused to accept the crown offered by the Frankfurt Parliament, and the assembly had no support from the army.",
+          "options": [
+            "Both A and R are true and R is the correct explanation of A.",
+            "Both A and R are true but R is not the correct explanation of A.",
+            "A is true but R is false.",
+            "A is false but R is true."
+          ],
+          "answer_index": 3,
+          "explanation": "The Frankfurt Parliament did NOT succeed in unifying Germany - that only happened later, in 1871, under Bismarck's leadership - so A is false. R correctly explains why the 1848 attempt failed."
+        },
+        {
+          "id": "h1_ar2",
+          "type": "AR",
+          "marks": 1,
+          "topic": "Composition of the 1848 assemblies",
+          "question": "Assertion (A): The 1848 revolutions in Europe were led mainly by the educated middle classes.\nReason (R): Women and working-class people were given equal voting rights and formal representation in the National Assemblies formed during the 1848 revolutions.",
+          "options": [
+            "Both A and R are true and R is the correct explanation of A.",
+            "Both A and R are true but R is not the correct explanation of A.",
+            "A is true but R is false.",
+            "A is false but R is true."
+          ],
+          "answer_index": 2,
+          "explanation": "A is true. But R is false - women and working-class people were largely denied formal voting rights and representation in these assemblies, despite their participation in the broader movement."
+        },
+        {
+          "id": "h1_pq2_mcq1",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Metternich's description of Mazzini",
+          "question": "Metternich, the Austrian Chancellor, described one Italian revolutionary as 'the most dangerous enemy of our social order'. Who was this revolutionary?",
+          "options": [
+            "Metternich",
+            "Mazzini",
+            "Garibaldi",
+            "Cavour"
+          ],
+          "answer_index": 1,
+          "explanation": "Giuseppe Mazzini, founder of the secret society Young Italy and a passionate advocate of a unified democratic Italian republic, was famously described by Metternich as 'the most dangerous enemy of our social order' for his revolutionary, republican nationalism.",
+          "chapter_id": "rise_of_nationalism_in_europe",
+          "chapter_title": "The Rise of Nationalism in Europe",
+          "subject": "history"
+        },
+        {
+          "id": "h1_pq2_5m1",
+          "type": "5M",
+          "marks": 5,
+          "topic": "1848 as the Revolution of the Liberals in Europe",
+          "question": "Do you agree that the period of 1848 is considered a phase of the 'Revolution of the Liberals' in Europe? Elucidate with suitable examples.",
+          "rubric": [
+            {
+              "point": "In 1848, a revolution led by educated middle classes occurred alongside revolts of the poor, unemployed, peasants and workers across Europe; in France the monarch abdicated in February 1848 and a republic based on universal male suffrage was proclaimed",
+              "keywords": [
+                "educated middle classes",
+                "france 1848",
+                "universal male suffrage"
+              ],
+              "weight": 1.5
+            },
+            {
+              "point": "In Germany, Italy, Poland and the Austro-Hungarian Empire, liberal middle-class men and women demanded a constitution and national unification, using popular unrest to push for a nation-state built on parliamentary principles",
+              "keywords": [
+                "constitution",
+                "national unification",
+                "liberal middle class"
+              ],
+              "weight": 1.5
+            },
+            {
+              "point": "In the German-speaking areas, political associations convened the Frankfurt parliament (May 1848) in the Church of St Paul, drafted a constitution for a German nation under a constitutional monarch, but King Friedrich Wilhelm IV rejected the crown and the assembly (dominated by the middle class, having ignored artisans' and workers' demands) was eventually forced to disband by troops",
+              "keywords": [
+                "frankfurt parliament",
+                "friedrich wilhelm iv rejected",
+                "disbanded"
+              ],
+              "weight": 1.5
+            },
+            {
+              "point": "Women actively participated in the liberal movement (forming political associations, newspapers) but were still denied suffrage and admitted to the Frankfurt assembly only as observers - showing the 'liberal' revolution's real limits",
+              "keywords": [
+                "women denied suffrage",
+                "observers only"
+              ],
+              "weight": 0.5
+            },
+            {
+              "point": "Concludes that 1848 can indeed be seen as a phase of the Revolution of the Liberals, since it was substantially driven by liberal middle-class demands for constitutions and nation-states, even though it ultimately failed to secure full liberal or democratic outcomes",
+              "keywords": [
+                "revolution of the liberals",
+                "conclusion"
+              ],
+              "weight": 0
+            }
+          ],
+          "model_answer": "Yes: in 1848, a revolution led by the educated middle classes swept across many European countries, alongside separate revolts by the poor, unemployed, peasants and workers. In France, the king abdicated in February 1848 and a republic based on universal male suffrage was declared. Elsewhere - in Germany, Italy, Poland and the Austro-Hungarian empire - liberal middle-class men and women pushed for constitutions and national unification, using the wider popular unrest to advance demands for a nation-state built on parliamentary principles (a constitution, freedom of the press, freedom of association). In the German-speaking areas, political associations of middle-class professionals convened the Frankfurt parliament in May 1848 at the Church of St Paul and drafted a constitution for a German nation under a constitutional monarch, offering the crown to Friedrich Wilhelm IV of Prussia - who rejected it and joined other monarchs against the assembly; having also ignored the demands of artisans and workers, the middle-class-dominated parliament lost popular support and was eventually disbanded by troops. Even the question of women's rights showed the movement's limits: despite active participation by women in political associations and journalism, women were denied suffrage and admitted to the Frankfurt assembly only as observers. Overall, 1848 fits the description of a 'Revolution of the Liberals' - substantially driven by liberal middle-class demands for constitutional, nation-based government - even though it ultimately fell short of full liberal or democratic success.",
+          "chapter_id": "rise_of_nationalism_in_europe",
+          "chapter_title": "The Rise of Nationalism in Europe",
+          "subject": "history"
+        },
+        {
+          "id": "h1_pq2_5m2",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Growth of nationalist tensions in the Balkans before World War I",
+          "question": "Analyse the reasons for the growth of nationalist tensions in the Balkan region before the First World War.",
+          "rubric": [
+            {
+              "point": "The Balkans was a region of great geographical and ethnic variation (modern-day Romania, Bulgaria, Albania, Greece, Macedonia, Croatia, Bosnia-Herzegovina, Slovenia, Serbia, Montenegro), broadly inhabited by Slavs, and much of it was under the control of the declining Ottoman Empire",
+              "keywords": [
+                "ottoman empire",
+                "slavs",
+                "ethnic variation"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "The spread of romantic nationalism combined with the disintegration of Ottoman control made the region volatile, and one by one its subject nationalities broke away and declared independence",
+              "keywords": [
+                "romantic nationalism",
+                "disintegration",
+                "broke away"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "The Balkan states were fiercely jealous of one another, each hoping to gain territory at the expense of the others",
+              "keywords": [
+                "jealous",
+                "gain territory"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "The region also became the stage for big-power rivalry, with Russia, Germany, England and Austro-Hungary each competing for trade, colonies and naval/military dominance, and each seeking to extend its own influence over the Balkans at the expense of rivals",
+              "keywords": [
+                "big power rivalry",
+                "russia germany england austro-hungary"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "This combination of internal nationalist rivalry and external great-power competition led to a series of Balkan wars and ultimately helped trigger the First World War",
+              "keywords": [
+                "balkan wars",
+                "first world war"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The Balkans was a region of great geographical and ethnic diversity - covering modern-day Romania, Bulgaria, Albania, Greece, Macedonia, Croatia, Bosnia-Herzegovina, Slovenia, Serbia and Montenegro - whose inhabitants were broadly known as Slavs, and a large part of it lay under the control of the declining Ottoman Empire. The spread of the ideas of romantic nationalism, combined with the disintegration of Ottoman authority, made the region highly volatile, and one by one its subject nationalities broke away from Ottoman control and declared independence. The newly independent Balkan states were fiercely jealous of one another, each hoping to expand its territory at the others' expense. Matters were made worse because the Balkans also became a stage for rivalry among the European great powers - Russia, Germany, England and Austro-Hungary - who were competing intensely over trade, colonies, and naval and military strength, and each sought to extend its own influence in the region while countering the others. This combustible mix of internal nationalist rivalries and external big-power competition led to a series of wars in the region, and ultimately helped trigger the First World War.",
+          "chapter_id": "rise_of_nationalism_in_europe",
+          "chapter_title": "The Rise of Nationalism in Europe",
+          "subject": "history"
+        },
+        {
+          "id": "h1_bp_mcq1",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Unification of Italy",
+          "question": "Which one of the following regions became a part of unified Italy in 1866?",
+          "options": [
+            "Sardinia-Piedmont",
+            "Venetia",
+            "Sicily",
+            "Papal States"
+          ],
+          "answer_index": 1,
+          "explanation": "Venetia was ceded to the Kingdom of Italy in 1866 after Italy's alliance with Prussia in the Austro-Prussian War. Sardinia-Piedmont was already the founding core state from 1861 (not something newly added in 1866); Sicily/the South joined via Garibaldi's 1860 campaign and plebiscites; Rome (with the Papal States) was annexed only in 1870.",
+          "chapter_id": "rise_of_nationalism_in_europe",
+          "chapter_title": "The Rise of Nationalism in Europe",
+          "subject": "history"
+        },
+        {
+          "id": "h1_bp_mcq2",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Chronology of European nationalism events",
+          "question": "Arrange the following historical events in chronological order and choose the correct option: I. Formation of the customs union Zollverein  II. Implementation of the Napoleonic Code  III. Recognition of Greece as an independent nation  IV. Establishment of the new German Empire",
+          "options": [
+            "I, IV, III, II",
+            "I, IV, II, III",
+            "II, III, I, IV",
+            "II, III, IV, I"
+          ],
+          "answer_index": 2,
+          "explanation": "The Napoleonic Code was imposed across Napoleon's conquered territories in the early 1800s; Greece was recognised as independent by the Treaty of Constantinople in 1832; the Zollverein customs union among German states was formed in 1834; the German Empire was proclaimed in 1871 after the Franco-Prussian War. Order: II, III, I, IV.",
+          "chapter_id": "rise_of_nationalism_in_europe",
+          "chapter_title": "The Rise of Nationalism in Europe",
+          "subject": "history"
+        },
+        {
+          "id": "h1_bp_mcq3",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Giuseppe Mazzini and Young Italy",
+          "question": "Who founded the secret society 'Young Italy' with the mission of Italian unification?",
+          "options": [
+            "Victor Emmanuel II",
+            "Giuseppe Mazzini",
+            "Giuseppe Garibaldi",
+            "Count Cavour"
+          ],
+          "answer_index": 1,
+          "explanation": "Giuseppe Mazzini founded the secret society Young Italy in 1831, dedicated to the vision of a unified Italian republic.",
+          "chapter_id": "rise_of_nationalism_in_europe",
+          "chapter_title": "The Rise of Nationalism in Europe",
+          "subject": "history"
+        },
+        {
+          "id": "h1_bp_5m1",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Cavour and Italian unification",
+          "question": "Analyse the role of Chief Minister Cavour in the movement to unite the regions of Italy.",
+          "rubric": [
+            {
+              "point": "Cavour was the Chief Minister of Sardinia-Piedmont under King Victor Emmanuel II, not a democrat or revolutionary himself",
+              "keywords": [
+                "chief minister of sardinia-piedmont",
+                "not a democrat"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "He diplomatically engineered an alliance with France, defeating Austria in 1859 and gaining Lombardy for Piedmont",
+              "keywords": [
+                "alliance with france",
+                "defeated austria",
+                "lombardy"
+              ],
+              "weight": 2
+            },
+            {
+              "point": "He led the movement to unite Italian states under the Piedmont monarchy through calculated diplomacy and strategic alliances rather than mass popular mobilisation",
+              "keywords": [
+                "through diplomacy",
+                "piedmont monarchy"
+              ],
+              "weight": 2
+            }
+          ],
+          "model_answer": "Cavour was the Chief Minister of Sardinia-Piedmont under King Victor Emmanuel II. He was neither a democrat nor a revolutionary; his goal was to unite the Italian states under the Piedmont monarchy through calculated diplomacy rather than popular uprising. Cavour engineered a diplomatic alliance with France, and in 1859 Sardinia-Piedmont, with French support, defeated Austrian forces, gaining control of Lombardy. This success, followed by Garibaldi's conquest of southern Italy in 1860, paved the way for the proclamation of Victor Emmanuel II as king of a united Italy in 1861.",
+          "chapter_id": "rise_of_nationalism_in_europe",
+          "chapter_title": "The Rise of Nationalism in Europe",
+          "subject": "history"
+        },
+        {
+          "id": "h1_bp_3m1",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Polish language and Russification",
+          "question": "Why did the Polish language become a symbol of the struggle against Russian dominance in the later half of the nineteenth century? Explain.",
+          "rubric": [
+            {
+              "point": "Poland was partitioned among Russia, Prussia and Austria in the late 18th century, losing its independence",
+              "keywords": [
+                "poland was partitioned",
+                "lost independence"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "In Russian-controlled Poland, the Tsarist regime tried to impose the Russian language and suppress Polish language/culture as part of a Russification policy",
+              "keywords": [
+                "russification",
+                "impose russian language"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Polish clergy and gentry defied these orders by continuing to use Polish in church and schools, even facing imprisonment or deportation, so the language became a symbol of nationalist resistance",
+              "keywords": [
+                "defied",
+                "symbol of resistance",
+                "imprisonment"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Poland had been partitioned among Russia, Prussia and Austria in the late eighteenth century and lost its independence. In Russian-controlled Poland, the Tsarist government tried to suppress Polish culture and impose the Russian language as part of a policy of 'Russification'. Polish was removed from schools and administration, but the Polish clergy and gentry refused to use Russian in church and in teaching, defying these orders even at the risk of imprisonment or deportation to Siberia. Because of this defiance, the Polish language became a powerful symbol of the nationalist struggle against Russian domination.",
+          "chapter_id": "rise_of_nationalism_in_europe",
+          "chapter_title": "The Rise of Nationalism in Europe",
+          "subject": "history"
+        },
+        {
+          "id": "h1_bp_5m2",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Culture and the rise of nationalism",
+          "question": "Describe the role of culture in shaping the feelings of nationalism in Europe at the end of the nineteenth century.",
+          "rubric": [
+            {
+              "point": "Romanticism used art, poetry, stories, music and language to build shared national identity and a sense of a common past",
+              "keywords": [
+                "romanticism",
+                "shared national identity",
+                "common past"
+              ],
+              "weight": 2
+            },
+            {
+              "point": "Folk songs, folklore and dances were collected and revived as part of the national spirit (e.g. the Grimm brothers in Germany)",
+              "keywords": [
+                "folk songs",
+                "folklore",
+                "grimm brothers"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Language became central to nationalist feeling, as with the Polish resistance to Russification through language",
+              "keywords": [
+                "language central",
+                "polish resistance"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Music, opera and visual symbols (personification of the nation, e.g. Marianne in France, Germania in Germany) evoked and popularised nationalist feeling",
+              "keywords": [
+                "marianne",
+                "germania",
+                "opera"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Culture played a central role in shaping nationalism through the Romantic movement, which emphasised emotion, intuition and mystical feeling over reason, and used art, poetry, stories and music to build a sense of shared national identity and a common past. Language and folklore were collected and revived to keep alive national feeling, as when the Grimm brothers gathered German folk tales, or when the Polish language became a symbol of resistance against Russification. Music and opera - such as those of Verdi in Italy - stirred patriotic emotion. Visual art too personified the nation, as with figures like Marianne in France and Germania in Germany, giving abstract nationalist ideas a concrete, emotionally powerful image that people could rally around.",
+          "chapter_id": "rise_of_nationalism_in_europe",
+          "chapter_title": "The Rise of Nationalism in Europe",
+          "subject": "history"
+        },
+        {
+          "id": "h1_bp_3m2",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Process of Italian unification",
+          "question": "Describe the process of unification of Italy.",
+          "rubric": [
+            {
+              "point": "Italy was divided into seven states in the early 19th century, and only Sardinia-Piedmont was ruled by an Italian royal house; Mazzini's Young Italy pursued a unified republic but early revolts (1831, 1848) failed",
+              "keywords": [
+                "seven states",
+                "mazzini young italy",
+                "revolts failed"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Chief Minister Cavour led the movement under King Victor Emmanuel II - a diplomatic alliance with France defeated Austria in 1859, gaining Lombardy",
+              "keywords": [
+                "cavour",
+                "alliance with france",
+                "1859"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Giuseppe Garibaldi led armed volunteers ('Redshirts') in 1860 to conquer southern Italy and Sicily, and through plebiscites these regions united with Sardinia-Piedmont",
+              "keywords": [
+                "garibaldi",
+                "redshirts",
+                "1860"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Victor Emmanuel II was proclaimed King of united Italy in 1861; Venetia was added in 1866 and Rome in 1870, completing unification",
+              "keywords": [
+                "victor emmanuel ii king",
+                "1861",
+                "venetia",
+                "rome 1870"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "In the early nineteenth century, Italy was divided into seven states, and only Sardinia-Piedmont was ruled by an Italian royal house. Giuseppe Mazzini's secret society Young Italy pursued the vision of a unified Italian republic, but revolts in 1831 and 1848 failed. Chief Minister Cavour then led the movement under King Victor Emmanuel II of Sardinia-Piedmont, engineering a diplomatic alliance with France that defeated Austria in 1859 and won Lombardy. In 1860, Giuseppe Garibaldi led his armed volunteers (the 'Redshirts') to conquer the Kingdom of the Two Sicilies in the south, and through plebiscites these regions joined Sardinia-Piedmont. In 1861, Victor Emmanuel II was proclaimed King of a united Italy. Venetia was added in 1866 and Rome in 1870, completing the process of unification.",
+          "chapter_id": "rise_of_nationalism_in_europe",
+          "chapter_title": "The Rise of Nationalism in Europe",
+          "subject": "history"
+        }
+      ]
+    },
+    {
+      "id": "nationalism_in_india",
+      "title": "Nationalism in India",
+      "notes": {
+        "overview": "This chapter explains how the sense of belonging to one nation grew in India during the freedom struggle, largely through the leadership of the Indian National Congress under Mahatma Gandhi, and how diverse social groups participated in and interpreted the idea of Swaraj differently.",
+        "key_points": [
+          "The First World War created a new economic and political situation in India - increased taxes, forced recruitment, and price rises caused widespread hardship, making people more receptive to Gandhi's call for mass mobilisation.",
+          "Gandhi returned to India in 1915 and first experimented with Satyagraha (non-violent civil resistance based on truth) in Champaran (Bihar, 1917), Kheda (Gujarat, 1918) and Ahmedabad (1918).",
+          "The Rowlatt Act (1919) allowed detention without trial; Gandhi launched a nationwide hartal against it, which led to the Jallianwala Bagh massacre in Amritsar (13 April 1919).",
+          "The Non-Cooperation Movement (1920-22) urged Indians to surrender titles, boycott civil services, schools, courts and foreign goods; it merged with the Khilafat Movement led by the Ali brothers to unite Hindus and Muslims.",
+          "The movement was withdrawn after the Chauri Chaura incident (February 1922) in Uttar Pradesh, where a violent mob set fire to a police station.",
+          "The Civil Disobedience Movement (1930-34) began with the Dandi March (Salt March), where Gandhi and followers walked about 240 miles from Sabarmati Ashram to Dandi to break the salt law.",
+          "Different social groups joined the national movement with their own aspirations: rich peasants wanted lower revenue, poor peasants wanted rent relief, business classes wanted protection from foreign competition, and industrial workers had their own separate demands.",
+          "The idea of India as a nation was also constructed culturally through images (Bharat Mata by Abanindranath Tagore), folklore revival, and icons/symbols like the tricolour flag.",
+          "The Government of India Act 1935 and subsequent provincial elections (1937) deepened political participation but also sharpened communal politics, eventually contributing to the demand for Pakistan."
+        ],
+        "key_terms": {
+          "Satyagraha": "A method of non-violent resistance based on the power of truth and the search for justice.",
+          "Swaraj": "Self-rule or self-governance; Gandhi's term for genuine Indian independence.",
+          "Boycott": "Refusal to buy, use or participate in something (e.g., foreign goods, schools, courts) as a form of protest.",
+          "Khilafat": "A movement to protect the authority of the Ottoman Caliph after the First World War, joined with the Non-Cooperation Movement.",
+          "Civil Disobedience": "Deliberate and public refusal to obey unjust laws, including breaking specific laws like the salt law."
+        },
+        "important_facts": [
+          "Champaran Satyagraha: 1917",
+          "Rowlatt Act: 1919",
+          "Jallianwala Bagh massacre: 13 April 1919",
+          "Non-Cooperation Movement: 1920-1922",
+          "Chauri Chaura incident: February 1922",
+          "Dandi March / Civil Disobedience Movement begins: 12 March 1930",
+          "Government of India Act: 1935"
+        ],
+        "exam_tips": [
+          "Learn the sequence: Rowlatt Act -> Jallianwala Bagh -> Non-Cooperation -> Chauri Chaura -> Civil Disobedience -> Salt March. Timeline questions are common.",
+          "Practice explaining why different social groups (peasants, workers, business class, women) participated in the movement - a favourite 5-mark question.",
+          "Be able to explain the significance of the salt march as a symbolic and effective form of protest."
+        ],
+        "sections": [
+          {
+            "title": "1. The First World War and a New Political Situation",
+            "content": "The First World War (1914-18) created a new economic and political situation in India. Defence expenditure was financed through war loans and increased taxes; customs duties were raised and income tax introduced. Villages were forced to supply soldiers, and prices of goods doubled between 1913 and 1918, causing extreme hardship for the common people. A terrible influenza epidemic and successive crop failures added to the distress. This widespread suffering created the conditions in which Mahatma Gandhi's call for a united national struggle found mass appeal after his return to India in 1915.",
+            "keywords": [
+              "First World War",
+              "war loans",
+              "increased taxes",
+              "influenza epidemic",
+              "Gandhi returns 1915"
+            ]
+          },
+          {
+            "title": "2. Mahatma Gandhi and the Idea of Satyagraha",
+            "content": "Gandhi developed the technique of Satyagraha in South Africa, a novel method of mass agitation based on the power of truth and the search for justice without resorting to violence. Satyagraha held that if the cause was true and the struggle against injustice was conducted non-violently, oppressors would eventually be forced to recognise the truth, without being subjected to hatred that could turn into a battle. This idea emphasised the power of truth and the need to search for it, inviting even the opponent to accept that truth rather than be forced to accept it through violence.",
+            "keywords": [
+              "Satyagraha",
+              "non-violence",
+              "power of truth",
+              "South Africa",
+              "mass agitation"
+            ]
+          },
+          {
+            "title": "3. Early Satyagraha Movements: Champaran, Kheda, Ahmedabad (1917-18)",
+            "content": "Gandhi's first major interventions in India tested Satyagraha at the local level. In 1917 he travelled to Champaran, Bihar, to inspire peasants to struggle against the oppressive indigo plantation system. In 1917 he organised a Satyagraha to support peasants of the Kheda district of Gujarat, hit by crop failure and a plague epidemic, in their demand for revenue relief. In 1918, Gandhi went to Ahmedabad to organise a Satyagraha movement amongst cotton mill workers demanding better wages and working conditions. These early successes established Gandhi's leadership and his method as a viable tool of political mobilisation.",
+            "keywords": [
+              "Champaran 1917",
+              "Kheda Satyagraha",
+              "Ahmedabad mill workers 1918",
+              "indigo planters",
+              "revenue relief"
+            ]
+          },
+          {
+            "title": "4. The Rowlatt Act and the Jallianwala Bagh Massacre (1919)",
+            "content": "In 1919, Gandhi launched a nationwide Satyagraha against the Rowlatt Act (1919), which gave the colonial government enormous powers to repress political activities and allowed detention of political prisoners without trial for two years. Rallies were organised in various cities, and a nationwide hartal (strike) was called on 6 April 1919. Alarmed at the popular response, local leaders were picked up and arrested in Amritsar, and Mahatma Gandhi was barred from entering Delhi. On 13 April 1919, a large crowd gathered in the enclosed ground of Jallianwala Bagh in Amritsar; General Dyer blocked the exits and ordered troops to open fire on the unarmed crowd, killing hundreds and shocking the nation, giving rise to widespread strikes, clashes with the police, and violent attacks on government buildings.",
+            "keywords": [
+              "Rowlatt Act 1919",
+              "detention without trial",
+              "Jallianwala Bagh",
+              "13 April 1919",
+              "General Dyer"
+            ]
+          },
+          {
+            "title": "5. The Khilafat Movement and Hindu-Muslim Unity",
+            "content": "Indian Muslims were angered by rumours that a harsh peace treaty was going to be imposed on the Ottoman emperor, considered the spiritual head (Khalifa) of the Islamic world, after the First World War. A Khilafat Committee was formed in Bombay in March 1919 under the leadership of the Ali brothers, Muhammad Ali and Shaukat Ali, along with other leaders, to defend the Khalifa's authority. Gandhi saw this as a great opportunity to bring Muslims under the umbrella of a unified national movement, and at the Calcutta session of the Congress in September 1920, leaders agreed to launch the Non-Cooperation Movement in support of Khilafat as well as for Swaraj.",
+            "keywords": [
+              "Khilafat Movement",
+              "Ali brothers",
+              "1919 Khilafat Committee",
+              "Calcutta session 1920",
+              "Hindu-Muslim unity"
+            ]
+          },
+          {
+            "title": "6. The Non-Cooperation Movement (1920-22)",
+            "content": "Gandhi proposed that the Non-Cooperation Movement should unfold in stages, beginning with the surrender of government-conferred titles and honours, and a boycott of civil services, the army, police, courts, legislative councils, and government schools and colleges, followed eventually by non-payment of taxes if the government continued with repressive measures. The movement started with middle-class participation in the cities: students left schools, lawyers gave up their legal practices, and legislative council elections were boycotted, with the boycott of foreign cloth in favour of Indian khadi being especially powerful, though the movement's economic effects were partial as many continued attending schools and using courts.",
+            "keywords": [
+              "Non-Cooperation Movement 1920",
+              "boycott foreign goods",
+              "surrender titles",
+              "khadi",
+              "swadeshi"
+            ]
+          },
+          {
+            "title": "7. Peasants, Tribals and Workers in the Movement",
+            "content": "Across the country, different social groups interpreted and joined the wider movement in their own ways. In Awadh, peasants led by Baba Ramchandra organised a struggle against talukdars and landlords demanding reduction of revenue, abolition of begar (forced labour) and social boycott of oppressive landlords, going beyond the official Congress programme. In the Gudem Hills of Andhra Pradesh, a militant guerrilla movement led by Alluri Sitaram Raju invoked Gandhi's name and the idea of Swaraj but resorted to methods far more radical than official non-violence, resisting the colonial forest laws that denied forest dwellers traditional grazing and gathering rights. Plantation workers in Assam, restricted from leaving tea gardens under the Inland Emigration Act of 1859, saw freedom as the right to move freely and left the plantations to return to their home villages.",
+            "keywords": [
+              "Baba Ramchandra",
+              "Awadh peasants",
+              "Alluri Sitaram Raju",
+              "Gudem Hills",
+              "forest laws",
+              "Assam plantation workers"
+            ]
+          },
+          {
+            "title": "8. Chauri Chaura and the Withdrawal of Non-Cooperation (1922)",
+            "content": "By 1922, the movement had spread widely, but incidents of violence occurred in different places. In February 1922, in Chauri Chaura in Uttar Pradesh, a peaceful demonstration turned into a violent clash after local police fired on it, and in retaliation the enraged crowd set fire to the police station, killing all its occupants. On learning of this violence, Gandhi decided to call off the Non-Cooperation Movement, believing the satyagrahis had not been sufficiently trained for mass struggles that required strict adherence to non-violent discipline. This withdrawal disappointed many activists and marked the end of the first phase of mass nationalist mobilisation.",
+            "keywords": [
+              "Chauri Chaura",
+              "February 1922",
+              "withdrawal of movement",
+              "non-violent discipline"
+            ]
+          },
+          {
+            "title": "9. The Simon Commission and Purna Swaraj (1927-1929)",
+            "content": "In 1927, the British government set up the Statutory Commission under Sir John Simon to look into the functioning of the constitutional system in India and recommend changes, but as the Commission had no Indian members, it was greeted with the slogan 'Go back Simon' when it arrived in India in 1928. In an effort to win over moderate opinion, the viceroy Lord Irwin announced in October 1929 a vague offer of 'dominion status' for India in an unspecified future, which failed to satisfy the Congress. At its Lahore session in December 1929, under the presidency of Jawaharlal Nehru, the Indian National Congress formalised the demand for 'Purna Swaraj' or complete independence, and 26 January 1930 was declared as Independence Day, when people were to take a pledge to struggle for complete independence.",
+            "keywords": [
+              "Simon Commission 1927",
+              "dominion status",
+              "Lahore session 1929",
+              "Purna Swaraj",
+              "26 January 1930"
+            ]
+          },
+          {
+            "title": "10. The Salt March and the Civil Disobedience Movement (1930)",
+            "content": "Mahatma Gandhi found in salt a powerful symbol that could unite the nation, since it was consumed by rich and poor alike and its production was a state monopoly under British law, making its manufacture by anyone other than the government a criminal offence. On 12 March 1930, Gandhi, along with 78 followers, set out from his ashram at Sabarmati on foot towards the Gujarati coastal town of Dandi, a distance of about 240 miles, reaching Dandi on 6 April and ceremonially violating the law by manufacturing salt by boiling sea water. This marked the beginning of the Civil Disobedience Movement, in which, unlike Non-Cooperation, people were now asked to not only refuse cooperation but also to actively break colonial laws.",
+            "keywords": [
+              "Salt March",
+              "Dandi",
+              "12 March 1930",
+              "Sabarmati Ashram",
+              "Civil Disobedience Movement",
+              "240 miles"
+            ]
+          },
+          {
+            "title": "11. Different Social Groups in the Civil Disobedience Movement",
+            "content": "Rich peasant communities such as the Patidars of Gujarat and the Jats of Uttar Pradesh participated actively in the movement, organising their communities since they had been hit hard by the trade depression and falling prices while revenue demands remained unchanged, though poorer peasants found it harder to pay rent and wanted it reduced too, sometimes joining more radical activities led by socialists and communists. Business classes, keen on protection against imported goods and a rupee-sterling exchange rate favourable to Indian trade, supported the Civil Disobedience Movement and gave financial assistance, though they were more wary of prolonged mass struggle. Industrial working classes did not participate in large numbers except in the Nagpur region, since Congress was reluctant to include workers' demands as it might alienate industrialists, and thousands of women also came out of their homes to listen to Gandhi, participate in protest marches, manufacture salt and picket foreign cloth and liquor shops.",
+            "keywords": [
+              "Patidars",
+              "Jats",
+              "business classes",
+              "industrial workers",
+              "women participation",
+              "trade depression"
+            ]
+          },
+          {
+            "title": "12. The Sense of Collective Belonging: Icons, Images and History",
+            "content": "Nationalism also spread through the identification of icons and symbols, folklore, songs and popular practices that helped create a sense of collective belonging. The image of Bharat Mata, first painted by Abanindranath Tagore in the early twentieth century, portrayed India as a mother goddess figure, inspiring a feeling of a shared 'homeland' to fight for. Reinterpretation of history to emphasise the glorious achievements of ancient India, revival of Indian folklore, and the design of a tricolour flag (Swadeshi flag with eight lotuses representing eight provinces and a crescent moon representing Hindus and Muslims) during the Swadeshi movement, all helped nationalists build a shared sense of Indian identity distinct from colonial rule.",
+            "keywords": [
+              "Bharat Mata",
+              "Abanindranath Tagore",
+              "tricolour flag",
+              "folklore revival",
+              "reinterpretation of history"
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "h2_mcq1",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Rowlatt Act",
+          "question": "The Rowlatt Act of 1919 gave the British government the power to:",
+          "options": [
+            "Increase salt tax",
+            "Detain political prisoners without trial",
+            "Grant voting rights to Indians",
+            "Abolish zamindari system"
+          ],
+          "answer_index": 1,
+          "explanation": "The Rowlatt Act allowed the government to repress political activities and detain prisoners without trial for two years."
+        },
+        {
+          "id": "h2_mcq2",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Champaran Satyagraha",
+          "question": "Gandhi's Champaran Satyagraha of 1917 was organised to support:",
+          "options": [
+            "Cotton mill workers",
+            "Indigo planters/peasants",
+            "Salt traders",
+            "Textile merchants"
+          ],
+          "answer_index": 1,
+          "explanation": "Gandhi went to Champaran, Bihar, to inspire peasants oppressed by the indigo plantation system."
+        },
+        {
+          "id": "h2_mcq3",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Chauri Chaura",
+          "question": "The Non-Cooperation Movement was called off following the incident at:",
+          "options": [
+            "Jallianwala Bagh",
+            "Dandi",
+            "Chauri Chaura",
+            "Champaran"
+          ],
+          "answer_index": 2,
+          "explanation": "A violent clash at Chauri Chaura in February 1922 led Gandhi to withdraw the movement."
+        },
+        {
+          "id": "h2_mcq4",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Salt March",
+          "question": "Gandhi began the Salt March from which place?",
+          "options": [
+            "Sabarmati Ashram",
+            "Champaran",
+            "Amritsar",
+            "Ahmedabad Mills"
+          ],
+          "answer_index": 0,
+          "explanation": "The Dandi/Salt March began at Sabarmati Ashram and ended at the coastal village of Dandi."
+        },
+        {
+          "id": "h2_mcq5",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Bharat Mata",
+          "question": "The image of Bharat Mata as mother goddess was first painted by:",
+          "options": [
+            "Raja Ravi Varma",
+            "Abanindranath Tagore",
+            "Nandalal Bose",
+            "Rabindranath Tagore"
+          ],
+          "answer_index": 1,
+          "explanation": "Abanindranath Tagore painted the iconic image of Bharat Mata."
+        },
+        {
+          "id": "h2_2m1",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Jallianwala Bagh",
+          "question": "What happened at Jallianwala Bagh on 13 April 1919?",
+          "rubric": [
+            {
+              "point": "A large crowd gathered in an enclosed ground in Amritsar to protest the Rowlatt Act/arrest of leaders",
+              "keywords": [
+                "crowd gathered",
+                "amritsar",
+                "rowlatt",
+                "protest",
+                "enclosed"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "General Dyer blocked the exit and opened fire, killing hundreds of unarmed people",
+              "keywords": [
+                "dyer",
+                "opened fire",
+                "killed",
+                "unarmed",
+                "massacre"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "On 13 April 1919, a large crowd gathered in the enclosed ground of Jallianwala Bagh in Amritsar, partly to protest against the Rowlatt Act and the arrest of local leaders. General Dyer blocked the only exit and ordered his troops to open fire on the unarmed crowd, killing hundreds of people, which shocked and enraged the nation."
+        },
+        {
+          "id": "h2_2m2",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Khilafat Movement",
+          "question": "Why did the Khilafat Movement start, and how was it linked to the Non-Cooperation Movement?",
+          "rubric": [
+            {
+              "point": "Muslims feared harsh treatment of the Ottoman Caliph after WWI and wanted to defend his authority",
+              "keywords": [
+                "ottoman",
+                "caliph",
+                "khilafat",
+                "world war"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Gandhi supported it to bring Hindus and Muslims together and merged it with Non-Cooperation",
+              "keywords": [
+                "gandhi supported",
+                "hindu muslim unity",
+                "merged",
+                "non-cooperation"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Indian Muslims were angered by rumours that a harsh peace treaty would be imposed on the Ottoman Caliph after the First World War, and launched the Khilafat Movement under the Ali brothers to defend his authority. Gandhi saw this as an opportunity to bring Hindus and Muslims together under a common struggle and merged the Khilafat cause with the Non-Cooperation Movement."
+        },
+        {
+          "id": "h2_3m1",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Non-Cooperation Movement",
+          "question": "What were the main features of the Non-Cooperation Movement launched in 1920?",
+          "rubric": [
+            {
+              "point": "Surrender of government titles and honours",
+              "keywords": [
+                "surrender titles",
+                "boycott honours"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Boycott of civil services, army, police, courts and legislative councils",
+              "keywords": [
+                "boycott civil services",
+                "courts",
+                "legislative council",
+                "police",
+                "army"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Boycott of foreign goods and schools; promotion of swadeshi and khadi",
+              "keywords": [
+                "boycott foreign goods",
+                "schools",
+                "swadeshi",
+                "khadi"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The Non-Cooperation Movement called upon Indians to surrender government titles and honours; boycott civil services, the army, police, courts, and legislative councils; boycott foreign goods and schools/colleges; and promote swadeshi goods and hand-spun khadi cloth instead."
+        },
+        {
+          "id": "h2_3m2",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Peasants in the movement",
+          "question": "How did peasants in Awadh and tribal peasants interpret and participate in the Non-Cooperation/nationalist movement differently from the Congress programme?",
+          "rubric": [
+            {
+              "point": "Awadh peasants under Baba Ramchandra targeted talukdars and landlords, demanding lower rents/revenue",
+              "keywords": [
+                "awadh",
+                "baba ramchandra",
+                "talukdar",
+                "rent reduction"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Tribal peasants (e.g., Gudem Hills under Alluri Sitarama Raju) linked Gandhi to their own traditions and used militant methods despite the official non-violent programme",
+              "keywords": [
+                "gudem",
+                "alluri sitarama raju",
+                "tribal",
+                "militant",
+                "forest laws"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "These movements often went beyond or diverged from the official Congress programme of strict non-violence",
+              "keywords": [
+                "beyond congress programme",
+                "own interpretation",
+                "diverged"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Peasants in Awadh, led by Baba Ramchandra, organised against talukdars and landlords, demanding reduction of revenue, abolition of begar (forced labour), and social boycott of oppressive landlords - going beyond the official Congress agenda. In the Gudem Hills of Andhra Pradesh, tribal peasants led by Alluri Sitarama Raju invoked Gandhi's name and the idea of Swaraj but resorted to militant guerrilla tactics against restrictive forest laws, unlike the strict non-violence prescribed by the Congress. Both movements show that different social groups interpreted and pursued nationalism according to their own local grievances."
+        },
+        {
+          "id": "h2_5m1",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Civil Disobedience Movement",
+          "question": "Explain the course and significance of the Civil Disobedience Movement (1930-34), with special reference to the Salt March.",
+          "rubric": [
+            {
+              "point": "Background: Gandhi's Eleven Demands and rejection by the Viceroy Irwin",
+              "keywords": [
+                "eleven demands",
+                "irwin",
+                "viceroy"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Salt March: Gandhi walked with followers from Sabarmati Ashram to Dandi (about 240 miles) to break the salt law",
+              "keywords": [
+                "dandi",
+                "sabarmati",
+                "240 miles",
+                "salt law"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Unlike Non-Cooperation, people were now asked to break specific laws (not just refuse cooperation), e.g. manufacturing salt, boycotting foreign cloth",
+              "keywords": [
+                "break laws",
+                "manufacture salt",
+                "boycott foreign cloth"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Wide participation: rich peasants, business classes, women, and in some regions tribal and poor peasants joined",
+              "keywords": [
+                "women participated",
+                "business class",
+                "peasants joined",
+                "wide participation"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Significance: the movement forced the British to negotiate (Gandhi-Irwin Pact, 1931) and mobilised millions in a symbolic, non-violent way that gained international attention",
+              "keywords": [
+                "gandhi-irwin pact",
+                "negotiate",
+                "international attention",
+                "mass mobilisation"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "After presenting Viceroy Irwin with Eleven Demands that were rejected, Gandhi launched the Civil Disobedience Movement in 1930. It began dramatically with the Salt March, in which Gandhi and his followers walked about 240 miles from Sabarmati Ashram to the coastal village of Dandi to break the colonial salt law by making salt themselves. Unlike the Non-Cooperation Movement, this time people were asked to actively break specific unjust laws, not merely refuse cooperation - manufacturing salt, boycotting foreign cloth, and refusing to pay taxes. The movement saw wide participation from rich peasants, business groups seeking tariff protection, women who joined protests and picketing in large numbers, and in some regions tribal and poor peasants. Its significance lay in mobilising millions through a simple, symbolic act of defiance, drawing international attention to the freedom struggle, and eventually forcing the British government to negotiate through the Gandhi-Irwin Pact of 1931."
+        },
+        {
+          "id": "h2_mcq6",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "First World War impact",
+          "question": "The First World War caused which of the following in India?",
+          "options": [
+            "Falling prices and reduced taxes",
+            "Rising prices and increased taxes",
+            "Abolition of income tax",
+            "End of army recruitment"
+          ],
+          "answer_index": 1,
+          "explanation": "War expenditure led to increased taxes and prices doubling between 1913 and 1918."
+        },
+        {
+          "id": "h2_mcq7",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Satyagraha",
+          "question": "Gandhi developed the technique of Satyagraha in:",
+          "options": [
+            "India",
+            "South Africa",
+            "Britain",
+            "Champaran"
+          ],
+          "answer_index": 1,
+          "explanation": "Gandhi first developed Satyagraha while working in South Africa."
+        },
+        {
+          "id": "h2_mcq8",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Kheda Satyagraha",
+          "question": "The Kheda Satyagraha (1918) in Gujarat was organised to support peasants affected by:",
+          "options": [
+            "Salt tax",
+            "Crop failure and a plague epidemic",
+            "The Rowlatt Act",
+            "Partition of Bengal"
+          ],
+          "answer_index": 1,
+          "explanation": "Kheda peasants suffered crop failure and plague and demanded revenue relief."
+        },
+        {
+          "id": "h2_mcq9",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Ahmedabad Satyagraha",
+          "question": "The Ahmedabad Satyagraha of 1918 was organised among:",
+          "options": [
+            "Indigo planters",
+            "Cotton mill workers",
+            "Salt traders",
+            "Railway employees"
+          ],
+          "answer_index": 1,
+          "explanation": "Gandhi organised the Ahmedabad Satyagraha among cotton mill workers demanding better wages."
+        },
+        {
+          "id": "h2_mcq10",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Khilafat Committee",
+          "question": "Which committee was formed in Bombay in March 1919 to defend the Khalifa's authority?",
+          "options": [
+            "Simon Commission",
+            "Khilafat Committee",
+            "Congress Working Committee",
+            "Rowlatt Committee"
+          ],
+          "answer_index": 1,
+          "explanation": "The Khilafat Committee was formed in Bombay in March 1919 under the Ali brothers."
+        },
+        {
+          "id": "h2_mcq11",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Non-Cooperation Movement",
+          "question": "At which Congress session was the Non-Cooperation Movement formally launched (1920)?",
+          "options": [
+            "Lahore session",
+            "Calcutta session",
+            "Nagpur session",
+            "Karachi session"
+          ],
+          "answer_index": 1,
+          "explanation": "The Non-Cooperation Movement was agreed upon at the Calcutta session of the Congress in September 1920."
+        },
+        {
+          "id": "h2_mcq12",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Peasant movements",
+          "question": "In Awadh, the peasant movement against talukdars and landlords was led by:",
+          "options": [
+            "Alluri Sitarama Raju",
+            "Baba Ramchandra",
+            "Muhammad Ali",
+            "Shaukat Ali"
+          ],
+          "answer_index": 1,
+          "explanation": "Baba Ramchandra led the Awadh peasant movement against talukdars and landlords."
+        },
+        {
+          "id": "h2_mcq13",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Tribal movements",
+          "question": "Alluri Sitarama Raju led a militant movement in which region?",
+          "options": [
+            "Awadh",
+            "Assam",
+            "Gudem Hills (Andhra Pradesh)",
+            "Bombay"
+          ],
+          "answer_index": 2,
+          "explanation": "Alluri Sitarama Raju led a militant guerrilla movement in the Gudem Hills of Andhra Pradesh."
+        },
+        {
+          "id": "h2_mcq14",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Assam plantation workers",
+          "question": "Plantation workers in Assam were restricted from leaving tea gardens under the:",
+          "options": [
+            "Rowlatt Act",
+            "Inland Emigration Act, 1859",
+            "Government of India Act, 1935",
+            "Salt Act"
+          ],
+          "answer_index": 1,
+          "explanation": "The Inland Emigration Act of 1859 restricted plantation workers from leaving tea gardens without permission."
+        },
+        {
+          "id": "h2_mcq15",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Simon Commission",
+          "question": "The Simon Commission (1927) was opposed mainly because it:",
+          "options": [
+            "Increased salt tax",
+            "Had no Indian members",
+            "Banned khadi",
+            "Supported Purna Swaraj"
+          ],
+          "answer_index": 1,
+          "explanation": "The Simon Commission was opposed as it had no Indian members, prompting the 'Go back Simon' slogan."
+        },
+        {
+          "id": "h2_mcq16",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Lahore session",
+          "question": "At the Lahore session (1929) of the Congress, under whose presidency was 'Purna Swaraj' declared as the goal?",
+          "options": [
+            "Mahatma Gandhi",
+            "Jawaharlal Nehru",
+            "Sardar Patel",
+            "Subhas Chandra Bose"
+          ],
+          "answer_index": 1,
+          "explanation": "Jawaharlal Nehru presided over the Lahore session where Purna Swaraj was declared the goal."
+        },
+        {
+          "id": "h2_mcq17",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Purna Swaraj",
+          "question": "26 January 1930 was declared as:",
+          "options": [
+            "Republic Day",
+            "The day for people to pledge to struggle for complete independence",
+            "Khilafat Day",
+            "Non-Cooperation Day"
+          ],
+          "answer_index": 1,
+          "explanation": "26 January 1930 was declared as the day for people to take a pledge for complete independence (Purna Swaraj)."
+        },
+        {
+          "id": "h2_mcq18",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Civil Disobedience outcome",
+          "question": "Which pact resulted from negotiations following the Civil Disobedience Movement?",
+          "options": [
+            "Simon Pact",
+            "Gandhi-Irwin Pact",
+            "Lucknow Pact",
+            "Poona Pact"
+          ],
+          "answer_index": 1,
+          "explanation": "The Gandhi-Irwin Pact of 1931 resulted from negotiations after the Civil Disobedience Movement."
+        },
+        {
+          "id": "h2_2m3",
+          "type": "2M",
+          "marks": 2,
+          "topic": "WWI economic hardship",
+          "question": "How did the First World War create economic hardship for common people in India?",
+          "rubric": [
+            {
+              "point": "Increased taxes and war loans were used to finance the war",
+              "keywords": [
+                "increased taxes",
+                "war loans"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Prices of goods doubled between 1913 and 1918, causing extreme hardship",
+              "keywords": [
+                "prices doubled",
+                "hardship"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The First World War was financed through war loans and increased taxes, including higher customs duties and the introduction of income tax. Prices of everyday goods doubled between 1913 and 1918, causing extreme hardship for the common people, compounded by an influenza epidemic and crop failures."
+        },
+        {
+          "id": "h2_2m4",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Early Satyagrahas",
+          "question": "What was the significance of the Kheda and Ahmedabad Satyagrahas of 1917-18?",
+          "rubric": [
+            {
+              "point": "Kheda Satyagraha supported peasants hit by crop failure and plague, demanding revenue relief",
+              "keywords": [
+                "Kheda",
+                "crop failure",
+                "revenue relief"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Ahmedabad Satyagraha supported cotton mill workers demanding better wages and conditions; both established Gandhi's method as effective",
+              "keywords": [
+                "Ahmedabad",
+                "mill workers",
+                "effective method"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The Kheda Satyagraha of 1917-18 supported peasants in Gujarat who were hit by crop failure and a plague epidemic, demanding relief from revenue payments. The Ahmedabad Satyagraha of 1918 supported cotton mill workers demanding better wages and working conditions. Together, these early successes established Gandhi's leadership and Satyagraha as an effective method of political mobilisation in India."
+        },
+        {
+          "id": "h2_2m5",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Simon Commission",
+          "question": "What was the Simon Commission, and why was it opposed in India?",
+          "rubric": [
+            {
+              "point": "A statutory commission set up in 1927 to review India's constitutional system and recommend changes",
+              "keywords": [
+                "statutory commission 1927",
+                "review constitution"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Opposed because it had no Indian members, and was greeted with the slogan 'Go back Simon'",
+              "keywords": [
+                "no Indian members",
+                "Go back Simon"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The Simon Commission was a statutory commission set up by the British government in 1927 to review India's constitutional system and recommend changes. It was opposed across India because it had no Indian members, and was greeted with black-flag demonstrations and the slogan 'Go back Simon' when it arrived in 1928."
+        },
+        {
+          "id": "h2_2m6",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Purna Swaraj",
+          "question": "What did 'Purna Swaraj' mean, and when was it declared as the Congress's goal?",
+          "rubric": [
+            {
+              "point": "Meant complete independence, rejecting the vague offer of dominion status",
+              "keywords": [
+                "complete independence",
+                "dominion status rejected"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Declared at the Lahore session in December 1929, with 26 January 1930 as the pledge day",
+              "keywords": [
+                "Lahore session",
+                "December 1929",
+                "26 January 1930"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "'Purna Swaraj' meant complete independence for India, rejecting the vague offer of 'dominion status' made by the Viceroy. It was formally declared as the Congress's goal at the Lahore session in December 1929, presided over by Jawaharlal Nehru, and 26 January 1930 was declared as the day for people to pledge to struggle for complete independence."
+        },
+        {
+          "id": "h2_2m7",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Significance of salt",
+          "question": "Give two reasons why salt was chosen by Gandhi as a symbol for the Civil Disobedience Movement.",
+          "rubric": [
+            {
+              "point": "Salt was consumed by rich and poor alike, uniting people across all classes",
+              "keywords": [
+                "consumed by rich and poor",
+                "united classes"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Its production was a state monopoly, so manufacturing it was a criminal offence - breaking this law was symbolically powerful",
+              "keywords": [
+                "state monopoly",
+                "criminal offence",
+                "symbolic"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Gandhi chose salt as a symbol because it was consumed by rich and poor alike, making it a cause that could unite all sections of Indian society. Its production was also a state monopoly under British law, so manufacturing salt without authorisation was a criminal offence, making the act of breaking this law a powerful and simple symbol of defiance against colonial rule."
+        },
+        {
+          "id": "h2_3m3",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Rowlatt Act to Jallianwala Bagh",
+          "question": "Explain the sequence of events from the Rowlatt Act to the Jallianwala Bagh massacre.",
+          "rubric": [
+            {
+              "point": "The Rowlatt Act (1919) allowed detention of political prisoners without trial",
+              "keywords": [
+                "Rowlatt Act",
+                "detention without trial"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Gandhi called a nationwide hartal in protest; local leaders were arrested in Amritsar",
+              "keywords": [
+                "nationwide hartal",
+                "leaders arrested Amritsar"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "On 13 April 1919, General Dyer opened fire on an unarmed crowd at Jallianwala Bagh, killing hundreds",
+              "keywords": [
+                "13 April 1919",
+                "General Dyer",
+                "fired on crowd"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The Rowlatt Act of 1919 gave the colonial government sweeping powers to detain political prisoners without trial. Gandhi launched a nationwide Satyagraha and hartal against the Act; alarmed by the response, local leaders were arrested in Amritsar. On 13 April 1919, a large crowd gathered at Jallianwala Bagh in Amritsar, and General Dyer blocked the exits and ordered troops to open fire on the unarmed crowd, killing hundreds and shocking the nation."
+        },
+        {
+          "id": "h2_3m4",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Chauri Chaura withdrawal",
+          "question": "Why did Gandhi decide to withdraw the Non-Cooperation Movement after the Chauri Chaura incident?",
+          "rubric": [
+            {
+              "point": "In February 1922, a violent crowd set fire to a police station in Chauri Chaura, killing its occupants",
+              "keywords": [
+                "Chauri Chaura",
+                "police station burnt"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Gandhi believed satyagrahis were not sufficiently trained/disciplined for non-violent mass struggle",
+              "keywords": [
+                "not sufficiently trained",
+                "non-violent discipline"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "He called off the movement to prevent further violence, disappointing many activists",
+              "keywords": [
+                "called off movement",
+                "disappointed activists"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "In February 1922, a peaceful demonstration at Chauri Chaura in Uttar Pradesh turned violent when the enraged crowd set fire to a police station, killing all its occupants. On learning of this violence, Gandhi decided to call off the Non-Cooperation Movement, believing that satyagrahis had not been sufficiently trained and disciplined for the kind of mass struggle that required strict non-violence, a decision that disappointed many activists."
+        },
+        {
+          "id": "h2_3m5",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Assam plantation workers",
+          "question": "Describe how plantation workers in Assam interpreted the idea of freedom differently from the official Congress programme during the nationalist movement.",
+          "rubric": [
+            {
+              "point": "They were restricted from leaving tea gardens without permission under the Inland Emigration Act, 1859",
+              "keywords": [
+                "Inland Emigration Act",
+                "restricted from leaving"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "For them, freedom meant the right to move freely, so they left the plantations to return to their villages",
+              "keywords": [
+                "freedom to move",
+                "left plantations"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "This went beyond the official Congress non-cooperation programme, showing a local, distinct interpretation of Swaraj",
+              "keywords": [
+                "beyond Congress programme",
+                "own interpretation"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Plantation workers in Assam were restricted by the Inland Emigration Act of 1859 from leaving the tea gardens without permission. For them, freedom was closely bound up with the right to move freely, so when they heard of the Non-Cooperation Movement, many simply left the plantations and headed home to their villages. This action went well beyond the official Congress programme, showing that different social groups gave their own local meaning to the idea of Swaraj."
+        },
+        {
+          "id": "h2_3m6",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Khilafat and Hindu-Muslim unity",
+          "question": "Explain the significance of the Khilafat Movement for Hindu-Muslim unity in the national struggle.",
+          "rubric": [
+            {
+              "point": "Indian Muslims feared harsh treatment of the Ottoman Caliph after the First World War",
+              "keywords": [
+                "Ottoman Caliph",
+                "feared harsh treatment"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "A Khilafat Committee was formed under the leadership of the Ali brothers to defend the Khalifa's authority",
+              "keywords": [
+                "Khilafat Committee",
+                "Ali brothers"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Gandhi merged the Khilafat cause with Non-Cooperation to unite Hindus and Muslims in a common struggle",
+              "keywords": [
+                "merged with Non-Cooperation",
+                "Hindu-Muslim unity"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Indian Muslims were angered by rumours that a harsh peace treaty would be imposed on the Ottoman Caliph after the First World War, and formed a Khilafat Committee under the leadership of the Ali brothers to defend his authority. Gandhi saw this as an opportunity to bring Hindus and Muslims together under a common struggle, and merged the Khilafat cause with the Non-Cooperation Movement, strengthening Hindu-Muslim unity in the national movement."
+        },
+        {
+          "id": "h2_3m7",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Cultural construction of the nation",
+          "question": "How was the image of the Indian nation constructed through cultural symbols like Bharat Mata and the tricolour flag?",
+          "rubric": [
+            {
+              "point": "Bharat Mata, painted by Abanindranath Tagore, portrayed India as a mother goddess, evoking emotional attachment to the homeland",
+              "keywords": [
+                "Bharat Mata",
+                "Abanindranath Tagore",
+                "emotional attachment"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "A tricolour flag was designed during the Swadeshi movement, with symbols representing provinces and communities",
+              "keywords": [
+                "tricolour flag",
+                "Swadeshi movement"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "These icons and symbols helped build a shared sense of collective national identity",
+              "keywords": [
+                "shared identity",
+                "collective belonging"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The image of Bharat Mata, first painted by Abanindranath Tagore, portrayed India as a mother goddess figure, helping to build an emotional bond between Indians and their idea of the homeland. During the Swadeshi movement, a tricolour flag was designed, with symbols such as lotuses and a crescent moon representing different provinces and communities. Such icons and symbols played an important role in creating a shared sense of collective belonging to the Indian nation, distinct from colonial rule."
+        },
+        {
+          "id": "h2_5m2",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Gandhi's early Satyagrahas leading to Non-Cooperation",
+          "question": "Trace Gandhi's early experiments with Satyagraha in India (Champaran, Kheda, Ahmedabad) and explain how they prepared the ground for the Non-Cooperation Movement.",
+          "rubric": [
+            {
+              "point": "Satyagraha is based on the power of truth and non-violent resistance to injustice",
+              "keywords": [
+                "power of truth",
+                "non-violent resistance"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Champaran, 1917: Gandhi supported indigo peasants against the oppressive plantation system",
+              "keywords": [
+                "Champaran",
+                "indigo peasants"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Kheda, 1917-18: supported peasants hit by crop failure/plague, demanding revenue relief",
+              "keywords": [
+                "Kheda",
+                "crop failure",
+                "revenue relief"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Ahmedabad, 1918: supported cotton mill workers demanding better wages",
+              "keywords": [
+                "Ahmedabad",
+                "mill workers wages"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "These successes established Gandhi's leadership and Satyagraha as a viable method, leading to the nationwide Non-Cooperation Movement in 1920",
+              "keywords": [
+                "established leadership",
+                "Non-Cooperation 1920"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Gandhi's technique of Satyagraha was based on the power of truth and non-violent resistance to injustice. He first tested it in India in 1917 at Champaran, Bihar, where he supported peasants oppressed by the indigo plantation system. Later in 1917-18, he organised a Satyagraha in Kheda, Gujarat, to support peasants hit by crop failure and a plague epidemic, demanding revenue relief. In 1918, he organised a Satyagraha among cotton mill workers in Ahmedabad demanding better wages and working conditions. These early successes established Gandhi's leadership and Satyagraha as an effective and viable method of political mobilisation, paving the way for the launch of the nationwide Non-Cooperation Movement in 1920."
+        },
+        {
+          "id": "h2_5m3",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Diverse social groups in the national movement",
+          "question": "Explain how different social groups (peasants, tribals, business classes, women) participated in and interpreted the national movement in their own ways.",
+          "rubric": [
+            {
+              "point": "Peasants in Awadh, led by Baba Ramchandra, organised against talukdars and landlords, demanding lower rents/revenue",
+              "keywords": [
+                "Awadh",
+                "Baba Ramchandra",
+                "talukdars"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Tribal peasants in the Gudem Hills, led by Alluri Sitarama Raju, used militant methods invoking Gandhi's name and Swaraj",
+              "keywords": [
+                "Gudem Hills",
+                "Alluri Sitarama Raju",
+                "militant"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Business classes wanted protection against foreign imports and a favourable exchange rate, and gave financial support to the movement",
+              "keywords": [
+                "business classes",
+                "protection imports",
+                "financial support"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Women participated in large numbers, joining protest marches, manufacturing salt and picketing foreign cloth/liquor shops",
+              "keywords": [
+                "women participation",
+                "picketing",
+                "salt manufacturing"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Each group interpreted Swaraj according to its own specific grievances, showing the movement was not uniform",
+              "keywords": [
+                "own interpretation",
+                "not uniform"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Different social groups participated in the national movement with their own specific aspirations. In Awadh, peasants led by Baba Ramchandra organised against talukdars and landlords, demanding reduction of revenue and rent. In the Gudem Hills of Andhra Pradesh, tribal peasants led by Alluri Sitarama Raju invoked Gandhi's name and the idea of Swaraj but used far more militant, guerrilla methods against restrictive forest laws. Indian business classes, seeking protection against foreign imports and a favourable exchange rate for trade, extended financial support to the movement. Women also came out in large numbers, joining protest marches, manufacturing salt, and picketing shops selling foreign cloth and liquor. Together, these examples show that different social groups interpreted and pursued the idea of Swaraj according to their own local grievances, rather than following a single, uniform programme."
+        },
+        {
+          "id": "h2_4m1",
+          "type": "4M",
+          "marks": 4,
+          "topic": "Social groups in Civil Disobedience Movement",
+          "question": "Describe any four ways in which different social groups participated in the Civil Disobedience Movement (1930-34).",
+          "rubric": [
+            {
+              "point": "Rich peasants (e.g. Patidars of Gujarat, Jats of UP) joined actively since they were hit hard by trade depression and high revenue demand, and organised their communities",
+              "keywords": [
+                "rich peasants",
+                "patidars",
+                "jats",
+                "trade depression"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Poor peasants wanted freedom from payment of rent, and some joined radical movements led by socialists and communists, going beyond the Congress programme",
+              "keywords": [
+                "poor peasants",
+                "rent freedom",
+                "radical movements"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Indian business classes wanted protection against imports and a rupee-sterling exchange rate favourable to Indian trade, and gave financial support to the movement",
+              "keywords": [
+                "business classes",
+                "protection imports",
+                "financial support"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Women participated in large numbers, joining protest marches, manufacturing salt and picketing foreign cloth and liquor shops, though the Congress was initially reluctant to allow women in the movement",
+              "keywords": [
+                "women participated",
+                "picketing",
+                "manufacturing salt",
+                "protest marches"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Different social groups joined the Civil Disobedience Movement with their own aspirations. Rich peasants, such as the Patidars of Gujarat and Jats of Uttar Pradesh, participated actively because they were hit hard by falling prices and fixed high revenue demands during the trade depression, and they mobilised their communities into the movement. Poor peasants wanted freedom from payment of rent to landlords, and in some areas joined more radical activities led by socialists and communists, going beyond the Congress's official non-violent programme. Indian business classes, keen on protection against foreign imports and a more favourable exchange rate for Indian trade, extended financial support to the movement. Women also participated in large numbers, joining protest marches, helping manufacture salt, and picketing shops selling foreign cloth and liquor, even though the Congress was initially reluctant to allow women into active protest."
+        },
+        {
+          "id": "h2_4m2",
+          "type": "4M",
+          "marks": 4,
+          "topic": "Constructing the idea of the nation",
+          "question": "Explain any four ways in which the sense of collective belonging to the Indian nation was created through culture and symbols.",
+          "rubric": [
+            {
+              "point": "The identification of India with the image of Bharat Mata, a mother goddess figure, helped build a shared emotional bond with the nation",
+              "keywords": [
+                "bharat mata",
+                "mother goddess",
+                "emotional bond"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Revival and reinterpretation of Indian folklore, myths and songs (e.g. by Natesa Sastri) helped project a true, pure national culture uncorrupted by outside influences",
+              "keywords": [
+                "folklore revival",
+                "natesa sastri",
+                "true national culture"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Icons and symbols, such as the tricolour flag designed during the Swadeshi movement, played a role in unifying people under a shared identity",
+              "keywords": [
+                "tricolour flag",
+                "swadeshi movement",
+                "icons symbols"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Reinterpretation of history to celebrate India's great achievements and glorious past gave Indians pride and a sense of shared identity against colonial rule",
+              "keywords": [
+                "reinterpretation of history",
+                "glorious past",
+                "pride shared identity"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "A sense of collective belonging to India as a nation came partly through the identification of the country with the image of Bharat Mata, a mother goddess figure that evoked a shared emotional bond among Indians. Nationalists also revived and reinterpreted Indian folklore, collecting folk tales and songs, as done by figures like Natesa Sastri, to project the idea of a true, pure national culture untouched by outside influence. Icons and symbols also played a unifying role - for instance, a tricolour flag was designed during the Swadeshi movement, becoming a symbol of resistance and shared identity. Finally, nationalist writers reinterpreted history to highlight India's glorious achievements in the past, instilling pride and a sense of belonging to counter the humiliation of colonial rule."
+        },
+        {
+          "id": "h2_cbq1",
+          "type": "CBQ",
+          "marks": 4,
+          "topic": "Case study - print culture, images and the growth of nationalism in India",
+          "passage": "In the early 20th century, the artist Abanindranath Tagore painted 'Bharat Mata' as a calm, composed, ascetic figure. This image, along with countless songs, poems and stories, was printed and circulated widely across the country, playing a powerful role in building a shared sense of Indian identity during the freedom struggle.",
+          "subquestions": [
+            {
+              "id": "h2_cbq1_a",
+              "marks": 1,
+              "question": "The image of 'Bharat Mata' is an example of which method used to build a sense of collective national belonging?",
+              "options": [
+                "Economic boycott of British goods",
+                "Identifying the nation with a personified figure or icon",
+                "Formation of a political party",
+                "Signing an international treaty"
+              ],
+              "answer_index": 1,
+              "explanation": "Personifying the nation as 'Bharat Mata' gave people a shared symbol to identify with emotionally, a common technique for building collective national identity."
+            },
+            {
+              "id": "h2_cbq1_b",
+              "marks": 1,
+              "question": "Besides visual images, which of the following also played a major role in spreading nationalist feeling through print culture?",
+              "options": [
+                "Only government gazettes",
+                "Folk songs, poems, and reinterpreted history or legends circulated in print",
+                "Only official school textbooks approved by the British",
+                "Foreign newspapers printed outside India"
+              ],
+              "answer_index": 1,
+              "explanation": "Folk songs, poems and popular reinterpretations of Indian history and legends, spread through cheap print, were key tools for building nationalist sentiment among a wide, diverse audience."
+            },
+            {
+              "id": "h2_cbq1_c",
+              "marks": 2,
+              "question": "Explain how print culture (pamphlets, newspapers, printed images) helped spread nationalist ideas among people from different regions and backgrounds during India's freedom struggle.",
+              "rubric": [
+                {
+                  "point": "Print allowed nationalist ideas, images (like Bharat Mata) and accounts of events to be reproduced cheaply and circulated widely, reaching people across different regions who could not meet each other directly",
+                  "keywords": [
+                    "reproduced and circulated widely",
+                    "reach different regions"
+                  ],
+                  "weight": 1
+                },
+                {
+                  "point": "This helped create a shared, collective identity - an 'imagined community' - by giving diverse people common symbols, stories and songs to identify with, even without direct personal contact",
+                  "keywords": [
+                    "shared collective identity",
+                    "imagined community",
+                    "common symbols"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "Print culture allowed nationalist images (like Bharat Mata), songs, poems and stories to be reproduced cheaply and circulated widely, reaching people across very different regions and backgrounds who would otherwise never interact directly. This let diverse people share common symbols and stories, helping build a collective, 'imagined' sense of belonging to one nation - a shared identity, even among people who had never met."
+            }
+          ]
+        },
+        {
+          "id": "h2_ar1",
+          "type": "AR",
+          "marks": 1,
+          "topic": "Print culture and collective belonging",
+          "question": "Assertion (A): Printed images and songs helped build a sense of collective belonging among Indians during the freedom struggle.\nReason (R): Print allowed the same image, song or story to be reproduced and circulated widely, letting people from different regions share common symbols and ideas.",
+          "options": [
+            "Both A and R are true and R is the correct explanation of A.",
+            "Both A and R are true but R is not the correct explanation of A.",
+            "A is true but R is false.",
+            "A is false but R is true."
+          ],
+          "answer_index": 0,
+          "explanation": "Both statements are true, and R correctly explains the mechanism by which print built a shared national identity."
+        },
+        {
+          "id": "h2_ar2",
+          "type": "AR",
+          "marks": 1,
+          "topic": "Origins of the Bharat Mata image",
+          "question": "Assertion (A): The image of Bharat Mata has always existed in ancient Indian scripture as a personification of the nation.\nReason (R): The Bharat Mata image was a modern creation of the nationalist movement, first painted in the early 20th century, intended to evoke emotional attachment to the idea of the nation.",
+          "options": [
+            "Both A and R are true and R is the correct explanation of A.",
+            "Both A and R are true but R is not the correct explanation of A.",
+            "A is true but R is false.",
+            "A is false but R is true."
+          ],
+          "answer_index": 3,
+          "explanation": "Bharat Mata is NOT an ancient scriptural figure - it was a deliberate, modern nationalist creation of the early 20th century, so A is false. R correctly explains its actual origin and purpose."
+        },
+        {
+          "id": "h2_pq_mcq1",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "The Rowlatt Act and civil liberties",
+          "question": "How was the Rowlatt Act of 1919 perceived by Indians in terms of fundamental rights and civil liberties?",
+          "options": [
+            "It was viewed as a regressive legislation in favour of the majority Indians.",
+            "It was considered as severely curtailing the right to personal liberty.",
+            "It was seen as a necessary measure to prevent communal tensions.",
+            "It was regarded as a safeguard for protecting British soldiers."
+          ],
+          "answer_index": 1,
+          "explanation": "The Rowlatt Act (1919) gave the colonial government emergency powers to imprison political prisoners without trial for up to two years, which Indians widely condemned as a severe and unjust curtailment of civil liberties and personal freedom - sparking the Rowlatt Satyagraha.",
+          "chapter_id": "nationalism_in_india",
+          "chapter_title": "Nationalism in India",
+          "subject": "history"
+        },
+        {
+          "id": "h2_pq_mcq2",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "The masses' resolve during the Civil Disobedience Movement",
+          "question": "Despite the challenges faced during the Non-Cooperation Movement, Indian masses willingly participated in the Civil Disobedience Movement. Which of the following quotes BEST reflects the outlook of the masses?",
+          "options": [
+            "'The greatest glory in living lies not in never falling, but in rising every time we fall.'",
+            "'An eye for an eye only ends up making the whole world blind.'",
+            "'Injustice anywhere is a threat to justice everywhere.'",
+            "'Obedience is the key to a peaceful society.'"
+          ],
+          "answer_index": 0,
+          "explanation": "This quote best reflects the resilient, determined spirit of the masses, who - despite the setbacks and repression faced in the earlier Non-Cooperation Movement - rose again to participate enthusiastically in the Civil Disobedience Movement.",
+          "chapter_id": "nationalism_in_india",
+          "chapter_title": "Nationalism in India",
+          "subject": "history"
+        },
+        {
+          "id": "h2_pq2_mcq1",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Identifying the Civil Disobedience Movement from its description",
+          "question": "Identify the movement described below: 'The movement broke colonial laws and also refused cooperation with the British.'",
+          "options": [
+            "Rowlatt Satyagraha Movement",
+            "Civil Disobedience Movement",
+            "Non-Cooperation Movement",
+            "Quit India Movement"
+          ],
+          "answer_index": 1,
+          "explanation": "The Civil Disobedience Movement (from 1930) went beyond the earlier Non-Cooperation Movement's refusal to cooperate - it involved directly and openly breaking colonial laws (like the salt law), in addition to non-cooperation.",
+          "chapter_id": "nationalism_in_india",
+          "chapter_title": "Nationalism in India",
+          "subject": "history"
+        },
+        {
+          "id": "h2_pq2_mcq2",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Sequencing key events of the Indian freedom struggle",
+          "question": "Arrange the following events in the correct chronological order: (i) Poorna Swaraj resolution passed; (ii) Boycott of the Simon Commission; (iii) Quit India Movement launched; (iv) Salt March and beginning of the Civil Disobedience Movement.",
+          "options": [
+            "iv, iii, ii, i",
+            "ii, i, iv, iii",
+            "i, iv, iii, ii",
+            "i, ii, iii, iv"
+          ],
+          "answer_index": 1,
+          "explanation": "The correct order is: Boycott of the Simon Commission (1928), Poorna Swaraj resolution passed (1929), Salt March and start of the Civil Disobedience Movement (1930), Quit India Movement launched (1942).",
+          "chapter_id": "nationalism_in_india",
+          "chapter_title": "Nationalism in India",
+          "subject": "history"
+        },
+        {
+          "id": "h2_pq_3m1",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Print culture and the growth of nationalism in India",
+          "question": "Provide evidence to support the claim that print culture helped in the growth of nationalism in India.",
+          "rubric": [
+            {
+              "point": "Despite repressive colonial measures, nationalist newspapers grew in number across India, reporting on colonial misrule and encouraging nationalist activity",
+              "keywords": [
+                "nationalist newspapers grew",
+                "reported colonial misrule"
+              ],
+              "weight": 1.5
+            },
+            {
+              "point": "Attempts to suppress nationalist criticism provoked militant protest, which in turn led to renewed cycles of persecution and further protest",
+              "keywords": [
+                "militant protest",
+                "cycle of persecution"
+              ],
+              "weight": 0.5
+            },
+            {
+              "point": "Example: when Punjab revolutionaries were deported in 1907, Bal Gangadhar Tilak wrote sympathetically about them in his newspaper Kesari, leading to his imprisonment in 1908, which in turn provoked widespread protests across India",
+              "keywords": [
+                "tilak",
+                "kesari",
+                "1908",
+                "imprisonment"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Despite repressive colonial measures aimed at controlling the press, nationalist newspapers grew steadily in number across all parts of India; they reported on colonial misrule and actively encouraged nationalist activity. Colonial attempts to throttle this nationalist press criticism provoked militant protest, which in turn led to renewed cycles of persecution and protest. A clear example is Bal Gangadhar Tilak, who wrote sympathetically in his newspaper Kesari about Punjab revolutionaries deported in 1907 - this led to his own imprisonment in 1908, which provoked widespread protests all across India, showing how print culture actively fuelled and sustained the nationalist movement.",
+          "chapter_id": "nationalism_in_india",
+          "chapter_title": "Nationalism in India",
+          "subject": "history"
+        },
+        {
+          "id": "h2_pq_5m1",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Significance and milestones of the Civil Disobedience Movement",
+          "question": "Examine the significance and key milestones of the Civil Disobedience Movement that took place in India during the struggle for independence.",
+          "rubric": [
+            {
+              "point": "Key milestones: the Dandi March (Gandhi's 240-mile march to produce salt) became a powerful symbol of resistance with international attention; British repression and mass arrests followed, which fuelled public outrage and strengthened the movement; the movement eventually led to negotiations between Congress and the British government, though it fell short of full independence",
+              "keywords": [
+                "dandi march",
+                "repression and arrests",
+                "negotiations"
+              ],
+              "weight": 2.5
+            },
+            {
+              "point": "Significance: mass participation across diverse sections of society showed unity and determination; Indians boycotted British goods to promote self-reliance and protest colonial economic policy; the movement raised awareness and inspired active nationalist participation across the masses; its legacy as a symbol of non-violent resistance went on to inspire freedom movements worldwide",
+              "keywords": [
+                "mass participation",
+                "boycott of british goods",
+                "legacy",
+                "inspired future movements"
+              ],
+              "weight": 2.5
+            }
+          ],
+          "model_answer": "Key milestones of the Civil Disobedience Movement include the Dandi March, in which Gandhi's 240-mile march to produce salt became a powerful symbol of resistance and drew international attention; the British response of repression and mass arrests, which fuelled public outrage and further strengthened the movement; and the eventual negotiations between the Congress and the British government that the movement led to, though these fell short of achieving full independence. The movement's significance lies in its mass participation - it saw widespread involvement from diverse segments of Indian society, showcasing unity and determination; the boycott of British goods, through which Indians promoted self-reliance and protested colonial economic policy; the way it raised nationalist awareness and inspired active participation and unity among the masses; and its lasting legacy as a symbol of non-violent resistance, which went on to inspire freedom movements worldwide.",
+          "chapter_id": "nationalism_in_india",
+          "chapter_title": "Nationalism in India",
+          "subject": "history"
+        },
+        {
+          "id": "h2_pq_5m2",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Satyagraha and the constitutional Right to Protest",
+          "question": "The Constitution of India guarantees the fundamental right to protest, derived from the freedom of speech and expression and the freedom to assemble peacefully - though this is subject to reasonable restrictions, and violent actions during protest are seen as violating citizens' fundamental duties, so the right to protest is understood to cover only peaceful demonstrations. Examine the elements of Satyagraha employed during the 20th-century Indian freedom struggle in light of their alignment with this constitutional Right to Protest.",
+          "rubric": [
+            {
+              "point": "Elements of Satyagraha that align with the modern right to protest include its emphasis on non-violence, peaceful protest, respect for human rights, and dialogue/negotiation with authorities - these promote democratic values, freedom of speech, and the right to dissent, matching the constitutional protection for peaceful protest",
+              "keywords": [
+                "non-violence",
+                "peaceful protest",
+                "dialogue and negotiation"
+              ],
+              "weight": 2.5
+            },
+            {
+              "point": "However, certain elements of Satyagraha may sit in tension with the constitution: acts of civil disobedience that involved deliberately breaking specific laws (like the salt law) or disrupting public order could be seen as conflicting with the principle of upholding the rule of law, and techniques that obstructed essential services or government functioning could be considered constitutionally problematic today",
+              "keywords": [
+                "breaking laws",
+                "civil disobedience",
+                "obstructing government functioning"
+              ],
+              "weight": 2.5
+            }
+          ],
+          "model_answer": "Many elements of Satyagraha as practised in the freedom struggle align closely with the constitutional Right to Protest: its core emphasis on non-violence, peaceful demonstration, respect for human dignity, and preference for dialogue and negotiation over confrontation all promote the same democratic values - freedom of speech and expression and the right to dissent - that the Constitution protects. At the same time, some elements of Satyagraha sit in tension with a strict reading of today's constitutional right: deliberate acts of civil disobedience, such as breaking specific laws (like the colonial salt law) or disrupting public order, can be seen as conflicting with the principle of upholding the rule of law; similarly, techniques that obstructed essential services or hindered the functioning of government machinery could be viewed as going beyond what the constitutionally protected right to peaceful protest allows. So while Satyagraha's spirit of peaceful, principled dissent strongly echoes the modern Right to Protest, its more disruptive tactics of lawbreaking would need to be reconciled with the constitution's insistence on peaceful, lawful demonstration.",
+          "chapter_id": "nationalism_in_india",
+          "chapter_title": "Nationalism in India",
+          "subject": "history"
+        },
+        {
+          "id": "h2_pq_cbq1",
+          "type": "CBQ",
+          "marks": 4,
+          "topic": "Case study - Gandhiji's 'Do or Die' speech (Quit India Movement)",
+          "passage": "In his address to the All India Congress Committee in Bombay on 8 August 1942, outlining his plan of action, Gandhiji said: 'You may take it from me that I am not going to strike a bargain with the Viceroy for ministries and the like. I am not going to be satisfied with anything short of complete freedom... Here is a mantra, a short one, that I give you... The mantra is: Do or Die. We shall either free India or die in the attempt; we shall not live to see the perpetuation of our slavery... Let that be your pledge.'",
+          "subquestions": [
+            {
+              "id": "h2_pq_cbq1_a",
+              "marks": 1,
+              "question": "What was one key impact of Gandhiji's rejection of 'striking a bargain with the Viceroy for ministries and the like' on the people participating in the freedom struggle?",
+              "rubric": [
+                {
+                  "point": "People joined the freedom struggle with stronger determination, pledging not to live to see the continuation of India's slavery - the rejection of partial concessions hardened mass resolve for complete freedom",
+                  "keywords": [
+                    "stronger determination",
+                    "not to live to see slavery continue"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "By rejecting any partial bargain, Gandhiji pushed people to join the freedom struggle with far stronger determination - many pledged not to live to see the continuation of India's slavery, hardening the mass resolve to accept nothing short of complete independence."
+            },
+            {
+              "id": "h2_pq_cbq1_b",
+              "marks": 1,
+              "question": "How did the 'Do or Die' mantra differ from earlier strategies employed in the freedom struggle?",
+              "rubric": [
+                {
+                  "point": "Earlier strategies (like non-violent civil disobedience and negotiation) pressed the British for incremental reforms and concessions; 'Do or Die' instead demanded immediate, complete freedom, rejecting piecemeal change",
+                  "keywords": [
+                    "incremental reforms",
+                    "immediate complete freedom",
+                    "rejecting piecemeal change"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "Earlier strategies, such as non-violent civil disobedience and negotiation, largely focused on pressing the British government for incremental reforms and partial concessions. The 'Do or Die' approach marked a clear departure from this - it signalled an end to the quest for piecemeal change and instead demanded immediate and complete freedom for India, with no room for further negotiation."
+            },
+            {
+              "id": "h2_pq_cbq1_c",
+              "marks": 2,
+              "question": "Discuss the economic context and political climate that led to the adoption of the 'Do or Die' mantra.",
+              "rubric": [
+                {
+                  "point": "Economic context: the harsh impact of the Second World War on the Indian economy and living conditions (price rises, shortages) created widespread discontent among Indians",
+                  "keywords": [
+                    "world war economic hardship",
+                    "discontent"
+                  ],
+                  "weight": 1
+                },
+                {
+                  "point": "Political context: the British government's failure to fulfil promises of dominion status after the war left Indian leaders disillusioned with incremental reforms, and the political climate grew tense with growing impatience for complete independence, leading Gandhi to seek a more decisive strategy to break the negotiating stalemate",
+                  "keywords": [
+                    "failure to grant dominion status",
+                    "disillusioned",
+                    "impatience for independence"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "Economically, the Second World War had a harsh impact on India's economy and living conditions, causing widespread discontent among ordinary Indians. Politically, the British government's failure to fulfil earlier promises of dominion status for India after the war left Indian leaders deeply disillusioned with the strategy of pursuing incremental reforms through negotiation. With the political climate growing increasingly tense and public impatience for full independence mounting, Gandhi sought a more decisive strategy to break the stalemate in negotiations with the British - leading to the adoption of the uncompromising 'Do or Die' mantra."
+            }
+          ],
+          "chapter_id": "nationalism_in_india",
+          "chapter_title": "Nationalism in India",
+          "subject": "history"
+        },
+        {
+          "id": "h2_pq2_cbq1",
+          "type": "CBQ",
+          "marks": 4,
+          "topic": "Case study - Gandhiji's letter to Lord Irwin and the Dandi Salt March",
+          "passage": "Mahatma Gandhi's letter to Lord Irwin was, in a way, an ultimatum: if the demands were not fulfilled by 11 March, Congress would launch a civil disobedience campaign. Irwin was unwilling to negotiate, so Gandhi started his famous salt march, accompanied by 78 trusted volunteers. The march covered over 240 miles, from Gandhi's ashram in Sabarmati to the Gujarati coastal town of Dandi, walking about 10 miles a day for 24 days. Thousands came to hear Gandhi wherever he stopped, and he explained what he meant by swaraj and urged them to peacefully defy the British. On 6 April, he reached Dandi and ceremonially violated the law by manufacturing salt from sea water.",
+          "subquestions": [
+            {
+              "id": "h2_pq2_cbq1_a",
+              "marks": 1,
+              "question": "What did Gandhiji's letter to Lord Irwin state?",
+              "rubric": [
+                {
+                  "point": "The letter stated that if the demands were not fulfilled by 11 March, Congress would launch a civil disobedience campaign",
+                  "keywords": [
+                    "demands not fulfilled by 11 march",
+                    "civil disobedience campaign"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "The letter was essentially an ultimatum: it stated that if the demands were not met by 11 March, the Congress would launch a civil disobedience campaign."
+            },
+            {
+              "id": "h2_pq2_cbq1_b",
+              "marks": 1,
+              "question": "Why did Gandhiji march to Dandi?",
+              "rubric": [
+                {
+                  "point": "Since Lord Irwin was unwilling to negotiate, Gandhi started the salt march (accompanied by 78 volunteers) from Sabarmati to the coastal town of Dandi, in order to manufacture salt and openly violate the colonial salt law",
+                  "keywords": [
+                    "irwin unwilling to negotiate",
+                    "manufacture salt",
+                    "violate salt law"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "Since Lord Irwin refused to negotiate, Gandhi launched his famous salt march, walking with 78 trusted volunteers from his Sabarmati ashram to the coastal town of Dandi, where he intended to manufacture salt from sea water and thereby openly defy the colonial government's salt law."
+            },
+            {
+              "id": "h2_pq2_cbq1_c",
+              "marks": 2,
+              "question": "Gandhiji chose to defy the salt tax specifically as the centrepiece of the Civil Disobedience Movement. Substantiate this choice, giving reasons.",
+              "rubric": [
+                {
+                  "point": "Salt was consumed by the rich and poor alike, making it a powerful, universally relatable symbol capable of uniting the whole nation across class lines",
+                  "keywords": [
+                    "consumed by rich and poor alike",
+                    "unite the nation"
+                  ],
+                  "weight": 1
+                },
+                {
+                  "point": "Salt was one of the most essential items of food, and the tax on it plus the government's monopoly over its production was, in Gandhi's words, among the most oppressive faces of British rule - making it a potent symbol of colonial injustice to rally around",
+                  "keywords": [
+                    "essential item",
+                    "government monopoly",
+                    "oppressive face of british rule"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "Gandhi found in salt a powerful unifying symbol: it was something consumed by rich and poor alike, and one of the most essential items of food for every Indian household, so a protest built around it could unite the whole nation regardless of class or region. He declared that the tax on salt and the government's monopoly over its production revealed the most oppressive face of British rule - turning something as basic and universal as salt into a vivid, easily understood symbol of colonial injustice, which is exactly why he chose to defy the salt tax as the centrepiece of the Civil Disobedience Movement."
+            }
+          ],
+          "chapter_id": "nationalism_in_india",
+          "chapter_title": "Nationalism in India",
+          "subject": "history"
+        },
+        {
+          "id": "h2_pq_fact1",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Map skills - the Jallianwala Bagh massacre site",
+          "question": "In which city did the Jallianwala Bagh massacre of 1919 take place?",
+          "options": [
+            "Amritsar",
+            "Lahore",
+            "Delhi",
+            "Ahmedabad"
+          ],
+          "answer_index": 0,
+          "explanation": "The Jallianwala Bagh massacre took place in Amritsar, Punjab, on 13 April 1919, when British troops under General Dyer fired on an unarmed crowd gathered at the Jallianwala Bagh enclosure.",
+          "chapter_id": "nationalism_in_india",
+          "chapter_title": "Nationalism in India",
+          "subject": "history"
+        },
+        {
+          "id": "h2_pq_fact2",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Map skills - the 1927 and 1920 Indian National Congress sessions",
+          "question": "The Indian National Congress held sessions at several cities during the freedom struggle. In which city was the 1927 INC session held (a session notable for passing the resolution on 'complete independence' as a goal, foreshadowing the Poorna Swaraj resolution)?",
+          "options": [
+            "Madras",
+            "Nagpur",
+            "Lahore",
+            "Bombay"
+          ],
+          "answer_index": 0,
+          "explanation": "The 1927 Indian National Congress session was held at Madras, where a resolution declaring complete independence (Poorna Swaraj) as the Congress's goal was passed for the first time (later formally adopted at the 1929 Lahore session).",
+          "chapter_id": "nationalism_in_india",
+          "chapter_title": "Nationalism in India",
+          "subject": "history"
+        },
+        {
+          "id": "h2_pq2_fact1",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Map skills - the December 1920 INC session and the Bardoli Satyagraha",
+          "question": "Two milestones of the freedom struggle: (i) a major peasant satyagraha took place in Bardoli, Gujarat; and (ii) the Indian National Congress held a session in December 1920 that adopted the Non-Cooperation programme. In which city was that December 1920 INC session held?",
+          "options": [
+            "Nagpur",
+            "Madras",
+            "Lahore",
+            "Calcutta"
+          ],
+          "answer_index": 0,
+          "explanation": "The December 1920 INC session, which formally adopted the Non-Cooperation programme, was held in Nagpur. (Note: the Bardoli Satyagraha, led by Vallabhbhai Patel in 1928, was the major peasant satyagraha in Gujarat during this era - this and the Nagpur session location are independently confirmed here, correcting a mismatched answer found in the source marking scheme, which had mistakenly reused the answer key for a different, unrelated map question about Amritsar and Madras.)",
+          "chapter_id": "nationalism_in_india",
+          "chapter_title": "Nationalism in India",
+          "subject": "history"
+        },
+        {
+          "id": "h2_bp_cbq1",
+          "type": "CBQ",
+          "marks": 4,
+          "topic": "Case study - Print and Censorship in colonial India (First and Second World Wars)",
+          "passage": "Print and Censorship\nThe power of the printed word is most often seen in the way governments seek to regulate and suppress print. The colonial government kept continuous track of all books and newspapers published in India and passed numerous laws to control the press.\nDuring the First World War, under the Defence of India Rules, 22 newspapers had to furnish securities. Of these, 18 shut down rather than comply with government orders. The Sedition Committee Report under Rowlatt in 1919 further strengthened controls that led to imposition of penalties on various newspapers. At the outbreak of the Second World War, the 'Defence of India Act' was passed, allowing censoring of reports of war-related topics. All reports about the Quit India Movement came under its purview. In August 1942, about 90 newspapers were suppressed.",
+          "subquestions": [
+            {
+              "id": "h2_bp_cbq1_a",
+              "marks": 1,
+              "question": "Why were newspapers suppressed in 1942?",
+              "rubric": [
+                {
+                  "point": "they were reporting on the Quit India Movement, which came under the purview of the Defence of India Act allowing censorship of war-related reports",
+                  "keywords": [
+                    "quit india movement",
+                    "defence of india act"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "Because they carried reports on the Quit India Movement, which came under the purview of the Defence of India Act that allowed the government to censor reports on war-related and movement-related topics."
+            },
+            {
+              "id": "h2_bp_cbq1_b",
+              "marks": 1,
+              "question": "How did the colonial government's policies affect nationalism?",
+              "rubric": [
+                {
+                  "point": "press-control laws tried to suppress nationalist news/ideas from reaching the public, but many papers defied government orders and shut down rather than comply, showing continued nationalist resistance",
+                  "keywords": [
+                    "suppress nationalist",
+                    "shut down rather than comply"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "The government's repeated press-control laws tried to restrict nationalist ideas and news of movements from reaching the public and to weaken support for the freedom struggle. However, many newspapers defied these orders and chose to shut down rather than comply, showing that nationalist resistance continued despite censorship."
+            },
+            {
+              "id": "h2_bp_cbq1_c",
+              "marks": 2,
+              "question": "Examine the role of the press in colonial India.",
+              "rubric": [
+                {
+                  "point": "the press published nationalist ideas and spread news of movements, mobilising public opinion against colonial rule",
+                  "keywords": [
+                    "spread news of movements",
+                    "mobilised public opinion"
+                  ],
+                  "weight": 1
+                },
+                {
+                  "point": "because of this, the government repeatedly tried to track, license and censor the press through laws like the Defence of India Rules, the Sedition Committee/Rowlatt Report and the Defence of India Act, showing it saw the press as a serious threat",
+                  "keywords": [
+                    "defence of india rules",
+                    "sedition committee",
+                    "serious threat"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "The press in colonial India published nationalist ideas and spread news of movements like the Quit India Movement, helping mobilise public opinion against colonial rule. Precisely because of this influence, the colonial government repeatedly tried to track, license and censor newspapers through a succession of laws - the Defence of India Rules in the First World War, the Sedition Committee Report under Rowlatt in 1919, and the Defence of India Act in the Second World War - showing that the government regarded the press as a serious and continuing threat to its authority."
+            }
+          ],
+          "chapter_id": "nationalism_in_india",
+          "chapter_title": "Nationalism in India",
+          "subject": "history"
+        },
+        {
+          "id": "h2_bp_cbq2",
+          "type": "CBQ",
+          "marks": 4,
+          "topic": "Case study - First World War and Indian industry",
+          "passage": "Yet, till the First World War, industrial growth was slow. The war created a dramatically new situation. With British mills busy with war production to meet the needs of the army, Manchester imports into India declined. Suddenly, Indian mills had a vast home market to supply. As the war prolonged, Indian factories were called upon to supply war needs: jute bags, cloth for army uniforms, tents and leather boots, horse and mule saddles and a host of other items. New factories were set up and old ones ran multiple shifts. Many new workers were employed and everyone was made to work longer hours. Over the war years industrial production boomed.\nAfter the war, Manchester could never recapture its old position in the Indian market. Unable to modernise and compete with the US, Germany and Japan, the economy of Britain crumbled after the war. Cotton production collapsed and exports of cotton cloth from Britain fell dramatically. Within the colonies, local industrialists gradually consolidated their position, substituting foreign manufacturers and capturing the home market.",
+          "subquestions": [
+            {
+              "id": "h2_bp_cbq2_a",
+              "marks": 1,
+              "question": "Why did Manchester imports decline in India?",
+              "rubric": [
+                {
+                  "point": "British mills were busy with war production for the army, so less cotton cloth was exported to India",
+                  "keywords": [
+                    "war production",
+                    "less cloth exported"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "Because British mills in Manchester were busy with war production to meet the needs of the army, so they exported far less cotton cloth to India."
+            },
+            {
+              "id": "h2_bp_cbq2_b",
+              "marks": 1,
+              "question": "Why could Manchester never recapture its old position in the Indian market after the First World War?",
+              "rubric": [
+                {
+                  "point": "Britain's economy struggled to modernise/compete with the US, Germany and Japan, cotton exports collapsed, while Indian industrialists had consolidated their position supplying the home market during the war",
+                  "keywords": [
+                    "unable to modernise",
+                    "indian industrialists consolidated"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "After the war, Britain was unable to modernise and compete with the US, Germany and Japan, so its cotton production and exports collapsed. Meanwhile, Indian industrialists had used the war years to consolidate their position and capture the home market, substituting for foreign manufacturers, so Manchester could not regain its old share."
+            },
+            {
+              "id": "h2_bp_cbq2_c",
+              "marks": 2,
+              "question": "Analyse any two benefits of the First World War to India.",
+              "rubric": [
+                {
+                  "point": "Indian mills got a vast home market as British/Manchester imports declined, boosting Indian industrial production",
+                  "keywords": [
+                    "vast home market",
+                    "boosting production"
+                  ],
+                  "weight": 1
+                },
+                {
+                  "point": "new factories were set up and old ones expanded to multiple shifts, creating employment for many new workers and strengthening Indian industry's position even after the war",
+                  "keywords": [
+                    "new factories",
+                    "multiple shifts",
+                    "employment"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "First, with British imports declining, Indian mills suddenly had a vast home market to supply, which boosted Indian industrial production. Second, new factories were set up and existing ones ran multiple shifts to meet wartime demand, creating employment for many new workers - and this strengthened position allowed Indian industrialists to consolidate their hold on the home market even after the war ended."
+            }
+          ],
+          "chapter_id": "nationalism_in_india",
+          "chapter_title": "Nationalism in India",
+          "subject": "history"
+        },
+        {
+          "id": "h2_bp_cbq3",
+          "type": "CBQ",
+          "marks": 4,
+          "topic": "Case study - Print and Censorship under the East India Company (1798-1835)",
+          "passage": "Before 1798, the colonial state under the East India Company was not too concerned with censorship. Strangely, its early measures to control printed matter were directed against Englishmen in India who were critical of Company misrule and hated the actions of particular Company officers. The Company was worried that such criticisms might be used by its critics in England to attack its trade monopoly in India.\nBy the 1820s, the Calcutta Supreme Court passed certain regulations to control press freedom and the Company began encouraging publication of newspapers that would celebrate British rule. In 1835, faced with urgent petitions by editors of English and vernacular newspapers, Governor-General Bentinck agreed to revise press laws. Thomas Macaulay, a liberal colonial official, formulated new rules that restored the earlier freedoms.",
+          "subquestions": [
+            {
+              "id": "h2_bp_cbq3_a",
+              "marks": 1,
+              "question": "Whom did the East India Company's early press-control measures target, and why?",
+              "rubric": [
+                {
+                  "point": "Englishmen in India critical of Company misrule; the Company feared their criticism could be used by critics in England to attack its trade monopoly",
+                  "keywords": [
+                    "englishmen critical of company misrule",
+                    "trade monopoly"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "They targeted Englishmen in India who were critical of Company misrule, because the Company feared such criticism could be used by its critics back in England to attack its trade monopoly in India."
+            },
+            {
+              "id": "h2_bp_cbq3_b",
+              "marks": 1,
+              "question": "Explain the main step taken by the East India Company to control freedom of the Press.",
+              "rubric": [
+                {
+                  "point": "by the 1820s the Calcutta Supreme Court passed regulations to control press freedom, and the Company encouraged newspapers that celebrated British rule",
+                  "keywords": [
+                    "calcutta supreme court regulations",
+                    "encouraged newspapers celebrating british rule"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "By the 1820s, the Calcutta Supreme Court passed regulations to control press freedom, and the East India Company began encouraging the publication of newspapers that would celebrate British rule rather than criticise it."
+            },
+            {
+              "id": "h2_bp_cbq3_c",
+              "marks": 2,
+              "question": "Explain the role of printing in the expansion of nationalism during the freedom struggle in India.",
+              "rubric": [
+                {
+                  "point": "printing allowed nationalist ideas, movement news and leaders' writings to circulate quickly and widely, spreading political awareness and a shared sense of grievance across regions",
+                  "keywords": [
+                    "circulate widely",
+                    "political awareness",
+                    "shared grievance"
+                  ],
+                  "weight": 1
+                },
+                {
+                  "point": "this is why the colonial government repeatedly tried to control and censor the press throughout the freedom struggle, as seen in the press laws described above",
+                  "keywords": [
+                    "repeatedly tried to control",
+                    "censor the press"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "Printing allowed nationalist ideas, news of movements and the writings/speeches of leaders to circulate quickly and widely among people across the country through pamphlets, vernacular newspapers and journals, helping build a shared political awareness and sense of grievance against colonial rule that united people across regions. This is precisely why the colonial government, from the East India Company period onward, repeatedly passed laws and regulations to control and censor the press throughout the freedom struggle."
+            }
+          ],
+          "chapter_id": "nationalism_in_india",
+          "chapter_title": "Nationalism in India",
+          "subject": "history"
+        }
+      ]
+    }
+  ],
+  "subject_group": "social_science",
+  "subject_group_label": "Social Science"
+}

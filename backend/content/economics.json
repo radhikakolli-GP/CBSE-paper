@@ -1,0 +1,2792 @@
+{
+  "subject": "economics",
+  "subject_label": "Economics (Understanding Economic Development)",
+  "chapters": [
+    {
+      "id": "development",
+      "title": "Development",
+      "notes": {
+        "overview": "This chapter explores what development means, why different people/countries may have different notions of development, and how it is measured using income and non-income indicators like the Human Development Index.",
+        "key_points": [
+          "Different people have different goals/notions of development based on their circumstances and aspirations; what is development for one may not be development for another, and can even be conflicting (e.g. industrialists want more dams, displaced farmers oppose them).",
+          "Average/per capita income (total income of a country divided by its population) is used by the World Bank to classify countries as rich or poor; countries with per capita income of US$ 12,696 or more (2019 classification) are called rich/developed and those with US$ 1,036 or less are called low-income countries.",
+          "Income alone is not a sufficient indicator of development, since people also value other things like equal treatment, freedom, security, and respect - non-material and non-income aspects.",
+          "The Human Development Index (HDI), published by the UNDP, ranks countries based on the educational levels of the people, their health status (life expectancy), and per capita income - giving a more holistic picture than income alone.",
+          "Public facilities like affordable healthcare, safe drinking water, and quality education are important indicators of development that money alone cannot ensure equitably; these are often best provided collectively/by the government.",
+          "Sustainability of development is a major concern: resources like groundwater are being used at a rate faster than they can be replenished, threatening the ability of future generations to meet their needs.",
+          "Different areas/regions within a country also have different levels of development, so averages (like per capita income) can hide large disparities between and within states."
+        ],
+        "key_terms": {
+          "Development": "A process of improvement in a country's economic, social and political well-being, meaning different things to different people.",
+          "Per capita income": "Total income of a country divided by its total population; used to compare average income levels.",
+          "Human Development Index (HDI)": "A composite index by UNDP based on health (life expectancy), education, and per capita income used to rank countries' development.",
+          "Public facilities": "Goods and services such as healthcare, education, and clean water that benefit the whole community and are often provided by government.",
+          "Sustainability": "The idea that development today should not compromise resources and opportunities for future generations."
+        },
+        "important_facts": [
+          "World Bank uses per capita income to classify countries (World Development Report).",
+          "Rich/developed countries (2019 criteria): per capita income of US$ 12,696 or more per annum.",
+          "Low-income countries: per capita income of US$ 1,036 or less per annum; India falls in the lower-middle-income category.",
+          "Kerala has low infant mortality due to good health and education facilities despite not having the highest per capita income among Indian states.",
+          "HDI reports are published annually by the United Nations Development Programme (UNDP)."
+        ],
+        "exam_tips": [
+          "Be ready to explain why income alone is not an adequate indicator of development, using comparative examples (like Kerala vs. Punjab, or Sri Lanka).",
+          "Learn the three components of HDI (health, education, income) clearly.",
+          "Practice writing about sustainability of development with the groundwater depletion example."
+        ],
+        "sections": [
+          {
+            "title": "1. What Development Promises - Different People, Different Goals",
+            "content": "Different people can have different, even conflicting, notions of development based on the kinds of lives they aspire to and what they value most. For a landless rural labourer, development may mean more days of work and better wages, whereas for a prosperous farmer using irrigation, it may mean high support prices for crops. For industrialists, development may involve ample availability of raw materials and cheap labour, while for a girl from a poor family, it might mean the freedom and opportunity to study as much as her brother rather than being forced into household work. Development of one region or social group may sometimes even come at the cost of another - for example, a dam that generates electricity and irrigation for one region may displace farmers and tribal communities living in that area.",
+            "keywords": [
+              "different notions of development",
+              "landless labourer",
+              "conflicting goals",
+              "displacement example"
+            ]
+          },
+          {
+            "title": "2. Income and Other Goals",
+            "content": "Although income is a important goal of development for most people, since more money enables one to buy the things one wants, people also value other things that money alone cannot buy: equal treatment, freedom, security, and respect from others. For example, regular employment with the same income may be valued more highly than a slightly higher-paying but insecure job, because security matters to people even beyond income levels. Development, therefore, must also account for non-material and non-income aspects of life alongside economic prosperity.",
+            "keywords": [
+              "non-income goals",
+              "equal treatment",
+              "freedom security respect",
+              "beyond money"
+            ]
+          },
+          {
+            "title": "3. National Development: Average (Per Capita) Income",
+            "content": "For comparing countries, their income is considered one of the most important attributes, since with more income, all other things that people generally desire, such as good education, health care and access to resources, can be facilitated. The World Bank, in its World Development Reports, classifies countries based on their per capita income - total income of a country divided by its total population - into rich (developed) countries, with a per capita income of US$12,696 or more per annum in 2019, and low-income countries, with a per capita income of US$1,036 or less. India, with a per capita income of around US$2,010 in the same year, falls in the category of low-middle-income countries, while rich countries, excluding some Middle Eastern oil-exporting countries and Singapore and Hong Kong, are generally called developed countries.",
+            "keywords": [
+              "per capita income",
+              "World Bank classification",
+              "World Development Report",
+              "India lower-middle income"
+            ]
+          },
+          {
+            "title": "4. Comparing States/Countries: Beyond Income",
+            "content": "Average income is a useful measure but it is an average, and hides disparities: it does not indicate how equally or unequally income is distributed among the population of a country. Two countries or states with the same per capita income can have very different levels of human development. For instance, Kerala has a lower per capita income than some other Indian states, but its infant mortality rate is much lower and literacy and life expectancy are much higher, due to greater investment in social sectors like public health and education, showing that income by itself is not a fully adequate indicator of material well-being.",
+            "keywords": [
+              "average hides disparity",
+              "Kerala example",
+              "infant mortality",
+              "literacy comparison"
+            ]
+          },
+          {
+            "title": "5. Public Facilities",
+            "content": "Money alone cannot buy all the goods and services that people may need to live a good life - some essential things, like a pollution-free environment, protection from communicable diseases, and prevention of practices that discriminate against people, can only be provided through collective action by the community and government, not by individuals acting on their own in the marketplace. This is why public facilities such as affordable healthcare, safe drinking water and quality public education are treated as vital indicators of development, since equitable access to them significantly influences the quality of life of the entire population, especially the poor.",
+            "keywords": [
+              "public facilities",
+              "collective provision",
+              "pollution-free environment",
+              "affordable healthcare"
+            ]
+          },
+          {
+            "title": "6. Human Development Index",
+            "content": "Countries are compared not only in terms of per capita income but also on the basis of the health and education levels of the people, as reflected in the Human Development Report, published by the United Nations Development Programme (UNDP) since 1990, which ranks countries on the basis of their achievements in three important areas of human development: a long and healthy life (measured by life expectancy at birth), access to knowledge (measured by expected and mean years of schooling) and a decent standard of living (measured by per capita income). India's rank in the Human Development Index has generally been in the medium human development category, reflecting the need for greater investment in health and education alongside economic growth.",
+            "keywords": [
+              "Human Development Index",
+              "UNDP",
+              "life expectancy",
+              "years of schooling",
+              "1990 report"
+            ]
+          },
+          {
+            "title": "7. Sustainability of Development",
+            "content": "Sustainability of development is the idea that development achieved today should not compromise the ability of future generations to meet their own needs - it is concerned with the rate at which resources are being used and whether that rate allows the resource to replenish itself for continued use in the future. Groundwater is a good example: it is a rapidly depleting resource in many parts of India, being used for irrigation and other purposes at a rate faster than it can be recharged by rain, and if the present overuse continues, it will lead to a serious crisis for the sustenance of life on the earth, showing that unlimited growth of consumption and production is not sustainable and would in fact be suicidal for humanity in the long run.",
+            "keywords": [
+              "sustainability",
+              "groundwater depletion",
+              "future generations",
+              "resource replenishment"
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "e1_mcq1",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Per capita income",
+          "question": "Per capita income is calculated as:",
+          "options": [
+            "Total income minus population",
+            "Total income of a country divided by its population",
+            "Total exports divided by imports",
+            "Government revenue divided by expenditure"
+          ],
+          "answer_index": 1,
+          "explanation": "Per capita income is the average income, calculated by dividing total income by total population."
+        },
+        {
+          "id": "e1_mcq2",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "HDI",
+          "question": "The Human Development Index is published by:",
+          "options": [
+            "World Bank",
+            "UNDP",
+            "WHO",
+            "IMF"
+          ],
+          "answer_index": 1,
+          "explanation": "HDI is published annually by the United Nations Development Programme."
+        },
+        {
+          "id": "e1_mcq3",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "HDI components",
+          "question": "Which of these is NOT a component of the Human Development Index?",
+          "options": [
+            "Life expectancy (health)",
+            "Educational level",
+            "Per capita income",
+            "Total land area"
+          ],
+          "answer_index": 3,
+          "explanation": "HDI is based on health, education, and income - not land area."
+        },
+        {
+          "id": "e1_mcq4",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "World Bank classification",
+          "question": "The World Bank classifies countries as rich or poor mainly on the basis of:",
+          "options": [
+            "Per capita income",
+            "Land area",
+            "Population size",
+            "Number of cities"
+          ],
+          "answer_index": 0,
+          "explanation": "The World Bank uses per capita income as the main criterion for its country classification."
+        },
+        {
+          "id": "e1_mcq5",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Sustainability",
+          "question": "Groundwater depletion faster than replenishment is an example of a concern related to:",
+          "options": [
+            "Per capita income",
+            "Sustainability of development",
+            "HDI ranking",
+            "Public facilities"
+          ],
+          "answer_index": 1,
+          "explanation": "This concerns whether current development can be sustained for future generations."
+        },
+        {
+          "id": "e1_2m1",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Different notions of development",
+          "question": "Give one example to show that developmental goals can conflict between different groups of people.",
+          "rubric": [
+            {
+              "point": "Give a concrete example, e.g. industrialists/urban residents wanting more dams for electricity/water vs. displaced farmers/tribal people opposing the same dam",
+              "keywords": [
+                "dam example",
+                "industrialist",
+                "farmers displaced",
+                "conflict"
+              ],
+              "weight": 2
+            }
+          ],
+          "model_answer": "For a landless labourer, development may mean more days of work and better wages, whereas for an industrialist wanting to set up a factory, it may mean an ample supply of raw materials and cheap labour. Similarly, building a large dam may be seen as development by industrialists and city dwellers who need electricity and water, while it may cause displacement and loss of livelihood for farmers and tribal communities living in the area, who would oppose it."
+        },
+        {
+          "id": "e1_2m2",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Public facilities",
+          "question": "Why are public facilities like healthcare and education important indicators of development?",
+          "rubric": [
+            {
+              "point": "Money alone cannot buy all goods/services needed for a decent standard of living, especially services like law and order or a pollution-free environment",
+              "keywords": [
+                "money cannot buy",
+                "collective services",
+                "law and order"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Access to quality public facilities affects quality of life directly, often more equitably than income alone (e.g. free/affordable healthcare and schools benefit everyone)",
+              "keywords": [
+                "quality of life",
+                "equitable access",
+                "affordable healthcare"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Public facilities are important because money alone cannot buy all the things necessary for a decent standard of living, such as a pollution-free environment or protection from crime. Good quality, affordable public healthcare and education directly improve people's quality of life and, when provided by the government, can benefit all sections of society more equitably than what income alone would allow individuals to purchase privately."
+        },
+        {
+          "id": "e1_3m1",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Income vs HDI",
+          "question": "Why is Human Development Index considered a better measure of development than per capita income alone? Explain with an example.",
+          "rubric": [
+            {
+              "point": "HDI includes health and education levels in addition to income, giving a more complete picture of well-being",
+              "keywords": [
+                "health included",
+                "education included",
+                "complete picture"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Two countries/states with similar per capita income can have very different levels of human development (health, literacy)",
+              "keywords": [
+                "similar income different development",
+                "literacy differs"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Example: Kerala has low per capita income compared to some states but performs much better on health/education indicators like infant mortality and literacy",
+              "keywords": [
+                "kerala example",
+                "infant mortality low",
+                "literacy high"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "HDI is considered a better measure because it goes beyond income to also account for health (life expectancy) and educational attainment, giving a fuller picture of people's well-being. Two regions can have similar per capita income yet very different levels of human development. For instance, Kerala has a relatively low per capita income compared to some other Indian states, but its infant mortality rate is much lower and literacy rate much higher because of strong public health and education systems, showing that income alone does not determine development."
+        },
+        {
+          "id": "e1_3m2",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Sustainability of development",
+          "question": "Explain the concept of sustainability of development with the example of groundwater.",
+          "rubric": [
+            {
+              "point": "Sustainability means resources must be used in a manner that they are available for future generations too, not just the present",
+              "keywords": [
+                "future generations",
+                "resources available later"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Groundwater is being extracted/used by farmers and industries at a rate faster than nature can recharge it",
+              "keywords": [
+                "groundwater extraction",
+                "faster than recharge",
+                "overuse"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "If this continues, it will lead to a severe crisis and disputes in the future, showing development today can harm tomorrow's resource base",
+              "keywords": [
+                "future crisis",
+                "water disputes",
+                "harm tomorrow"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Sustainability of development means that resources should be used in such a way that they remain available not only for the present generation but also for generations to come. Groundwater is a good example: farmers are using groundwater faster than it is being replenished by rain to irrigate their fields, and industries and urban households are also depleting it. If this over-extraction continues at the current pace, it could lead to a severe water crisis in the future, showing that today's rapid economic growth may come at the cost of resources needed by future generations."
+        },
+        {
+          "id": "e1_5m1",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Comparing development",
+          "question": "Explain why average/per capita income, while useful, is an insufficient measure of development. Discuss at least four points, including alternative indicators used.",
+          "rubric": [
+            {
+              "point": "Per capita income is only an average and hides inequality - it does not show how income is distributed among the population",
+              "keywords": [
+                "average hides inequality",
+                "distribution not shown"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "It does not capture non-material aspects people value such as equal treatment, freedom, security, and dignity",
+              "keywords": [
+                "non-material",
+                "freedom",
+                "dignity",
+                "security"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "It ignores access to public facilities (healthcare, education, safe drinking water) that greatly affect real quality of life",
+              "keywords": [
+                "public facilities",
+                "healthcare access",
+                "quality of life"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "It does not indicate sustainability - whether resources will remain available for future generations",
+              "keywords": [
+                "sustainability not shown",
+                "future generations"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Alternative/supplementary indicators: Human Development Index (health, education, income) provides a more comprehensive comparison",
+              "keywords": [
+                "human development index",
+                "alternative indicator",
+                "comprehensive"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "While per capita income is widely used to compare countries, it has several limitations as a measure of development. First, being an average, it hides disparities - it does not tell us how income is actually distributed among the rich and poor within a country. Second, it ignores non-material aspects of life that people value, such as equal treatment, freedom, security and self-respect, which cannot be measured in monetary terms. Third, it does not account for access to public facilities like affordable healthcare, quality education and safe drinking water, which greatly affect people's real quality of life regardless of their income. Fourth, it says nothing about the sustainability of development - whether the resources being used today, such as groundwater or forests, will remain available for future generations. Because of these limitations, indicators like the Human Development Index, which combines health (life expectancy), education and income, are used alongside per capita income to give a more complete and comparative picture of development."
+        },
+        {
+          "id": "e1_mcq6",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Different notions of development",
+          "question": "For a landless rural labourer, development mainly means:",
+          "options": [
+            "More days of work and better wages",
+            "Higher support prices for crops",
+            "Ample cheap labour availability",
+            "Freedom to migrate abroad"
+          ],
+          "answer_index": 0,
+          "explanation": "A landless labourer's livelihood depends on wage work, so more days of work and better wages matter most."
+        },
+        {
+          "id": "e1_mcq7",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Income and other goals",
+          "question": "Which of the following is a non-income goal of development valued by people?",
+          "options": [
+            "Equal treatment and freedom",
+            "Higher GDP growth rate",
+            "Foreign exchange reserves",
+            "Stock market index"
+          ],
+          "answer_index": 0,
+          "explanation": "People value non-material goals like equal treatment, freedom, security and respect alongside income."
+        },
+        {
+          "id": "e1_mcq8",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "World Bank classification",
+          "question": "As per the 2019 World Bank classification, countries with a per capita income of US$12,696 or more are called:",
+          "options": [
+            "Low-income countries",
+            "Middle-income countries",
+            "Rich/developed countries",
+            "Least developed countries"
+          ],
+          "answer_index": 2,
+          "explanation": "The World Bank classifies countries with per capita income of US$12,696 or more as rich/developed."
+        },
+        {
+          "id": "e1_mcq9",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "World Bank classification",
+          "question": "India's per capita income places it in which category as per the 2019 World Bank classification?",
+          "options": [
+            "Rich/developed country",
+            "Low-middle-income country",
+            "Least developed country",
+            "High-income OECD country"
+          ],
+          "answer_index": 1,
+          "explanation": "India's per capita income (around US$2,010 in 2019) places it in the low-middle-income category."
+        },
+        {
+          "id": "e1_mcq10",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Limitations of average income",
+          "question": "Average income can be a misleading indicator of development mainly because it:",
+          "options": [
+            "Is difficult to calculate",
+            "Hides the distribution of income among the population",
+            "Is always too high",
+            "Cannot be compared across countries"
+          ],
+          "answer_index": 1,
+          "explanation": "Being an average, per capita income does not reveal how unequally income may be distributed."
+        },
+        {
+          "id": "e1_mcq11",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Kerala example",
+          "question": "Kerala's low infant mortality rate, despite a relatively lower per capita income than some states, shows that:",
+          "options": [
+            "Per capita income is the only relevant indicator",
+            "Health and education investment matter beyond income",
+            "Kerala has a very high population",
+            "Infant mortality is unrelated to public policy"
+          ],
+          "answer_index": 1,
+          "explanation": "Kerala's strong public health and education systems improve human development despite modest income."
+        },
+        {
+          "id": "e1_mcq12",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "HDI components",
+          "question": "Life expectancy at birth is used by the HDI as an indicator of:",
+          "options": [
+            "Educational attainment",
+            "A long and healthy life",
+            "Standard of living",
+            "Political freedom"
+          ],
+          "answer_index": 1,
+          "explanation": "Life expectancy measures health, i.e. a long and healthy life, one of HDI's three components."
+        },
+        {
+          "id": "e1_mcq13",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "HDI",
+          "question": "The Human Development Report has been published annually since:",
+          "options": [
+            "1950",
+            "1990",
+            "2000",
+            "2010"
+          ],
+          "answer_index": 1,
+          "explanation": "UNDP has published the Human Development Report annually since 1990."
+        },
+        {
+          "id": "e1_mcq14",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Public facilities",
+          "question": "Public facilities such as safe drinking water and quality education are best ensured through:",
+          "options": [
+            "Individual purchasing power alone",
+            "Collective provision by the government/community",
+            "Stock markets",
+            "Private charity only"
+          ],
+          "answer_index": 1,
+          "explanation": "Public facilities are best provided collectively, since money alone cannot guarantee equitable access."
+        },
+        {
+          "id": "e1_mcq15",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Sustainability",
+          "question": "Which of the following is an example of overuse of a resource threatening sustainability?",
+          "options": [
+            "Groundwater depletion",
+            "Increase in literacy rate",
+            "Rise in per capita income",
+            "Growth of the tertiary sector"
+          ],
+          "answer_index": 0,
+          "explanation": "Groundwater is being used faster than it can be replenished, threatening its future availability."
+        },
+        {
+          "id": "e1_mcq16",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Sustainability",
+          "question": "The idea that today's development should not compromise the ability of future generations to meet their needs is called:",
+          "options": [
+            "Per capita growth",
+            "Sustainability of development",
+            "Human Development Index",
+            "Public facility provision"
+          ],
+          "answer_index": 1,
+          "explanation": "This is the definition of sustainability of development."
+        },
+        {
+          "id": "e1_mcq17",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Conflicting development goals",
+          "question": "Which of these is an example of development coming at a cost to another group?",
+          "options": [
+            "A large dam displacing farmers/tribal people while providing power to a city",
+            "A school being built in a village",
+            "A hospital opening in a town",
+            "A new bank branch opening"
+          ],
+          "answer_index": 0,
+          "explanation": "A dam may benefit one region with power/irrigation while displacing farmers and tribal communities in the submerged area."
+        },
+        {
+          "id": "e1_mcq18",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Limitations of per capita income",
+          "question": "Comparing two countries only on the basis of per capita income ignores:",
+          "options": [
+            "Their population size",
+            "Non-income aspects like health, education, freedom and security",
+            "Their geographic location",
+            "Their currency exchange rate"
+          ],
+          "answer_index": 1,
+          "explanation": "Per capita income alone does not capture non-income aspects of development."
+        },
+        {
+          "id": "e1_2m3",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Per capita income",
+          "question": "What is per capita income? How is it calculated?",
+          "rubric": [
+            {
+              "point": "Per capita income is the average income of a country's population",
+              "keywords": [
+                "average income"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Calculated as total income of a country divided by its total population",
+              "keywords": [
+                "total income divided by population"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Per capita income is the average income of a country, calculated by dividing the total income of the country by its total population."
+        },
+        {
+          "id": "e1_2m4",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Income and other goals",
+          "question": "Give one reason and one example to show why income alone is not a sufficient indicator of development for an individual.",
+          "rubric": [
+            {
+              "point": "People also value non-material things like freedom, security and equal treatment, which money alone cannot buy",
+              "keywords": [
+                "freedom",
+                "security",
+                "equal treatment"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Example: a person may prefer a secure, regular job with the same pay over an insecure but higher-paying job",
+              "keywords": [
+                "secure job example",
+                "insecure higher pay"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Income alone is not sufficient because people also value non-material things such as freedom, security and equal treatment, which money cannot always buy. For example, a person may prefer a regular, secure salaried job over an insecure job that pays slightly more, because job security matters to them beyond just income."
+        },
+        {
+          "id": "e1_2m5",
+          "type": "2M",
+          "marks": 2,
+          "topic": "HDI",
+          "question": "What is the Human Development Index? Name its three components.",
+          "rubric": [
+            {
+              "point": "HDI is an index published by the UNDP that ranks countries based on their level of human development",
+              "keywords": [
+                "UNDP",
+                "ranks countries"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Three components: life expectancy (health), education levels, and per capita income",
+              "keywords": [
+                "life expectancy",
+                "education",
+                "per capita income"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The Human Development Index is an index published by the United Nations Development Programme (UNDP) that ranks countries based on their level of human development. It is based on three components: a long and healthy life (life expectancy), access to knowledge (education), and a decent standard of living (per capita income)."
+        },
+        {
+          "id": "e1_2m6",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Sustainability",
+          "question": "Why is groundwater considered an example of unsustainable resource use in India?",
+          "rubric": [
+            {
+              "point": "Groundwater is being extracted/used faster than it can be naturally recharged by rain",
+              "keywords": [
+                "extracted faster",
+                "recharge"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "This threatens its availability for future needs and future generations",
+              "keywords": [
+                "threatens future availability",
+                "future generations"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Groundwater in many parts of India is being extracted for irrigation and other uses at a rate faster than it can be naturally recharged by rainfall. If this overuse continues, it will threaten the availability of groundwater for future needs, making it an example of unsustainable resource use."
+        },
+        {
+          "id": "e1_2m7",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Public facilities",
+          "question": "State two public facilities that are important indicators of development, and explain why individuals cannot always provide these for themselves.",
+          "rubric": [
+            {
+              "point": "Two examples, e.g. affordable healthcare and quality education, or safe drinking water",
+              "keywords": [
+                "healthcare",
+                "education",
+                "safe drinking water"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "These require collective/government provision since money alone cannot ensure equitable access for everyone",
+              "keywords": [
+                "collective provision",
+                "government",
+                "equitable access"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Two important public facilities are affordable healthcare and quality education. Individuals often cannot provide these for themselves because they require large investments and collective action; without government provision, access to such essential services would depend entirely on individual wealth, leaving the poor without equitable access."
+        },
+        {
+          "id": "e1_3m3",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Different notions of development",
+          "question": "Explain, with an example, how different people can have different notions of development.",
+          "rubric": [
+            {
+              "point": "Different people have different aspirations and circumstances, so their notion of development differs",
+              "keywords": [
+                "different aspirations",
+                "different circumstances"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Example: a landless labourer wants more work and wages, while an industrialist wants cheap labour and raw materials",
+              "keywords": [
+                "landless labourer example",
+                "industrialist example"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Development goals of different groups can even conflict - one group's development may come at the cost of another",
+              "keywords": [
+                "conflicting goals",
+                "cost of another"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Different people have different notions of development based on the kind of life they aspire to and their circumstances. For example, a landless rural labourer may see development as more days of work and higher wages, while an industrialist may see it as cheap labour and easy availability of raw materials. Sometimes these goals conflict directly - for instance, a large dam may be seen as development by an industrial region needing power, while it displaces and harms farmers and tribal people living in the submerged area."
+        },
+        {
+          "id": "e1_3m4",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Public facilities",
+          "question": "What is meant by 'public facilities'? Give two examples and explain their importance for development.",
+          "rubric": [
+            {
+              "point": "Public facilities are goods and services that benefit the whole community, usually provided by the government",
+              "keywords": [
+                "benefit whole community",
+                "government provided"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Two examples, e.g. healthcare, education, safe drinking water, sanitation",
+              "keywords": [
+                "healthcare example",
+                "education example"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Importance: equitable access improves the quality of life of the population, especially the poor, who cannot afford private alternatives",
+              "keywords": [
+                "equitable access",
+                "quality of life",
+                "poor"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Public facilities are goods and services, such as healthcare, education, and safe drinking water, that benefit the entire community and are usually provided collectively by the government since individuals acting alone cannot ensure equitable access. These facilities are important for development because they directly improve the quality of life of the population, especially poorer sections who cannot afford private healthcare or schooling."
+        },
+        {
+          "id": "e1_3m5",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Limitations of per capita income",
+          "question": "Explain three limitations of using average/per capita income as the sole indicator of development.",
+          "rubric": [
+            {
+              "point": "It hides the distribution of income/inequality within the population",
+              "keywords": [
+                "hides inequality",
+                "distribution"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "It ignores non-material aspects people value, such as freedom, security and equal treatment",
+              "keywords": [
+                "non-material aspects",
+                "freedom security"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "It says nothing about sustainability or access to public facilities",
+              "keywords": [
+                "sustainability",
+                "public facilities"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Per capita income has several limitations as a sole indicator of development. First, being an average, it hides how unequally income is distributed among the population. Second, it ignores non-material aspects of life that people value, such as freedom, security and equal treatment. Third, it says nothing about whether development is sustainable, or whether people have access to public facilities like healthcare and education."
+        },
+        {
+          "id": "e1_3m6",
+          "type": "3M",
+          "marks": 3,
+          "topic": "World Bank classification",
+          "question": "How does the World Bank classify countries based on income? State India's category.",
+          "rubric": [
+            {
+              "point": "The World Bank uses per capita income, published in its World Development Report, to classify countries",
+              "keywords": [
+                "World Bank",
+                "per capita income",
+                "World Development Report"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Rich/developed countries have per capita income of US$12,696 or more, low-income countries US$1,036 or less (2019)",
+              "keywords": [
+                "12,696",
+                "1,036"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "India falls in the low-middle-income category",
+              "keywords": [
+                "India low-middle income"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The World Bank, in its World Development Report, classifies countries on the basis of their per capita income. As per the 2019 classification, countries with a per capita income of US$12,696 or more are called rich/developed countries, while those with US$1,036 or less are called low-income countries. India, with a per capita income of around US$2,010, falls in the low-middle-income category."
+        },
+        {
+          "id": "e1_3m7",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Sustainability",
+          "question": "Explain the meaning of sustainable development with a suitable example other than groundwater.",
+          "rubric": [
+            {
+              "point": "Sustainable development means meeting present needs without compromising the ability of future generations to meet their own needs",
+              "keywords": [
+                "present needs",
+                "future generations"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Example of another resource being overused, e.g. forests, fossil fuels, or soil fertility",
+              "keywords": [
+                "forests",
+                "fossil fuels",
+                "soil fertility"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Consequence: overuse today threatens resource availability and well-being of future generations",
+              "keywords": [
+                "overuse threatens future",
+                "resource depletion"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Sustainable development means meeting the needs of the present generation without compromising the ability of future generations to meet their own needs. For example, forests are being cut down for timber and agriculture faster than they can regrow; if this continues, future generations may not have access to forest resources, showing that unsustainable use of resources today can harm tomorrow's well-being."
+        },
+        {
+          "id": "e1_5m2",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Non-income goals of development",
+          "question": "Discuss the various non-income/non-material goals that people value as part of development, explaining why development cannot be measured by income alone.",
+          "rubric": [
+            {
+              "point": "Freedom - people value the freedom to make their own choices in life",
+              "keywords": [
+                "freedom"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Equal treatment and dignity - people want to be treated equally and with respect, regardless of income",
+              "keywords": [
+                "equal treatment",
+                "dignity"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Security - people value regular, secure work/income over insecure higher pay",
+              "keywords": [
+                "security"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Access to public facilities like healthcare and education that improve quality of life",
+              "keywords": [
+                "public facilities"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Sustainability - ensuring resources remain available for future generations",
+              "keywords": [
+                "sustainability",
+                "future generations"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Development cannot be measured by income alone because people value many non-material goals. They value freedom - the ability to make their own choices in life. They value equal treatment and dignity, wanting to be treated fairly regardless of their income level. They value security, often preferring stable, secure work over higher-paying but insecure jobs. They value access to public facilities such as affordable healthcare and quality education, which improve their quality of life beyond what income alone can buy. Finally, they value sustainability - ensuring that resources like groundwater and forests remain available for future generations, not just for immediate economic gain."
+        },
+        {
+          "id": "e1_5m3",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Human Development Index in detail",
+          "question": "Explain the Human Development Index in detail: (a) who publishes it, (b) its three components, (c) why it is considered more comprehensive than per capita income, (d) give an example of a state that scores well on HDI despite modest income, (e) what India's medium HDI ranking suggests about its development priorities.",
+          "rubric": [
+            {
+              "point": "(a) Published annually by the United Nations Development Programme (UNDP) since 1990",
+              "keywords": [
+                "UNDP",
+                "1990"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "(b) Three components: life expectancy (health), education levels, and per capita income",
+              "keywords": [
+                "life expectancy",
+                "education",
+                "income"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "(c) More comprehensive because it accounts for health and education, not just income",
+              "keywords": [
+                "comprehensive",
+                "health and education"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "(d) Example: Kerala has strong health/education indicators despite relatively lower per capita income",
+              "keywords": [
+                "Kerala example"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "(e) India's medium HDI ranking suggests it needs to invest more in health and education alongside economic growth",
+              "keywords": [
+                "India medium HDI",
+                "invest health education"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "(a) The Human Development Index is published annually by the United Nations Development Programme (UNDP), since 1990. (b) It is based on three components: a long and healthy life (life expectancy), access to knowledge (education), and a decent standard of living (per capita income). (c) It is considered more comprehensive than per capita income alone because it also accounts for people's health and education, giving a fuller picture of well-being. (d) Kerala is a good example of a state that performs well on human development indicators like infant mortality and literacy despite having a relatively lower per capita income than some other states, due to strong investment in public health and education. (e) India's medium human development ranking suggests that, alongside pursuing economic growth, the country needs to invest more heavily in health and education to improve overall human development."
+        },
+        {
+          "id": "e1_cbq1",
+          "type": "CBQ",
+          "marks": 4,
+          "topic": "Case study - population dynamics and poverty (adapted from a real CBSE sample question, sourced from UNFPA material)",
+          "passage": "Population trends and dynamics can have a major effect on prospects for poverty reduction and sustainable development. Poverty is influenced by - and influences - population dynamics, including population growth, age structure and rural-urban distribution. Investments in better health, including reproductive health, are essential for reducing mortality and morbidity, which in turn improves a country's productivity and development prospects.",
+          "subquestions": [
+            {
+              "id": "e1_cbq1_a",
+              "marks": 1,
+              "question": "How does investing in improved healthcare infrastructure contribute to a country's development?",
+              "options": [
+                "It reduces preventable diseases and chronic conditions, improving productivity",
+                "It has no measurable effect on development",
+                "It only benefits people living in urban areas",
+                "It reduces population growth to zero immediately"
+              ],
+              "answer_index": 0,
+              "explanation": "Better healthcare reduces mortality and morbidity, which improves people's ability to work and contribute productively, supporting development."
+            },
+            {
+              "id": "e1_cbq1_b",
+              "marks": 1,
+              "question": "According to the passage, population dynamics and poverty are related in what way?",
+              "options": [
+                "They are completely unrelated to each other",
+                "Poverty influences population dynamics, and population dynamics also influence poverty - the relationship works both ways",
+                "Population dynamics only affect poverty in developed countries",
+                "Poverty always decreases automatically as population grows"
+              ],
+              "answer_index": 1,
+              "explanation": "The passage explicitly describes a two-way (mutual) relationship: poverty is influenced by, and also influences, population dynamics."
+            },
+            {
+              "id": "e1_cbq1_c",
+              "marks": 2,
+              "question": "Explain two ways in which population growth, age structure, or rural-urban distribution can affect a country's poverty levels.",
+              "rubric": [
+                {
+                  "point": "Rapid population growth can strain a country's resources and infrastructure (food, housing, jobs, services), which can increase poverty",
+                  "keywords": [
+                    "strain resources",
+                    "increase poverty"
+                  ],
+                  "weight": 1
+                },
+                {
+                  "point": "Age structure affects the labour force and dependency ratio, and rural-urban distribution affects access to services/economic opportunities - both of which influence poverty levels",
+                  "keywords": [
+                    "age structure",
+                    "rural-urban distribution",
+                    "access to opportunities"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "Rapid population growth can put pressure on a country's food, housing, and job resources, increasing poverty if the economy cannot keep pace. A population's age structure affects how many people are of working age relative to dependents, influencing overall productivity, while rural-urban distribution affects people's access to essential services, infrastructure and economic opportunities - all of which shape poverty levels."
+            }
+          ]
+        },
+        {
+          "id": "e1_ar1",
+          "type": "AR",
+          "marks": 1,
+          "topic": "Population and poverty relationship",
+          "question": "Assertion (A): Population dynamics and poverty influence each other in a two-way relationship.\nReason (R): Rapid population growth can strain a country's resources, increasing poverty, while poverty itself can also affect factors like family size and access to healthcare.",
+          "options": [
+            "Both A and R are true and R is the correct explanation of A.",
+            "Both A and R are true but R is not the correct explanation of A.",
+            "A is true but R is false.",
+            "A is false but R is true."
+          ],
+          "answer_index": 0,
+          "explanation": "Both statements are true, and R correctly illustrates the two-way relationship described in A."
+        },
+        {
+          "id": "e1_ar2",
+          "type": "AR",
+          "marks": 1,
+          "topic": "Healthcare investment and development",
+          "question": "Assertion (A): Investing in healthcare infrastructure has no effect on a country's economic productivity.\nReason (R): Better healthcare reduces mortality and morbidity, allowing people to work and contribute more productively to the economy.",
+          "options": [
+            "Both A and R are true and R is the correct explanation of A.",
+            "Both A and R are true but R is not the correct explanation of A.",
+            "A is true but R is false.",
+            "A is false but R is true."
+          ],
+          "answer_index": 3,
+          "explanation": "Investing in healthcare DOES improve productivity by keeping the workforce healthier, so A is false. R correctly explains why healthcare investment supports development."
+        },
+        {
+          "id": "e1_pq_mcq1",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Prioritising development objectives for marginalised communities",
+          "question": "Rina, a 28-year-old uneducated woman from a marginalised community, is skilled at making traditional handicrafts, and her family struggles to afford two square meals a day. Which development objective would be MOST crucial for improving Rina's and her family's well-being?",
+          "options": [
+            "increasing access to clean energy in Rina's community",
+            "reducing the impact of climate change on Rina's community",
+            "creating more training opportunities for Rina and other artisans",
+            "ensuring Rina has the same rights and opportunities as men in her community"
+          ],
+          "answer_index": 2,
+          "explanation": "Given Rina's existing craft skills and her family's struggle to meet basic food needs, the most directly impactful development objective is creating training and market opportunities that let her build on her existing skills to generate a sustainable income - directly addressing the family's immediate economic well-being.",
+          "chapter_id": "development",
+          "chapter_title": "Development",
+          "subject": "economics"
+        },
+        {
+          "id": "e1_pq_mcq2",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Balancing biodiversity protection against renewable energy infrastructure",
+          "question": "A Wildlife Institute of India survey covering 80 km of power lines across the Thar desert found 4 deaths of the critically endangered Great Indian Bustard in a single year due to high-transmission wires, including some connected to wind turbines. Should the installation of such power lines be reconsidered in areas where such species are found?",
+          "options": [
+            "Yes, alternative methods of power generation should be explored to minimise this risk.",
+            "Yes, the goal of protecting biodiversity is the only goal which should be prioritised.",
+            "No, the benefits of power lines outweigh the negative impact on the species.",
+            "No, the species is not yet extinct and currently no action needs to be taken."
+          ],
+          "answer_index": 0,
+          "explanation": "The most balanced development approach is to explore alternative methods or designs (e.g. rerouting lines, undergrounding cables, or alternative renewable technologies) that minimise harm to critically endangered species while still pursuing energy development goals - reflecting a genuinely sustainable approach rather than an all-or-nothing tradeoff.",
+          "chapter_id": "development",
+          "chapter_title": "Development",
+          "subject": "economics"
+        },
+        {
+          "id": "e1_pq2_mcq1",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Health and education as human development indicators",
+          "question": "Given the data: Haryana has an infant mortality rate (per 1000 live births, 2018) of 30 and a literacy rate of 82%; Kerala has an infant mortality rate of 7 and a literacy rate of 94%. Why does Kerala have a lower infant mortality rate?",
+          "options": [
+            "It has adequate provision of basic health and educational facilities.",
+            "It has adequate provision of basic health and cultural facilities.",
+            "It has adequate provision of basic social and educational facilities.",
+            "It has adequate provision of basic health and technical facilities."
+          ],
+          "answer_index": 0,
+          "explanation": "Kerala's much lower infant mortality rate is widely attributed to its strong provision of basic health facilities (like maternal and child healthcare) combined with high literacy and educational attainment, both of which are core human development indicators that directly influence health outcomes.",
+          "chapter_id": "development",
+          "chapter_title": "Development",
+          "subject": "economics"
+        },
+        {
+          "id": "e1_pq2_mcq2",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "MGNREGA and the right to work",
+          "question": "Under MGNREGA 2005, all those able and in need of work in rural areas are guaranteed 100 days of employment a year by the government; if the government fails to provide this employment, it must pay unemployment allowances instead. Which right does this identify?",
+          "options": [
+            "Right to work",
+            "Right to Freedom",
+            "Right to livelihood",
+            "Right against Exploitation"
+          ],
+          "answer_index": 0,
+          "explanation": "MGNREGA operationalises the Right to Work by legally guaranteeing rural households a minimum number of days of paid employment, with unemployment allowances as a fallback if the government cannot provide that work.",
+          "chapter_id": "development",
+          "chapter_title": "Development",
+          "subject": "economics"
+        },
+        {
+          "id": "e1_pq_2m1",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Sexual division of labour reflected in web search results",
+          "question": "Shruti performed a web image search for 'Teacher' and found 80% of images showed women, while a search for 'Pilot' mainly showed men. Discuss how these results reflect societal perceptions and the sexual division of labour, with an example.",
+          "rubric": [
+            {
+              "point": "The over-representation of women as teachers and men as pilots reinforces traditional notions of job roles: teaching is seen as a caregiving job considered suitable for women, while being a pilot is regarded as a physically/mentally demanding job seen as ideal for men",
+              "keywords": [
+                "traditional job roles",
+                "caregiving job",
+                "demanding job for men"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Similar patterns exist elsewhere - e.g. nursing is associated more with women, while engineering is associated with men - together these trends reflect and perpetuate broader social perceptions and the sexual division of labour",
+              "keywords": [
+                "nursing women",
+                "engineering men",
+                "sexual division of labour"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The heavy over-representation of women in 'Teacher' search results and men in 'Pilot' search results reflects deep-rooted societal perceptions about gendered job roles: teaching is often seen as a caregiving profession considered naturally suited to women, while flying a plane is seen as a physically and mentally demanding role considered ideal for men. A similar pattern appears elsewhere in society - nursing is strongly associated with women, while engineering is strongly associated with men - and together these patterns both reflect and perpetuate the broader sexual division of labour across professions.",
+          "chapter_id": "development",
+          "chapter_title": "Development",
+          "subject": "economics"
+        },
+        {
+          "id": "e1_pq2_cbq1",
+          "type": "CBQ",
+          "marks": 4,
+          "topic": "Case study - non-material goals and development beyond income",
+          "passage": "Besides seeking more income, people also seek equal treatment, freedom, security and respect for others, and resent discrimination. These goals may sometimes be more important than income or consumption, because material goods alone are not all that life depends on - non-material things, like friendship, matter too, even though they are harder to measure. For instance, before accepting a far-off job, a person would weigh not just income but facilities for their family, working atmosphere, and opportunity to learn; a lower-paying but secure, regular job may be preferable to a high-paying job with no security and no time for family.",
+          "subquestions": [
+            {
+              "id": "e1_pq2_cbq1_a",
+              "marks": 2,
+              "question": "Do you think an enhanced income is the only goal of a person's life? Substantiate your answer with examples.",
+              "rubric": [
+                {
+                  "point": "No - equal treatment, freedom, security and respect for others are all important goals besides income; material needs are not the only thing life depends on, e.g. friendship and relationships also matter greatly, even though they can't easily be measured",
+                  "keywords": [
+                    "not the only goal",
+                    "freedom, security, respect",
+                    "friendship matters"
+                  ],
+                  "weight": 2
+                }
+              ],
+              "model_answer": "No, enhanced income is not the only goal of a person's life. Equal treatment, freedom, security and respect for others are all important goals alongside income - people don't live by material needs alone. For example, the role of friendship in one's life is not something money can buy, yet it means a great deal to overall well-being; similarly, someone might value job security or time with family even at the cost of a somewhat lower income, showing that a good life depends on much more than income alone."
+            },
+            {
+              "id": "e1_pq2_cbq1_b",
+              "marks": 2,
+              "question": "Which factors would you consider before accepting a job offer, beyond salary?",
+              "rubric": [
+                {
+                  "point": "Facilities for one's family, the working atmosphere, opportunity to learn, job security, and having enough time for family/personal life - all alongside adequate pay",
+                  "keywords": [
+                    "facilities for family",
+                    "working atmosphere",
+                    "job security",
+                    "time for family"
+                  ],
+                  "weight": 2
+                }
+              ],
+              "model_answer": "Beyond the salary itself, I would consider whether the job offers adequate facilities and support for my family, a good working atmosphere, and genuine opportunities to learn and grow. I would also weigh job security and whether the role leaves enough time for my family and personal life - since, as the passage notes, a highly-paid but insecure job that leaves no time for family may ultimately reduce one's overall sense of security and freedom."
+            }
+          ],
+          "chapter_id": "development",
+          "chapter_title": "Development",
+          "subject": "economics"
+        },
+        {
+          "id": "e1_bp_mcq1",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Comparing HDI ranks",
+          "question": "Study the given table and answer: amongst the given countries, which one has the best (highest) level of human development? Country - HDI Rank in the world (2018/19): India - 130, Myanmar - 148, Nepal - 149, Pakistan - 150.",
+          "options": [
+            "Pakistan",
+            "India",
+            "Nepal",
+            "Myanmar"
+          ],
+          "answer_index": 1,
+          "explanation": "A lower HDI rank number indicates a better (higher) level of human development. Among these four countries, India's rank of 130 is the best (lowest number), so India has the highest level of human development among the given countries.",
+          "chapter_id": "development",
+          "chapter_title": "Development",
+          "subject": "economics"
+        },
+        {
+          "id": "e1_bp_mcq2",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Comparing HDI ranks across neighbours",
+          "question": "Study the given HDI (Human Development Index) ranks for 2018 and identify which country has the highest level of human development: Sri Lanka - Rank 73; India - Rank 130; Bangladesh - Rank 134; Nepal - Rank 143; Myanmar - Rank 148; Pakistan - Rank 154.",
+          "options": [
+            "India",
+            "Bangladesh",
+            "Sri Lanka",
+            "Nepal"
+          ],
+          "answer_index": 2,
+          "explanation": "A lower rank number means a better (higher) level of human development. Among these countries, Sri Lanka's rank of 73 is by far the best, so Sri Lanka has the highest level of human development among those listed.",
+          "chapter_id": "development",
+          "chapter_title": "Development",
+          "subject": "economics"
+        },
+        {
+          "id": "e1_bp_mcq3",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Different developmental goals for different people",
+          "question": "Swapna is a small-scale farmer who entirely depends on rainfall for her crop production. Which of the following would be a major developmental goal for her? Choose the most appropriate option.",
+          "options": [
+            "Extension of electricity to the village",
+            "Construction of an Anaaj Mandi (grain market)",
+            "Linking of rivers",
+            "Construction of a canal"
+          ],
+          "answer_index": 3,
+          "explanation": "Since Swapna's main problem is complete dependence on rainfall for irrigation, assured irrigation through the construction of a canal would directly address her most pressing need, letting her cultivate reliably instead of depending only on the monsoon - illustrating how different people have different developmental goals based on their specific circumstances.",
+          "chapter_id": "development",
+          "chapter_title": "Development",
+          "subject": "economics"
+        },
+        {
+          "id": "e1_bp_mcq4",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Different developmental goals for different people",
+          "question": "Which of the following could be a major developmental goal for educated but unemployed youth? Choose the most appropriate option.",
+          "options": [
+            "Availability of employment opportunities",
+            "To get married and settle down",
+            "To serve their parents",
+            "To serve their society"
+          ],
+          "answer_index": 0,
+          "explanation": "For educated but unemployed youth, the most pressing developmental need is the availability of suitable employment opportunities matching their qualifications - illustrating how developmental goals differ for different groups of people.",
+          "chapter_id": "development",
+          "chapter_title": "Development",
+          "subject": "economics"
+        },
+        {
+          "id": "e1_bp_2m1",
+          "type": "2M",
+          "marks": 2,
+          "topic": "India's progress in HDI",
+          "question": "How has India progressed in the Human Development Index (HDI)? Explain with any two examples.",
+          "rubric": [
+            {
+              "point": "India's HDI has steadily improved due to rising life expectancy at birth from better healthcare and nutrition",
+              "keywords": [
+                "life expectancy",
+                "better healthcare nutrition"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "it has also improved due to increasing literacy/mean years of schooling from the expansion of education, and rising per-capita income",
+              "keywords": [
+                "literacy schooling",
+                "rising income"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "India's Human Development Index has steadily improved over the decades. For example, life expectancy at birth has risen due to better healthcare and nutrition, and mean years of schooling/literacy have increased due to the expansion of education - together with rising per-capita income, these improvements have gradually raised India's overall HDI, though India's rank still lags behind several neighbouring countries such as Sri Lanka.",
+          "chapter_id": "development",
+          "chapter_title": "Development",
+          "subject": "economics"
+        },
+        {
+          "id": "e1_bp_2m2",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Different notions of development",
+          "question": "Why do different persons have different notions of development? Explain.",
+          "rubric": [
+            {
+              "point": "different people have different goals/aspirations depending on their circumstances - e.g. a landless rural labourer wants more days of work and better wages, an industrialist wants easy availability of raw materials and cheap labour",
+              "keywords": [
+                "landless labourer more work",
+                "industrialist raw materials"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "what is development for one may be harmful/destructive for another - e.g. damming a river for electricity may displace and harm the livelihoods of people living there",
+              "keywords": [
+                "development for one destructive for another",
+                "displace livelihoods"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Different people have different goals and aspirations depending on their own life circumstances - for example, a landless rural labourer may want more days of work and better wages, while an industrialist may want easy availability of raw material and cheap labour. What counts as development for one person can even be harmful for another: a factory owner may want to dam a river for electricity, while this may displace and destroy the livelihoods of people who depend on that land and river. Because people's situations and priorities differ so widely, they naturally have different notions of what development actually means.",
+          "chapter_id": "development",
+          "chapter_title": "Development",
+          "subject": "economics"
+        }
+      ]
+    },
+    {
+      "id": "sectors_of_indian_economy",
+      "title": "Sectors of the Indian Economy",
+      "notes": {
+        "overview": "This chapter classifies economic activities into primary, secondary and tertiary sectors, and public and private sectors, and discusses the changing structure of the Indian economy along with issues of underemployment and the need for employment generation, including MGNREGA.",
+        "key_points": [
+          "The primary sector produces goods by exploiting natural resources (agriculture, dairy, fishing, mining, forestry); it is also called the agriculture and related sector.",
+          "The secondary sector transforms natural products into other forms through manufacturing, associated with different types of industries; it is also called the industrial sector.",
+          "The tertiary sector does not produce goods but generates services that aid production activities (transport, banking, trade, communication, IT); it is also called the service sector, and supports the primary and secondary sectors.",
+          "Historically, the tertiary sector has grown fastest in India and now contributes the largest share to GDP, though it does not employ a proportionate share of the workforce, revealing a mismatch.",
+          "Sectors can also be classified on the basis of ownership: the public sector, owned/controlled by the government (e.g. railways, post office), aims at welfare rather than only profit, and provides infrastructure and services that private players may avoid; the private sector, owned by private individuals/companies, aims mainly at profit.",
+          "Underemployment or disguised unemployment is a major problem, especially in agriculture, where more people are employed than actually needed, so removing some of them would not reduce total production.",
+          "The Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA), 2005, guarantees 100 days of wage employment in a financial year to any rural household whose adult members volunteer to do unskilled manual work.",
+          "Organised sector jobs offer registered enterprises, secure employment, and worker protections (fixed hours, minimum wages, benefits), while the unorganised sector consists of small, often unregistered units where jobs are low-paid and insecure, without worker protection."
+        ],
+        "key_terms": {
+          "Primary sector": "Sector where goods are produced by exploiting natural resources, e.g. agriculture, fishing, mining.",
+          "Secondary sector": "Sector involving manufacturing/industrial transformation of natural products into other goods.",
+          "Tertiary sector": "Sector producing services rather than goods, supporting production activities in other sectors.",
+          "Disguised unemployment": "A situation where more people are engaged in a job than actually required, so marginal productivity of extra workers is nearly zero.",
+          "MGNREGA": "A law guaranteeing 100 days of wage employment per year to rural households willing to do unskilled manual work."
+        },
+        "important_facts": [
+          "MGNREGA passed: 2005 (implemented from 2006).",
+          "Tertiary sector contributes the largest share to India's GDP today.",
+          "Agriculture (primary sector) still employs the largest share of India's workforce despite contributing a much smaller share of GDP.",
+          "Organised sector includes government departments and registered companies; unorganised sector includes small workshops, street vendors, and casual labourers."
+        ],
+        "exam_tips": [
+          "Learn to classify given examples of jobs/activities into primary, secondary or tertiary sectors - very common as a 1-mark or matching question.",
+          "Be ready to explain disguised unemployment with a farming family example.",
+          "Practice a 5-mark answer comparing organised and unorganised sectors, and the role of the government in protecting unorganised workers."
+        ],
+        "sections": [
+          {
+            "title": "1. Sectors of Economic Activities: Primary, Secondary, Tertiary",
+            "content": "When we produce a good by exploiting natural resources, it is an activity of the primary sector, since it forms the base for all other products that we subsequently make, and this sector is also called agriculture and related activities, including farming, dairy, fishing, forestry and mining. The secondary sector covers activities in which natural products are changed into other forms through ways of manufacturing associated with different kinds of industries, and is also called the industrial sector, since it gradually became associated with the different kinds of industries that came up. The tertiary sector does not produce a good but generates services or aids in the production process, such as transport, storage, communication, banking, trade and insurance, and hence is also called the service sector; since these activities generate services rather than goods, this sector is also known by the name of the service sector.",
+            "keywords": [
+              "primary sector",
+              "secondary sector",
+              "tertiary sector",
+              "service sector",
+              "industrial sector"
+            ]
+          },
+          {
+            "title": "2. Comparing the Three Sectors in India",
+            "content": "To calculate the total production of goods and services in each sector, we need to know the value of goods and services produced in each sector in a particular year, and the sum of production in the three sectors gives what is called the Gross Domestic Product (GDP) of a country, calculated by the government (the Central Statistical Organisation) with data collected from various sources such as annual crop yields, number of registered companies, number of workers in various industries, and other similar information. Over the years, the share of the primary sector in India's GDP has declined significantly, while the tertiary sector has emerged as the largest contributor, even though the primary sector still employs the largest proportion of the workforce, revealing an underemployment problem in agriculture.",
+            "keywords": [
+              "Gross Domestic Product",
+              "GDP calculation",
+              "Central Statistical Organisation",
+              "sectoral share"
+            ]
+          },
+          {
+            "title": "3. Rising Importance of the Tertiary Sector",
+            "content": "Over time, the tertiary sector has become the most important in terms of total production in most economies, since some services like hospitals, educational institutions, post and telegraph services, courts, police stations and government administrative offices are required for the development of the primary and secondary sectors; other services such as transport, trade, storage and similar activities support production activities in these sectors; as country's development takes place, and income levels rise, people demand more services like eating out, tourism, shopping, private hospitals and schools; and new services based on information and communication technology, such as IT and business process outsourcing (BPO), have become important and expanded rapidly, especially in urban India.",
+            "keywords": [
+              "tertiary sector growth",
+              "supporting services",
+              "rising demand for services",
+              "IT and BPO"
+            ]
+          },
+          {
+            "title": "4. Sectors in Terms of Ownership: Public and Private",
+            "content": "Economic activities can also be classified on the basis of who owns assets and delivers services - the public sector, where most assets are owned by the government and it delivers services (e.g. Indian Railways, post office), with the motive not just to earn profits but rather welfare of the citizens, providing many of the services which are difficult to be provided by the private sector due to the requirement of heavy investment; and the private sector, where ownership of assets and delivery of services is in the hands of private individuals or companies (e.g. Tata Iron and Steel Company, Reliance Industries), with the main motive of earning profits.",
+            "keywords": [
+              "public sector",
+              "private sector",
+              "welfare motive",
+              "profit motive"
+            ]
+          },
+          {
+            "title": "5. Sectors in Terms of Employment: Organised and Unorganised",
+            "content": "The organised sector covers those enterprises or places of work where the terms of employment are regular and therefore, people have assured work and are registered by the government, following rules and regulations given in various laws (such as the Factories Act), and hence are called formal sector activities; workers in the organised sector enjoy security of employment, with fixed working hours, overtime, paid leave, provident fund, gratuity and other benefits. The unorganised sector is characterised by small and scattered units which are largely outside the control of the government, with rules and regulations existing but not being followed, jobs being low-paid and often not regular, with no provision for overtime, paid leave, holidays, leave due to sickness, and employment being highly insecure, making protection of workers in the unorganised sector particularly important given that a large majority of India's workforce falls into this category.",
+            "keywords": [
+              "organised sector",
+              "unorganised sector",
+              "formal sector",
+              "job security",
+              "Factories Act"
+            ]
+          },
+          {
+            "title": "6. Need for Protection of the Unorganised Sector",
+            "content": "Compared to the organised sector, workers in the unorganised sector need protection on several fronts, including regularity of employment, adequate wages, and a range of other measures that can help ensure their safety and health, particularly relevant for the many workers from the poorer sections of society, often socially disadvantaged groups and communities who tend to work mostly in the unorganised sector, and generally face social discrimination too. Besides organised and unorganised sector workers found in urban and rural areas, farmers form a large chunk of workers in the unorganised sector; there is a need to protect and support these workers through appropriate government schemes for credit and marketing, so that they can achieve the same level of dignity as the organised sector.",
+            "keywords": [
+              "unorganised sector protection",
+              "socially disadvantaged groups",
+              "farmers unorganised",
+              "government schemes"
+            ]
+          },
+          {
+            "title": "7. MGNREGA and Rural Employment Guarantee",
+            "content": "In 2005, the Indian Parliament passed a law enacting the Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA), under which all those who are able to, and are in need of, work in rural areas are guaranteed 100 days of employment in a year by the government, and if the government fails to provide employment, it will give unemployment allowances to the people; the types of work that would in future help to increase the production from land are given priority under the act, aiming to create durable rural assets like roads, canals and ponds while providing income security and reducing distress migration to cities.",
+            "keywords": [
+              "MGNREGA 2005",
+              "100 days employment",
+              "unemployment allowance",
+              "rural assets"
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "e2_mcq1",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Sector classification",
+          "question": "Fishing and mining belong to which sector of the economy?",
+          "options": [
+            "Primary sector",
+            "Secondary sector",
+            "Tertiary sector",
+            "Public sector"
+          ],
+          "answer_index": 0,
+          "explanation": "Fishing and mining involve exploiting natural resources directly, so they belong to the primary sector."
+        },
+        {
+          "id": "e2_mcq2",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "MGNREGA",
+          "question": "MGNREGA guarantees how many days of wage employment per year to rural households?",
+          "options": [
+            "50 days",
+            "75 days",
+            "100 days",
+            "365 days"
+          ],
+          "answer_index": 2,
+          "explanation": "MGNREGA guarantees 100 days of wage employment per financial year."
+        },
+        {
+          "id": "e2_mcq3",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Tertiary sector",
+          "question": "Banking, transport and communication are examples of the:",
+          "options": [
+            "Primary sector",
+            "Secondary sector",
+            "Tertiary sector",
+            "None of these"
+          ],
+          "answer_index": 2,
+          "explanation": "These are service activities and belong to the tertiary (service) sector."
+        },
+        {
+          "id": "e2_mcq4",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Public vs private sector",
+          "question": "The main objective of the public sector, unlike the private sector, is:",
+          "options": [
+            "Maximising profit only",
+            "Public welfare",
+            "Avoiding all investment",
+            "Employing only skilled workers"
+          ],
+          "answer_index": 1,
+          "explanation": "The public sector aims primarily at public welfare rather than only profit."
+        },
+        {
+          "id": "e2_mcq5",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Unorganised sector",
+          "question": "Which of these is a feature of the unorganised sector?",
+          "options": [
+            "Registered with the government",
+            "Regular/secure employment",
+            "Low pay and no job security",
+            "Fixed working hours guaranteed by law"
+          ],
+          "answer_index": 2,
+          "explanation": "Unorganised sector jobs are typically low-paid, insecure and lack legal protection."
+        },
+        {
+          "id": "e2_2m1",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Sector classification",
+          "question": "Classify the following activities into primary, secondary or tertiary sector: (a) growing cotton, (b) weaving cloth in a factory.",
+          "rubric": [
+            {
+              "point": "Growing cotton is a primary sector activity as it directly uses natural resources",
+              "keywords": [
+                "cotton primary",
+                "natural resource"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Weaving cloth in a factory is a secondary sector activity as it transforms raw material into a finished good",
+              "keywords": [
+                "weaving secondary",
+                "transforms raw material",
+                "manufacturing"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Growing cotton is a primary sector activity, since it involves directly exploiting a natural resource (land) to produce a raw material. Weaving cloth in a factory is a secondary sector activity, since it involves manufacturing/transforming the raw cotton into a finished product (cloth)."
+        },
+        {
+          "id": "e2_2m2",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Disguised unemployment",
+          "question": "What is disguised unemployment? Give an example.",
+          "rubric": [
+            {
+              "point": "Definition: a situation where more people are employed in a job/activity than actually needed, so removing them does not reduce output",
+              "keywords": [
+                "more people than needed",
+                "removing does not reduce output"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Example: in a small farming family, several members work on a small plot of land where fewer people could do the same work",
+              "keywords": [
+                "farming family example",
+                "small plot",
+                "fewer people could do work"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Disguised unemployment is a situation where more people are engaged in a particular activity, such as farming, than are actually needed, so that if some of them are removed, the total output would not fall. For example, in a small farming family with a small plot of land, all family members may work on it even though the same work could be done by fewer people, meaning some are 'disguisedly' unemployed."
+        },
+        {
+          "id": "e2_3m1",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Rising importance of tertiary sector",
+          "question": "Why has the tertiary sector become the most important sector in India in terms of production, even though it does not employ a proportionate share of the workforce?",
+          "rubric": [
+            {
+              "point": "Tertiary sector supports primary and secondary sectors through transport, banking, trade, communication - development increases these needs",
+              "keywords": [
+                "supports other sectors",
+                "transport banking trade"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Development leads to rising demand for services like education, health, tourism, banking, insurance, etc. as income rises",
+              "keywords": [
+                "rising demand services",
+                "income rises",
+                "education health tourism"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "New services like IT and BPO have grown rapidly, and India has become a hub for such services globally, boosting GDP share",
+              "keywords": [
+                "it services",
+                "bpo",
+                "global hub"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The tertiary sector has grown rapidly because it supports the primary and secondary sectors through services like transport, banking, storage and communication, which are needed for those sectors to function and expand. As income levels rise with development, people also demand more services such as education, healthcare, tourism, banking and insurance. In addition, new services such as IT and business process outsourcing (BPO) have expanded rapidly, and India has emerged as a global hub for such services, all of which have made the tertiary sector the largest contributor to the country's GDP, even though it does not employ a proportionately large share of the workforce."
+        },
+        {
+          "id": "e2_3m2",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Organised vs unorganised sector",
+          "question": "Distinguish between the organised and unorganised sectors with reference to job security and working conditions.",
+          "rubric": [
+            {
+              "point": "Organised sector: registered with the government, follows rules and regulations, offers secure/permanent jobs",
+              "keywords": [
+                "registered",
+                "secure jobs",
+                "government rules"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Organised sector workers get fixed working hours, minimum wages, and benefits like paid leave, provident fund, gratuity",
+              "keywords": [
+                "fixed hours",
+                "minimum wages",
+                "provident fund",
+                "paid leave"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Unorganised sector: not registered, jobs are low-paid, irregular, and workers lack legal protection or benefits",
+              "keywords": [
+                "not registered",
+                "low paid",
+                "irregular",
+                "no protection"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The organised sector includes enterprises registered with the government and required to follow rules and regulations laid down in various laws; jobs here are relatively secure, with fixed working hours, guaranteed minimum wages, and benefits such as paid leave, provident fund and gratuity. The unorganised sector, in contrast, consists of small and scattered units that are largely outside government control; employment here tends to be low-paid, irregular and insecure, with workers having little or no protection or benefits, making them vulnerable to exploitation."
+        },
+        {
+          "id": "e2_5m1",
+          "type": "5M",
+          "marks": 5,
+          "topic": "MGNREGA and rural employment",
+          "question": "Explain the concept of underemployment in the primary sector of India and describe how MGNREGA aims to address the problem of rural unemployment.",
+          "rubric": [
+            {
+              "point": "Primary sector (agriculture) employs the largest share of India's workforce but contributes a much smaller share to GDP, indicating underemployment/disguised unemployment",
+              "keywords": [
+                "agriculture largest workforce",
+                "smaller gdp share",
+                "underemployment"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Underemployment means workers are engaged less than they could be, or more people work on land than actually needed, without a proportional increase in output",
+              "keywords": [
+                "engaged less than possible",
+                "more workers than needed"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "MGNREGA (2005) legally guarantees 100 days of wage employment per year to any rural household willing to do unskilled manual work",
+              "keywords": [
+                "mgnrega 2005",
+                "100 days",
+                "unskilled manual work"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "If work is not provided within 15 days of application, applicants are entitled to a daily unemployment allowance",
+              "keywords": [
+                "unemployment allowance",
+                "15 days"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Aims to create durable rural assets (roads, canals, ponds) while providing income security and reducing distress migration",
+              "keywords": [
+                "durable assets",
+                "income security",
+                "reduce migration"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The primary sector, particularly agriculture, employs the largest proportion of India's workforce but contributes a much smaller share to the country's GDP compared to the tertiary and secondary sectors. This mismatch reflects widespread underemployment and disguised unemployment in agriculture, where more people work on land than is actually required, and workers are engaged for far fewer days in a year than they are capable of. To address rural unemployment, the government enacted the Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) in 2005, which legally guarantees 100 days of wage employment in a financial year to any rural household whose adult members are willing to do unskilled manual work. If the government is unable to provide employment within 15 days of application, applicants are entitled to a daily unemployment allowance. Besides providing income security, the works undertaken under MGNREGA - such as building roads, canals and ponds - create durable rural assets and help reduce distress migration to cities."
+        },
+        {
+          "id": "e2_mcq6",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Sector classification",
+          "question": "Manufacturing cloth in a textile mill belongs to the:",
+          "options": [
+            "Primary sector",
+            "Secondary sector",
+            "Tertiary sector",
+            "Public sector"
+          ],
+          "answer_index": 1,
+          "explanation": "Manufacturing transforms raw materials into finished goods - a secondary sector activity."
+        },
+        {
+          "id": "e2_mcq7",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "GDP",
+          "question": "GDP is the sum of the production of:",
+          "options": [
+            "Only the primary sector",
+            "Only the secondary sector",
+            "All three sectors - primary, secondary and tertiary",
+            "Only exports"
+          ],
+          "answer_index": 2,
+          "explanation": "GDP is calculated by summing the value of production across the primary, secondary and tertiary sectors."
+        },
+        {
+          "id": "e2_mcq8",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "GDP calculation",
+          "question": "Which organisation calculates India's GDP using data collected from various sources?",
+          "options": [
+            "Reserve Bank of India",
+            "Central Statistical Organisation",
+            "World Bank",
+            "UNDP"
+          ],
+          "answer_index": 1,
+          "explanation": "The Central Statistical Organisation collects data and calculates India's GDP."
+        },
+        {
+          "id": "e2_mcq9",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Public sector",
+          "question": "Indian Railways and the Post Office are examples of the:",
+          "options": [
+            "Private sector",
+            "Public sector",
+            "Unorganised sector",
+            "Informal sector"
+          ],
+          "answer_index": 1,
+          "explanation": "Both are owned and run by the government, making them public sector enterprises."
+        },
+        {
+          "id": "e2_mcq10",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Private sector",
+          "question": "Which of these is an example of the private sector?",
+          "options": [
+            "Indian Railways",
+            "Reliance Industries",
+            "Post Office",
+            "A government hospital"
+          ],
+          "answer_index": 1,
+          "explanation": "Reliance Industries is owned by a private company, making it a private sector enterprise."
+        },
+        {
+          "id": "e2_mcq11",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Organised sector",
+          "question": "A key feature of organised sector employment is:",
+          "options": [
+            "No fixed working hours",
+            "Job security and legal protection",
+            "No minimum wage guarantee",
+            "Mostly seasonal work"
+          ],
+          "answer_index": 1,
+          "explanation": "Organised sector jobs are registered and regulated, offering job security and legal protection."
+        },
+        {
+          "id": "e2_mcq12",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Unorganised sector",
+          "question": "Which group of workers is most likely to be found in the unorganised sector?",
+          "options": [
+            "Government school teachers",
+            "Street vendors and casual labourers",
+            "Bank employees",
+            "Railway employees"
+          ],
+          "answer_index": 1,
+          "explanation": "Street vendors and casual labourers typically work outside registered, regulated employment - the unorganised sector."
+        },
+        {
+          "id": "e2_mcq13",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "MGNREGA",
+          "question": "MGNREGA was enacted in the year:",
+          "options": [
+            "1995",
+            "2000",
+            "2005",
+            "2010"
+          ],
+          "answer_index": 2,
+          "explanation": "MGNREGA was passed by Parliament in 2005."
+        },
+        {
+          "id": "e2_mcq14",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "MGNREGA",
+          "question": "If a worker under MGNREGA is not provided employment within 15 days of applying, they are entitled to:",
+          "options": [
+            "Double wages",
+            "A daily unemployment allowance",
+            "Free housing",
+            "Nothing"
+          ],
+          "answer_index": 1,
+          "explanation": "MGNREGA entitles applicants to an unemployment allowance if work is not provided within 15 days."
+        },
+        {
+          "id": "e2_mcq15",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "MGNREGA",
+          "question": "The type of works prioritised under MGNREGA mainly help to:",
+          "options": [
+            "Increase production from land / create durable rural assets",
+            "Build shopping malls",
+            "Expand IT parks",
+            "Set up private factories"
+          ],
+          "answer_index": 0,
+          "explanation": "MGNREGA prioritises works like roads, canals and ponds that increase land productivity and create durable rural assets."
+        },
+        {
+          "id": "e2_mcq16",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Tertiary sector growth",
+          "question": "Growth of IT and BPO services in India is an example of expansion in the:",
+          "options": [
+            "Primary sector",
+            "Secondary sector",
+            "Tertiary sector",
+            "Public sector only"
+          ],
+          "answer_index": 2,
+          "explanation": "IT and BPO are service activities, part of the tertiary sector."
+        },
+        {
+          "id": "e2_mcq17",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Sectoral share of GDP",
+          "question": "Which sector has seen its share in India's GDP decline the most over the decades, despite still employing a large share of the workforce?",
+          "options": [
+            "Primary sector (agriculture)",
+            "Secondary sector",
+            "Tertiary sector",
+            "Public sector"
+          ],
+          "answer_index": 0,
+          "explanation": "Agriculture's GDP share has declined sharply even though it still employs a large share of the workforce."
+        },
+        {
+          "id": "e2_mcq18",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Organised sector",
+          "question": "A worker with fixed working hours, provident fund, and paid leave most likely belongs to the:",
+          "options": [
+            "Unorganised sector",
+            "Organised sector",
+            "Informal sector",
+            "Disguised unemployment category"
+          ],
+          "answer_index": 1,
+          "explanation": "Fixed hours, provident fund and paid leave are benefits typical of organised sector employment."
+        },
+        {
+          "id": "e2_2m3",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Sector classification",
+          "question": "Classify the following into primary, secondary or tertiary sector: (a) a teacher teaching in a school, (b) a farmer growing wheat.",
+          "rubric": [
+            {
+              "point": "A teacher provides a service - a tertiary sector activity",
+              "keywords": [
+                "teacher tertiary",
+                "service"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "A farmer growing wheat directly uses natural resources - a primary sector activity",
+              "keywords": [
+                "farmer primary",
+                "natural resource"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "A teacher teaching in a school is engaged in a tertiary sector activity, since teaching is a service. A farmer growing wheat is engaged in a primary sector activity, since it involves directly using natural resources like land."
+        },
+        {
+          "id": "e2_2m4",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Public vs private sector",
+          "question": "What is the difference between the public sector and the private sector in terms of their main objective?",
+          "rubric": [
+            {
+              "point": "Public sector aims at the welfare of citizens, not just profit",
+              "keywords": [
+                "public sector welfare"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Private sector aims mainly at earning profit",
+              "keywords": [
+                "private sector profit"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The public sector, owned and run by the government, aims primarily at the welfare of citizens rather than only earning profit. The private sector, owned by private individuals or companies, aims mainly at earning profit for its owners."
+        },
+        {
+          "id": "e2_2m5",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Tertiary sector support",
+          "question": "Give two examples of services provided by the tertiary sector that support the primary and secondary sectors.",
+          "rubric": [
+            {
+              "point": "Example: transport and storage services",
+              "keywords": [
+                "transport",
+                "storage"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Example: banking, communication or trade services",
+              "keywords": [
+                "banking",
+                "communication",
+                "trade"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Services like transport and storage help move raw materials and finished goods between producers and markets, while banking, communication and trade services provide the finance and coordination needed for both the primary and secondary sectors to function."
+        },
+        {
+          "id": "e2_2m6",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Organised sector",
+          "question": "What is meant by the 'organised sector'? Give one example.",
+          "rubric": [
+            {
+              "point": "Enterprises registered with the government that follow rules and regulations, offering secure employment",
+              "keywords": [
+                "registered",
+                "follow rules",
+                "secure employment"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Correct example, e.g. a government job or a registered company",
+              "keywords": [
+                "government job",
+                "registered company"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The organised sector consists of enterprises or places of work that are registered with the government and follow rules and regulations, offering employees secure, regular employment with benefits. Government jobs and jobs in large registered companies are examples of the organised sector."
+        },
+        {
+          "id": "e2_2m7",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Protecting unorganised workers",
+          "question": "State two reasons why the government needs to protect workers in the unorganised sector.",
+          "rubric": [
+            {
+              "point": "Unorganised sector jobs are low-paid, insecure and lack legal protection or benefits",
+              "keywords": [
+                "low paid",
+                "insecure",
+                "no protection"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Workers are often from poorer, socially disadvantaged groups vulnerable to exploitation",
+              "keywords": [
+                "socially disadvantaged",
+                "vulnerable",
+                "exploitation"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The government needs to protect unorganised sector workers because their jobs are typically low-paid, insecure and lack legal protections or benefits such as paid leave. Many of these workers also come from poorer and socially disadvantaged sections of society, making them especially vulnerable to exploitation."
+        },
+        {
+          "id": "e2_3m3",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Three sectors of the economy",
+          "question": "Explain the three sectors of the economy - primary, secondary and tertiary - with one example of each.",
+          "rubric": [
+            {
+              "point": "Primary sector: production by exploiting natural resources, e.g. farming or fishing",
+              "keywords": [
+                "primary sector",
+                "natural resources",
+                "example"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Secondary sector: manufacturing/transforming natural products, e.g. a textile mill",
+              "keywords": [
+                "secondary sector",
+                "manufacturing",
+                "example"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Tertiary sector: producing services rather than goods, e.g. banking or transport",
+              "keywords": [
+                "tertiary sector",
+                "services",
+                "example"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The primary sector produces goods by directly exploiting natural resources, for example farming or fishing. The secondary sector transforms natural products into other forms through manufacturing, for example a textile mill turning cotton into cloth. The tertiary sector does not produce goods but provides services that support the other sectors, for example banking or transport."
+        },
+        {
+          "id": "e2_3m4",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Public vs private sector",
+          "question": "Distinguish between the public sector and private sector with examples.",
+          "rubric": [
+            {
+              "point": "Ownership: public sector owned by the government; private sector owned by private individuals/companies",
+              "keywords": [
+                "government owned",
+                "privately owned"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Objective: public sector aims at welfare; private sector aims at profit",
+              "keywords": [
+                "welfare motive",
+                "profit motive"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Examples: Indian Railways/Post Office (public) vs Reliance Industries/Tata Steel (private)",
+              "keywords": [
+                "Indian Railways",
+                "Reliance",
+                "Tata"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The public sector is owned and controlled by the government, with the main objective of citizen welfare rather than profit alone, e.g. Indian Railways and the Post Office. The private sector is owned by private individuals or companies, with the main objective of earning profit, e.g. Reliance Industries and Tata Steel."
+        },
+        {
+          "id": "e2_3m5",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Disguised unemployment",
+          "question": "What is disguised/underemployment? Explain with reference to the agricultural sector in India.",
+          "rubric": [
+            {
+              "point": "Definition: more workers engaged in an activity than actually needed, so removing some would not reduce output",
+              "keywords": [
+                "more workers than needed",
+                "removing does not reduce output"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Common in agriculture, where family members all work a small landholding that fewer people could manage",
+              "keywords": [
+                "agriculture",
+                "small landholding",
+                "family members"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Leads to low income/poverty despite workers technically being 'employed'",
+              "keywords": [
+                "low income",
+                "poverty",
+                "technically employed"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Disguised or underemployment is a situation where more people are engaged in an activity than are actually needed, so that removing some of them would not reduce total output. This is common in Indian agriculture, where several members of a farming family may all work on a small landholding that could be managed by fewer people. As a result, workers remain technically 'employed' but earn very little, contributing to rural poverty."
+        },
+        {
+          "id": "e2_3m6",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Organised vs unorganised sector features",
+          "question": "Explain three features that distinguish the organised sector from the unorganised sector.",
+          "rubric": [
+            {
+              "point": "Registration: organised sector enterprises are registered with the government; unorganised sector units mostly are not",
+              "keywords": [
+                "registered",
+                "not registered"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Job security: organised sector offers regular/secure employment; unorganised sector is irregular and insecure",
+              "keywords": [
+                "job security",
+                "irregular insecure"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Benefits: organised sector workers get minimum wages, provident fund and paid leave; unorganised sector workers usually get none",
+              "keywords": [
+                "provident fund",
+                "paid leave",
+                "no benefits"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The organised sector consists of enterprises registered with the government and regulated by laws, offering secure and regular employment along with benefits such as minimum wages, provident fund and paid leave. The unorganised sector consists of small, largely unregistered units where jobs are irregular and insecure, and workers typically receive none of these benefits or protections."
+        },
+        {
+          "id": "e2_3m7",
+          "type": "3M",
+          "marks": 3,
+          "topic": "MGNREGA benefits",
+          "question": "Describe the objectives and benefits of MGNREGA for rural households.",
+          "rubric": [
+            {
+              "point": "Guarantees 100 days of wage employment per year to rural households willing to do unskilled manual work",
+              "keywords": [
+                "100 days",
+                "unskilled manual work"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Provides a daily unemployment allowance if work is not given within 15 days of application",
+              "keywords": [
+                "unemployment allowance",
+                "15 days"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Creates durable rural assets (roads, canals, ponds) and reduces distress migration to cities",
+              "keywords": [
+                "durable rural assets",
+                "reduce migration"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "MGNREGA guarantees 100 days of wage employment per year to any rural household whose adult members are willing to do unskilled manual work. If the government fails to provide work within 15 days of application, it must pay a daily unemployment allowance instead. Besides providing income security, the works undertaken - such as building roads, canals and ponds - create durable rural assets and help reduce distress migration to cities in search of work."
+        },
+        {
+          "id": "e2_5m2",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Tertiary sector and employment mismatch",
+          "question": "Explain how the tertiary sector has become the largest contributor to India's GDP, and discuss why this growth has not been matched by a proportionate increase in employment share.",
+          "rubric": [
+            {
+              "point": "Tertiary sector supports primary and secondary sectors through transport, banking, trade and communication",
+              "keywords": [
+                "supports primary secondary",
+                "transport banking"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Rising incomes with development increase demand for services like education, healthcare, tourism and banking",
+              "keywords": [
+                "rising income demand services"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "New services like IT and BPO have expanded rapidly, boosting GDP contribution",
+              "keywords": [
+                "IT BPO expansion"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Many modern tertiary jobs (e.g. IT) are skilled and capital-intensive, employing relatively fewer people",
+              "keywords": [
+                "skilled capital intensive",
+                "fewer people employed"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "This creates a mismatch: tertiary sector's GDP share far exceeds its employment share",
+              "keywords": [
+                "mismatch GDP share employment share"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The tertiary sector has grown to become India's largest contributor to GDP because it supports the primary and secondary sectors through services like transport, banking, trade and communication, and because rising incomes with development increase demand for services such as education, healthcare, tourism and banking. New service industries like IT and business process outsourcing have also expanded rapidly. However, many of these modern tertiary sector jobs, particularly in IT, are highly skilled and capital-intensive, employing relatively few people compared to the value they generate. This creates a mismatch where the tertiary sector's share of GDP far exceeds its share of employment, unlike the labour-intensive primary sector which employs a large workforce for a much smaller share of GDP."
+        },
+        {
+          "id": "e2_5m3",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Organised/unorganised sectors and worker protection",
+          "question": "Explain the difference between organised and unorganised sectors, and describe the special measures needed to protect workers in the unorganised sector, including any government scheme you know of.",
+          "rubric": [
+            {
+              "point": "Organised sector: registered enterprises, regular/secure jobs, legal protection and benefits",
+              "keywords": [
+                "organised sector features"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Unorganised sector: small, mostly unregistered units, low-paid, insecure jobs with no legal protection",
+              "keywords": [
+                "unorganised sector features"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Unorganised workers, often from disadvantaged groups, need protection from exploitation and unsafe conditions",
+              "keywords": [
+                "protection from exploitation",
+                "disadvantaged groups"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Government schemes for credit, marketing support and social security can help unorganised workers, especially farmers and small producers",
+              "keywords": [
+                "credit",
+                "marketing support",
+                "social security"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "MGNREGA is an example that provides income security (100 days of guaranteed employment) to unorganised rural workers",
+              "keywords": [
+                "MGNREGA example",
+                "100 days guaranteed"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The organised sector consists of enterprises registered with the government that follow labour laws, offering employees regular, secure jobs with legal protection and benefits such as provident fund and paid leave. The unorganised sector consists of small, mostly unregistered units where jobs are low-paid, irregular and insecure, with workers receiving little or no legal protection. Because a large share of India's workforce, including farmers, street vendors and casual labourers, works in the unorganised sector and often comes from socially disadvantaged groups, there is a need to protect these workers from exploitation and unsafe working conditions through measures such as access to credit, marketing support and social security. MGNREGA is a good example of such protection, as it legally guarantees 100 days of wage employment per year to rural households, providing income security to unorganised rural workers."
+        },
+        {
+          "id": "e2_cbq1",
+          "type": "CBQ",
+          "marks": 4,
+          "topic": "Case study - disguised unemployment in agriculture",
+          "passage": "Mr Verma owns a small farm in a village. He observes that five people are working on the farm, but the same amount of produce could be obtained with only two workers - removing the other three would not reduce total output at all. This situation is common in agriculture in many parts of rural India.",
+          "subquestions": [
+            {
+              "id": "e2_cbq1_a",
+              "marks": 1,
+              "question": "The situation described - where removing some workers does not reduce total output - is known as:",
+              "options": [
+                "Seasonal unemployment",
+                "Disguised (or under-) employment",
+                "Structural unemployment",
+                "Voluntary unemployment"
+              ],
+              "answer_index": 1,
+              "explanation": "When more people are engaged in a job than are actually needed, so that some could be removed without reducing output, it is called disguised/under-employment."
+            },
+            {
+              "id": "e2_cbq1_b",
+              "marks": 1,
+              "question": "Disguised employment of this kind is most commonly found in which sector?",
+              "options": [
+                "The organised industrial sector",
+                "Agriculture (the primary sector)",
+                "The information technology sector",
+                "The banking sector"
+              ],
+              "answer_index": 1,
+              "explanation": "Disguised unemployment is a well-documented, widespread feature of Indian agriculture, where family labour is often shared across more people than the work strictly requires."
+            },
+            {
+              "id": "e2_cbq1_c",
+              "marks": 2,
+              "question": "Suggest two ways the problem of disguised employment in agriculture, as seen on Mr Verma's farm, could be addressed.",
+              "rubric": [
+                {
+                  "point": "Create alternative employment opportunities outside agriculture (e.g. in industry or services) so surplus agricultural workers can move to more productive work",
+                  "keywords": [
+                    "alternative employment",
+                    "industry or services"
+                  ],
+                  "weight": 1
+                },
+                {
+                  "point": "Promote diversification of economic activities in rural areas (e.g. agro-based small industries, rural services) to absorb surplus labour productively",
+                  "keywords": [
+                    "diversification",
+                    "agro-based industries"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "The problem can be addressed by creating alternative employment opportunities outside agriculture - for example in industry or services - so that surplus agricultural workers can move to more productive work, and by promoting diversification of rural economic activities, such as agro-based small industries or rural services, to productively absorb the surplus labour."
+            }
+          ]
+        },
+        {
+          "id": "e2_ar1",
+          "type": "AR",
+          "marks": 1,
+          "topic": "Disguised employment",
+          "question": "Assertion (A): Disguised employment means a person appears to be working, but their actual contribution to output is zero or negligible.\nReason (R): In disguised employment, more people are engaged in a job than are actually required, so removing some of them does not reduce total production.",
+          "options": [
+            "Both A and R are true and R is the correct explanation of A.",
+            "Both A and R are true but R is not the correct explanation of A.",
+            "A is true but R is false.",
+            "A is false but R is true."
+          ],
+          "answer_index": 0,
+          "explanation": "Both statements are true, and R correctly explains the mechanism behind disguised employment described in A."
+        },
+        {
+          "id": "e2_ar2",
+          "type": "AR",
+          "marks": 1,
+          "topic": "Organised vs unorganised sector",
+          "question": "Assertion (A): Workers in the organised sector generally enjoy more job security and benefits than workers in the unorganised sector.\nReason (R): The unorganised sector is registered with the government and follows rules and regulations that guarantee job security.",
+          "options": [
+            "Both A and R are true and R is the correct explanation of A.",
+            "Both A and R are true but R is not the correct explanation of A.",
+            "A is true but R is false.",
+            "A is false but R is true."
+          ],
+          "answer_index": 2,
+          "explanation": "A is true. But R is false - it is actually the ORGANISED sector that is registered and follows rules guaranteeing job security and benefits; the unorganised sector is unregistered and lacks these protections."
+        },
+        {
+          "id": "e2_pq_mcq1",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Sectoral shift and its impact on global economic leadership",
+          "question": "The table below shows the percentage of workers in India's three economic sectors for 2023 (actual) and three hypothetical scenarios for 2040:\nYear/Scenario | Primary | Secondary | Tertiary\n2023 (actual) | 44% | 25% | 31%\n2040 (Scenario 1) | 20% | 45% | 35%\n2040 (Scenario 2) | 60% | 20% | 20%\n2040 (Scenario 3) | 15% | 40% | 45%\nWith all other factors remaining the same, which scenario(s) would have the biggest impact on India's global economic leadership in the future?",
+          "options": [
+            "only Hypothetical Scenario 1",
+            "only Hypothetical Scenario 2",
+            "either Hypothetical Scenario 1 or 2",
+            "either Hypothetical Scenario 1 or 3"
+          ],
+          "answer_index": 3,
+          "explanation": "Scenarios 1 and 3 both show a major shift of the workforce away from the primary sector and towards the secondary and tertiary sectors (industry and services), which typically drives higher productivity, incomes and global competitiveness - unlike Scenario 2, where the primary sector's share actually increases, moving in the opposite direction from typical development trends.",
+          "chapter_id": "sectors_of_indian_economy",
+          "chapter_title": "Sectors of the Indian Economy",
+          "subject": "economics"
+        },
+        {
+          "id": "e2_pq_mcq2",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Interpreting sector-wise employment data",
+          "question": "Using the same sector data table (2023 actual: Primary 44%, Secondary 25%, Tertiary 31%; 2040 Scenario 1: 20%/45%/35%; Scenario 2: 60%/20%/20%; Scenario 3: 15%/40%/45%), which statement is LIKELY correct?",
+          "options": [
+            "In scenarios 1 and 2, the secondary sector will need the least workers.",
+            "In scenario 2, India will become a major services-based economy.",
+            "The primary sector in scenario 2 will be the highest contributor to the GDP of the country.",
+            "In scenarios 1 and 3, maximum employment opportunities will be created in the secondary sector."
+          ],
+          "answer_index": 3,
+          "explanation": "In both Scenario 1 (45% secondary) and Scenario 3 (40% secondary), the secondary sector employs the largest share of workers among the three sectors, so maximum employment opportunities in those scenarios arise in the secondary sector.",
+          "chapter_id": "sectors_of_indian_economy",
+          "chapter_title": "Sectors of the Indian Economy",
+          "subject": "economics"
+        },
+        {
+          "id": "e2_pq2_mcq1",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Reasons MNCs collaborate with India for production",
+          "question": "Which of the following reasons explain why MNCs would like to collaborate with India in producing goods? (i) India has highly skilled engineers who understand the technical aspects of production. (ii) India has educated, English-speaking youth who can provide customer care services, at a 50-60% cost saving for the MNC. (iii) India is the cheapest manufacturing location. (iv) India is close to markets in the US and Europe.",
+          "options": [
+            "Statements i and ii are appropriate.",
+            "Statements i, ii and iii are appropriate.",
+            "All the statements are appropriate.",
+            "Only statement iv is appropriate."
+          ],
+          "answer_index": 0,
+          "explanation": "MNCs are drawn to India chiefly for its skilled engineering talent and educated, English-speaking workforce that can deliver significant cost savings in services - statements (i) and (ii). India is not typically the single cheapest manufacturing location globally (iii), nor is it geographically close to US/European markets (iv), so those are not accurate reasons.",
+          "chapter_id": "sectors_of_indian_economy",
+          "chapter_title": "Sectors of the Indian Economy",
+          "subject": "economics"
+        },
+        {
+          "id": "e2_pq_3m1",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Public and private sector trends in Indian Railways",
+          "question": "Statement 1 (S1): Indian Railways has largely been a Public Sector Enterprise. Statement 2 (S2): Private players are making an entry into the Indian Railway market. Explain what trend these statements reflect in India's railways sector.",
+          "rubric": [
+            {
+              "point": "Together, they reflect a growing trend of public-private partnership in the Indian market, with private trains potentially enhancing service quality and customer experience and diversifying choices for Indian passengers",
+              "keywords": [
+                "public-private partnership",
+                "enhanced service quality",
+                "diversification of choices"
+              ],
+              "weight": 1.5
+            },
+            {
+              "point": "This could also bring investment into public infrastructure, though it carries risks: possibly making railways less affordable for common people, and causing revenue loss for the government",
+              "keywords": [
+                "investment in infrastructure",
+                "less affordable",
+                "revenue loss for government"
+              ],
+              "weight": 1.5
+            }
+          ],
+          "model_answer": "Together, these statements reflect a growing trend of public-private partnership emerging in the Indian railways market. The entry of private players could enhance service quality and the overall customer experience, and lead to a wider diversification of choices for Indian passengers, along with new investment in public infrastructure. At the same time, this shift carries risks - it could make railway travel less affordable for the common masses if private operators prioritise profit, and it could result in some revenue loss for the government as its erstwhile monopoly is opened to competition.",
+          "chapter_id": "sectors_of_indian_economy",
+          "chapter_title": "Sectors of the Indian Economy",
+          "subject": "economics"
+        },
+        {
+          "id": "e2_pq_3m2",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Choosing between the organised and unorganised sectors for employment",
+          "question": "Which sector - organised or unorganised - is preferable for employment? Explain.",
+          "rubric": [
+            {
+              "point": "The organised sector may be preferred for job security, social security benefits (paid leave, provident fund, gratuity, medical benefits, safe working conditions) and regular income",
+              "keywords": [
+                "job security",
+                "social security benefits",
+                "regular income"
+              ],
+              "weight": 1.5
+            },
+            {
+              "point": "The unorganised sector may be preferred by some for its flexibility, avoiding paperwork/regulation, and offering quicker access to employment opportunities - the answer can reasonably argue for either sector as long as the reasoning is sound",
+              "keywords": [
+                "flexibility",
+                "quick employment",
+                "less paperwork"
+              ],
+              "weight": 1.5
+            }
+          ],
+          "model_answer": "This is ultimately a matter of what an individual values most, and either sector can be defended. The organised sector is often preferable for its job security, regular income, and social security benefits such as paid leave, provident fund, gratuity, medical benefits, and safe working conditions guaranteed by law. On the other hand, some may prefer the unorganised sector for its flexibility, the ability to avoid extensive paperwork and regulation, and the relatively quicker access to employment it can offer, especially for those without formal qualifications. Overall, the organised sector generally offers greater long-term stability and protection, which makes it preferable for most workers seeking security, while the unorganised sector offers more immediate flexibility at the cost of that security.",
+          "chapter_id": "sectors_of_indian_economy",
+          "chapter_title": "Sectors of the Indian Economy",
+          "subject": "economics"
+        },
+        {
+          "id": "e2_pq_3m3",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Every state/region's potential for increasing income and employment",
+          "question": "'Every state or region has potential for increasing the income and employment for people in that area.' Justify the statement with three relevant points.",
+          "rubric": [
+            {
+              "point": "Regions can grow income/employment through sectors like tourism, regional craft industries, or new services like IT - given proper planning and government support",
+              "keywords": [
+                "tourism",
+                "craft industries",
+                "it services"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Example: improving tourism as a sector alone could provide additional employment to over 35 lakh people per year, according to Planning Commission studies",
+              "keywords": [
+                "tourism 35 lakh"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Similarly, expanding education and health sectors (creating jobs for teachers, doctors, nurses, health workers) can create nearly 20 lakh jobs in the education sector alone, and more in healthcare, generating regional income and employment growth",
+              "keywords": [
+                "education sector jobs",
+                "health workers"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Every state or region has genuine potential to grow income and employment for its people, given the right planning and support. First, tourism or a region's traditional craft industries can be developed - for instance, Planning Commission studies estimate that improving tourism alone could generate additional employment for more than 35 lakh people annually. Second, new and expanding services like information technology can create substantial employment where a region has the right infrastructure and skilled workforce. Third, expanding public services such as education and healthcare - creating jobs for teachers, doctors, nurses and health workers - can generate significant employment too; the same studies estimate nearly 20 lakh jobs could be created in the education sector alone. Together these illustrate how, with appropriate planning, virtually any region can grow its income and employment base.",
+          "chapter_id": "sectors_of_indian_economy",
+          "chapter_title": "Sectors of the Indian Economy",
+          "subject": "economics"
+        },
+        {
+          "id": "e2_pq_3m4",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Why the tertiary sector has grown to dominate the Indian economy",
+          "question": "Over the forty years between 1973-74 and 2013-14, production in all three sectors of the Indian economy increased, but it increased the most in the tertiary sector, which by 2013-14 had emerged as India's largest producing sector, replacing the primary sector. Why do you think the tertiary sector has become so popular in India? Give three reasons.",
+          "rubric": [
+            {
+              "point": "Basic services (hospitals, education, postal services, police, courts, administration, defence, transport, banks, insurance) are needed in any country, and in a developing country the government has to take responsibility for providing many of these",
+              "keywords": [
+                "basic services",
+                "government responsibility"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "The development of agriculture and industry itself generates demand for supporting services (transport, trade, storage) - the more the primary and secondary sectors grow, the more such services are needed",
+              "keywords": [
+                "supporting services",
+                "transport trade storage"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "As income levels rise, people demand more services such as eating out, tourism, shopping, private hospitals/schools and professional training; additionally, new technology-based services (based on ICT) have become important and are growing rapidly in recent decades",
+              "keywords": [
+                "rising incomes demand more services",
+                "ict services"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The tertiary sector has grown to dominate the Indian economy for several reasons. First, every country needs a range of basic services - hospitals, schools, postal and police services, courts, administration, defence, transport, banking and insurance - and in a developing country like India, government has had to take primary responsibility for providing many of these. Second, the growth of agriculture and industry itself creates demand for supporting services like transport, trade and storage - so as the primary and secondary sectors expand, so does the need for tertiary-sector support. Third, as income levels rise, people increasingly demand additional services such as eating out, tourism, private healthcare and education, and professional training; more recently, entirely new technology-based services relying on information and communication technology have become essential and have been growing especially rapidly, further boosting the tertiary sector's share of the economy.",
+          "chapter_id": "sectors_of_indian_economy",
+          "chapter_title": "Sectors of the Indian Economy",
+          "subject": "economics"
+        },
+        {
+          "id": "e2_pq2_3m1",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Disguised unemployment in agriculture and its solutions",
+          "question": "Mr Y, visiting a rural area from a city, finds five people working on a small agricultural farm where more than two people are not actually required - removing the other three would not affect production. How can this problem of underemployment in rural areas be solved?",
+          "rubric": [
+            {
+              "point": "The surplus workers should take up different jobs to raise total family income - e.g. employment in building dams, canals or roads in the village",
+              "keywords": [
+                "different jobs",
+                "dams canals roads"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Government investment in transportation/storage of crops and better rural roads can help create alternative opportunities, and promoting agro-based industries (dal mills, cold storage) lets farmers store and sell produce (like potatoes/onions) when prices are favourable, generating income",
+              "keywords": [
+                "transportation and storage",
+                "cold storage",
+                "dal mill"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Setting up honey collection centres or vegetable/produce processing industries near forest/farm areas, and government loans at lower interest rates for rural entrepreneurship, can also create alternative employment and reduce disguised unemployment",
+              "keywords": [
+                "honey collection",
+                "processing industries",
+                "lower interest loans"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The three surplus workers on the farm should ideally shift into different kinds of work that raise the family's total income rather than remaining under-employed in agriculture - for example, they could be employed in building dams, canals or roads in the village. More broadly, the problem can be tackled through government investment in transportation and storage of crops and better rural roads (so produce can reach markets efficiently), and by promoting agro-based industries like dal mills or cold storage facilities, which let farmers store crops such as potatoes and onions and sell them when prices are more favourable. Setting up honey collection centres in forest-adjacent villages, establishing produce-processing industries, and providing government loans at lower interest rates to support new rural enterprises can all create the additional employment needed to absorb workers who are currently underemployed in agriculture.",
+          "chapter_id": "sectors_of_indian_economy",
+          "chapter_title": "Sectors of the Indian Economy",
+          "subject": "economics"
+        },
+        {
+          "id": "e2_pq2_3m2",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Comparing the organised and unorganised sectors through a real scenario",
+          "question": "Sunil and Raman graduated from the same college. Sunil was employed in the unorganised sector and was unhappy, while Raman was employed in the organised sector and was happy. Explain why, giving three points of difference between the two sectors.",
+          "rubric": [
+            {
+              "point": "In the organised sector, workers enjoy security of employment, fixed working hours (with overtime pay if they work more), and benefits like paid leave, provident fund, gratuity and medical benefits, plus legally mandated safe working conditions - explaining Raman's satisfaction",
+              "keywords": [
+                "security of employment",
+                "paid leave",
+                "provident fund",
+                "safe working conditions"
+              ],
+              "weight": 1.5
+            },
+            {
+              "point": "The unorganised sector is characterised by small, scattered units largely outside government control; rules exist but often aren't followed, jobs are low-paid and often irregular, with no overtime, paid leave or job security - workers can be let go without reason - explaining Sunil's dissatisfaction",
+              "keywords": [
+                "outside government control",
+                "low-paid and irregular",
+                "no job security"
+              ],
+              "weight": 1.5
+            }
+          ],
+          "model_answer": "Raman, in the organised sector, was happy because such jobs come with security of employment, a fixed number of working hours (with mandatory overtime pay if he works more), and additional benefits like paid leave, payment during holidays, provident fund, gratuity and medical benefits - with the law also requiring the employer to ensure basic facilities like drinking water and a safe working environment, plus a pension on retirement. Sunil, in the unorganised sector, was unhappy because that sector is characterised by small, scattered units that are largely outside government control; while rules and regulations exist, they are often not followed in practice - jobs tend to be low-paid, irregular, and insecure, with no provision for overtime, paid leave, or sick leave, and workers can be dismissed without reason, especially during slow seasons.",
+          "chapter_id": "sectors_of_indian_economy",
+          "chapter_title": "Sectors of the Indian Economy",
+          "subject": "economics"
+        },
+        {
+          "id": "e2_bp_mcq1",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Classifying activities into economic sectors",
+          "question": "Which of the following comes under the secondary sector of the economy?",
+          "options": [
+            "Bee-keeper",
+            "Moneylender",
+            "Basket weaver",
+            "Fisherman"
+          ],
+          "answer_index": 2,
+          "explanation": "The secondary sector covers activities that transform natural/raw products into other forms through manufacturing - a basket weaver transforms raw material (like cane or bamboo) into a finished product, so this is a secondary-sector activity. Bee-keeping and fishing extract products directly from nature (primary sector), while money-lending is a service (tertiary sector).",
+          "chapter_id": "sectors_of_indian_economy",
+          "chapter_title": "Sectors of the Indian Economy",
+          "subject": "economics"
+        },
+        {
+          "id": "e2_bp_mcq2",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Definition of secondary-sector product",
+          "question": "Natural products being changed into other forms through a manufacturing process is known as producing a:",
+          "options": [
+            "Primary product",
+            "Secondary product",
+            "Tertiary product",
+            "Quaternary product"
+          ],
+          "answer_index": 1,
+          "explanation": "When natural products are changed into other forms through manufacturing, it is a secondary-sector activity and what is produced is a secondary product - for example, cotton (a primary product) manufactured into cloth.",
+          "chapter_id": "sectors_of_indian_economy",
+          "chapter_title": "Sectors of the Indian Economy",
+          "subject": "economics"
+        },
+        {
+          "id": "e2_bp_2m1",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Role of the tertiary sector",
+          "question": "Analyse the role of the tertiary sector in the Indian economy.",
+          "rubric": [
+            {
+              "point": "the tertiary sector (services) does not produce a good itself but helps in the production process, including transport, storage, communication, banking and trade",
+              "keywords": [
+                "services",
+                "helps in production process",
+                "transport banking trade"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "today the tertiary sector produces the largest share of India's GDP and employs large numbers of people, including both basic services and fast-growing modern services like IT and banking",
+              "keywords": [
+                "largest share of gdp",
+                "modern services it banking"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The tertiary sector, or the service sector, does not produce a good itself but helps in the production process through activities like transport, storage, communication, banking and trade. Today it produces the largest share of India's Gross Domestic Product and employs a growing number of people, ranging from basic services like education, hospitals and public administration to fast-growing modern services such as information technology, banking and tourism.",
+          "chapter_id": "sectors_of_indian_economy",
+          "chapter_title": "Sectors of the Indian Economy",
+          "subject": "economics"
+        },
+        {
+          "id": "e2_bp_3m1",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Primary vs secondary sector",
+          "question": "Differentiate between primary and secondary sectors with examples.",
+          "rubric": [
+            {
+              "point": "the primary sector covers activities that directly exploit/use natural resources, such as agriculture, dairy, fishing, forestry and mining",
+              "keywords": [
+                "directly exploit natural resources",
+                "agriculture dairy fishing"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "the secondary sector covers activities that manufacture/transform natural products through an industrial process, such as cotton into cloth or sugarcane into sugar",
+              "keywords": [
+                "manufacture transform",
+                "cotton into cloth"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "the secondary sector is also known as the industrial sector, and is gradually associated with a rise in value addition over the raw materials used by the primary sector",
+              "keywords": [
+                "industrial sector",
+                "value addition"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The primary sector covers activities that directly exploit or use natural resources, such as agriculture, dairy farming, fishing, forestry and mining. The secondary sector, also called the industrial sector, covers activities that manufacture or transform these natural products through an industrial process into a different, more valuable form - for example, cotton (a primary product) is manufactured into cloth, and sugarcane is processed into sugar, in both cases adding value over the raw material.",
+          "chapter_id": "sectors_of_indian_economy",
+          "chapter_title": "Sectors of the Indian Economy",
+          "subject": "economics"
+        },
+        {
+          "id": "e2_bp_3m2",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Tertiary sector and rural job creation",
+          "question": "Assess the potential for job creation through the expansion of the tertiary sector in rural areas.",
+          "rubric": [
+            {
+              "point": "growth of services like transport, storage of agricultural produce, trade/marketing of farm goods and rural banking/credit can create new employment outside farming",
+              "keywords": [
+                "transport storage trade",
+                "rural banking credit"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "new services such as agro-processing, cold storage and tourism can also be started in villages to absorb surplus agricultural labour",
+              "keywords": [
+                "agro-processing",
+                "cold storage",
+                "surplus labour"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "this can help reduce disguised unemployment/underemployment that is common in agriculture in rural India",
+              "keywords": [
+                "disguised unemployment",
+                "underemployment"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Expanding tertiary-sector services in rural areas - such as transport and storage of agricultural produce, trade and marketing of farm goods, veterinary services, and rural banking and credit institutions - can create substantial new employment outside farming itself. New activities like agro-processing, cold storage facilities, rural tourism and IT-enabled services could also be developed to absorb surplus agricultural labour. This has significant potential to reduce the disguised unemployment and underemployment that is common among people dependent on agriculture in rural India, since farms often carry more workers than they actually need.",
+          "chapter_id": "sectors_of_indian_economy",
+          "chapter_title": "Sectors of the Indian Economy",
+          "subject": "economics"
+        }
+      ]
+    }
+  ],
+  "subject_group": "social_science",
+  "subject_group_label": "Social Science"
+}

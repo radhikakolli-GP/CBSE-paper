@@ -1,0 +1,23 @@
+# Core app (notes, paper generation, typed-answer grading, performance
+# analysis) needs ONLY the Python standard library - nothing to install -
+# AS LONG AS you're using the default local SQLite storage (no DATABASE_URL
+# env var set). See below if you're deploying with a Postgres/Supabase
+# database instead.
+#
+# These packages are only needed for the optional "upload a photo/PDF of a
+# handwritten answer" feature (OCR transcription). Without them, uploads are
+# still saved but not auto-transcribed; students can type the answer instead.
+pytesseract
+pillow
+
+# Only needed so a student can upload a PDF (not just a photo) as their
+# answer - the PDF's first page is rasterised to an image before OCR runs.
+# Pure pip install, no system package needed. Without it, PDF uploads are
+# saved but return a clear "please upload a photo instead" message.
+pymupdf
+
+# Only needed if DATABASE_URL is set (i.e. you're pointing backend/db.py at
+# a hosted Postgres database such as Supabase, instead of the default local
+# SQLite file) - see DEPLOY.md. Not required, and never imported, for plain
+# local/SQLite use.
+psycopg2-binary
