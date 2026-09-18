@@ -36,6 +36,9 @@ export function TopNav({ view, onNavigate, course, onCourseChange }) {
         <Link to="/board-prep" target="_blank" rel="noopener noreferrer" className="nav-link">
           Board Prep &#8599;
         </Link>
+        <Link to="/maths-concepts" target="_blank" rel="noopener noreferrer" className="nav-link">
+          Maths Concepts &#8599;
+        </Link>
       </div>
     </div>
   );

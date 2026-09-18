@@ -6,6 +6,7 @@ import { SubjectTracker } from "./components/SubjectTracker.jsx";
 import { StudySchedule } from "./components/StudySchedule.jsx";
 import { MockTestLog } from "./components/MockTestLog.jsx";
 import { PaperArchive } from "./components/PaperArchive.jsx";
+import { FormulaSheet } from "./components/FormulaSheet.jsx";
 import "./boardprep.css";
 
 export function BoardPrepPage() {
@@ -42,6 +43,7 @@ export function BoardPrepPage() {
               <a href="#weightage-head">Weightage</a>
               <a href="#tracker-head">Tracker</a>
               <a href="#schedule-head">Schedule</a>
+              <a href="#formulas-head">Formulas</a>
               <a href="#mocklog-head">Mock Tests</a>
               <a href="#archive-head">Papers</a>
             </nav>
@@ -52,6 +54,7 @@ export function BoardPrepPage() {
         <WeightageGrid />
         <SubjectTracker checked={checked} onToggle={toggleChapter} />
         <StudySchedule examDate={examDate} checked={checked} />
+        <FormulaSheet />
         <MockTestLog mockLog={mockLog} onAdd={addMockEntry} onRemove={removeMockEntry} />
         <PaperArchive />
 

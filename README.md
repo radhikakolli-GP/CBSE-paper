@@ -15,7 +15,7 @@ Features, for every course:
 4. **Answer upload** - students can type answers, upload a photo/scan **or PDF** of a single handwritten answer (auto-transcribed via OCR; PDF uploads have their first page converted to an image before transcription), or upload their **whole answer sheet at once** (one or more photos, or a multi-page scanned PDF) - write your answers by hand as in a real exam, number each one ("5.", "Q5"), then upload; the app OCRs and splits it by question number and pre-fills the matching answer boxes for you to review and correct before submitting. If an upload can't be read (blurry scan, unsupported file, no OCR engine installed) or a question can't be found on the sheet, the exact reason is shown instead of a generic "no answer" message.
 5. **Automated grading + performance analysis** - rule-based scoring with partial credit, per-question feedback, and a dashboard showing strengths, weaknesses and what to revise.
 6. **Persistent attempt history** - every generated paper and graded submission is saved server-side. The Performance dashboard's "Attempt history" list is clickable - selecting a past attempt reopens the exact paper, the student's answers, the score, and per-question feedback, so a paper doesn't have to be re-generated or re-solved from memory to review it later.
-7. **Board Prep dashboard** - a standalone revision tracker (`frontend/board-prep.html`) reachable via the "Board Prep ↗" link in the top nav bar (opens in a new tab). It's a separate static page, not part of the React app, so it works even with the backend stopped: marks weightage by unit for all four courses, a chapter-by-chapter revision checklist, an auto-generated study schedule that adapts to your exam date and what's still unchecked, a mock test log with score trends, and a reference list of the previous-year papers/question banks in this folder. Your checked chapters, exam date and mock scores are saved in the browser's `localStorage`, so they survive a page reload - but are local to that specific browser/device, and separate from the main app's own server-saved paper/submission history. The chapter list, unit weightages and paper archive counts are hardcoded near the top of its `<script>` block (`SUBJECTS`, `ARCHIVE`, `PAPERS`) if you want to edit them to match your own folder contents.
+7. **Board Prep dashboard** - a revision tracker at the `/board-prep` route (reachable via the "Board Prep ↗" link in the top nav bar, opens in a new tab). It's part of the same React app (`frontend/src/boardprep/`), but its own screens don't call the backend API at all - marks weightage by unit for all four courses, a chapter-by-chapter revision checklist, an auto-generated study schedule that adapts to your exam date and what's still unchecked, a mock test log with score trends, consolidated **formula sheets** (Mathematics, all 14 chapters; Science, Physics + Chemistry, all 9 chapters - printable via the "Print / Save as PDF" button), and a reference list of the previous-year papers/question banks in this folder. Your checked chapters, exam date and mock scores are saved in the browser's `localStorage`, so they survive a page reload - but are local to that specific browser/device, and separate from the main app's own server-saved paper/submission history. The chapter list, unit weightages and paper archive counts live in `frontend/src/boardprep/data.js`, and the formula sheet content lives in `frontend/src/boardprep/formulas.js`, if you want to edit them.
 
 ## Course toggle
 
@@ -41,13 +41,19 @@ This was originally built and checked against an actual BGS National Public Scho
 ## Architecture
 
 - **Backend**: Python standard library only (`http.server` + `sqlite3`) by default. No `pip install` required to run the core app locally.
-- **Frontend**: A single-page React app loaded via CDN (React + Babel Standalone) - no `npm install` or build step. Just open `frontend/index.html` in a browser.
+- **Frontend**: A Vite + React single-page app (`frontend/`), with client-side routing (`react-router-dom`) between the main app and the `/board-prep` revision dashboard. Needs `npm install` once, then `npm run dev` for local development or `npm run build` for a production bundle in `frontend/dist/` - it always talks to the backend over HTTP (`VITE_API_BASE`, default `http://localhost:8000`), so **the backend must be running for the main app's views (Notes, Ask a Topic, Question Paper, My Papers, Performance) to load data** - only the `/board-prep` dashboard works without it, since that page's own data is local (`localStorage`), not fetched from the API.
 - **OCR** (optional, for photographed handwritten answers): `pytesseract` + `Pillow`, plus the `tesseract-ocr` system binary. If not installed, the app still works - uploads are saved but not auto-transcribed, and students can type instead. PDF uploads additionally need a PDF-to-image step: `pymupdf` (pure pip install, preferred) or the `pdftoppm` command from `poppler-utils` as a fallback. If neither is present, a PDF upload is saved but returns a clear "please upload a photo instead" message rather than a silent failure.
 - **Database** (optional swap): `backend/db.py` uses local SQLite by default, but transparently switches to a Postgres database (e.g. Supabase) the moment a `DATABASE_URL` environment variable is set - no other code changes needed. This matters when deploying somewhere with an ephemeral filesystem (like Render's free tier) - see `DEPLOY.md`.
 
 This design was chosen so you can run the whole thing with nothing more than Python 3 and a browser already on your machine.
 
 ## Running it
+
+### The easy way (macOS)
+
+Double-click **`Start App.command`** in the project's root folder. It starts the backend and the frontend dev server, waits for both to come up, and opens the app in your browser. Leave the Terminal window it opens alone while you use the app; closing it (or pressing Ctrl+C in it) stops both. First run installs frontend dependencies automatically, so it can take a minute the first time.
+
+This replaces just double-clicking `frontend/index.html`, which no longer works now that the frontend is a Vite + React build - see the "Architecture" note above and the manual steps below if you'd rather run things yourself or aren't on macOS.
 
 ### 1. Start the backend
 
@@ -74,33 +80,31 @@ You also need the Tesseract OCR engine installed on your system:
 
 Check `http://localhost:8000/api/ocr-status` to confirm OCR is active.
 
-### 3. Open the app
+### 3. Start the frontend
 
-Just open `frontend/index.html` directly in your browser (double-click it, or `open frontend/index.html` on macOS). It talks to the backend at `http://localhost:8000` by default.
+The backend from step 1 must still be running - the frontend fetches subjects/notes/papers from it over HTTP.
 
-If you run the backend on a different port, edit the one line near the top of `frontend/index.html`:
-```html
-<script>window.API_BASE = "http://localhost:8000";</script>
+```bash
+cd frontend
+npm install        # first time only
+npm run dev        # starts Vite on http://localhost:5173 by default
 ```
+
+Open the URL Vite prints (e.g. `http://localhost:5173`) in your browser. If your backend runs on a different port/host, set `VITE_API_BASE` (see `frontend/.env.example`) before starting Vite, e.g. `VITE_API_BASE=http://localhost:9000 npm run dev`.
+
+For a production build instead of the dev server: `npm run build` (outputs to `frontend/dist/`), then serve that folder with any static file server - `npm run preview`, or `python3 -m http.server` from inside `dist/`. Don't open `dist/index.html` directly via `file://` (double-click) - the built JS is loaded as ES modules, which browsers block from `file://` pages, and client-side routes like `/board-prep` need a real server to resolve.
 
 ### Troubleshooting a blank page
 
-If the page loads blank when double-clicked, it's almost always one of these:
-
-- **No internet on this machine right now.** React/Babel load from a CDN at runtime - if you're offline, the page will be blank. Reconnect and reload.
-- **Backend isn't running.** Start it first (`python3 backend/server.py`), then reload the page. Open your browser's dev tools (F12) → Console tab to see the actual error if this doesn't fix it.
-- **Stricter browser/corporate settings blocking `file://` pages.** If it's still blank with the backend running and internet on, serve the frontend folder instead of opening the file directly:
-  ```bash
-  cd frontend
-  python3 -m http.server 5500
-  ```
-  then visit `http://localhost:5500` in your browser.
+- **Backend isn't running.** Most views fetch from the backend on mount; if it's down you'll see an error banner rather than a blank page, but check `python3 backend/server.py` is running first. Open your browser's dev tools (F12) → Console/Network tab to see the actual error if it's something else.
+- **Wrong `VITE_API_BASE`.** If the backend is on a non-default port, the frontend needs to be told - see step 3 above. The footer of the app shows which backend URL it's currently pointed at.
+- **Opened `dist/index.html` via `file://` instead of serving it.** See step 3 above - serve the folder instead.
 
 ### "Error 153 / Video player configuration error" on Chapter Notes videos
 
-This happens when `index.html` is opened directly from disk (`file://...`) rather than served over `http://`. YouTube's embedded player rejects the "null" origin that `file://` pages send, so the inline video fails to load. It's not a broken or region-locked video.
+This happens if the page is ever opened over `file://` instead of served over `http://` (e.g. double-clicking a built `dist/index.html`). YouTube's embedded player rejects the "null" origin that `file://` pages send, so the inline video fails to load. It's not a broken or region-locked video - and doesn't happen when running `npm run dev`/`npm run preview` normally, since those always serve over `http://`.
 
-The app detects this automatically and swaps the inline player for a plain "Open on YouTube" link instead, which always works. If you'd rather have videos play inline in the notes page, serve the frontend folder as described above (`python3 -m http.server 5500`) instead of double-clicking `index.html`.
+The app detects this automatically and swaps the inline player for a plain "Open on YouTube" link instead, which always works.
 
 ## What's included out of the box
 
