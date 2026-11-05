@@ -730,8 +730,14 @@ function GeneratePaperView({ onSetsReady, course }) {
   const [paperMode, setPaperMode] = useState("fixed"); // "fixed" | "custom" (english always uses its own fixed pattern)
   const [customCounts, setCustomCounts] = useState(EMPTY_CUSTOM_COUNTS);
   const [numSets, setNumSets] = useState(1);
+  const [englishSet, setEnglishSet] = useState("");
+  const [englishSets, setEnglishSets] = useState([]);
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    apiGet("/api/english-sets").then((d) => setEnglishSets(d.sets || [])).catch(() => {});
+  }, []);
 
   useEffect(() => {
     apiGet("/api/subjects").then((d) => setSubjects(d.subjects)).catch((e) => setError(e.message));
@@ -775,7 +781,7 @@ function GeneratePaperView({ onSetsReady, course }) {
     setError("");
     const payload =
       course === "english"
-        ? { chapters: selected, pattern: "english", num_sets: Number(numSets) || 1 }
+        ? { chapters: selected, pattern: "english", num_sets: Number(numSets) || 1, english_set: englishSet || undefined }
         : isCustom
         ? { chapters: selected, pattern: "custom", custom_counts: customCounts, num_sets: Number(numSets) || 1 }
         : { chapters: selected, pattern: "board", total_marks: totalMarks, num_sets: Number(numSets) || 1 };
@@ -837,6 +843,16 @@ function GeneratePaperView({ onSetsReady, course }) {
               <div className="muted" style={{ marginTop: 4 }}>
                 Reading Skills (22) + Writing Skills (22) + Grammar (10) + Literature Textbook (26).
               </div>
+              <label className="field-label" style={{ marginTop: 10 }}>Paper</label>
+              <select value={englishSet} onChange={(e) => setEnglishSet(e.target.value)}>
+                <option value="">Random mix (new paper every time)</option>
+                {englishSets.map((x) => <option key={x.id} value={x.id}>{x.title}</option>)}
+              </select>
+              {englishSet && (
+                <div className="muted" style={{ marginTop: 4 }}>
+                  {(englishSets.find((x) => x.id === englishSet) || {}).note}
+                </div>
+              )}
             </div>
           ) : (
             <React.Fragment>

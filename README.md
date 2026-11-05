@@ -244,6 +244,26 @@ A new, optional feature - the first part of this app that needs internet access 
 
 Opening the Render URL (the backend's root) returned `{"error": "not found"}` because the backend only served `/api/...` routes; the app page lived in a separate file (`frontend/index.html`) that had to be hosted elsewhere. `backend/server.py` now also serves the files in `../frontend` (`/` -> `index.html`, plus `styles.css` and `board-prep.html`), restricted to that folder (path-traversal attempts return 404), so **one Render service is the whole app** - open `https://<your-service>.onrender.com/`. `frontend/index.html`'s `API_BASE` now defaults to the page's own origin when served over http(s), and to `http://localhost:8000` when opened as a local file as before; if you still host the page on a different site (e.g. Vercel), put your backend URL in that one line. Verified locally: `/`, `/styles.css`, `/board-prep.html` and `/api/*` all return 200, unknown paths still return the JSON 404, and `../` traversal returns 404.
 
+### v45: fixed English practice papers
+
+Practice Papers -> English now has a **Paper** dropdown: "Random mix" (as before) or one of four fixed 80-mark papers (SQP 2026-27 style, Board Set A/B/C style). Each mirrors a real paper from the 'Practice papers' folder question by question (same topics, marks and order); passages and answers are original. Defined in `backend/english_sets.py`; API: `GET /api/english-sets`, and `english_set` on `POST /api/papers/generate`.
+
+### v44: more English content (Board 2026-27 pattern)
+
+New items added to `backend/content/english.json` (all IDs start `eng7_` / `read_p1_4..7` / `read_p2_4..7`), based on the SQP + marking scheme and recent Board papers:
+
+- **Reading**: 4 new 12-mark passages (P1) and 4 new 10-mark passages (P2) with MCQ + rubric-graded questions. Passages are original text on the same themes as the papers.
+- **Writing**: 4 applications/emails, 4 factual descriptions, 6 letters, 5 articles (includes a topper's Board letter and article transcribed as model answers).
+- **Grammar**: 4 cloze, 3 editing, 4 jumbled, 4 reported-speech items.
+- **Literature**: 8 extracts (public-domain texts only), 20 two-mark questions, 4 comparison essays.
+
+Result: the English generator now builds at least 6 different 80-mark papers with no repeated question.
+Note: `EnglishX.pdf` (CBSE exemplar bank) belongs to the old First Flight / Footprints Without Feet syllabus, so it was not used.
+
+### v43: fixed Groq "error code: 1010"
+
+Groq's API sits behind Cloudflare, which rejects Python `urllib`'s default `Python-urllib/x.y` User-Agent with HTTP 403 "error code: 1010" (nothing to do with the API key). `ai_tutor.py` now sends its own `User-Agent` and `Accept` headers. Not verifiable from the build sandbox (no access to api.groq.com) - confirm on Render with a real key.
+
 ## Paper generation API
 
 `POST /api/papers/generate` accepts:

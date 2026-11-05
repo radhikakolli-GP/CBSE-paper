@@ -129,6 +129,10 @@ def ask_tutor(question, limit=RETRIEVAL_LIMIT):
         data=json.dumps(payload).encode("utf-8"),
         headers={
             "Content-Type": "application/json",
+            "Accept": "application/json",
+            # Cloudflare (in front of Groq) rejects urllib's default
+            # "Python-urllib/x.y" User-Agent with "error code: 1010".
+            "User-Agent": "cbse-study-app/1.0",
             "Authorization": f"Bearer {os.environ.get('GROQ_API_KEY', '')}",
         },
         method="POST",

@@ -661,12 +661,14 @@ def generate_custom_pattern(chapter_ids, type_counts, num_sets=1, seed=None):
     return _generate_flexible_paper(chapter_ids, pattern, num_sets, seed, pattern_label="custom")
 
 
-def generate_paper(chapter_ids, pattern="school", total_marks=None, num_sets=1, seed=None, custom_counts=None):
+def generate_paper(chapter_ids, pattern="school", total_marks=None, num_sets=1, seed=None, custom_counts=None, english_set=None):
     num_sets = max(1, min(int(num_sets or 1), 10))
     if pattern == "custom":
         results = generate_custom_pattern(chapter_ids, custom_counts or {}, num_sets=num_sets, seed=seed)
     elif pattern == "board":
         results = generate_board_pattern(chapter_ids, total_marks=total_marks, num_sets=num_sets, seed=seed)
+    elif pattern == "english" and english_set:
+        results = generate_fixed_english(english_set)
     elif pattern == "english":
         results = generate_english_pattern(chapter_ids, num_sets=num_sets, seed=seed)
     else:
@@ -707,6 +709,41 @@ ENGLISH_SECTIONS = [
     "Section C - Grammar",
     "Section D - Literature Textbook",
 ]
+
+
+def generate_fixed_english(set_id):
+    """Build one of the fixed full papers defined in english_sets.SETS."""
+    import english_sets
+    spec = next((x for x in english_sets.SETS if x["id"] == set_id), None)
+    if not spec:
+        return []
+    english = _load().get("english")
+    if not english:
+        return []
+    lookup = {}
+    for item in english.get("reading_bank", []):
+        lookup[item["id"]] = (item, "reading_bank", "Reading Skills", ENGLISH_SECTIONS[0])
+    for ch in english["chapters"]:
+        for q in ch["questions"]:
+            sec = ENGLISH_SECTIONS[1] if q["type"] in ("APPLICATION", "DESCRIPTION", "LETTER", "ARTICLE") else (
+                ENGLISH_SECTIONS[2] if ch["id"] == "grammar_writing" else ENGLISH_SECTIONS[3])
+            lookup[q["id"]] = (q, ch["id"], ch["title"], sec)
+    for item in english.get("compare_bank", []):
+        lookup[item["id"]] = (item, "compare_bank", "Literature (Comparative)", ENGLISH_SECTIONS[3])
+    selected, warnings = [], []
+    for iid in spec["items"]:
+        if iid not in lookup:
+            warnings.append(f"Item {iid} is missing from the bank.")
+            continue
+        item, cid, ctitle, sec = lookup[iid]
+        c = dict(item)
+        c.update({"chapter_id": cid, "chapter_title": ctitle, "subject": "english", "section": sec})
+        selected.extend(_expand_item(c))
+    return [{
+        "questions": selected, "total_marks": sum(q["marks"] for q in selected),
+        "warnings": warnings, "title": "English: " + spec["title"], "set_label": "Fixed paper",
+        "pattern": "english", "sections": ENGLISH_SECTIONS,
+    }]
 
 
 def generate_english_pattern(chapter_ids, num_sets=1, seed=None):

@@ -196,6 +196,10 @@ class Handler(BaseHTTPRequestHandler):
             if path == "/api/ocr-status":
                 return self._send_json(200, ocr.ocr_status())
 
+            if path == "/api/english-sets":
+                import english_sets
+                return self._send_json(200, {"sets": [{"id": x["id"], "title": x["title"], "note": x["note"]} for x in english_sets.SETS]})
+
             if path == "/api/ai-status":
                 return self._send_json(200, ai_tutor.ai_status())
 
@@ -228,7 +232,7 @@ class Handler(BaseHTTPRequestHandler):
 
                 sets = content_store.generate_paper(
                     chapters, pattern=pattern, total_marks=total_marks, num_sets=num_sets,
-                    custom_counts=custom_counts,
+                    custom_counts=custom_counts, english_set=body.get("english_set"),
                 )
                 sets = [s for s in sets if s["questions"]]
                 if not sets:
