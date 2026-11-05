@@ -21,6 +21,7 @@ otherwise it defaults to 8000. This means the exact same command,
 `python3 server.py`, works unmodified both locally and on those hosts.
 """
 import json
+import mimetypes
 import os
 import re
 import sys
@@ -31,6 +32,7 @@ import db
 import content_store
 import grading
 import ocr
+import ai_tutor
 import skills_store
 
 PORT = int(sys.argv[1]) if len(sys.argv) > 1 else int(os.environ.get("PORT", 8000))
@@ -71,6 +73,30 @@ class Handler(BaseHTTPRequestHandler):
             return json.loads(raw.decode("utf-8"))
         except Exception:
             return {}
+
+    def _serve_frontend(self, path):
+        """
+        Serve the static frontend (../frontend) so that opening the
+        backend's own URL (e.g. the Render URL) loads the app itself,
+        instead of {"error": "not found"}. Returns True if a file was sent.
+        Only files inside the frontend folder are ever served.
+        """
+        root = os.path.realpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "frontend"))
+        rel = path.lstrip("/") or "index.html"
+        full = os.path.realpath(os.path.join(root, rel))
+        if not (full == root or full.startswith(root + os.sep)) or not os.path.isfile(full):
+            return False
+        ctype = mimetypes.guess_type(full)[0] or "application/octet-stream"
+        if ctype.startswith("text/") or ctype in ("application/javascript", "application/json"):
+            ctype += "; charset=utf-8"
+        with open(full, "rb") as fh:
+            body = fh.read()
+        self.send_response(200)
+        self.send_header("Content-Type", ctype)
+        self.send_header("Content-Length", str(len(body)))
+        self.end_headers()
+        self.wfile.write(body)
+        return True
 
     def do_OPTIONS(self):
         self._send_json(200, {"ok": True})
@@ -170,6 +196,12 @@ class Handler(BaseHTTPRequestHandler):
             if path == "/api/ocr-status":
                 return self._send_json(200, ocr.ocr_status())
 
+            if path == "/api/ai-status":
+                return self._send_json(200, ai_tutor.ai_status())
+
+            if not path.startswith("/api/") and self._serve_frontend(path):
+                return
+
             return self._send_json(404, {"error": "not found"})
         except Exception as e:
             return self._send_json(500, {"error": str(e)})
@@ -217,6 +249,11 @@ class Handler(BaseHTTPRequestHandler):
                         "typology": s["typology"],
                     })
                 return self._send_json(200, {"papers": papers_out})
+
+            if path == "/api/ask-ai":
+                question = (body.get("question") or "").strip()
+                result = ai_tutor.ask_tutor(question)
+                return self._send_json(200, result)
 
             m = re.match(r"^/api/papers/(\d+)/parse-sheet$", path)
             if m:

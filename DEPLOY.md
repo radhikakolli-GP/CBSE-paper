@@ -1,11 +1,10 @@
 # Deploying so it's reachable from anywhere
 
 This splits the app across two free hosts: **Render** runs the Python backend
-(API + database), **Vercel** builds and serves the frontend - a Vite + React
-app under `frontend/`. The two talk over plain HTTP (the backend's CORS is
-wide open), and the frontend picks up the backend's URL from a `VITE_API_BASE`
-build-time environment variable set in the Vercel dashboard, rather than a
-value hardcoded in a committed file.
+(API + database), **Vercel** serves the single-file frontend. No code
+rewrite is needed - the app was already built with this split in mind
+(`window.API_BASE` in `frontend/index.html` and `PORT` env var support in
+`backend/server.py` exist specifically for this).
 
 The whole thing is already a git repo (`git log` shows one commit) - you
 just need to push it to your own GitHub and point the two hosts at it.
@@ -78,34 +77,35 @@ environment variable is present, with no other code changes needed.
 
 ## 3. Point the frontend at your backend
 
-The frontend reads its backend URL from a `VITE_API_BASE` environment
-variable at build time (see `frontend/.env.example`) - no file to edit or
-commit. In your Vercel project, go to **Settings -> Environment Variables**
-and add:
+Open `frontend/index.html`, find this line near the top:
 
-- Key: `VITE_API_BASE`
-- Value: your Render URL from step 2, e.g. `https://cbse-sst-backend.onrender.com`
+```html
+<script>window.API_BASE = "http://localhost:8000";</script>
+```
 
-Set it for the **Production** environment (and **Preview** too, if you want
-preview deploys to hit the real backend - CORS is already open, so this is
-safe).
+Change it to your Render URL from step 2:
 
-**Note:** Vite inlines env vars into the built JS at build time - they are
-not read at runtime. If you change `VITE_API_BASE` later (e.g. pointing at a
-different backend), you need to trigger a new deploy for it to take effect,
-not just restart the service.
+```html
+<script>window.API_BASE = "https://cbse-sst-backend.onrender.com";</script>
+```
+
+Commit and push that one-line change:
+
+```bash
+git add frontend/index.html
+git commit -m "Point frontend at deployed backend"
+git push
+```
 
 ## 4. Deploy the frontend on Vercel
 
 1. Go to [vercel.com/new](https://vercel.com/new) and sign in.
 2. Import the same GitHub repo.
-3. Vercel should pick up the root `vercel.json`, which runs
-   `cd frontend && npm install && npm run build` and serves
-   `frontend/dist` - no extra configuration needed. (If Vercel instead
-   prompts you to configure a framework, choose **Vite** and set **Root
-   Directory** to `frontend` - either approach works.)
-4. Make sure `VITE_API_BASE` (step 3 above) is set **before** the first
-   deploy, then click **Deploy**. You'll get a URL like
+3. Vercel should pick up `vercel.json` (which sets the output directory to
+   `frontend`) automatically. If it instead asks you to configure a
+   framework, choose **Other**, and manually set **Root Directory** to
+   `frontend` in the project settings - either approach works.
+4. Click **Deploy**. You'll get a URL like
    `https://your-app.vercel.app` - that's the link to open from any
    device, anywhere.
 

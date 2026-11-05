@@ -15,7 +15,8 @@ Features, for every course:
 4. **Answer upload** - students can type answers, upload a photo/scan **or PDF** of a single handwritten answer (auto-transcribed via OCR; PDF uploads have their first page converted to an image before transcription), or upload their **whole answer sheet at once** (one or more photos, or a multi-page scanned PDF) - write your answers by hand as in a real exam, number each one ("5.", "Q5"), then upload; the app OCRs and splits it by question number and pre-fills the matching answer boxes for you to review and correct before submitting. If an upload can't be read (blurry scan, unsupported file, no OCR engine installed) or a question can't be found on the sheet, the exact reason is shown instead of a generic "no answer" message.
 5. **Automated grading + performance analysis** - rule-based scoring with partial credit, per-question feedback, and a dashboard showing strengths, weaknesses and what to revise.
 6. **Persistent attempt history** - every generated paper and graded submission is saved server-side. The Performance dashboard's "Attempt history" list is clickable - selecting a past attempt reopens the exact paper, the student's answers, the score, and per-question feedback, so a paper doesn't have to be re-generated or re-solved from memory to review it later.
-7. **Board Prep dashboard** - a revision tracker at the `/board-prep` route (reachable via the "Board Prep ↗" link in the top nav bar, opens in a new tab). It's part of the same React app (`frontend/src/boardprep/`), but its own screens don't call the backend API at all - marks weightage by unit for all four courses, a chapter-by-chapter revision checklist, an auto-generated study schedule that adapts to your exam date and what's still unchecked, a mock test log with score trends, consolidated **formula sheets** (Mathematics, all 14 chapters; Science, Physics + Chemistry, all 9 chapters - printable via the "Print / Save as PDF" button), and a reference list of the previous-year papers/question banks in this folder. Your checked chapters, exam date and mock scores are saved in the browser's `localStorage`, so they survive a page reload - but are local to that specific browser/device, and separate from the main app's own server-saved paper/submission history. The chapter list, unit weightages and paper archive counts live in `frontend/src/boardprep/data.js`, and the formula sheet content lives in `frontend/src/boardprep/formulas.js`, if you want to edit them.
+7. **Board Prep dashboard** - a standalone revision tracker (`frontend/board-prep.html`) reachable via the "Board Prep ↗" link in the top nav bar (opens in a new tab). It's a separate static page, not part of the React app, so it works even with the backend stopped: marks weightage by unit for all four courses, a chapter-by-chapter revision checklist, an auto-generated study schedule that adapts to your exam date and what's still unchecked, a mock test log with score trends, and a reference list of the previous-year papers/question banks in this folder. Your checked chapters, exam date and mock scores are saved in the browser's `localStorage`, so they survive a page reload - but are local to that specific browser/device, and separate from the main app's own server-saved paper/submission history. The chapter list, unit weightages and paper archive counts are hardcoded near the top of its `<script>` block (`SUBJECTS`, `ARCHIVE`, `PAPERS`) if you want to edit them to match your own folder contents.
+8. **Ask AI (optional)** - a free-form AI tutor, separate from the "Ask a Topic" search. Answers any question in real time, not just ones already in the content bank, grounded (RAG) in this app's own curated notes via Groq. Needs a `GROQ_API_KEY` environment variable to work - see "Ask AI setup" below; everything else in the app works without it.
 
 ## Course toggle
 
@@ -41,19 +42,14 @@ This was originally built and checked against an actual BGS National Public Scho
 ## Architecture
 
 - **Backend**: Python standard library only (`http.server` + `sqlite3`) by default. No `pip install` required to run the core app locally.
-- **Frontend**: A Vite + React single-page app (`frontend/`), with client-side routing (`react-router-dom`) between the main app and the `/board-prep` revision dashboard. Needs `npm install` once, then `npm run dev` for local development or `npm run build` for a production bundle in `frontend/dist/` - it always talks to the backend over HTTP (`VITE_API_BASE`, default `http://localhost:8000`), so **the backend must be running for the main app's views (Notes, Ask a Topic, Question Paper, My Papers, Performance) to load data** - only the `/board-prep` dashboard works without it, since that page's own data is local (`localStorage`), not fetched from the API.
+- **Frontend**: A single-page React app loaded via CDN (React + Babel Standalone) - no `npm install` or build step. Just open `frontend/index.html` in a browser.
 - **OCR** (optional, for photographed handwritten answers): `pytesseract` + `Pillow`, plus the `tesseract-ocr` system binary. If not installed, the app still works - uploads are saved but not auto-transcribed, and students can type instead. PDF uploads additionally need a PDF-to-image step: `pymupdf` (pure pip install, preferred) or the `pdftoppm` command from `poppler-utils` as a fallback. If neither is present, a PDF upload is saved but returns a clear "please upload a photo instead" message rather than a silent failure.
 - **Database** (optional swap): `backend/db.py` uses local SQLite by default, but transparently switches to a Postgres database (e.g. Supabase) the moment a `DATABASE_URL` environment variable is set - no other code changes needed. This matters when deploying somewhere with an ephemeral filesystem (like Render's free tier) - see `DEPLOY.md`.
+- **Ask AI** (optional, the one feature that needs internet + an external service): `backend/ai_tutor.py` calls Groq's chat completions API directly via `urllib.request` - no `groq`/`openai` pip package needed - grounded by RAG retrieval over the existing content bank via `content_store.search_topics()`. Inactive (with a clear "not set up" message in the UI, not a broken feature) until a `GROQ_API_KEY` environment variable is set.
 
 This design was chosen so you can run the whole thing with nothing more than Python 3 and a browser already on your machine.
 
 ## Running it
-
-### The easy way (macOS)
-
-Double-click **`Start App.command`** in the project's root folder. It starts the backend and the frontend dev server, waits for both to come up, and opens the app in your browser. Leave the Terminal window it opens alone while you use the app; closing it (or pressing Ctrl+C in it) stops both. First run installs frontend dependencies automatically, so it can take a minute the first time.
-
-This replaces just double-clicking `frontend/index.html`, which no longer works now that the frontend is a Vite + React build - see the "Architecture" note above and the manual steps below if you'd rather run things yourself or aren't on macOS.
 
 ### 1. Start the backend
 
@@ -80,31 +76,44 @@ You also need the Tesseract OCR engine installed on your system:
 
 Check `http://localhost:8000/api/ocr-status` to confirm OCR is active.
 
-### 3. Start the frontend
+### 3. (Optional) Enable the "Ask AI" tutor
 
-The backend from step 1 must still be running - the frontend fetches subjects/notes/papers from it over HTTP.
+No `pip install` needed - `backend/ai_tutor.py` calls Groq's REST API directly. Just set an API key:
 
 ```bash
-cd frontend
-npm install        # first time only
-npm run dev        # starts Vite on http://localhost:5173 by default
+export GROQ_API_KEY=your-key-here     # get a free key at console.groq.com/keys
+python3 server.py
 ```
 
-Open the URL Vite prints (e.g. `http://localhost:5173`) in your browser. If your backend runs on a different port/host, set `VITE_API_BASE` (see `frontend/.env.example`) before starting Vite, e.g. `VITE_API_BASE=http://localhost:9000 npm run dev`.
+Check `http://localhost:8000/api/ai-status` to confirm it's active. Without a key, every other feature in the app works exactly as before - only the new "Ask AI" nav tab shows a setup message instead of a question box. `GROQ_MODEL` is an optional env var if you want a different Groq model than the default (`llama-3.3-70b-versatile`).
 
-For a production build instead of the dev server: `npm run build` (outputs to `frontend/dist/`), then serve that folder with any static file server - `npm run preview`, or `python3 -m http.server` from inside `dist/`. Don't open `dist/index.html` directly via `file://` (double-click) - the built JS is loaded as ES modules, which browsers block from `file://` pages, and client-side routes like `/board-prep` need a real server to resolve.
+### 4. Open the app
+
+Just open `frontend/index.html` directly in your browser (double-click it, or `open frontend/index.html` on macOS). It talks to the backend at `http://localhost:8000` by default.
+
+If you run the backend on a different port, edit the one line near the top of `frontend/index.html`:
+```html
+<script>window.API_BASE = "http://localhost:8000";</script>
+```
 
 ### Troubleshooting a blank page
 
-- **Backend isn't running.** Most views fetch from the backend on mount; if it's down you'll see an error banner rather than a blank page, but check `python3 backend/server.py` is running first. Open your browser's dev tools (F12) → Console/Network tab to see the actual error if it's something else.
-- **Wrong `VITE_API_BASE`.** If the backend is on a non-default port, the frontend needs to be told - see step 3 above. The footer of the app shows which backend URL it's currently pointed at.
-- **Opened `dist/index.html` via `file://` instead of serving it.** See step 3 above - serve the folder instead.
+If the page loads blank when double-clicked, it's almost always one of these:
+
+- **No internet on this machine right now.** React/Babel load from a CDN at runtime - if you're offline, the page will be blank. Reconnect and reload.
+- **Backend isn't running.** Start it first (`python3 backend/server.py`), then reload the page. Open your browser's dev tools (F12) → Console tab to see the actual error if this doesn't fix it.
+- **Stricter browser/corporate settings blocking `file://` pages.** If it's still blank with the backend running and internet on, serve the frontend folder instead of opening the file directly:
+  ```bash
+  cd frontend
+  python3 -m http.server 5500
+  ```
+  then visit `http://localhost:5500` in your browser.
 
 ### "Error 153 / Video player configuration error" on Chapter Notes videos
 
-This happens if the page is ever opened over `file://` instead of served over `http://` (e.g. double-clicking a built `dist/index.html`). YouTube's embedded player rejects the "null" origin that `file://` pages send, so the inline video fails to load. It's not a broken or region-locked video - and doesn't happen when running `npm run dev`/`npm run preview` normally, since those always serve over `http://`.
+This happens when `index.html` is opened directly from disk (`file://...`) rather than served over `http://`. YouTube's embedded player rejects the "null" origin that `file://` pages send, so the inline video fails to load. It's not a broken or region-locked video.
 
-The app detects this automatically and swaps the inline player for a plain "Open on YouTube" link instead, which always works.
+The app detects this automatically and swaps the inline player for a plain "Open on YouTube" link instead, which always works. If you'd rather have videos play inline in the notes page, serve the frontend folder as described above (`python3 -m http.server 5500`) instead of double-clicking `index.html`.
 
 ## What's included out of the box
 
@@ -214,6 +223,26 @@ Two related fixes after a user tried the v38 whole-answer-sheet upload and got a
 - **A new "Answer key" view**, for a parent or teacher who'd rather mark a handwritten sheet by hand than trust OCR at all. Prompted directly by feedback that Tesseract (the OCR engine this app can use) is genuinely weak at real handwriting, and that what was actually wanted was simpler: see the correct answers for a generated paper, on demand, and mark the physical sheet manually - no OCR, no auto-grading involved. Added `GET /api/papers/{id}/answer-key`, which returns a paper's questions un-stripped (correct MCQ/AR option, rubric points with mark weights, model answer, explanation - the same fields `/submit` already used internally for grading, just available up front), and a new `AnswerKeyView` component reachable via an "Answer key" / "View answer key" button from My Papers, the set picker, and the attempt screen itself, with a Print button (`window.print()`, with a `@media print` rule added to `styles.css` to hide the top nav and page chrome so only the questions print).
 
 Verified with a live server round trip: generated a paper via `/api/papers/generate`, confirmed the normal `/api/papers/{id}` response still has answer keys stripped (unchanged, for the student-facing attempt view), then confirmed `/api/papers/{id}/answer-key` returns the same paper with `answer_index`/`explanation` present on MCQ/AR questions and `rubric`/`model_answer` present on descriptive ones. The frontend script block was checked structurally (balanced braces/parens/brackets across the whole file, and exactly one definition of each new/modified component) since it's JSX transformed by Babel in-browser rather than plain JS `node --check` can validate directly.
+
+### v41: a free-form "Ask AI" tutor (Groq + RAG over the content bank)
+
+A new, optional feature - the first part of this app that needs internet access and an external API key. Everything else remains exactly as offline/dependency-free as before; this is purely additive.
+
+**What it does.** "Ask AI" (new nav tab) lets a student type *any* question - not just ones already in this app's ~1,800-question bank - and get a real-time answer. This is different from the existing "Ask a Topic" search, which only ever returns notes already written verbatim into this app; "Ask AI" can answer a homework question from outside the app entirely, explain something a second way if the first explanation didn't land, or work through a one-off doubt.
+
+**Retrieval (the "RAG" part).** Before calling the AI, the student's question is run through `content_store.search_topics()` - the exact same keyword/relevance search that already powers "Ask a Topic" - to pull up to 5 of the most relevant notes sections from this app's own curated, hand-verified content bank. Those are included as context in the prompt sent to Groq, so answers are grounded in material that's already been checked against the CBSE syllabus, rather than purely the model's own general knowledge. No new indexing pipeline, no new dependency for retrieval - it reuses infrastructure that already existed. (Scoped deliberately to the curated JSON bank only, not the 81 raw source PDFs in the workspace folder - a broader PDF-indexed version is a possible future step, not built here.) The frontend shows which chapters/sections grounded each answer, as a transparency cue.
+
+**Generation.** `backend/ai_tutor.py` calls Groq's chat completions API (`llama-3.3-70b-versatile` by default, overridable via a `GROQ_MODEL` env var) directly via `urllib.request` - Groq's API is a plain OpenAI-compatible REST endpoint, so no `groq` or `openai` pip package is needed, keeping with this app's "Python standard library only" design for the core app. The system prompt instructs the model to stay grounded in the provided context when it's relevant, stay at CBSE Class 10 depth (not wander into Class 11/12 territory - directly motivated by the v39 video-sourcing lesson), and say plainly when it's unsure about something exam-specific rather than guessing.
+
+**Graceful degradation, done proactively this time.** `ai_status()` reports whether `GROQ_API_KEY` is set, mirroring `ocr_status()`'s pattern; `AskAIView` checks `GET /api/ai-status` on load and shows setup instructions (get a free key at console.groq.com/keys, `export GROQ_API_KEY=...` before starting the server) instead of a question box that would just fail - the same lesson learned from the v40 OCR-upload fix, applied from the start this time instead of after a user hit the failure.
+
+**Setup required to actually use it:** set the `GROQ_API_KEY` environment variable on whichever machine runs `backend/server.py`, then restart the server. Nothing else in the app requires this - it's the one optional feature that needs a live internet connection and a paid-usage (Groq's free tier covers light use) API key.
+
+**Testing note:** verified via live server round trips that `/api/ai-status` and `/api/ask-ai` behave correctly with no key set (clean "not configured" message, not a crash), and with a key set that retrieval correctly finds relevant sources (e.g. asking "what is Ohm's law" correctly surfaced the Electricity chapter's Ohm's Law section as the top match) and that a Groq API failure is caught and returned as a readable error rather than a stack trace. The actual Groq call itself could not be verified end-to-end in the environment this was built in (no outbound network access to api.groq.com from that sandbox) - that last step needs confirming on a real machine with a real key and internet access.
+
+### v42: the backend now serves the app itself
+
+Opening the Render URL (the backend's root) returned `{"error": "not found"}` because the backend only served `/api/...` routes; the app page lived in a separate file (`frontend/index.html`) that had to be hosted elsewhere. `backend/server.py` now also serves the files in `../frontend` (`/` -> `index.html`, plus `styles.css` and `board-prep.html`), restricted to that folder (path-traversal attempts return 404), so **one Render service is the whole app** - open `https://<your-service>.onrender.com/`. `frontend/index.html`'s `API_BASE` now defaults to the page's own origin when served over http(s), and to `http://localhost:8000` when opened as a local file as before; if you still host the page on a different site (e.g. Vercel), put your backend URL in that one line. Verified locally: `/`, `/styles.css`, `/board-prep.html` and `/api/*` all return 200, unknown paths still return the JSON 404, and `../` traversal returns 404.
 
 ## Paper generation API
 
