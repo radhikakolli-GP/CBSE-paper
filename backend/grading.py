@@ -69,7 +69,7 @@ def grade_mcq(question, submitted_index):
     }
 
 
-def grade_descriptive(question, answer_text):
+def grade_descriptive(question, answer_text, extra_matched=None):
     norm_text = _normalize(answer_text)
     norm_words = set(norm_text.split())
     rubric = question.get("rubric", [])
@@ -89,6 +89,9 @@ def grade_descriptive(question, answer_text):
             found = any(_phrase_present(kw, norm_text, norm_words) for kw in p["keywords"])
             if found:
                 matched_points.append(p["point"])
+                raw_score += p["weight"]
+            elif extra_matched and p["point"] in extra_matched:
+                matched_points.append(p["point"] + " (judged by AI)")
                 raw_score += p["weight"]
             else:
                 missed_points.append(p["point"])
@@ -272,3 +275,37 @@ def analyze_performance(submissions):
         "recommendations": recommendations,
         "history": history,
     }
+
+
+def chapter_scores(submissions):
+    """
+    Per-chapter score summary for the Board Prep page. Returns a list of
+    {subject, chapter_title, last_pct, last_awarded, last_available, last_at, attempts, avg_pct}
+    where "last" is the most recent paper that included questions from that chapter.
+    Chapters with fewer than 2 marks available in a paper are ignored for that paper, so a single
+    1-mark question can't make a chapter look 0% or 100%.
+    """
+    per = {}  # (subject, title) -> list of (submitted_at, awarded, available)
+    for sub in sorted(submissions, key=lambda s: s["submitted_at"]):
+        agg = {}
+        for r in sub["results"]:
+            title = r.get("chapter_title")
+            if not title:
+                continue
+            key = (r.get("subject") or "", title)
+            a = agg.setdefault(key, [0.0, 0.0])
+            a[0] += r["marks_awarded"]
+            a[1] += r["marks_available"]
+        for key, (aw, av) in agg.items():
+            if av >= 2:
+                per.setdefault(key, []).append((sub["submitted_at"], aw, av))
+    out = []
+    for (subject, title), rows in per.items():
+        at, aw, av = rows[-1]
+        out.append({
+            "subject": subject, "chapter_title": title,
+            "last_pct": round(aw / av * 100, 1), "last_awarded": round(aw, 1), "last_available": round(av, 1),
+            "last_at": at, "attempts": len(rows),
+            "avg_pct": round(sum(r[1] for r in rows) / sum(r[2] for r in rows) * 100, 1),
+        })
+    return out

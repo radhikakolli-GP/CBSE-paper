@@ -33,6 +33,7 @@ import content_store
 import grading
 import ocr
 import ai_tutor
+import ai_reader
 import skills_store
 
 PORT = int(sys.argv[1]) if len(sys.argv) > 1 else int(os.environ.get("PORT", 8000))
@@ -190,11 +191,21 @@ class Handler(BaseHTTPRequestHandler):
                     return self._send_json(200, {"attempts": 0, "message": "No submissions yet for this student."})
                 return self._send_json(200, report)
 
+            if path == "/api/chapter-scores":
+                student = qs.get("student", [None])[0]
+                if not student:
+                    return self._send_json(400, {"error": "student query param required"})
+                subs = db.get_submissions_for_student(student)
+                return self._send_json(200, {"student": student, "chapters": grading.chapter_scores(subs)})
+
             if path == "/api/students":
                 return self._send_json(200, {"students": db.get_all_students()})
 
             if path == "/api/ocr-status":
-                return self._send_json(200, ocr.ocr_status())
+                st = dict(ocr.ocr_status())
+                if ai_reader.available():
+                    st = {"available": True, "reason": None, "engine": "groq"}
+                return self._send_json(200, st)
 
             if path == "/api/english-sets":
                 import english_sets
@@ -272,6 +283,21 @@ class Handler(BaseHTTPRequestHandler):
                 if len(pages) > 15:
                     return self._send_json(400, {"error": "Too many files - please upload at most 15 pages at once."})
 
+                if body.get("engine") != "ocr" and ai_reader.available():
+                    expected_w = [
+                        {"question_id": q["id"], "number": idx + 1, "question": q["question"], "marks": q["marks"]}
+                        for idx, q in enumerate(paper["questions"]) if q["type"] not in ("MCQ", "AR")
+                    ]
+                    rd = ai_reader.read_sheet(pages, expected_w)
+                    seg = rd["segments"]
+                    return self._send_json(200, {
+                        "full_text": "\n\n".join(seg.values()), "segments": seg,
+                        "matched_ids": list(seg.keys()),
+                        "unmatched_ids": [e["question_id"] for e in expected_w if e["question_id"] not in seg],
+                        "unrecognised_markers": [], "page_errors": rd["page_errors"],
+                        "fatal_error": rd["fatal_error"], "engine": "groq",
+                    })
+
                 ocr_result = ocr.extract_sheet_pages(pages, filename_hint=f"{paper_id}_sheet")
                 if ocr_result.get("fatal_error"):
                     return self._send_json(200, {
@@ -329,6 +355,12 @@ class Handler(BaseHTTPRequestHandler):
                     answers_by_qid[qid] = entry
 
                 results = grading.grade_paper(paper["questions"], answers_by_qid)
+                ai_checked = False
+                if body.get("smart_check", True):
+                    try:
+                        ai_checked = ai_reader.apply_semantic_check(results, paper["questions"], answers_by_qid)
+                    except Exception:
+                        ai_checked = False
                 for r in results:
                     if r["question_id"] in ocr_notes:
                         r["ocr_note"] = ocr_notes[r["question_id"]]
@@ -344,6 +376,7 @@ class Handler(BaseHTTPRequestHandler):
                     "total_marks": paper["total_marks"],
                     "percentage": round((total_score / paper["total_marks"]) * 100, 1) if paper["total_marks"] else 0,
                     "results": results,
+                    "ai_checked": ai_checked,
                 })
 
             return self._send_json(404, {"error": "not found"})

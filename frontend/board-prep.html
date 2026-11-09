@@ -380,6 +380,20 @@
     text-decoration-color: var(--rule-strong);
   }
 
+  .score-badge {
+    margin-left: auto; flex-shrink: 0;
+    font-family: var(--font-mono); font-size: 10.5px; letter-spacing: .02em;
+    padding: 1px 6px; border-radius: 9px; border: 1px solid var(--rule-strong);
+    color: var(--ink-soft); white-space: nowrap; cursor: help;
+  }
+  .score-badge.good { background: #e3f3e6; border-color: #9fd0a8; color: #1d6b2f; }
+  .score-badge.mid  { background: #fff3d6; border-color: #e8c76a; color: #8a5a00; }
+  .score-badge.low  { background: #fde4e1; border-color: #eba39a; color: #a3281a; }
+  .score-flag { color: #a3281a; font-size: 11px; margin-top: 1px; }
+  .score-bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 0 0 14px; font-size: 13px; color: var(--ink-soft); }
+  .score-bar input { padding: 4px 8px; border: 1px solid var(--rule-strong); border-radius: 4px; font: inherit; }
+  .score-bar button { padding: 4px 10px; border: 1px solid var(--rule-strong); border-radius: 4px; background: var(--paper); cursor: pointer; font: inherit; }
+
   /* ---------- Study schedule ---------- */
   .schedule-wrap { display: flex; flex-direction: column; gap: 10px; }
   .week-card {
@@ -612,6 +626,12 @@
     <div class="section-head">
       <h2 id="tracker-head">Revision Tracker</h2>
       <span class="hint">Check off chapters as you finish them &mdash; saved automatically in this browser</span>
+    </div>
+    <div class="score-bar" id="scoreBar">
+      <span>Practice scores for</span>
+      <input id="scoreStudent" placeholder="student name" size="14" />
+      <button id="scoreLoad" type="button">Show scores</button>
+      <span id="scoreMsg"></span>
     </div>
     <div class="subject-grid" id="subjectGrid"></div>
   </section>
@@ -949,6 +969,7 @@
           <li>
             <input type="checkbox" id="${boxId}" data-subj="${s.key}" ${isChecked} />
             <label for="${boxId}">${c.name}</label>
+            <span class="score-slot" data-subj="${s.key}" data-idx="${i}"></span>
           </li>`;
       }).join("");
       return `
@@ -978,6 +999,71 @@
     });
 
     SUBJECTS.forEach(s => updateProgress(s.key));
+  }
+
+  /* ---------- Practice scores from the practice app (read-only; ticking stays manual) ---------- */
+  const SCORE_GROUPS = {
+    maths: ["mathematics", "maths"], science: ["physics", "chemistry", "biology", "science"],
+    sst: ["history", "geography", "civics", "economics"], english: ["english"]
+  };
+  const SCORE_STOP = new Set(["the", "and", "of", "to", "in"]);
+  function normTitle(t) {
+    return t.toLowerCase().replace(/\(.*?\)/g, " ").replace(/[^a-z0-9]+/g, " ").split(" ")
+      .filter(w => w && !SCORE_STOP.has(w)).join(" ");
+  }
+  function scoreApiBase() {
+    return location.protocol === "file:" ? "http://localhost:8000" : location.origin;
+  }
+  let lastScores = [];
+  function renderScores() {
+    document.querySelectorAll(".score-slot").forEach(slot => {
+      slot.innerHTML = ""; slot.className = "score-slot"; slot.style.display = "contents";
+      const s = subjectByKey[slot.dataset.subj];
+      const chap = s.chapters[Number(slot.dataset.idx)];
+      const want = normTitle(chap.name);
+      const groups = SCORE_GROUPS[s.key] || [];
+      const hits = lastScores.filter(r => groups.includes(r.subject) && (() => {
+        const have = normTitle(r.chapter_title);
+        return have === want || have.startsWith(want) || want.startsWith(have);
+      })());
+      if (!hits.length) return;
+      hits.sort((a, b) => (b.last_at || "").localeCompare(a.last_at || ""));
+      const r = hits[0];
+      const cls = r.last_pct >= 75 ? "good" : r.last_pct >= 50 ? "mid" : "low";
+      const date = r.last_at ? new Date(r.last_at.replace(" ", "T")).toLocaleDateString() : "";
+      const ticked = document.getElementById(`${s.key}-${slot.dataset.idx}`).checked;
+      const badge = document.createElement("span");
+      badge.className = `score-badge ${cls}`;
+      badge.textContent = `${r.last_awarded}/${r.last_available} · ${Math.round(r.last_pct)}%`;
+      badge.title = `Latest paper${date ? " (" + date + ")" : ""}: ${r.last_awarded} of ${r.last_available} marks. ` +
+        `${r.attempts} paper${r.attempts === 1 ? "" : "s"} so far, average ${r.avg_pct}%.` +
+        (ticked && r.last_pct < 50 ? " Ticked as done but the latest score is low - worth another look." : "");
+      slot.appendChild(badge);
+      if (ticked && r.last_pct < 50) {
+        const flag = document.createElement("span");
+        flag.className = "score-flag"; flag.textContent = "⚠"; flag.title = badge.title;
+        slot.appendChild(flag);
+      }
+    });
+  }
+  async function loadScores() {
+    const name = document.getElementById("scoreStudent").value.trim();
+    const msg = document.getElementById("scoreMsg");
+    if (!name) { msg.textContent = "Enter the student name used in the practice app."; return; }
+    try { localStorage.setItem("cbse_student_name", name); } catch (e) {}
+    msg.textContent = "Loading...";
+    try {
+      const res = await fetch(`${scoreApiBase()}/api/chapter-scores?student=${encodeURIComponent(name)}`);
+      if (!res.ok) throw new Error("server returned " + res.status);
+      const data = await res.json();
+      lastScores = data.chapters || [];
+      renderScores();
+      msg.textContent = lastScores.length
+        ? `Scores from ${lastScores.length} chapter${lastScores.length === 1 ? "" : "s"} attempted.`
+        : "No practice papers found for that name yet.";
+    } catch (e) {
+      msg.textContent = "Couldn't load scores (the practice server isn't reachable from this page).";
+    }
   }
 
   function updateProgress(key) {
@@ -1277,6 +1363,14 @@
 
   renderWeightage();
   renderSubjects();
+  (function initScores() {
+    let saved = ""; try { saved = localStorage.getItem("cbse_student_name") || ""; } catch (e) {}
+    document.getElementById("scoreStudent").value = saved;
+    document.getElementById("scoreLoad").addEventListener("click", loadScores);
+    document.getElementById("scoreStudent").addEventListener("keydown", e => { if (e.key === "Enter") loadScores(); });
+    document.querySelectorAll('#subjectGrid input[type="checkbox"]').forEach(box => box.addEventListener("change", renderScores));
+    if (saved) loadScores();
+  })();
   renderMockSubjectSelect();
   document.getElementById("mockDate").value = new Date().toISOString().slice(0, 10);
   renderMockStats();
