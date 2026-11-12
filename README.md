@@ -244,6 +244,18 @@ A new, optional feature - the first part of this app that needs internet access 
 
 Opening the Render URL (the backend's root) returned `{"error": "not found"}` because the backend only served `/api/...` routes; the app page lived in a separate file (`frontend/index.html`) that had to be hosted elsewhere. `backend/server.py` now also serves the files in `../frontend` (`/` -> `index.html`, plus `styles.css` and `board-prep.html`), restricted to that folder (path-traversal attempts return 404), so **one Render service is the whole app** - open `https://<your-service>.onrender.com/`. `frontend/index.html`'s `API_BASE` now defaults to the page's own origin when served over http(s), and to `http://localhost:8000` when opened as a local file as before; if you still host the page on a different site (e.g. Vercel), put your backend URL in that one line. Verified locally: `/`, `/styles.css`, `/board-prep.html` and `/api/*` all return 200, unknown paths still return the JSON 404, and `../` traversal returns 404.
 
+### v47: practice scores in Board Prep
+
+Board Prep's revision tracker still uses manual ticks, but each chapter now also shows the student's latest practice score (e.g. `8/10 · 80%`, green/amber/red; tooltip has date, number of papers and average). A chapter that is ticked but scored under 50% gets a warning mark. Enter the student name (prefilled from the practice app) and press "Show scores". New endpoint `GET /api/chapter-scores?student=NAME`. Chapters are matched to Board Prep names by title. Works when Board Prep is opened from the same server as the app (e.g. the Render URL); if opened as a separate file it shows a "couldn't load scores" note.
+
+### v46: Groq handwriting reading + meaning-based point checking
+
+- `backend/ai_reader.py` (new): `read_sheet()` sends answer-sheet photos to a Groq vision model (env `GROQ_VISION_MODEL`, default `meta-llama/llama-4-scout-17b-16e-instruct` - check Groq's current vision model list) and returns text per question; `apply_semantic_check()` asks Groq whether rubric points missed by the keyword check are expressed in other words, then re-scores. Credited points are labelled "(judged by AI)".
+- `/api/papers/{id}/parse-sheet` uses Groq whenever `GROQ_API_KEY` is set (send `engine: "ocr"` to force Tesseract); text still lands in the editable answer boxes so a parent reviews it before submitting. Photos only (no PDFs). Pillow (optional) shrinks photos.
+- `/api/papers/{id}/submit` runs the AI point check when the key is set (disable with `smart_check: false`); result includes `ai_checked`.
+- `ai_tutor.groq_chat()` is now the shared Groq call. Needs the same `GROQ_API_KEY`; no new env var required.
+- Untested against the real Groq API (sandbox has no access) - verify on Render with a real photo.
+
 ### v45: fixed English practice papers
 
 Practice Papers -> English now has a **Paper** dropdown: "Random mix" (as before) or one of four fixed 80-mark papers (SQP 2026-27 style, Board Set A/B/C style). Each mirrors a real paper from the 'Practice papers' folder question by question (same topics, marks and order); passages and answers are original. Defined in `backend/english_sets.py`; API: `GET /api/english-sets`, and `english_set` on `POST /api/papers/generate`.

@@ -90,6 +90,38 @@ def _retrieve_context(question, limit=RETRIEVAL_LIMIT):
     return "\n\n".join(blocks), sources
 
 
+def groq_chat(payload, timeout=TIMEOUT_SECONDS):
+    """Shared Groq call. Returns (message_text, error_string_or_None). Never raises."""
+    if not os.environ.get("GROQ_API_KEY"):
+        return "", "GROQ_API_KEY environment variable is not set."
+    req = urllib.request.Request(
+        GROQ_API_URL,
+        data=json.dumps(payload).encode("utf-8"),
+        headers={
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "User-Agent": "cbse-study-app/1.0",
+            "Authorization": f"Bearer {os.environ.get('GROQ_API_KEY', '')}",
+        },
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            body = json.loads(resp.read().decode("utf-8"))
+        return body["choices"][0]["message"]["content"].strip(), None
+    except urllib.error.HTTPError as e:
+        raw = e.read().decode("utf-8", errors="replace")
+        try:
+            msg = json.loads(raw).get("error", {}).get("message", raw)
+        except Exception:
+            msg = raw
+        return "", f"Groq API error ({e.code}): {msg}"
+    except urllib.error.URLError as e:
+        return "", f"Couldn't reach Groq's API ({e.reason})"
+    except Exception as e:
+        return "", f"Unexpected error calling Groq: {e}"
+
+
 def ask_tutor(question, limit=RETRIEVAL_LIMIT):
     """
     Returns {"answer": str, "sources": [...], "error": str|None}.

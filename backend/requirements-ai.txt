@@ -1,0 +1,5 @@
+# Only needed for the LangGraph version of "Ask AI" (backend/ai_graph.py).
+# The core app and the original ai_tutor.py still need nothing beyond the
+# Python standard library. Groq is called directly over HTTPS, so no
+# groq/openai/langchain-groq package is needed either.
+langgraph>=1.0
