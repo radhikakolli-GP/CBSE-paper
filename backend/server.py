@@ -25,6 +25,36 @@ import mimetypes
 import os
 import re
 import sys
+
+
+def _load_dotenv():
+    """Load KEY=VALUE lines from backend/.env (if present) into the environment.
+    Real environment variables win, so Render's dashboard settings are never overridden.
+    Must run before the imports below, because some modules read env vars at import time."""
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".env")
+    if not os.path.isfile(path):
+        return
+    try:
+        with open(path, encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line or line.startswith("#") or "=" not in line:
+                    continue
+                key, _, val = line.partition("=")
+                key = key.strip()
+                if key.startswith("export "):
+                    key = key[7:].strip()
+                val = val.strip()
+                if len(val) >= 2 and val[0] == val[-1] and val[0] in "\"'":
+                    val = val[1:-1]
+                if key and key not in os.environ:
+                    os.environ[key] = val
+    except OSError:
+        pass
+
+
+_load_dotenv()
+
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import urlparse, parse_qs
 

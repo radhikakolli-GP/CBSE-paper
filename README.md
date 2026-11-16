@@ -244,6 +244,10 @@ A new, optional feature - the first part of this app that needs internet access 
 
 Opening the Render URL (the backend's root) returned `{"error": "not found"}` because the backend only served `/api/...` routes; the app page lived in a separate file (`frontend/index.html`) that had to be hosted elsewhere. `backend/server.py` now also serves the files in `../frontend` (`/` -> `index.html`, plus `styles.css` and `board-prep.html`), restricted to that folder (path-traversal attempts return 404), so **one Render service is the whole app** - open `https://<your-service>.onrender.com/`. `frontend/index.html`'s `API_BASE` now defaults to the page's own origin when served over http(s), and to `http://localhost:8000` when opened as a local file as before; if you still host the page on a different site (e.g. Vercel), put your backend URL in that one line. Verified locally: `/`, `/styles.css`, `/board-prep.html` and `/api/*` all return 200, unknown paths still return the JSON 404, and `../` traversal returns 404.
 
+### v48: `.env` file support
+
+`backend/server.py` now loads `backend/.env` at startup (plain `KEY=VALUE` lines; real environment variables take priority). Copy `backend/.env.example` to `backend/.env` and put `GROQ_API_KEY=...` in it. `.env` is in `.gitignore` - never commit it. On Render keep using the dashboard's Environment tab.
+
 ### v47: practice scores in Board Prep
 
 Board Prep's revision tracker still uses manual ticks, but each chapter now also shows the student's latest practice score (e.g. `8/10 · 80%`, green/amber/red; tooltip has date, number of papers and average). A chapter that is ticked but scored under 50% gets a warning mark. Enter the student name (prefilled from the practice app) and press "Show scores". New endpoint `GET /api/chapter-scores?student=NAME`. Chapters are matched to Board Prep names by title. Works when Board Prep is opened from the same server as the app (e.g. the Render URL); if opened as a separate file it shows a "couldn't load scores" note.

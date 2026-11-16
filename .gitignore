@@ -4,3 +4,8 @@ backend/__pycache__/
 *.pyc
 backend/uploads/
 .DS_Store
+
+# Environment
+.env
+.env.*.local
+.env.local
