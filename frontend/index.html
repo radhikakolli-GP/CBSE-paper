@@ -405,6 +405,28 @@ function NotesView({ course, initialChapterId, onInitialChapterConsumed }) {
             </div>
           )}
 
+          {notes.notes.everyday_examples && notes.notes.everyday_examples.length > 0 && (
+            <div className="notes-section">
+              <h3>Where you see this in daily life</h3>
+              <p className="muted" style={{ fontSize: 13 }}>
+                Read what you see and the question first, say your answer out loud, then tap to check.
+              </p>
+              {notes.notes.everyday_examples.map((ex, i) => (
+                <details key={i} style={{ border: "1px solid var(--border, #ddd)", borderRadius: 6, padding: "8px 10px", marginBottom: 8 }}>
+                  <summary style={{ cursor: "pointer", lineHeight: 1.5 }}>
+                    <b>You see:</b> {ex.sees}
+                    {ex.ask && <div className="muted" style={{ fontSize: 13, marginTop: 2 }}>Think: {ex.ask}</div>}
+                  </summary>
+                  <div style={{ marginTop: 8, fontSize: 14, lineHeight: 1.6 }}>
+                    <div><b>Concept:</b> {ex.concept}</div>
+                    <div style={{ marginTop: 4 }}><b>How it connects:</b> {ex.connects}</div>
+                    {ex.exam_link && <div style={{ marginTop: 4 }}><b>For the exam:</b> {ex.exam_link}</div>}
+                  </div>
+                </details>
+              ))}
+            </div>
+          )}
+
           <div className="notes-section">
             <h3>Key Terms</h3>
             {Object.entries(notes.notes.key_terms).map(([term, def]) => (
@@ -1657,6 +1679,13 @@ function ResultsView({ result, onDone, onViewPerformance }) {
           </div>
           <div style={{ fontSize: 18, fontWeight: 700, color: "var(--orange)" }}>{result.percentage}%</div>
         </div>
+        {result.ai_checked && (
+          <div className="muted" style={{ fontSize: 13, marginTop: 6 }}>
+            Marks for written answers were checked by keywords and then by AI for answers that
+            expressed a point in different words (shown as "judged by AI"). AI marks are a guide -
+            a parent/teacher should confirm them, especially for letters and articles.
+          </div>
+        )}
         <div style={{ marginTop: 10 }}>
           <button className="btn secondary" onClick={onDone}>Attempt another paper</button>{" "}
           <button className="btn" onClick={onViewPerformance}>View performance analysis</button>

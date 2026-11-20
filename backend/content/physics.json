@@ -148,7 +148,58 @@
           "video_id": "Jti3BAcVV-0",
           "video_title": "CBSE Board Practice: Lenses & Mirrors (Khan Academy India - English)",
           "description": "Board papers often give a short passage on lenses/mirrors (like focal length, sign convention, or combined power) followed by 3-4 linked sub-questions - exactly the format used in Q38 of the CBSE 2026 Science paper (Series MNL2K SET~4). This video works through mixed board-style lens and mirror problems step by step: reading the given values, applying the correct formula and sign convention, and reasoning through each part in sequence."
-        }
+        },
+        "everyday_examples": [
+          {
+            "sees": "Look into a steel spoon: on the inner (hollow) side your face is upside down at arm's length; on the back side it is upright and small.",
+            "concept": "Concave and convex mirrors",
+            "connects": "The inner side curves inward, so it acts as a concave mirror. An object beyond the focus gives a real, inverted image; brought very close (inside the focus) the image becomes upright and enlarged. The back side is a convex mirror, which always gives an upright, smaller image.",
+            "ask": "Why does your face flip when you move the spoon closer?",
+            "exam_link": "Concave mirror: object beyond F -> real, inverted; object between P and F -> virtual, erect, enlarged. Convex mirror: always virtual, erect, diminished."
+          },
+          {
+            "sees": "The side mirror of a car or scooter shows a wide view of the road, and vehicles look smaller than they are. The same mirrors sit at blind turns on hill roads.",
+            "concept": "Convex mirror",
+            "connects": "A convex mirror always forms an upright, diminished image and covers a wider field of view than a flat mirror, so the driver can see more traffic behind.",
+            "ask": "Why do vehicle makers use convex and not plane mirrors on the side?",
+            "exam_link": "Uses of convex mirrors: rear-view mirrors, blind-turn safety mirrors. Magnification is positive and less than 1."
+          },
+          {
+            "sees": "A dentist's small mirror and a shaving mirror show a magnified, upright image. A torch or headlight sends out a straight beam.",
+            "concept": "Concave mirror (uses)",
+            "connects": "When an object is between the pole and the focus of a concave mirror, the image is virtual, upright and magnified. In a torch the bulb sits at the focus of a concave reflector, so the reflected rays leave parallel as a strong beam.",
+            "ask": "Where must the bulb be placed in a torch reflector, and why?",
+            "exam_link": "Uses of concave mirrors: shaving/make-up mirrors, dentist's mirror, torches and headlights, solar furnaces."
+          },
+          {
+            "sees": "A straw in a glass of water looks bent or broken at the surface.",
+            "concept": "Refraction of light",
+            "connects": "Light from the part under water bends away from the normal as it passes from water (denser) into air (rarer). The eye assumes light travels straight, so it sees the underwater part higher than it really is.",
+            "ask": "Does the light bend towards or away from the normal here? Why?",
+            "exam_link": "Light going from rarer to denser medium bends towards the normal; denser to rarer, away from it. Snell's law: sin i / sin r = constant."
+          },
+          {
+            "sees": "A coin at the bottom of a bowl seems to rise when water is poured in; a swimming pool looks shallower than it really is.",
+            "concept": "Apparent depth (refraction)",
+            "connects": "Refraction makes objects under water appear closer to the surface than their real depth. This is why a pool can be deeper than it looks, which matters for safety.",
+            "ask": "Why should a child never judge pool depth by looking from the edge?",
+            "exam_link": "Apparent depth is less than real depth. Same cause as the bent straw."
+          },
+          {
+            "sees": "A magnifying glass held in sunlight burns a spot on paper; held close to text it enlarges the letters.",
+            "concept": "Convex lens",
+            "connects": "A convex lens bends parallel sun rays to meet at its principal focus, concentrating heat there. When an object is closer than the focus, the lens gives an upright, enlarged, virtual image.",
+            "ask": "Where on the paper must the bright spot be sharpest, and why does paper burn there?",
+            "exam_link": "Convex lens: object inside F -> virtual, erect, enlarged (magnifying glass). Parallel rays converge at the principal focus."
+          },
+          {
+            "sees": "A spectacle prescription says something like -1.5 D.",
+            "concept": "Power of a lens",
+            "connects": "Power P = 1/f, with the focal length f in metres; the unit is the dioptre (D). A minus sign means a concave (diverging) lens and a plus sign a convex (converging) lens. -1.5 D means a concave lens with focal length of about 0.67 m (f = 1/-1.5).",
+            "ask": "What kind of lens is +2 D, and what is its focal length?",
+            "exam_link": "Numericals: P = 1/f (f in metres). Convex lens: f and P positive; concave lens: f and P negative. Powers of lenses in contact add."
+          }
+        ]
       },
       "questions": [
         {

@@ -244,6 +244,10 @@ A new, optional feature - the first part of this app that needs internet access 
 
 Opening the Render URL (the backend's root) returned `{"error": "not found"}` because the backend only served `/api/...` routes; the app page lived in a separate file (`frontend/index.html`) that had to be hosted elsewhere. `backend/server.py` now also serves the files in `../frontend` (`/` -> `index.html`, plus `styles.css` and `board-prep.html`), restricted to that folder (path-traversal attempts return 404), so **one Render service is the whole app** - open `https://<your-service>.onrender.com/`. `frontend/index.html`'s `API_BASE` now defaults to the page's own origin when served over http(s), and to `http://localhost:8000` when opened as a local file as before; if you still host the page on a different site (e.g. Vercel), put your backend URL in that one line. Verified locally: `/`, `/styles.css`, `/board-prep.html` and `/api/*` all return 200, unknown paths still return the JSON 404, and `../` traversal returns 404.
 
+### v49: "Where you see this in daily life" (Science notes, pilot chapter)
+
+Chapter notes can now carry an `everyday_examples` list (`sees`, `concept`, `connects`, `ask`, `exam_link`); the Notes page shows it as tap-to-reveal cards (read the situation and the question first, then check). Added for **Physics - Light: Reflection and Refraction** (7 examples, from the reference PDF 'Class 10 Science Everyday Examples by Chapter'). Other chapters: add the same key to their `notes` in `backend/content/*.json`; no code change needed.
+
 ### v48: `.env` file support
 
 `backend/server.py` now loads `backend/.env` at startup (plain `KEY=VALUE` lines; real environment variables take priority). Copy `backend/.env.example` to `backend/.env` and put `GROQ_API_KEY=...` in it. `.env` is in `.gitignore` - never commit it. On Render keep using the dashboard's Environment tab.
