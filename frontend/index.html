@@ -302,10 +302,155 @@ function TopicVideo({ videoId, title }) {
   );
 }
 
+// Separate "Where you see this in daily life" page for a chapter: everyday
+// examples (tap to reveal), flowcharts, optional ray diagrams, a word-problem
+// method with worked examples, and things to remember. All content lives in
+// the chapter's notes (notes.everyday_examples, notes.study_page).
+function FlowChart({ fc }) {
+  return (
+    <div className="sp-card">
+      <h4 style={{ margin: "0 0 2px" }}>{fc.title}</h4>
+      {fc.caption && <div className="muted" style={{ fontSize: 13, marginBottom: 10 }}>{fc.caption}</div>}
+      {fc.kind === "decision" ? (
+        <div>
+          <div className="sp-box sp-root">{fc.question}</div>
+          <div className="sp-down">&#9660;</div>
+          <div className="sp-branches">
+            {fc.branches.map((b, i) => (
+              <div className="sp-branch" key={i}>
+                <div className="sp-branch-label">{b.label}</div>
+                <ul>{(Array.isArray(b.result) ? b.result : [b.result]).map((r, j) => <li key={j}>{r}</li>)}</ul>
+              </div>
+            ))}
+          </div>
+        </div>
+      ) : (
+        <div>
+          {fc.steps.map((s, i) => (
+            <div key={i}>
+              <div className="sp-box"><span className="sp-num">{i + 1}</span>{s.text}</div>
+              {i < fc.steps.length - 1 && <div className="sp-down">&#9660;</div>}
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function StudyPage({ notes, onBack }) {
+  const n = notes.notes;
+  const sp = n.study_page || {};
+  const wp = sp.word_problems;
+  return (
+    <div className="card">
+      <style>{`
+        .sp-card{border:1px solid #d9e2ec;border-radius:8px;padding:12px;margin:10px 0;background:#fff}
+        .sp-box{border:1.5px solid #1c6ea4;border-radius:8px;padding:8px 12px;background:#eef6fc;font-size:14px;line-height:1.5}
+        .sp-root{background:#0f3d63;color:#fff;border-color:#0f3d63;font-weight:600}
+        .sp-num{display:inline-block;min-width:20px;height:20px;line-height:20px;text-align:center;border-radius:10px;background:#1c6ea4;color:#fff;font-size:12px;margin-right:8px}
+        .sp-down{text-align:center;color:#1c6ea4;font-size:14px;line-height:18px}
+        .sp-branches{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:8px}
+        .sp-branch{border:1.5px solid #2f9e5c;border-radius:8px;background:#f1faf4;padding:8px 10px}
+        .sp-branch-label{font-weight:700;font-size:13.5px;color:#14532d;margin-bottom:4px}
+        .sp-branch ul{margin:0;padding-left:18px;font-size:13.5px;line-height:1.5}
+        .sp-table{width:100%;border-collapse:collapse;font-size:13.5px}
+        .sp-table td,.sp-table th{border:1px solid #d9e2ec;padding:6px 8px;text-align:left;vertical-align:top}
+        .sp-table th{background:#f3f6f9}
+        .sp-example{border-left:4px solid #e8853a;background:#fff8f1;padding:8px 12px;margin:10px 0;border-radius:0 6px 6px 0;font-size:14px;line-height:1.6}
+        .sp-diagram{border:1px solid #d9e2ec;border-radius:8px;padding:10px;margin:10px 0;background:#fff}
+      `}</style>
+      <button className="btn secondary" onClick={onBack}>&larr; Back to chapter notes</button>
+      <h2 style={{ marginTop: 12 }}>{notes.title}: where you see this in daily life</h2>
+      {sp.intro && <p style={{ fontSize: 14, lineHeight: 1.6 }}>{sp.intro}</p>}
+
+      {n.everyday_examples && n.everyday_examples.length > 0 && (
+        <div className="notes-section">
+          <h3>1. Where you see this at home</h3>
+          <p className="muted" style={{ fontSize: 13 }}>Read what you see and the question, say your answer out loud, then tap to check.</p>
+          {n.everyday_examples.map((ex, i) => (
+            <details key={i} className="sp-card" style={{ margin: "8px 0" }}>
+              <summary style={{ cursor: "pointer", lineHeight: 1.5 }}>
+                <b>You see:</b> {ex.sees}
+                {ex.ask && <div className="muted" style={{ fontSize: 13, marginTop: 2 }}>Think: {ex.ask}</div>}
+              </summary>
+              <div style={{ marginTop: 8, fontSize: 14, lineHeight: 1.6 }}>
+                <div><b>Concept:</b> {ex.concept}</div>
+                <div style={{ marginTop: 4 }}><b>How it connects:</b> {ex.connects}</div>
+                {ex.exam_link && <div style={{ marginTop: 4 }}><b>For the exam:</b> {ex.exam_link}</div>}
+              </div>
+            </details>
+          ))}
+        </div>
+      )}
+
+      {sp.flowcharts && sp.flowcharts.length > 0 && (
+        <div className="notes-section">
+          <h3>2. Flowcharts to remember the concept</h3>
+          {sp.flowcharts.map((fc, i) => <FlowChart key={i} fc={fc} />)}
+        </div>
+      )}
+
+      {sp.diagrams && sp.diagrams.length > 0 && (
+        <div className="notes-section">
+          <h3>3. Ray diagrams</h3>
+          <p className="muted" style={{ fontSize: 13 }}>{sp.diagrams[0].note}</p>
+          {sp.diagrams.map((d, i) => (
+            <div className="sp-diagram" key={i}>
+              <div style={{ fontWeight: 600, marginBottom: 6 }}>{d.title}</div>
+              <div dangerouslySetInnerHTML={{ __html: d.svg }} />
+            </div>
+          ))}
+        </div>
+      )}
+
+      {wp && (
+        <div className="notes-section">
+          <h3>{sp.diagrams && sp.diagrams.length ? "4" : "3"}. {wp.title}</h3>
+          <ol style={{ fontSize: 14, lineHeight: 1.65 }}>{wp.steps.map((s, i) => <li key={i}>{s}</li>)}</ol>
+          {wp.sign_convention && wp.sign_convention.length > 0 && (
+            <div className="sp-card">
+              <b>Sign convention</b>
+              <ul style={{ fontSize: 14, lineHeight: 1.6, margin: "6px 0 0" }}>{wp.sign_convention.map((s, i) => <li key={i}>{s}</li>)}</ul>
+            </div>
+          )}
+          {wp.formulas && wp.formulas.length > 0 && (
+            <div style={{ overflowX: "auto" }}>
+              <table className="sp-table">
+                <thead><tr><th>Quantity</th><th>Formula</th><th>Note</th></tr></thead>
+                <tbody>{wp.formulas.map((f, i) => <tr key={i}><td>{f.name}</td><td><b>{f.formula}</b></td><td>{f.note}</td></tr>)}</tbody>
+              </table>
+            </div>
+          )}
+          <h4 style={{ marginTop: 14 }}>Worked examples</h4>
+          {wp.examples.map((e, i) => (
+            <div className="sp-example" key={i}>
+              <div><b>Q{i + 1}.</b> {e.problem}</div>
+              <div style={{ marginTop: 4 }}><b>Given:</b> {e.given.join("; ")}</div>
+              <div style={{ marginTop: 4 }}><b>Solution:</b></div>
+              <ol style={{ margin: "2px 0 4px" }}>{e.steps.map((s, j) => <li key={j}>{s}</li>)}</ol>
+              <div><b>Answer:</b> {e.answer}</div>
+            </div>
+          ))}
+        </div>
+      )}
+
+      {sp.remember && sp.remember.length > 0 && (
+        <div className="notes-section">
+          <h3>Remember</h3>
+          <ul style={{ fontSize: 14, lineHeight: 1.65 }}>{sp.remember.map((r, i) => <li key={i}>{r}</li>)}</ul>
+        </div>
+      )}
+      <button className="btn secondary" onClick={onBack}>&larr; Back to chapter notes</button>
+    </div>
+  );
+}
+
 function NotesView({ course, initialChapterId, onInitialChapterConsumed }) {
   const [subjects, setSubjects] = useState([]);
   const [chapterId, setChapterId] = useState("");
   const [notes, setNotes] = useState(null);
+  const [studyOpen, setStudyOpen] = useState(false);
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
 
@@ -331,6 +476,7 @@ function NotesView({ course, initialChapterId, onInitialChapterConsumed }) {
     if (!id) return;
     setLoading(true);
     setError("");
+    setStudyOpen(false);
     apiGet("/api/notes?chapter=" + encodeURIComponent(id))
       .then((d) => setNotes(d))
       .catch((e) => setError(e.message))
@@ -374,9 +520,18 @@ function NotesView({ course, initialChapterId, onInitialChapterConsumed }) {
 
       {loading && <div className="muted">Loading notes...</div>}
 
-      {notes && (
+      {notes && studyOpen && <StudyPage notes={notes} onBack={() => { setStudyOpen(false); window.scrollTo(0, 0); }} />}
+
+      {notes && !studyOpen && (
         <div className="card">
-          <h2>{notes.title}</h2>
+          <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", gap: 10, justifyContent: "space-between" }}>
+            <h2 style={{ margin: 0 }}>{notes.title}</h2>
+            {(notes.notes.study_page || (notes.notes.everyday_examples && notes.notes.everyday_examples.length > 0)) && (
+              <button className="btn" onClick={() => { setStudyOpen(true); window.scrollTo(0, 0); }}>
+                Where you see this in daily life
+              </button>
+            )}
+          </div>
           <div className="notes-section">
             <h3>Overview</h3>
             <p style={{ fontSize: 14, lineHeight: 1.6 }}>{notes.notes.overview}</p>
@@ -402,28 +557,6 @@ function NotesView({ course, initialChapterId, onInitialChapterConsumed }) {
             <div className="notes-section">
               <h3>Key Points</h3>
               <ul>{notes.notes.key_points.map((p, i) => <li key={i}>{p}</li>)}</ul>
-            </div>
-          )}
-
-          {notes.notes.everyday_examples && notes.notes.everyday_examples.length > 0 && (
-            <div className="notes-section">
-              <h3>Where you see this in daily life</h3>
-              <p className="muted" style={{ fontSize: 13 }}>
-                Read what you see and the question first, say your answer out loud, then tap to check.
-              </p>
-              {notes.notes.everyday_examples.map((ex, i) => (
-                <details key={i} style={{ border: "1px solid var(--border, #ddd)", borderRadius: 6, padding: "8px 10px", marginBottom: 8 }}>
-                  <summary style={{ cursor: "pointer", lineHeight: 1.5 }}>
-                    <b>You see:</b> {ex.sees}
-                    {ex.ask && <div className="muted" style={{ fontSize: 13, marginTop: 2 }}>Think: {ex.ask}</div>}
-                  </summary>
-                  <div style={{ marginTop: 8, fontSize: 14, lineHeight: 1.6 }}>
-                    <div><b>Concept:</b> {ex.concept}</div>
-                    <div style={{ marginTop: 4 }}><b>How it connects:</b> {ex.connects}</div>
-                    {ex.exam_link && <div style={{ marginTop: 4 }}><b>For the exam:</b> {ex.exam_link}</div>}
-                  </div>
-                </details>
-              ))}
             </div>
           )}
 

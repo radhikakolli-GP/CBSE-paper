@@ -199,7 +199,416 @@
             "ask": "What kind of lens is +2 D, and what is its focal length?",
             "exam_link": "Numericals: P = 1/f (f in metres). Convex lens: f and P positive; concave lens: f and P negative. Powers of lenses in contact add."
           }
-        ]
+        ],
+        "study_page": {
+          "intro": "Light problems are won by two habits: draw a quick ray diagram first, and use the sign convention carefully. The flowcharts below tell you what to expect before you calculate; the steps tell you how to calculate.",
+          "flowcharts": [
+            {
+              "kind": "decision",
+              "title": "Concave mirror: where is the object?",
+              "caption": "Find the object's position, then read off the image. Start from 'far away' and move the object towards the mirror - the image moves away and grows.",
+              "question": "Where is the object placed? (P = pole, F = focus, C = centre of curvature)",
+              "branches": [
+                {
+                  "label": "Beyond C",
+                  "result": [
+                    "Image: between F and C",
+                    "Real and inverted",
+                    "Diminished"
+                  ]
+                },
+                {
+                  "label": "At C",
+                  "result": [
+                    "Image: at C",
+                    "Real and inverted",
+                    "Same size"
+                  ]
+                },
+                {
+                  "label": "Between C and F",
+                  "result": [
+                    "Image: beyond C",
+                    "Real and inverted",
+                    "Enlarged"
+                  ]
+                },
+                {
+                  "label": "At F",
+                  "result": [
+                    "Image: at infinity",
+                    "Real and inverted",
+                    "Highly enlarged"
+                  ]
+                },
+                {
+                  "label": "Between F and P",
+                  "result": [
+                    "Image: behind the mirror",
+                    "Virtual and erect",
+                    "Enlarged"
+                  ]
+                },
+                {
+                  "label": "At infinity",
+                  "result": [
+                    "Image: at F",
+                    "Real and inverted",
+                    "Highly diminished (point-sized)"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "decision",
+              "title": "Convex lens: where is the object?",
+              "caption": "Same idea as the mirror, but the real image forms on the OTHER side of the lens. (F1 and F2 are the foci on either side; O is the optical centre.)",
+              "question": "Where is the object placed?",
+              "branches": [
+                {
+                  "label": "Beyond 2F1",
+                  "result": [
+                    "Image: between F2 and 2F2",
+                    "Real and inverted",
+                    "Diminished"
+                  ]
+                },
+                {
+                  "label": "At 2F1",
+                  "result": [
+                    "Image: at 2F2",
+                    "Real and inverted",
+                    "Same size"
+                  ]
+                },
+                {
+                  "label": "Between F1 and 2F1",
+                  "result": [
+                    "Image: beyond 2F2",
+                    "Real and inverted",
+                    "Enlarged"
+                  ]
+                },
+                {
+                  "label": "At F1",
+                  "result": [
+                    "Image: at infinity",
+                    "Real and inverted",
+                    "Highly enlarged"
+                  ]
+                },
+                {
+                  "label": "Between F1 and O",
+                  "result": [
+                    "Image: same side as object",
+                    "Virtual and erect",
+                    "Enlarged (magnifying glass)"
+                  ]
+                },
+                {
+                  "label": "At infinity",
+                  "result": [
+                    "Image: at F2",
+                    "Real and inverted",
+                    "Highly diminished (point-sized)"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "decision",
+              "title": "Convex mirror and concave lens: no choices to remember",
+              "caption": "These two always behave the same way, wherever the object is.",
+              "question": "Which of the two is it?",
+              "branches": [
+                {
+                  "label": "Convex mirror",
+                  "result": [
+                    "Image: behind the mirror, between P and F",
+                    "Virtual and erect",
+                    "Diminished (always)"
+                  ]
+                },
+                {
+                  "label": "Concave lens",
+                  "result": [
+                    "Image: on the same side as the object, between O and F1",
+                    "Virtual and erect",
+                    "Diminished (always)"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "decision",
+              "title": "Real or virtual? Erect or inverted?",
+              "caption": "Three facts always go together - use this to check any answer.",
+              "question": "Can the image be caught on a screen?",
+              "branches": [
+                {
+                  "label": "Yes - rays actually meet",
+                  "result": [
+                    "REAL image",
+                    "Always inverted",
+                    "Mirror: in front of the mirror; Lens: on the other side of the lens"
+                  ]
+                },
+                {
+                  "label": "No - rays only appear to meet",
+                  "result": [
+                    "VIRTUAL image",
+                    "Always erect",
+                    "Mirror: behind the mirror; Lens: same side as the object"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "decision",
+              "title": "Which way does light bend in refraction?",
+              "caption": "Compare the two media - the denser one is where light travels slower.",
+              "question": "Light goes from...",
+              "branches": [
+                {
+                  "label": "Rarer to denser (e.g. air to glass)",
+                  "result": [
+                    "Slows down",
+                    "Bends TOWARDS the normal",
+                    "Angle of refraction < angle of incidence"
+                  ]
+                },
+                {
+                  "label": "Denser to rarer (e.g. water to air)",
+                  "result": [
+                    "Speeds up",
+                    "Bends AWAY from the normal",
+                    "Angle of refraction > angle of incidence"
+                  ]
+                },
+                {
+                  "label": "Along the normal (i = 0)",
+                  "result": [
+                    "Speed changes",
+                    "No bending",
+                    "Passes straight through"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "chain",
+              "title": "Refraction through a rectangular glass slab",
+              "caption": "Why the emergent ray is parallel to the incident ray but shifted sideways.",
+              "steps": [
+                {
+                  "text": "Ray enters from air into glass (rarer to denser)"
+                },
+                {
+                  "text": "Bends towards the normal at the first surface"
+                },
+                {
+                  "text": "Travels straight inside the glass"
+                },
+                {
+                  "text": "Leaves from glass into air (denser to rarer)"
+                },
+                {
+                  "text": "Bends away from the normal by the same angle"
+                },
+                {
+                  "text": "Emergent ray is parallel to the incident ray, but laterally displaced"
+                }
+              ]
+            }
+          ],
+          "word_problems": {
+            "title": "How to solve a mirror or lens numerical",
+            "steps": [
+              "Draw a quick sketch: axis, mirror or lens, and the object on the LEFT. Mark P (or O), F and C. This tells you what kind of image to expect.",
+              "Choose the sign convention: take the pole (or optical centre) as the origin. Distances measured in the direction of the incident light (to the right) are POSITIVE; opposite to it (to the left) are NEGATIVE. Heights above the axis are positive, below are negative.",
+              "Write down what is given WITH signs. The object distance u is always negative. Concave mirror: f negative. Convex mirror: f positive. Convex lens: f positive. Concave lens: f negative. If radius of curvature R is given, use f = R/2.",
+              "Pick the formula: mirror 1/v + 1/u = 1/f; lens 1/v - 1/u = 1/f. Magnification m = h'/h = -v/u for a mirror and v/u for a lens.",
+              "Substitute with signs and solve for the unknown. Work in cm throughout (do not mix cm and m).",
+              "Read the sign of the answer. Mirror: v negative means real and in front of the mirror; v positive means virtual and behind it. Lens: v positive means real, on the other side; v negative means virtual, same side as the object. m negative means inverted; m positive means erect. |m| greater than 1 means enlarged.",
+              "Write the answer as a sentence: position, nature (real/virtual, erect/inverted) and size (enlarged/diminished). Check it against the flowchart - if the object was beyond C and your image is virtual, something went wrong."
+            ],
+            "sign_convention": [
+              "Object is always on the left; incident light travels left to right.",
+              "Distances to the right of the pole/optical centre: positive. To the left: negative.",
+              "Heights above the principal axis: positive. Below: negative.",
+              "u is always negative for a real object."
+            ],
+            "formulas": [
+              {
+                "name": "Mirror formula",
+                "formula": "1/v + 1/u = 1/f",
+                "note": "f = R/2"
+              },
+              {
+                "name": "Lens formula",
+                "formula": "1/v - 1/u = 1/f",
+                "note": "Note the minus sign"
+              },
+              {
+                "name": "Magnification (mirror)",
+                "formula": "m = h'/h = -v/u",
+                "note": ""
+              },
+              {
+                "name": "Magnification (lens)",
+                "formula": "m = h'/h = v/u",
+                "note": ""
+              },
+              {
+                "name": "Power of a lens",
+                "formula": "P = 1/f (f in metres)",
+                "note": "Unit: dioptre (D). Convex +, concave -"
+              },
+              {
+                "name": "Refractive index",
+                "formula": "n = sin i / sin r = c / v",
+                "note": "c = speed of light in vacuum (3 x 10^8 m/s)"
+              }
+            ],
+            "examples": [
+              {
+                "problem": "An object is placed 10 cm in front of a concave mirror of focal length 15 cm. Find the position, nature and magnification of the image.",
+                "given": [
+                  "u = -10 cm",
+                  "f = -15 cm (concave mirror)"
+                ],
+                "steps": [
+                  "1/v = 1/f - 1/u = -1/15 + 1/10 = (-2 + 3)/30 = 1/30",
+                  "v = +30 cm",
+                  "m = -v/u = -30/(-10) = +3"
+                ],
+                "answer": "The image is 30 cm behind the mirror (v is positive), virtual and erect, and 3 times larger. (The object was between P and F, as the flowchart predicts.)"
+              },
+              {
+                "problem": "An object is 30 cm in front of a concave mirror of focal length 20 cm. Find the image position and size.",
+                "given": [
+                  "u = -30 cm",
+                  "f = -20 cm"
+                ],
+                "steps": [
+                  "1/v = 1/f - 1/u = -1/20 + 1/30 = (-3 + 2)/60 = -1/60",
+                  "v = -60 cm",
+                  "m = -v/u = -(-60)/(-30) = -2"
+                ],
+                "answer": "The image is 60 cm in front of the mirror, real and inverted, and twice the size of the object. (Object between F and C, so the image is beyond C - correct.)"
+              },
+              {
+                "problem": "A convex mirror has focal length 20 cm. An object is 30 cm from it. Find the image position and magnification.",
+                "given": [
+                  "u = -30 cm",
+                  "f = +20 cm (convex mirror)"
+                ],
+                "steps": [
+                  "1/v = 1/f - 1/u = 1/20 + 1/30 = (3 + 2)/60 = 5/60 = 1/12",
+                  "v = +12 cm",
+                  "m = -v/u = -12/(-30) = +0.4"
+                ],
+                "answer": "The image is 12 cm behind the mirror, virtual, erect and diminished (0.4 times). A convex mirror always gives this kind of image."
+              },
+              {
+                "problem": "A convex lens has focal length 10 cm. An object is placed 30 cm from the lens. Find where the image forms and its magnification.",
+                "given": [
+                  "u = -30 cm",
+                  "f = +10 cm"
+                ],
+                "steps": [
+                  "1/v = 1/f + 1/u = 1/10 - 1/30 = (3 - 1)/30 = 2/30 = 1/15",
+                  "v = +15 cm",
+                  "m = v/u = 15/(-30) = -0.5"
+                ],
+                "answer": "The image forms 15 cm on the other side of the lens, real and inverted, and half the size of the object (diminished)."
+              },
+              {
+                "problem": "A concave lens has focal length 50 cm. Find its power.",
+                "given": [
+                  "f = -50 cm = -0.5 m"
+                ],
+                "steps": [
+                  "P = 1/f = 1/(-0.5)",
+                  "P = -2 D"
+                ],
+                "answer": "The power is -2 dioptres. The minus sign shows a concave (diverging) lens."
+              },
+              {
+                "problem": "The speed of light in glass is 2 x 10^8 m/s. Find the refractive index of the glass.",
+                "given": [
+                  "c = 3 x 10^8 m/s",
+                  "v = 2 x 10^8 m/s"
+                ],
+                "steps": [
+                  "n = c/v = (3 x 10^8)/(2 x 10^8)",
+                  "n = 1.5"
+                ],
+                "answer": "The refractive index of the glass is 1.5. Refractive index has no unit."
+              }
+            ]
+          },
+          "remember": [
+            "Real = inverted = rays actually meet (can be caught on a screen). Virtual = erect = rays only appear to meet.",
+            "Convex mirror and concave lens: always virtual, erect and diminished - nothing to memorise.",
+            "Only ONE position gives a virtual image in a concave mirror or a convex lens: between the focus and the mirror/lens.",
+            "Mirror formula has a PLUS (1/v + 1/u). Lens formula has a MINUS (1/v - 1/u).",
+            "Sign of power: convex lens +, concave lens -. A prescription of -1.5 D means a concave lens.",
+            "Rarer to denser: towards the normal. Denser to rarer: away from the normal."
+          ],
+          "diagrams": [
+            {
+              "title": "Concave mirror: Object beyond C",
+              "svg": "<svg viewBox=\"0 0 560 260\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#fff;max-width:100%;height:auto;\"><defs><marker id=\"arrow-1c6ea4\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#1c6ea4\"/></marker><marker id=\"arrow-e8853a\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#e8853a\"/></marker><marker id=\"arrow-obj\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#0f3d63\"/></marker><marker id=\"arrow-img-r\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#2f9e5c\"/></marker><marker id=\"arrow-img-v\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#c0392b\"/></marker></defs><line x1=\"20\" y1=\"130.0\" x2=\"540\" y2=\"130.0\" stroke=\"#999\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><path d=\"M 300.0 60.0 Q 282.0 130.0 300.0 200.0\" stroke=\"#0f3d63\" stroke-width=\"3\" fill=\"none\"/><line x1=\"304.0\" y1=\"184.0\" x2=\"314.0\" y2=\"196.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"304.0\" y1=\"164.0\" x2=\"314.0\" y2=\"176.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"304.0\" y1=\"144.0\" x2=\"314.0\" y2=\"156.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"304.0\" y1=\"124.0\" x2=\"314.0\" y2=\"136.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"304.0\" y1=\"104.0\" x2=\"314.0\" y2=\"116.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"304.0\" y1=\"84.0\" x2=\"314.0\" y2=\"96.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"304.0\" y1=\"64.0\" x2=\"314.0\" y2=\"76.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"240.0\" y1=\"126.0\" x2=\"240.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"240.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">F</text><line x1=\"180.0\" y1=\"126.0\" x2=\"180.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"180.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">C</text><line x1=\"300.0\" y1=\"126.0\" x2=\"300.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"300.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">P</text><line x1=\"120.0\" y1=\"130.0\" x2=\"120.0\" y2=\"90.0\" stroke=\"#0f3d63\" stroke-width=\"2.5\" marker-end=\"url(#arrow-obj)\"/><text x=\"120.0\" y=\"82.0\" font-size=\"12\" fill=\"#0f3d63\" text-anchor=\"middle\">Object</text><line x1=\"210.0\" y1=\"130.0\" x2=\"210.0\" y2=\"150.0\" stroke=\"#2f9e5c\" stroke-width=\"2.5\" marker-end=\"url(#arrow-img-r)\"/><text x=\"210.0\" y=\"142.0\" font-size=\"12\" fill=\"#2f9e5c\" text-anchor=\"middle\">Image (real)</text><line x1=\"120.0\" y1=\"90.0\" x2=\"300.0\" y2=\"90.0\" stroke=\"#1c6ea4\" stroke-width=\"2\" /><line x1=\"300.0\" y1=\"90.0\" x2=\"210.0\" y2=\"150.0\" stroke=\"#1c6ea4\" stroke-width=\"2\" marker-end=\"url(#arrow-1c6ea4)\"/><line x1=\"120.0\" y1=\"90.0\" x2=\"300.0\" y2=\"130.0\" stroke=\"#1c6ea4\" stroke-width=\"2\" /><line x1=\"300.0\" y1=\"130.0\" x2=\"210.0\" y2=\"150.0\" stroke=\"#e8853a\" stroke-width=\"2\" marker-end=\"url(#arrow-e8853a)\"/></svg>",
+              "note": "Blue ray: parallel to the axis, then through the focus. Orange ray: through the centre (or pole). Green image = real, red dashed image = virtual."
+            },
+            {
+              "title": "Concave mirror: Object at C",
+              "svg": "<svg viewBox=\"0 0 560 260\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#fff;max-width:100%;height:auto;\"><defs><marker id=\"arrow-1c6ea4\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#1c6ea4\"/></marker><marker id=\"arrow-e8853a\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#e8853a\"/></marker><marker id=\"arrow-obj\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#0f3d63\"/></marker><marker id=\"arrow-img-r\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#2f9e5c\"/></marker><marker id=\"arrow-img-v\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#c0392b\"/></marker></defs><line x1=\"20\" y1=\"130.0\" x2=\"540\" y2=\"130.0\" stroke=\"#999\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><path d=\"M 300.0 60.0 Q 282.0 130.0 300.0 200.0\" stroke=\"#0f3d63\" stroke-width=\"3\" fill=\"none\"/><line x1=\"304.0\" y1=\"184.0\" x2=\"314.0\" y2=\"196.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"304.0\" y1=\"164.0\" x2=\"314.0\" y2=\"176.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"304.0\" y1=\"144.0\" x2=\"314.0\" y2=\"156.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"304.0\" y1=\"124.0\" x2=\"314.0\" y2=\"136.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"304.0\" y1=\"104.0\" x2=\"314.0\" y2=\"116.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"304.0\" y1=\"84.0\" x2=\"314.0\" y2=\"96.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"304.0\" y1=\"64.0\" x2=\"314.0\" y2=\"76.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"240.0\" y1=\"126.0\" x2=\"240.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"240.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">F</text><line x1=\"180.0\" y1=\"126.0\" x2=\"180.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"180.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">C</text><line x1=\"300.0\" y1=\"126.0\" x2=\"300.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"300.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">P</text><line x1=\"180.0\" y1=\"130.0\" x2=\"180.0\" y2=\"90.0\" stroke=\"#0f3d63\" stroke-width=\"2.5\" marker-end=\"url(#arrow-obj)\"/><text x=\"180.0\" y=\"82.0\" font-size=\"12\" fill=\"#0f3d63\" text-anchor=\"middle\">Object</text><line x1=\"180.0\" y1=\"130.0\" x2=\"180.0\" y2=\"170.0\" stroke=\"#2f9e5c\" stroke-width=\"2.5\" marker-end=\"url(#arrow-img-r)\"/><text x=\"180.0\" y=\"162.0\" font-size=\"12\" fill=\"#2f9e5c\" text-anchor=\"middle\">Image (real)</text><line x1=\"180.0\" y1=\"90.0\" x2=\"300.0\" y2=\"90.0\" stroke=\"#1c6ea4\" stroke-width=\"2\" /><line x1=\"300.0\" y1=\"90.0\" x2=\"180.0\" y2=\"170.0\" stroke=\"#1c6ea4\" stroke-width=\"2\" marker-end=\"url(#arrow-1c6ea4)\"/><line x1=\"180.0\" y1=\"90.0\" x2=\"300.0\" y2=\"130.0\" stroke=\"#1c6ea4\" stroke-width=\"2\" /><line x1=\"300.0\" y1=\"130.0\" x2=\"180.0\" y2=\"170.0\" stroke=\"#e8853a\" stroke-width=\"2\" marker-end=\"url(#arrow-e8853a)\"/></svg>",
+              "note": "Blue ray: parallel to the axis, then through the focus. Orange ray: through the centre (or pole). Green image = real, red dashed image = virtual."
+            },
+            {
+              "title": "Concave mirror: Object between C and F",
+              "svg": "<svg viewBox=\"0 0 560 260\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#fff;max-width:100%;height:auto;\"><defs><marker id=\"arrow-1c6ea4\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#1c6ea4\"/></marker><marker id=\"arrow-e8853a\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#e8853a\"/></marker><marker id=\"arrow-obj\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#0f3d63\"/></marker><marker id=\"arrow-img-r\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#2f9e5c\"/></marker><marker id=\"arrow-img-v\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#c0392b\"/></marker></defs><line x1=\"20\" y1=\"130.0\" x2=\"540\" y2=\"130.0\" stroke=\"#999\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><path d=\"M 300.0 60.0 Q 282.0 130.0 300.0 200.0\" stroke=\"#0f3d63\" stroke-width=\"3\" fill=\"none\"/><line x1=\"304.0\" y1=\"184.0\" x2=\"314.0\" y2=\"196.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"304.0\" y1=\"164.0\" x2=\"314.0\" y2=\"176.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"304.0\" y1=\"144.0\" x2=\"314.0\" y2=\"156.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"304.0\" y1=\"124.0\" x2=\"314.0\" y2=\"136.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"304.0\" y1=\"104.0\" x2=\"314.0\" y2=\"116.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"304.0\" y1=\"84.0\" x2=\"314.0\" y2=\"96.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"304.0\" y1=\"64.0\" x2=\"314.0\" y2=\"76.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"240.0\" y1=\"126.0\" x2=\"240.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"240.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">F</text><line x1=\"180.0\" y1=\"126.0\" x2=\"180.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"180.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">C</text><line x1=\"300.0\" y1=\"126.0\" x2=\"300.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"300.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">P</text><line x1=\"210.0\" y1=\"130.0\" x2=\"210.0\" y2=\"90.0\" stroke=\"#0f3d63\" stroke-width=\"2.5\" marker-end=\"url(#arrow-obj)\"/><text x=\"210.0\" y=\"82.0\" font-size=\"12\" fill=\"#0f3d63\" text-anchor=\"middle\">Object</text><line x1=\"120.0\" y1=\"130.0\" x2=\"120.0\" y2=\"210.0\" stroke=\"#2f9e5c\" stroke-width=\"2.5\" marker-end=\"url(#arrow-img-r)\"/><text x=\"120.0\" y=\"202.0\" font-size=\"12\" fill=\"#2f9e5c\" text-anchor=\"middle\">Image (real)</text><line x1=\"210.0\" y1=\"90.0\" x2=\"300.0\" y2=\"90.0\" stroke=\"#1c6ea4\" stroke-width=\"2\" /><line x1=\"300.0\" y1=\"90.0\" x2=\"120.0\" y2=\"210.0\" stroke=\"#1c6ea4\" stroke-width=\"2\" marker-end=\"url(#arrow-1c6ea4)\"/><line x1=\"210.0\" y1=\"90.0\" x2=\"300.0\" y2=\"130.0\" stroke=\"#1c6ea4\" stroke-width=\"2\" /><line x1=\"300.0\" y1=\"130.0\" x2=\"120.0\" y2=\"210.0\" stroke=\"#e8853a\" stroke-width=\"2\" marker-end=\"url(#arrow-e8853a)\"/></svg>",
+              "note": "Blue ray: parallel to the axis, then through the focus. Orange ray: through the centre (or pole). Green image = real, red dashed image = virtual."
+            },
+            {
+              "title": "Concave mirror: Object between F and P",
+              "svg": "<svg viewBox=\"0 0 560 260\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#fff;max-width:100%;height:auto;\"><defs><marker id=\"arrow-1c6ea4\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#1c6ea4\"/></marker><marker id=\"arrow-e8853a\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#e8853a\"/></marker><marker id=\"arrow-obj\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#0f3d63\"/></marker><marker id=\"arrow-img-r\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#2f9e5c\"/></marker><marker id=\"arrow-img-v\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#c0392b\"/></marker></defs><line x1=\"20\" y1=\"130.0\" x2=\"540\" y2=\"130.0\" stroke=\"#999\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><path d=\"M 300.0 60.0 Q 282.0 130.0 300.0 200.0\" stroke=\"#0f3d63\" stroke-width=\"3\" fill=\"none\"/><line x1=\"304.0\" y1=\"184.0\" x2=\"314.0\" y2=\"196.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"304.0\" y1=\"164.0\" x2=\"314.0\" y2=\"176.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"304.0\" y1=\"144.0\" x2=\"314.0\" y2=\"156.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"304.0\" y1=\"124.0\" x2=\"314.0\" y2=\"136.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"304.0\" y1=\"104.0\" x2=\"314.0\" y2=\"116.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"304.0\" y1=\"84.0\" x2=\"314.0\" y2=\"96.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"304.0\" y1=\"64.0\" x2=\"314.0\" y2=\"76.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"240.0\" y1=\"126.0\" x2=\"240.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"240.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">F</text><line x1=\"180.0\" y1=\"126.0\" x2=\"180.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"180.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">C</text><line x1=\"300.0\" y1=\"126.0\" x2=\"300.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"300.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">P</text><line x1=\"270.0\" y1=\"130.0\" x2=\"270.0\" y2=\"90.0\" stroke=\"#0f3d63\" stroke-width=\"2.5\" marker-end=\"url(#arrow-obj)\"/><text x=\"270.0\" y=\"82.0\" font-size=\"12\" fill=\"#0f3d63\" text-anchor=\"middle\">Object</text><line x1=\"360.0\" y1=\"130.0\" x2=\"360.0\" y2=\"50.0\" stroke=\"#c0392b\" stroke-width=\"2.5\" stroke-dasharray=\"5,4\" marker-end=\"url(#arrow-img-v)\"/><text x=\"360.0\" y=\"42.0\" font-size=\"12\" fill=\"#c0392b\" text-anchor=\"middle\">Image (virtual)</text><line x1=\"270.0\" y1=\"90.0\" x2=\"300.0\" y2=\"90.0\" stroke=\"#1c6ea4\" stroke-width=\"2\" /><line x1=\"300.0\" y1=\"90.0\" x2=\"225.1\" y2=\"139.9\" stroke=\"#1c6ea4\" stroke-width=\"2\" marker-end=\"url(#arrow-1c6ea4)\"/><line x1=\"300.0\" y1=\"90.0\" x2=\"360.0\" y2=\"50.0\" stroke=\"#1c6ea4\" stroke-width=\"1.5\" stroke-dasharray=\"6,5\" /><line x1=\"270.0\" y1=\"90.0\" x2=\"300.0\" y2=\"130.0\" stroke=\"#e8853a\" stroke-width=\"2\" /><line x1=\"300.0\" y1=\"130.0\" x2=\"246.0\" y2=\"202.0\" stroke=\"#e8853a\" stroke-width=\"2\" marker-end=\"url(#arrow-e8853a)\"/><line x1=\"300.0\" y1=\"130.0\" x2=\"360.0\" y2=\"50.0\" stroke=\"#e8853a\" stroke-width=\"1.5\" stroke-dasharray=\"6,5\" /></svg>",
+              "note": "Blue ray: parallel to the axis, then through the focus. Orange ray: through the centre (or pole). Green image = real, red dashed image = virtual."
+            },
+            {
+              "title": "Convex mirror: object at a finite distance",
+              "svg": "<svg viewBox=\"0 0 560 260\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#fff;max-width:100%;height:auto;\"><defs><marker id=\"arrow-1c6ea4\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#1c6ea4\"/></marker><marker id=\"arrow-e8853a\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#e8853a\"/></marker><marker id=\"arrow-obj\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#0f3d63\"/></marker><marker id=\"arrow-img-r\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#2f9e5c\"/></marker><marker id=\"arrow-img-v\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#c0392b\"/></marker></defs><line x1=\"20\" y1=\"130.0\" x2=\"540\" y2=\"130.0\" stroke=\"#999\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><path d=\"M 300.0 60.0 Q 318.0 130.0 300.0 200.0\" stroke=\"#0f3d63\" stroke-width=\"3\" fill=\"none\"/><line x1=\"296.0\" y1=\"184.0\" x2=\"286.0\" y2=\"196.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"296.0\" y1=\"164.0\" x2=\"286.0\" y2=\"176.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"296.0\" y1=\"144.0\" x2=\"286.0\" y2=\"156.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"296.0\" y1=\"124.0\" x2=\"286.0\" y2=\"136.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"296.0\" y1=\"104.0\" x2=\"286.0\" y2=\"116.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"296.0\" y1=\"84.0\" x2=\"286.0\" y2=\"96.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"296.0\" y1=\"64.0\" x2=\"286.0\" y2=\"76.0\" stroke=\"#0f3d63\" stroke-width=\"1\"/><line x1=\"360.0\" y1=\"126.0\" x2=\"360.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"360.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">F</text><line x1=\"420.0\" y1=\"126.0\" x2=\"420.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"420.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">C</text><line x1=\"300.0\" y1=\"126.0\" x2=\"300.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"300.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">P</text><line x1=\"200.0\" y1=\"130.0\" x2=\"200.0\" y2=\"90.0\" stroke=\"#0f3d63\" stroke-width=\"2.5\" marker-end=\"url(#arrow-obj)\"/><text x=\"200.0\" y=\"82.0\" font-size=\"12\" fill=\"#0f3d63\" text-anchor=\"middle\">Object</text><line x1=\"337.5\" y1=\"130.0\" x2=\"337.5\" y2=\"115.0\" stroke=\"#c0392b\" stroke-width=\"2.5\" stroke-dasharray=\"5,4\" marker-end=\"url(#arrow-img-v)\"/><text x=\"337.5\" y=\"107.0\" font-size=\"12\" fill=\"#c0392b\" text-anchor=\"middle\">Image (virtual)</text><line x1=\"200.0\" y1=\"90.0\" x2=\"300.0\" y2=\"90.0\" stroke=\"#1c6ea4\" stroke-width=\"2\" /><line x1=\"300.0\" y1=\"90.0\" x2=\"225.1\" y2=\"40.1\" stroke=\"#1c6ea4\" stroke-width=\"2\" marker-end=\"url(#arrow-1c6ea4)\"/><line x1=\"300.0\" y1=\"90.0\" x2=\"337.5\" y2=\"115.0\" stroke=\"#1c6ea4\" stroke-width=\"1.5\" stroke-dasharray=\"6,5\" /><line x1=\"200.0\" y1=\"90.0\" x2=\"300.0\" y2=\"130.0\" stroke=\"#e8853a\" stroke-width=\"2\" /><line x1=\"300.0\" y1=\"130.0\" x2=\"216.4\" y2=\"163.4\" stroke=\"#e8853a\" stroke-width=\"2\" marker-end=\"url(#arrow-e8853a)\"/><line x1=\"300.0\" y1=\"130.0\" x2=\"337.5\" y2=\"115.0\" stroke=\"#e8853a\" stroke-width=\"1.5\" stroke-dasharray=\"6,5\" /></svg>",
+              "note": "Blue ray: parallel to the axis, then through the focus. Orange ray: through the centre (or pole). Green image = real, red dashed image = virtual."
+            },
+            {
+              "title": "Convex lens: Object beyond 2F1",
+              "svg": "<svg viewBox=\"0 0 560 260\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#fff;max-width:100%;height:auto;\"><defs><marker id=\"arrow-1c6ea4\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#1c6ea4\"/></marker><marker id=\"arrow-e8853a\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#e8853a\"/></marker><marker id=\"arrow-obj\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#0f3d63\"/></marker><marker id=\"arrow-img-r\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#2f9e5c\"/></marker><marker id=\"arrow-img-v\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#c0392b\"/></marker></defs><line x1=\"20\" y1=\"130.0\" x2=\"540\" y2=\"130.0\" stroke=\"#999\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><line x1=\"300.0\" y1=\"55.0\" x2=\"300.0\" y2=\"205.0\" stroke=\"#0f3d63\" stroke-width=\"3\"/><path d=\"M 294.0 55.0 L 300.0 50.0 L 306.0 55.0\" fill=\"none\" stroke=\"#0f3d63\" stroke-width=\"3\"/><path d=\"M 294.0 205.0 L 300.0 210.0 L 306.0 205.0\" fill=\"none\" stroke=\"#0f3d63\" stroke-width=\"3\"/><line x1=\"240.0\" y1=\"126.0\" x2=\"240.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"240.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">F1</text><line x1=\"360.0\" y1=\"126.0\" x2=\"360.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"360.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">F2</text><line x1=\"180.0\" y1=\"126.0\" x2=\"180.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"180.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">2F1</text><line x1=\"420.0\" y1=\"126.0\" x2=\"420.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"420.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">2F2</text><line x1=\"300.0\" y1=\"126.0\" x2=\"300.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"300.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">O</text><line x1=\"120.0\" y1=\"130.0\" x2=\"120.0\" y2=\"90.0\" stroke=\"#0f3d63\" stroke-width=\"2.5\" marker-end=\"url(#arrow-obj)\"/><text x=\"120.0\" y=\"82.0\" font-size=\"12\" fill=\"#0f3d63\" text-anchor=\"middle\">Object</text><line x1=\"390.0\" y1=\"130.0\" x2=\"390.0\" y2=\"150.0\" stroke=\"#2f9e5c\" stroke-width=\"2.5\" marker-end=\"url(#arrow-img-r)\"/><text x=\"390.0\" y=\"142.0\" font-size=\"12\" fill=\"#2f9e5c\" text-anchor=\"middle\">Image (real)</text><line x1=\"120.0\" y1=\"90.0\" x2=\"300.0\" y2=\"90.0\" stroke=\"#1c6ea4\" stroke-width=\"2\" /><line x1=\"300.0\" y1=\"90.0\" x2=\"390.0\" y2=\"150.0\" stroke=\"#1c6ea4\" stroke-width=\"2\" marker-end=\"url(#arrow-1c6ea4)\"/><line x1=\"120.0\" y1=\"90.0\" x2=\"300.0\" y2=\"130.0\" stroke=\"#1c6ea4\" stroke-width=\"2\" /><line x1=\"300.0\" y1=\"130.0\" x2=\"390.0\" y2=\"150.0\" stroke=\"#e8853a\" stroke-width=\"2\" marker-end=\"url(#arrow-e8853a)\"/></svg>",
+              "note": "Blue ray: parallel to the axis, then through the focus. Orange ray: through the centre (or pole). Green image = real, red dashed image = virtual."
+            },
+            {
+              "title": "Convex lens: Object at 2F1",
+              "svg": "<svg viewBox=\"0 0 560 260\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#fff;max-width:100%;height:auto;\"><defs><marker id=\"arrow-1c6ea4\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#1c6ea4\"/></marker><marker id=\"arrow-e8853a\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#e8853a\"/></marker><marker id=\"arrow-obj\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#0f3d63\"/></marker><marker id=\"arrow-img-r\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#2f9e5c\"/></marker><marker id=\"arrow-img-v\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#c0392b\"/></marker></defs><line x1=\"20\" y1=\"130.0\" x2=\"540\" y2=\"130.0\" stroke=\"#999\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><line x1=\"300.0\" y1=\"55.0\" x2=\"300.0\" y2=\"205.0\" stroke=\"#0f3d63\" stroke-width=\"3\"/><path d=\"M 294.0 55.0 L 300.0 50.0 L 306.0 55.0\" fill=\"none\" stroke=\"#0f3d63\" stroke-width=\"3\"/><path d=\"M 294.0 205.0 L 300.0 210.0 L 306.0 205.0\" fill=\"none\" stroke=\"#0f3d63\" stroke-width=\"3\"/><line x1=\"240.0\" y1=\"126.0\" x2=\"240.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"240.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">F1</text><line x1=\"360.0\" y1=\"126.0\" x2=\"360.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"360.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">F2</text><line x1=\"180.0\" y1=\"126.0\" x2=\"180.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"180.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">2F1</text><line x1=\"420.0\" y1=\"126.0\" x2=\"420.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"420.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">2F2</text><line x1=\"300.0\" y1=\"126.0\" x2=\"300.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"300.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">O</text><line x1=\"180.0\" y1=\"130.0\" x2=\"180.0\" y2=\"90.0\" stroke=\"#0f3d63\" stroke-width=\"2.5\" marker-end=\"url(#arrow-obj)\"/><text x=\"180.0\" y=\"82.0\" font-size=\"12\" fill=\"#0f3d63\" text-anchor=\"middle\">Object</text><line x1=\"420.0\" y1=\"130.0\" x2=\"420.0\" y2=\"170.0\" stroke=\"#2f9e5c\" stroke-width=\"2.5\" marker-end=\"url(#arrow-img-r)\"/><text x=\"420.0\" y=\"162.0\" font-size=\"12\" fill=\"#2f9e5c\" text-anchor=\"middle\">Image (real)</text><line x1=\"180.0\" y1=\"90.0\" x2=\"300.0\" y2=\"90.0\" stroke=\"#1c6ea4\" stroke-width=\"2\" /><line x1=\"300.0\" y1=\"90.0\" x2=\"420.0\" y2=\"170.0\" stroke=\"#1c6ea4\" stroke-width=\"2\" marker-end=\"url(#arrow-1c6ea4)\"/><line x1=\"180.0\" y1=\"90.0\" x2=\"300.0\" y2=\"130.0\" stroke=\"#1c6ea4\" stroke-width=\"2\" /><line x1=\"300.0\" y1=\"130.0\" x2=\"420.0\" y2=\"170.0\" stroke=\"#e8853a\" stroke-width=\"2\" marker-end=\"url(#arrow-e8853a)\"/></svg>",
+              "note": "Blue ray: parallel to the axis, then through the focus. Orange ray: through the centre (or pole). Green image = real, red dashed image = virtual."
+            },
+            {
+              "title": "Convex lens: Object between F1 and 2F1",
+              "svg": "<svg viewBox=\"0 0 560 260\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#fff;max-width:100%;height:auto;\"><defs><marker id=\"arrow-1c6ea4\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#1c6ea4\"/></marker><marker id=\"arrow-e8853a\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#e8853a\"/></marker><marker id=\"arrow-obj\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#0f3d63\"/></marker><marker id=\"arrow-img-r\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#2f9e5c\"/></marker><marker id=\"arrow-img-v\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#c0392b\"/></marker></defs><line x1=\"20\" y1=\"130.0\" x2=\"540\" y2=\"130.0\" stroke=\"#999\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><line x1=\"300.0\" y1=\"55.0\" x2=\"300.0\" y2=\"205.0\" stroke=\"#0f3d63\" stroke-width=\"3\"/><path d=\"M 294.0 55.0 L 300.0 50.0 L 306.0 55.0\" fill=\"none\" stroke=\"#0f3d63\" stroke-width=\"3\"/><path d=\"M 294.0 205.0 L 300.0 210.0 L 306.0 205.0\" fill=\"none\" stroke=\"#0f3d63\" stroke-width=\"3\"/><line x1=\"240.0\" y1=\"126.0\" x2=\"240.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"240.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">F1</text><line x1=\"360.0\" y1=\"126.0\" x2=\"360.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"360.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">F2</text><line x1=\"180.0\" y1=\"126.0\" x2=\"180.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"180.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">2F1</text><line x1=\"420.0\" y1=\"126.0\" x2=\"420.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"420.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">2F2</text><line x1=\"300.0\" y1=\"126.0\" x2=\"300.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"300.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">O</text><line x1=\"210.0\" y1=\"130.0\" x2=\"210.0\" y2=\"90.0\" stroke=\"#0f3d63\" stroke-width=\"2.5\" marker-end=\"url(#arrow-obj)\"/><text x=\"210.0\" y=\"82.0\" font-size=\"12\" fill=\"#0f3d63\" text-anchor=\"middle\">Object</text><line x1=\"480.0\" y1=\"130.0\" x2=\"480.0\" y2=\"210.0\" stroke=\"#2f9e5c\" stroke-width=\"2.5\" marker-end=\"url(#arrow-img-r)\"/><text x=\"480.0\" y=\"202.0\" font-size=\"12\" fill=\"#2f9e5c\" text-anchor=\"middle\">Image (real)</text><line x1=\"210.0\" y1=\"90.0\" x2=\"300.0\" y2=\"90.0\" stroke=\"#1c6ea4\" stroke-width=\"2\" /><line x1=\"300.0\" y1=\"90.0\" x2=\"480.0\" y2=\"210.0\" stroke=\"#1c6ea4\" stroke-width=\"2\" marker-end=\"url(#arrow-1c6ea4)\"/><line x1=\"210.0\" y1=\"90.0\" x2=\"300.0\" y2=\"130.0\" stroke=\"#1c6ea4\" stroke-width=\"2\" /><line x1=\"300.0\" y1=\"130.0\" x2=\"480.0\" y2=\"210.0\" stroke=\"#e8853a\" stroke-width=\"2\" marker-end=\"url(#arrow-e8853a)\"/></svg>",
+              "note": "Blue ray: parallel to the axis, then through the focus. Orange ray: through the centre (or pole). Green image = real, red dashed image = virtual."
+            },
+            {
+              "title": "Convex lens: Object between optical centre and F1",
+              "svg": "<svg viewBox=\"0 0 560 260\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#fff;max-width:100%;height:auto;\"><defs><marker id=\"arrow-1c6ea4\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#1c6ea4\"/></marker><marker id=\"arrow-e8853a\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#e8853a\"/></marker><marker id=\"arrow-obj\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#0f3d63\"/></marker><marker id=\"arrow-img-r\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#2f9e5c\"/></marker><marker id=\"arrow-img-v\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#c0392b\"/></marker></defs><line x1=\"20\" y1=\"130.0\" x2=\"540\" y2=\"130.0\" stroke=\"#999\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><line x1=\"300.0\" y1=\"55.0\" x2=\"300.0\" y2=\"205.0\" stroke=\"#0f3d63\" stroke-width=\"3\"/><path d=\"M 294.0 55.0 L 300.0 50.0 L 306.0 55.0\" fill=\"none\" stroke=\"#0f3d63\" stroke-width=\"3\"/><path d=\"M 294.0 205.0 L 300.0 210.0 L 306.0 205.0\" fill=\"none\" stroke=\"#0f3d63\" stroke-width=\"3\"/><line x1=\"240.0\" y1=\"126.0\" x2=\"240.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"240.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">F1</text><line x1=\"360.0\" y1=\"126.0\" x2=\"360.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"360.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">F2</text><line x1=\"180.0\" y1=\"126.0\" x2=\"180.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"180.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">2F1</text><line x1=\"420.0\" y1=\"126.0\" x2=\"420.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"420.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">2F2</text><line x1=\"300.0\" y1=\"126.0\" x2=\"300.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"300.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">O</text><line x1=\"270.0\" y1=\"130.0\" x2=\"270.0\" y2=\"90.0\" stroke=\"#0f3d63\" stroke-width=\"2.5\" marker-end=\"url(#arrow-obj)\"/><text x=\"270.0\" y=\"82.0\" font-size=\"12\" fill=\"#0f3d63\" text-anchor=\"middle\">Object</text><line x1=\"240.0\" y1=\"130.0\" x2=\"240.0\" y2=\"50.0\" stroke=\"#c0392b\" stroke-width=\"2.5\" stroke-dasharray=\"5,4\" marker-end=\"url(#arrow-img-v)\"/><text x=\"240.0\" y=\"42.0\" font-size=\"12\" fill=\"#c0392b\" text-anchor=\"middle\">Image (virtual)</text><line x1=\"270.0\" y1=\"90.0\" x2=\"300.0\" y2=\"90.0\" stroke=\"#1c6ea4\" stroke-width=\"2\" /><line x1=\"300.0\" y1=\"90.0\" x2=\"374.9\" y2=\"139.9\" stroke=\"#1c6ea4\" stroke-width=\"2\" marker-end=\"url(#arrow-1c6ea4)\"/><line x1=\"300.0\" y1=\"90.0\" x2=\"240.0\" y2=\"50.0\" stroke=\"#1c6ea4\" stroke-width=\"1.5\" stroke-dasharray=\"6,5\" /><line x1=\"270.0\" y1=\"90.0\" x2=\"300.0\" y2=\"130.0\" stroke=\"#e8853a\" stroke-width=\"2\" /><line x1=\"300.0\" y1=\"130.0\" x2=\"354.0\" y2=\"202.0\" stroke=\"#e8853a\" stroke-width=\"2\" marker-end=\"url(#arrow-e8853a)\"/><line x1=\"300.0\" y1=\"130.0\" x2=\"240.0\" y2=\"50.0\" stroke=\"#e8853a\" stroke-width=\"1.5\" stroke-dasharray=\"6,5\" /></svg>",
+              "note": "Blue ray: parallel to the axis, then through the focus. Orange ray: through the centre (or pole). Green image = real, red dashed image = virtual."
+            },
+            {
+              "title": "Concave lens: object at a finite distance",
+              "svg": "<svg viewBox=\"0 0 560 260\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#fff;max-width:100%;height:auto;\"><defs><marker id=\"arrow-1c6ea4\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#1c6ea4\"/></marker><marker id=\"arrow-e8853a\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#e8853a\"/></marker><marker id=\"arrow-obj\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#0f3d63\"/></marker><marker id=\"arrow-img-r\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#2f9e5c\"/></marker><marker id=\"arrow-img-v\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#c0392b\"/></marker></defs><line x1=\"20\" y1=\"130.0\" x2=\"540\" y2=\"130.0\" stroke=\"#999\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><line x1=\"300.0\" y1=\"55.0\" x2=\"300.0\" y2=\"205.0\" stroke=\"#0f3d63\" stroke-width=\"3\"/><path d=\"M 294.0 50.0 L 300.0 55.0 L 306.0 50.0\" fill=\"none\" stroke=\"#0f3d63\" stroke-width=\"3\"/><path d=\"M 294.0 210.0 L 300.0 205.0 L 306.0 210.0\" fill=\"none\" stroke=\"#0f3d63\" stroke-width=\"3\"/><line x1=\"240.0\" y1=\"126.0\" x2=\"240.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"240.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">F1</text><line x1=\"360.0\" y1=\"126.0\" x2=\"360.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"360.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">F2</text><line x1=\"300.0\" y1=\"126.0\" x2=\"300.0\" y2=\"134.0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"300.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#333\" text-anchor=\"middle\">O</text><line x1=\"200.0\" y1=\"130.0\" x2=\"200.0\" y2=\"90.0\" stroke=\"#0f3d63\" stroke-width=\"2.5\" marker-end=\"url(#arrow-obj)\"/><text x=\"200.0\" y=\"82.0\" font-size=\"12\" fill=\"#0f3d63\" text-anchor=\"middle\">Object</text><line x1=\"262.5\" y1=\"130.0\" x2=\"262.5\" y2=\"115.0\" stroke=\"#c0392b\" stroke-width=\"2.5\" stroke-dasharray=\"5,4\" marker-end=\"url(#arrow-img-v)\"/><text x=\"262.5\" y=\"107.0\" font-size=\"12\" fill=\"#c0392b\" text-anchor=\"middle\">Image (virtual)</text><line x1=\"200.0\" y1=\"90.0\" x2=\"300.0\" y2=\"90.0\" stroke=\"#1c6ea4\" stroke-width=\"2\" /><line x1=\"300.0\" y1=\"90.0\" x2=\"374.9\" y2=\"40.1\" stroke=\"#1c6ea4\" stroke-width=\"2\" marker-end=\"url(#arrow-1c6ea4)\"/><line x1=\"300.0\" y1=\"90.0\" x2=\"262.5\" y2=\"115.0\" stroke=\"#1c6ea4\" stroke-width=\"1.5\" stroke-dasharray=\"6,5\" /><line x1=\"200.0\" y1=\"90.0\" x2=\"300.0\" y2=\"130.0\" stroke=\"#e8853a\" stroke-width=\"2\" /><line x1=\"300.0\" y1=\"130.0\" x2=\"383.6\" y2=\"163.4\" stroke=\"#e8853a\" stroke-width=\"2\" marker-end=\"url(#arrow-e8853a)\"/><line x1=\"300.0\" y1=\"130.0\" x2=\"262.5\" y2=\"115.0\" stroke=\"#e8853a\" stroke-width=\"1.5\" stroke-dasharray=\"6,5\" /></svg>",
+              "note": "Blue ray: parallel to the axis, then through the focus. Orange ray: through the centre (or pole). Green image = real, red dashed image = virtual."
+            }
+          ]
+        }
       },
       "questions": [
         {
@@ -2126,6 +2535,326 @@
           "Practice numerical problems using V=IR, series/parallel resistance formulas, and P=VI - these are frequently 3 or 5 mark questions.",
           "Remember ammeters go in series and voltmeters go in parallel - a common conceptual MCQ/2-mark question.",
           "Be clear on why household circuits use parallel wiring rather than series wiring."
+        ],
+        "study_page": {
+          "intro": "Every Electricity numerical is the same story: write the data with units, decide series or parallel, find the total resistance, then the current, then everything else. The flowcharts show how the quantities depend on each other.",
+          "flowcharts": [
+            {
+              "kind": "chain",
+              "title": "The cause-and-effect chain of a circuit",
+              "caption": "Read it top to bottom: each box causes the next.",
+              "steps": [
+                {
+                  "text": "Battery or cell gives a potential difference V (it 'pushes' the charge)"
+                },
+                {
+                  "text": "Charge flows through the wire: electric current I = Q / t"
+                },
+                {
+                  "text": "The material opposes the flow: resistance R"
+                },
+                {
+                  "text": "Ohm's law links all three: V = I x R"
+                },
+                {
+                  "text": "Energy is converted: heat H = I squared x R x t"
+                },
+                {
+                  "text": "Power: P = V x I; energy used: E = P x t"
+                }
+              ]
+            },
+            {
+              "kind": "decision",
+              "title": "Series or parallel?",
+              "caption": "Decide first - the rules are opposite.",
+              "question": "How are the resistors connected?",
+              "branches": [
+                {
+                  "label": "Series (one path)",
+                  "result": [
+                    "Same current through every resistor",
+                    "Voltage divides: V = V1 + V2 + ...",
+                    "R = R1 + R2 + ... (total is larger)",
+                    "If one breaks, everything stops"
+                  ]
+                },
+                {
+                  "label": "Parallel (branches)",
+                  "result": [
+                    "Same voltage across every branch",
+                    "Current divides: I = I1 + I2 + ...",
+                    "1/R = 1/R1 + 1/R2 + ... (total is smaller)",
+                    "If one breaks, the others keep working - house wiring"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "decision",
+              "title": "Which power formula should I use?",
+              "caption": "All three are the same law, rearranged using V = IR. Pick the one that uses the data you were given.",
+              "question": "What is given?",
+              "branches": [
+                {
+                  "label": "V and I",
+                  "result": [
+                    "P = V x I"
+                  ]
+                },
+                {
+                  "label": "I and R",
+                  "result": [
+                    "P = I squared x R"
+                  ]
+                },
+                {
+                  "label": "V and R",
+                  "result": [
+                    "P = V squared / R"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "decision",
+              "title": "What changes the resistance of a wire?",
+              "caption": "R = rho x l / A - lengthen it, thin it, or change the material.",
+              "question": "What happens to R if...",
+              "branches": [
+                {
+                  "label": "Length doubles",
+                  "result": [
+                    "R doubles (R is proportional to l)"
+                  ]
+                },
+                {
+                  "label": "Area of cross-section doubles (thicker wire)",
+                  "result": [
+                    "R halves (R is inversely proportional to A)"
+                  ]
+                },
+                {
+                  "label": "Material changes",
+                  "result": [
+                    "R changes because resistivity rho changes (alloys like nichrome have high rho)"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "chain",
+              "title": "From power rating to the electricity bill",
+              "caption": "How a monthly bill is worked out.",
+              "steps": [
+                {
+                  "text": "Find the power of the appliance in kW (watts / 1000)"
+                },
+                {
+                  "text": "Multiply by hours used: energy in kWh = P (kW) x t (h)"
+                },
+                {
+                  "text": "1 kWh = 1 unit = 3.6 x 10^6 J"
+                },
+                {
+                  "text": "Multiply units by the rate per unit to get the cost"
+                }
+              ]
+            }
+          ],
+          "word_problems": {
+            "title": "How to solve an Electricity numerical",
+            "steps": [
+              "Write all the data with units, and convert at once: mA to A (divide by 1000), minutes to seconds (multiply by 60), watts to kW (divide by 1000), cm to m.",
+              "Draw the circuit and decide: are the resistors in series or parallel (or a mix)? Combine them step by step into one equivalent resistance R.",
+              "Use Ohm's law on the whole circuit: I = V / R. This gives the total current.",
+              "Go back to individual parts: in series the same I flows through each, so V1 = I x R1; in parallel each branch has the full V, so I1 = V / R1.",
+              "For power or heat, choose the formula that matches the data: P = VI, I squared R or V squared / R; H = I squared R t (time in seconds); E = P x t.",
+              "For bills, use E in kWh = power in kW x hours, then multiply by the cost per unit.",
+              "Check the units and the size of the answer: a household current of 500 A, or a resistance that is lower than the smallest resistor in a series combination, signals a mistake."
+            ],
+            "formulas": [
+              {
+                "name": "Current",
+                "formula": "I = Q / t",
+                "note": "Unit: ampere (A)"
+              },
+              {
+                "name": "Potential difference",
+                "formula": "V = W / Q",
+                "note": "Unit: volt (V)"
+              },
+              {
+                "name": "Ohm's law",
+                "formula": "V = I R",
+                "note": ""
+              },
+              {
+                "name": "Resistance of a wire",
+                "formula": "R = rho l / A",
+                "note": "rho = resistivity of the material"
+              },
+              {
+                "name": "Series",
+                "formula": "R = R1 + R2 + R3",
+                "note": ""
+              },
+              {
+                "name": "Parallel",
+                "formula": "1/R = 1/R1 + 1/R2 + 1/R3",
+                "note": ""
+              },
+              {
+                "name": "Heating effect",
+                "formula": "H = I squared R t",
+                "note": "Joule's law; t in seconds"
+              },
+              {
+                "name": "Power",
+                "formula": "P = VI = I squared R = V squared / R",
+                "note": "Unit: watt (W)"
+              },
+              {
+                "name": "Energy",
+                "formula": "E = P x t",
+                "note": "1 kWh = 3.6 x 10^6 J"
+              }
+            ],
+            "examples": [
+              {
+                "problem": "Two resistors of 4 ohm and 6 ohm are connected in series across a 12 V battery. Find the current and the potential difference across each.",
+                "given": [
+                  "R1 = 4 ohm, R2 = 6 ohm",
+                  "V = 12 V"
+                ],
+                "steps": [
+                  "Series: R = 4 + 6 = 10 ohm",
+                  "I = V / R = 12 / 10 = 1.2 A",
+                  "V1 = I x R1 = 1.2 x 4 = 4.8 V; V2 = 1.2 x 6 = 7.2 V"
+                ],
+                "answer": "Current is 1.2 A through both. The voltages are 4.8 V and 7.2 V, which add up to 12 V (a useful check)."
+              },
+              {
+                "problem": "Resistors of 6 ohm and 3 ohm are connected in parallel across a 6 V supply. Find the total resistance and the current in each branch.",
+                "given": [
+                  "R1 = 6 ohm, R2 = 3 ohm",
+                  "V = 6 V"
+                ],
+                "steps": [
+                  "1/R = 1/6 + 1/3 = 1/6 + 2/6 = 3/6 = 1/2, so R = 2 ohm",
+                  "Total current I = V / R = 6 / 2 = 3 A",
+                  "I1 = 6/6 = 1 A; I2 = 6/3 = 2 A"
+                ],
+                "answer": "Total resistance is 2 ohm (smaller than the smallest resistor). The branch currents are 1 A and 2 A, which add up to 3 A."
+              },
+              {
+                "problem": "A wire of resistance 8 ohm is cut into two equal parts. The two parts are then joined in parallel. What is the new resistance?",
+                "given": [
+                  "R = 8 ohm; each part = 4 ohm (half the length, half the resistance)"
+                ],
+                "steps": [
+                  "Parallel: 1/R = 1/4 + 1/4 = 2/4 = 1/2",
+                  "R = 2 ohm"
+                ],
+                "answer": "The combined resistance is 2 ohm."
+              },
+              {
+                "problem": "A current of 2 A flows through a 5 ohm heating coil for 3 minutes. How much heat is produced?",
+                "given": [
+                  "I = 2 A, R = 5 ohm",
+                  "t = 3 min = 180 s"
+                ],
+                "steps": [
+                  "H = I squared x R x t",
+                  "H = 2 x 2 x 5 x 180 = 3600 J"
+                ],
+                "answer": "The heat produced is 3600 J (3.6 kJ). Remember to convert minutes into seconds."
+              },
+              {
+                "problem": "A 1000 W heater runs for 2 hours every day. If one unit costs Rs 6, find the cost for 30 days.",
+                "given": [
+                  "P = 1000 W = 1 kW",
+                  "t = 2 h per day",
+                  "Rate = Rs 6 per unit"
+                ],
+                "steps": [
+                  "Energy per day = 1 kW x 2 h = 2 kWh (units)",
+                  "In 30 days: 2 x 30 = 60 units",
+                  "Cost = 60 x 6 = Rs 360"
+                ],
+                "answer": "The heater costs Rs 360 for 30 days."
+              },
+              {
+                "problem": "A phone charger is marked 5 V, 2 A. What is its power output?",
+                "given": [
+                  "V = 5 V, I = 2 A"
+                ],
+                "steps": [
+                  "P = V x I = 5 x 2"
+                ],
+                "answer": "The power is 10 W."
+              }
+            ]
+          },
+          "remember": [
+            "Series: same current. Parallel: same voltage.",
+            "Parallel total resistance is always LESS than the smallest resistor; series total is MORE than the largest.",
+            "Fuse is connected in SERIES with the appliance; domestic appliances are connected in PARALLEL.",
+            "H = I squared R t: current counts twice - doubling the current gives four times the heat.",
+            "A 'unit' on the bill is 1 kWh = a 1000 W appliance running for 1 hour.",
+            "Heating wires (nichrome) have HIGH resistance and a HIGH melting point; fuse wires have a LOW melting point."
+          ]
+        },
+        "everyday_examples": [
+          {
+            "sees": "The monthly electricity bill counts 'units' used.",
+            "concept": "Electrical energy and the kilowatt-hour",
+            "connects": "One unit is one kilowatt-hour (kWh): the energy used by a 1000 W appliance running for one hour. 1 kWh = 3.6 x 10^6 J. The bill charges for energy used, not for current or voltage.",
+            "ask": "How many units does a 100 W bulb use in 10 hours?",
+            "exam_link": "E = P x t. 100 W = 0.1 kW, so 0.1 x 10 = 1 unit."
+          },
+          {
+            "sees": "A 2000 W geyser runs for half an hour every morning.",
+            "concept": "Power and energy",
+            "connects": "Energy = power x time = 2 kW x 0.5 h = 1 unit per day, about 30 units a month. At Rs 7 per unit that is about Rs 210 a month. Check the actual rate on your bill.",
+            "ask": "What would the monthly cost be if it ran for one hour a day?",
+            "exam_link": "Cost = units x rate per unit."
+          },
+          {
+            "sees": "A phone charger label reads 5 V, 2 A.",
+            "concept": "Power, P = VI",
+            "connects": "Power = voltage x current = 5 V x 2 A = 10 W. Reading labels on appliances turns the formula into something you can check yourself.",
+            "ask": "What power does a 12 V, 3 A adapter deliver?",
+            "exam_link": "P = VI; also P = I squared R and P = V squared / R."
+          },
+          {
+            "sees": "When one bulb in the house fuses, the others keep working. In a cheap string of decorative lights, one failure can switch off the whole string.",
+            "concept": "Series and parallel circuits",
+            "connects": "House wiring is in parallel: every appliance gets the full 220 V, has its own switch and works independently. In a series circuit there is only one path for the current, so a single break stops everything.",
+            "ask": "Which of the two (series or parallel) is the decorative string, and why?",
+            "exam_link": "Series: same current, V = V1 + V2; parallel: same voltage, I = I1 + I2."
+          },
+          {
+            "sees": "An iron, toaster or kettle gets very hot; an old filament bulb glows.",
+            "concept": "Heating effect of current",
+            "connects": "Heat produced H = I squared R t. The heating coil is made of nichrome, which has high resistance and a high melting point, so it becomes hot without melting. A filament bulb's tungsten wire gets hot enough to glow.",
+            "ask": "Why is nichrome used for heating coils and not copper?",
+            "exam_link": "H = I squared R t. Use for appliances, fuse and lamp questions."
+          },
+          {
+            "sees": "The AC and geyser are connected with thick wires; a lamp uses thin wire. A very long, thin extension cord gets warm.",
+            "concept": "Factors affecting resistance",
+            "connects": "Resistance R = rho l / A: it rises with length and falls as the wire gets thicker. Heavy appliances draw a large current, so they need thick wire with low resistance; a thin wire would overheat and could cause a fire.",
+            "ask": "Why is thick wire used for heavy appliances?",
+            "exam_link": "R = rho l / A. Double length: R doubles. Double area: R halves."
+          },
+          {
+            "sees": "An old fuse wire melts and the power goes off when there is a fault.",
+            "concept": "Fuse",
+            "connects": "A fuse is a short wire with a low melting point, connected in series. If the current goes above its rating, the wire heats, melts and breaks the circuit, protecting the appliances and wiring.",
+            "ask": "Why is a fuse connected in series with the appliance?",
+            "exam_link": "A fuse works on the heating effect of current (H = I squared R t)."
+          }
         ]
       },
       "questions": [
@@ -3966,6 +4695,291 @@
           "Practice ray diagrams showing myopia/hypermetropia (uncorrected and corrected with the appropriate lens) - a very common 3-mark question.",
           "Remember: it's specifically the scattering of blue light (not its absorption) that makes the sky blue; a similar but opposite effect (scattering away of blue, leaving red) explains sunrise/sunset colours.",
           "Twinkling of stars and advance sunrise/delayed sunset are both explained by atmospheric refraction - be ready to distinguish this from scattering-based phenomena like the blue sky."
+        ],
+        "study_page": {
+          "intro": "This chapter is mostly 'why' questions, so the flowcharts matter most: follow a ray of light through the eye, then through a prism and the atmosphere. The numericals are short lens-formula problems for correcting eye defects.",
+          "flowcharts": [
+            {
+              "kind": "chain",
+              "title": "How we see an object",
+              "caption": "Follow one ray of light from the object to the brain.",
+              "steps": [
+                {
+                  "text": "Light from the object enters the eye through the transparent cornea (most of the bending happens here)"
+                },
+                {
+                  "text": "The iris adjusts the size of the pupil to control how much light enters"
+                },
+                {
+                  "text": "The eye lens makes fine adjustments to focus (ciliary muscles change its curvature)"
+                },
+                {
+                  "text": "A real, inverted image forms on the retina"
+                },
+                {
+                  "text": "Light-sensitive cells make electrical signals"
+                },
+                {
+                  "text": "The optic nerve carries the signals to the brain, which interprets the image as upright"
+                }
+              ]
+            },
+            {
+              "kind": "decision",
+              "title": "Which defect of vision is it?",
+              "caption": "Match the symptom to the defect, then to the lens that corrects it.",
+              "question": "What can the person NOT see clearly?",
+              "branches": [
+                {
+                  "label": "Distant objects (can read a book easily)",
+                  "result": [
+                    "Myopia (short-sightedness)",
+                    "Image forms IN FRONT of the retina",
+                    "Cause: eyeball too long, or lens too curved",
+                    "Corrected by a CONCAVE lens (negative power)"
+                  ]
+                },
+                {
+                  "label": "Nearby objects (holds the paper far away)",
+                  "result": [
+                    "Hypermetropia (long-sightedness)",
+                    "Image forms BEHIND the retina",
+                    "Cause: eyeball too short, or focal length too long",
+                    "Corrected by a CONVEX lens (positive power)"
+                  ]
+                },
+                {
+                  "label": "Near objects, with age",
+                  "result": [
+                    "Presbyopia",
+                    "Ciliary muscles weaken and the lens becomes less flexible",
+                    "Corrected by bifocal lenses (concave on top, convex below)"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "chain",
+              "title": "Dispersion of white light by a prism",
+              "caption": "Why a prism splits sunlight into a spectrum.",
+              "steps": [
+                {
+                  "text": "White light enters one face of the glass prism and refracts"
+                },
+                {
+                  "text": "Each colour bends by a different amount - red the least, violet the most"
+                },
+                {
+                  "text": "Light spreads out inside the prism"
+                },
+                {
+                  "text": "It refracts again as it leaves the second face"
+                },
+                {
+                  "text": "A band of seven colours appears: VIBGYOR (violet, indigo, blue, green, yellow, orange, red)"
+                }
+              ]
+            },
+            {
+              "kind": "chain",
+              "title": "How a rainbow forms",
+              "caption": "Each raindrop acts like a tiny prism.",
+              "steps": [
+                {
+                  "text": "The sun is behind you and it has just rained"
+                },
+                {
+                  "text": "Sunlight enters a water drop and is refracted (dispersed into colours)"
+                },
+                {
+                  "text": "It is reflected from the back of the drop (internal reflection)"
+                },
+                {
+                  "text": "It is refracted again as it leaves the drop"
+                },
+                {
+                  "text": "Different colours reach the eye from different drops, giving the arc"
+                }
+              ]
+            },
+            {
+              "kind": "decision",
+              "title": "Scattering: why is the sky blue (or red)?",
+              "caption": "Blue light has a shorter wavelength and is scattered far more by air molecules than red light.",
+              "question": "When and where are you looking?",
+              "branches": [
+                {
+                  "label": "Midday sky",
+                  "result": [
+                    "Sunlight travels a short path",
+                    "Blue is scattered in all directions",
+                    "The sky looks blue"
+                  ]
+                },
+                {
+                  "label": "Sunrise or sunset",
+                  "result": [
+                    "Sunlight travels a much longer path",
+                    "Most blue is scattered away",
+                    "Mainly red reaches the eye: the sun looks red"
+                  ]
+                },
+                {
+                  "label": "From space (above the atmosphere)",
+                  "result": [
+                    "No air to scatter the light",
+                    "The sky looks dark/black"
+                  ]
+                },
+                {
+                  "label": "Danger signals",
+                  "result": [
+                    "Red is scattered the least",
+                    "So it can be seen from far away, even in fog"
+                  ]
+                }
+              ]
+            }
+          ],
+          "word_problems": {
+            "title": "How to solve a 'correct the eye defect' numerical",
+            "steps": [
+              "Decide the defect from the symptom: far point is nearer than infinity means myopia; near point is farther than 25 cm means hypermetropia.",
+              "Decide what the lens must do. Myopia: make a distant object (at infinity) appear at the person's far point. Hypermetropia: make an object at 25 cm appear at the person's near point.",
+              "Set up the lens formula 1/v - 1/u = 1/f. Here u is where the real object is (infinity, or -25 cm) and v is where the person can see clearly (the far point or near point), taken on the same side as the object, so v is negative.",
+              "Solve for f, then find the power P = 1/f with f in METRES.",
+              "Read the sign: negative power means a concave lens (myopia); positive power means a convex lens (hypermetropia).",
+              "For 'why' questions: name the phenomenon (refraction, dispersion, scattering), say what is different about the colours or the medium, and finish with the observation."
+            ],
+            "formulas": [
+              {
+                "name": "Lens formula",
+                "formula": "1/v - 1/u = 1/f",
+                "note": ""
+              },
+              {
+                "name": "Power of a lens",
+                "formula": "P = 1/f (f in metres)",
+                "note": "Unit: dioptre (D)"
+              },
+              {
+                "name": "Normal near point",
+                "formula": "25 cm",
+                "note": "Least distance of distinct vision"
+              },
+              {
+                "name": "Normal far point",
+                "formula": "infinity",
+                "note": ""
+              }
+            ],
+            "examples": [
+              {
+                "problem": "A person cannot see objects beyond 80 cm clearly. Which lens corrects this, and what is its power?",
+                "given": [
+                  "Far point = 80 cm, so the defect is myopia",
+                  "The lens must make an object at infinity appear at 80 cm: u = -infinity, v = -80 cm"
+                ],
+                "steps": [
+                  "1/f = 1/v - 1/u = -1/80 - 0 = -1/80",
+                  "f = -80 cm = -0.8 m",
+                  "P = 1/f = 1/(-0.8) = -1.25 D"
+                ],
+                "answer": "A concave lens of power -1.25 D (focal length 80 cm)."
+              },
+              {
+                "problem": "A person's near point is 100 cm. What lens lets him read a book held at the normal near distance of 25 cm?",
+                "given": [
+                  "Near point = 100 cm, so the defect is hypermetropia",
+                  "Object must be read at 25 cm: u = -25 cm; the image must form at his near point: v = -100 cm"
+                ],
+                "steps": [
+                  "1/f = 1/v - 1/u = -1/100 + 1/25 = (-1 + 4)/100 = 3/100",
+                  "f = 100/3 cm = 33.3 cm = 0.333 m",
+                  "P = 1/f = +3 D"
+                ],
+                "answer": "A convex lens of power +3 D (focal length about 33 cm)."
+              },
+              {
+                "problem": "Why does the sun look red at sunrise and sunset?",
+                "given": [
+                  "This is a 'why' question - no calculation."
+                ],
+                "steps": [
+                  "At sunrise and sunset the sunlight travels a longer path through the atmosphere.",
+                  "Most of the blue light is scattered away by air molecules.",
+                  "Red is scattered the least, so mainly red light reaches our eyes."
+                ],
+                "answer": "The sun appears red because blue is scattered away over the long path and red light reaches us."
+              }
+            ]
+          },
+          "remember": [
+            "VIBGYOR: violet bends the most, red the least. 'Red Rarely bends, Violet Very much.'",
+            "Myopia = Minus (concave) lens. Hypermetropia = Plus (convex) lens.",
+            "Myopia: image falls in FRONT of the retina. Hypermetropia: BEHIND it.",
+            "Blue scatters most, red least - that single fact explains the blue sky, red sunset and red danger signals.",
+            "Stars twinkle (atmospheric refraction, they are point sources); planets do not (they are extended discs).",
+            "The retina gets a real, inverted image - the brain turns it upright."
+          ]
+        },
+        "everyday_examples": [
+          {
+            "sees": "A classmate reads his book easily but cannot read the board without glasses.",
+            "concept": "Myopia (short-sightedness)",
+            "connects": "In myopia, light from distant objects focuses in front of the retina because the eyeball is slightly too long or the lens too curved. A concave lens spreads the rays a little so the image falls on the retina.",
+            "ask": "Which lens does he need, concave or convex?",
+            "exam_link": "Myopia: far point nearer than infinity; corrected by a concave (negative-power) lens."
+          },
+          {
+            "sees": "Grandparents hold the newspaper at arm's length or put on reading glasses.",
+            "concept": "Hypermetropia and presbyopia",
+            "connects": "In hypermetropia, light from near objects focuses behind the retina, so a convex lens is used. With age the eye's lens becomes less flexible and the ciliary muscles weaken (presbyopia). Bifocal lenses help with both near and far vision.",
+            "ask": "Why do many people need reading glasses after the age of 45?",
+            "exam_link": "Hypermetropia: near point farther than 25 cm; convex (positive-power) lens."
+          },
+          {
+            "sees": "A rainbow appears when the sun is behind you after rain.",
+            "concept": "Dispersion",
+            "connects": "Each raindrop works like a tiny prism. Sunlight refracts as it enters, reflects off the back of the drop, and refracts again as it leaves. Each colour bends by a different amount, violet most and red least, so white light splits into VIBGYOR.",
+            "ask": "Why do you need the sun behind you to see a rainbow?",
+            "exam_link": "Dispersion + internal reflection in raindrops."
+          },
+          {
+            "sees": "A beam of sunlight through a window shows floating dust; car headlights in fog form a visible beam.",
+            "concept": "Tyndall effect (scattering)",
+            "connects": "Tiny particles of dust or water droplets scatter light sideways towards the eye. This makes the path of the beam visible.",
+            "ask": "Why can't you see the beam of a torch in clean air?",
+            "exam_link": "Tyndall effect: scattering by colloidal particles."
+          },
+          {
+            "sees": "The sky is blue during the day. Astronauts above the atmosphere see a black sky.",
+            "concept": "Scattering of light",
+            "connects": "Air molecules are very small and scatter blue light much more strongly than red. The scattered blue light comes to the eyes from every direction, so the whole sky looks blue. With no atmosphere there is nothing to scatter the light.",
+            "ask": "Why does the sky look dark to an astronaut?",
+            "exam_link": "Blue (short wavelength) scatters most; red scatters least."
+          },
+          {
+            "sees": "The sun looks red at sunrise and sunset; danger signals and brake lights are red.",
+            "concept": "Scattering of light",
+            "connects": "At sunrise and sunset, sunlight travels a much longer path through the air. Most blue light is scattered away, so mainly red reaches us. Red is scattered least, so it can be seen from far away, even in fog.",
+            "ask": "Why are danger signals red?",
+            "exam_link": "Longer path means more blue scattered away."
+          },
+          {
+            "sees": "Stars twinkle, but planets shine steadily.",
+            "concept": "Atmospheric refraction",
+            "connects": "Starlight passes through layers of air whose temperature and density keep changing. The light bends by slightly different amounts, so the star's brightness and position flicker. Planets are much closer and look like small discs, so the flickering averages out.",
+            "ask": "Why don't planets twinkle?",
+            "exam_link": "Stars are point sources; planets are extended sources."
+          },
+          {
+            "sees": "The sun is visible about two minutes before it actually rises above the horizon.",
+            "concept": "Atmospheric refraction",
+            "connects": "The atmosphere bends sunlight over the horizon, so we see the sun before it has really risen and for about two minutes after it sets. This makes the day about four minutes longer.",
+            "ask": "How much longer is the day because of this?",
+            "exam_link": "Advance sunrise and delayed sunset: atmospheric refraction."
+          }
         ]
       },
       "questions": [
@@ -5120,6 +6134,281 @@
           "Be careful to distinguish the three hand rules - Right-Hand Thumb Rule (field direction), Fleming's Left-Hand Rule (force/motor), Fleming's Right-Hand Rule (induced current/generator) - a very common source of confusion.",
           "Practice describing the construction and working of an electric motor and generator - frequent 3 or 5 mark questions.",
           "Remember why the earth wire and fuse are essential safety features, and why a fuse must be in the live wire, not the neutral wire."
+        ],
+        "study_page": {
+          "intro": "Three hand rules and three devices cover this chapter. The flowcharts show which rule to use, and how a motor and a generator are mirror images of each other.",
+          "flowcharts": [
+            {
+              "kind": "chain",
+              "title": "From current to magnetic field",
+              "caption": "Oersted's discovery and what makes the field stronger.",
+              "steps": [
+                {
+                  "text": "A current flows through a conductor"
+                },
+                {
+                  "text": "A magnetic field forms around it (a compass needle deflects)"
+                },
+                {
+                  "text": "Its direction comes from the right-hand thumb rule"
+                },
+                {
+                  "text": "The field is stronger with a larger current, more turns of wire in a coil, and a soft iron core inside"
+                }
+              ]
+            },
+            {
+              "kind": "decision",
+              "title": "Which hand rule do I use?",
+              "caption": "Look at what is GIVEN and what you must FIND.",
+              "question": "What is the question about?",
+              "branches": [
+                {
+                  "label": "Direction of the magnetic field around a current-carrying wire",
+                  "result": [
+                    "Right-hand thumb rule",
+                    "Thumb along the current; curled fingers show the field direction"
+                  ]
+                },
+                {
+                  "label": "Direction of the force on a current-carrying conductor in a magnetic field (motor)",
+                  "result": [
+                    "Fleming's left-hand rule",
+                    "Forefinger = field, Middle finger = current, Thumb = force (motion)"
+                  ]
+                },
+                {
+                  "label": "Direction of the induced current when a conductor moves in a magnetic field (generator)",
+                  "result": [
+                    "Fleming's right-hand rule",
+                    "Forefinger = field, Thumb = motion, Middle finger = induced current"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "chain",
+              "title": "How an electric motor works",
+              "caption": "Electrical energy is converted into mechanical (rotational) energy.",
+              "steps": [
+                {
+                  "text": "Current flows through a rectangular coil placed between the poles of a magnet"
+                },
+                {
+                  "text": "The two long sides carry current in opposite directions, so the forces on them are opposite (Fleming's left-hand rule)"
+                },
+                {
+                  "text": "These forces make the coil rotate"
+                },
+                {
+                  "text": "The split-ring commutator reverses the current every half turn"
+                },
+                {
+                  "text": "So the forces keep pushing the coil the same way and it rotates continuously"
+                }
+              ]
+            },
+            {
+              "kind": "chain",
+              "title": "How an electric generator works",
+              "caption": "Mechanical energy is converted into electrical energy (electromagnetic induction).",
+              "steps": [
+                {
+                  "text": "The coil is rotated between the poles of a magnet"
+                },
+                {
+                  "text": "The magnetic field passing through the coil keeps changing"
+                },
+                {
+                  "text": "An induced voltage and current appear in the coil (Fleming's right-hand rule gives its direction)"
+                },
+                {
+                  "text": "Slip rings and brushes carry the current out to the circuit"
+                },
+                {
+                  "text": "The output is alternating current (AC) - it reverses direction every half rotation"
+                }
+              ]
+            },
+            {
+              "kind": "decision",
+              "title": "AC or DC?",
+              "caption": "Know which is which and why we use AC at home.",
+              "question": "Which type of current?",
+              "branches": [
+                {
+                  "label": "Direct current (DC)",
+                  "result": [
+                    "Flows in one direction only",
+                    "Source: cells, batteries",
+                    "Cannot be sent over very long distances without large loss"
+                  ]
+                },
+                {
+                  "label": "Alternating current (AC)",
+                  "result": [
+                    "Reverses direction periodically (in India 50 Hz: every 1/100 s)",
+                    "Source: generators, house sockets (220 V)",
+                    "Can be transmitted over long distances with less loss"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "chain",
+              "title": "Safety in a household circuit",
+              "caption": "Why there are fuses, MCBs and an earth wire.",
+              "steps": [
+                {
+                  "text": "Electricity enters the house through the live wire (red) and returns by the neutral (black); the earth wire is green"
+                },
+                {
+                  "text": "A fuse or MCB is in series with the live wire"
+                },
+                {
+                  "text": "Overloading or a short circuit makes the current very large"
+                },
+                {
+                  "text": "The fuse wire melts or the MCB trips, breaking the circuit"
+                },
+                {
+                  "text": "The earth wire connects the metal body of the appliance to the ground so any leakage current flows away safely"
+                }
+              ]
+            }
+          ],
+          "word_problems": {
+            "title": "How to solve direction and domestic-circuit problems",
+            "steps": [
+              "Read what is asked: is it a field direction, a force direction, an induced current, or a number (current, fuse rating)?",
+              "For direction problems, name the rule you will use (see the flowchart) and write which finger or thumb stands for which quantity.",
+              "Fix directions with a simple sketch: use N, S, E, W, up/down or in/out of the page. Hold the fingers so that forefinger, middle finger and thumb are at right angles.",
+              "For Fleming's left-hand rule: forefinger = magnetic field, middle finger = current, thumb = force. Rotate your hand until two fingers match the given directions and read the third.",
+              "For fuse and MCB problems: use I = P / V, then choose a rating slightly ABOVE the normal current but below the unsafe value.",
+              "For frequency questions: AC of frequency f reverses direction 2f times each second."
+            ],
+            "formulas": [
+              {
+                "name": "Current from power",
+                "formula": "I = P / V",
+                "note": "to choose a fuse rating"
+              },
+              {
+                "name": "AC reversals",
+                "formula": "2 x f per second",
+                "note": "India: f = 50 Hz, so 100 reversals per second"
+              },
+              {
+                "name": "Motor effect",
+                "formula": "Force is greatest when the current is perpendicular to the field",
+                "note": ""
+              }
+            ],
+            "examples": [
+              {
+                "problem": "A straight conductor carries current towards the East. The magnetic field is horizontal and points North. In which direction is the force on the conductor?",
+                "given": [
+                  "Current: East",
+                  "Field: North"
+                ],
+                "steps": [
+                  "Use Fleming's left-hand rule: forefinger = field (North), middle finger = current (East).",
+                  "The two fingers lie flat (in the horizontal plane); the thumb is perpendicular to both.",
+                  "The thumb points upwards."
+                ],
+                "answer": "The force on the conductor is vertically upwards."
+              },
+              {
+                "problem": "An electric geyser is rated 2 kW, 220 V. What is the normal current? What fuse rating would suit it?",
+                "given": [
+                  "P = 2 kW = 2000 W",
+                  "V = 220 V"
+                ],
+                "steps": [
+                  "I = P / V = 2000 / 220",
+                  "I = about 9.1 A",
+                  "A fuse or MCB rated a little above 9.1 A (for example 10 A or 15 A) is chosen."
+                ],
+                "answer": "The normal current is about 9.1 A; a 15 A (or 10 A) rating is suitable, because it will not blow in normal use but will cut off a dangerous overload."
+              },
+              {
+                "problem": "The household supply has a frequency of 50 Hz. How many times does the current change direction every second?",
+                "given": [
+                  "f = 50 Hz"
+                ],
+                "steps": [
+                  "Each cycle has two reversals, so reversals per second = 2 x 50 = 100"
+                ],
+                "answer": "The current changes direction 100 times every second."
+              }
+            ]
+          },
+          "remember": [
+            "Motor: electrical to mechanical (uses Fleming's LEFT-hand rule). Generator: mechanical to electrical (RIGHT-hand rule).",
+            "Motor uses the LEFT hand; Generator uses the RIGHT hand (G for Generator, R for Right).",
+            "Split-ring commutator (motor) reverses current; slip rings (AC generator) do not.",
+            "Fuse and MCB go on the LIVE wire; the earth wire is for safety, not for the normal current.",
+            "Live = red (or brown), neutral = black (or blue), earth = green.",
+            "Overloading: too many appliances. Short circuit: live and neutral touch, resistance falls almost to zero."
+          ]
+        },
+        "everyday_examples": [
+          {
+            "sees": "The MCB in the switchboard trips when the AC, geyser and iron run on the same line, or when a damaged wire sparks.",
+            "concept": "Overloading and short circuit",
+            "connects": "Overloading: too many appliances draw more current than the wiring can safely carry. Short circuit: the live and neutral wires touch, resistance drops almost to zero, and the current jumps hugely. The MCB senses the excess current and switches off the circuit.",
+            "ask": "What is the difference between overloading and a short circuit?",
+            "exam_link": "Fuse/MCB: safety devices that break the circuit when the current is too large."
+          },
+          {
+            "sees": "A plug for an iron, fridge or washing machine has a third, thicker and longer pin.",
+            "concept": "Earthing",
+            "connects": "The third pin connects the appliance's metal body to the earth wire. If a live wire touches the body, current flows safely into the earth instead of through a person, which prevents a shock. The pin is longer so that it connects first.",
+            "ask": "Why is the earth pin longer than the other two?",
+            "exam_link": "Earthing protects against electric shock."
+          },
+          {
+            "sees": "A compass needle placed near a wire swings when the current is switched on, and swings the other way when the current is reversed.",
+            "concept": "Magnetic field around a current",
+            "connects": "A current flowing through a wire creates a magnetic field around it. The direction of the field depends on the direction of the current (right-hand thumb rule), so reversing the current reverses the needle.",
+            "ask": "What happens to the needle if there is no current?",
+            "exam_link": "Oersted's experiment; right-hand thumb rule."
+          },
+          {
+            "sees": "An iron nail wound with insulated wire and connected to a cell picks up pins; switching off drops them.",
+            "concept": "Solenoid and electromagnet",
+            "connects": "A coil of wire carrying current (solenoid) behaves like a bar magnet. An iron core inside makes the field much stronger. The magnetism exists only while current flows, which is why electromagnets are used in electric bells and cranes that lift scrap.",
+            "ask": "Name two ways to make the nail pick up more pins.",
+            "exam_link": "Field is stronger with more turns, more current and a soft iron core."
+          },
+          {
+            "sees": "Wires in a switchboard are coloured red, black and green.",
+            "concept": "Domestic circuits",
+            "connects": "Red (or brown) is the live wire, black (or blue) the neutral and green the earth. In India the supply is AC at 220 V and 50 Hz, meaning the current changes direction 100 times every second.",
+            "ask": "Which colour is the earth wire, and what does it do?",
+            "exam_link": "Live = red, neutral = black, earth = green."
+          },
+          {
+            "sees": "A phone battery and a wall socket both supply electricity.",
+            "concept": "AC and DC",
+            "connects": "A battery gives direct current (DC), which flows in one direction. The home supply is alternating current (AC), which can be sent over long distances with less energy loss. The phone charger converts AC to DC for the battery.",
+            "ask": "Why does a phone charger need to convert the current?",
+            "exam_link": "AC reverses direction periodically; DC flows one way."
+          },
+          {
+            "sees": "A ceiling fan or a mixer runs on electricity and spins.",
+            "concept": "Electric motor",
+            "connects": "A fan has a motor: a current-carrying coil in a magnetic field feels a force and rotates. The split-ring commutator reverses the current every half turn, so the coil keeps rotating the same way. Electrical energy becomes mechanical energy.",
+            "ask": "Which hand rule gives the direction of the force on the coil?",
+            "exam_link": "Motor: Fleming's left-hand rule; electrical to mechanical energy."
+          },
+          {
+            "sees": "A bicycle dynamo lights the lamp when you pedal faster.",
+            "concept": "Electric generator (electromagnetic induction)",
+            "connects": "Turning the dynamo rotates a magnet near a coil. The changing magnetic field induces a current in the coil, which lights the lamp. The faster you pedal, the faster the field changes and the brighter the lamp.",
+            "ask": "What energy change takes place in a dynamo?",
+            "exam_link": "Generator: mechanical to electrical energy; Fleming's right-hand rule."
+          }
         ]
       },
       "questions": [
