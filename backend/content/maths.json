@@ -14481,6 +14481,818 @@
           "subject": "mathematics"
         }
       ]
+    },
+    {
+      "id": "statistics",
+      "title": "Statistics",
+      "notes": {
+        "overview": "Statistics in Class 10 is about finding one representative value - the mean, median or mode - for grouped (class-interval) data. You learn three methods for the mean (direct, assumed mean, step deviation), the median from cumulative frequencies, and the mode from the modal class. CBSE 2026-27 asks only for mean, median and mode of grouped data; bimodal data is avoided and the graph-based topics are not part of the syllabus.",
+        "sections": [
+          {
+            "title": "1. Class Marks and Grouped Data",
+            "content": "In grouped data, each class interval (like 10-20) holds many observations. We represent the whole class by its class mark: class mark x = (upper limit + lower limit)/2. For 10-20 the class mark is 15. The frequency f of a class is the number of observations in it, and the total frequency is Σf = n.",
+            "keywords": [
+              "class mark",
+              "frequency",
+              "class interval"
+            ]
+          },
+          {
+            "title": "2. Mean - Direct Method",
+            "content": "Find the class mark x of each class, multiply by its frequency to get fx, then x̄ = Σfx / Σf. Here x̄ is the mean, x is the class mark, f is the frequency, Σfx is the sum of all fx and Σf is the total frequency. Example: classes 10-20 to 50-60 with frequencies 5, 8, 12, 15, 10 give Σfx = 1920, Σf = 50, so the mean is 38.4.",
+            "keywords": [
+              "direct method",
+              "Σfx",
+              "mean"
+            ]
+          },
+          {
+            "title": "3. Mean - Assumed Mean Method",
+            "content": "When numbers are large, choose a convenient class mark as the assumed mean a (usually the middle one). Find d = x - a for each class, then x̄ = a + (Σfd / Σf). Here a is the assumed mean, d is the deviation of the class mark from a, and f is the frequency.",
+            "keywords": [
+              "assumed mean",
+              "deviation",
+              "d = x - a"
+            ]
+          },
+          {
+            "title": "4. Mean - Step-Deviation Method",
+            "content": "If all class widths are equal, divide the deviations by the class width h: u = (x - a)/h. Then x̄ = a + h × (Σfu / Σf). Here h is the common class width, u is the scaled deviation, a the assumed mean. This gives the smallest numbers to work with, and all three methods give the same mean.",
+            "keywords": [
+              "step deviation",
+              "u = (x - a)/h",
+              "class width"
+            ]
+          },
+          {
+            "title": "5. Median of Grouped Data",
+            "content": "Make a cumulative frequency (cf) column. The median class is the first class whose cf is at least n/2. Then Median = l + ((n/2 - cf)/f) × h, where l is the lower limit of the median class, n the total frequency, cf the cumulative frequency of the class before the median class, f the frequency of the median class and h the class width.",
+            "keywords": [
+              "median class",
+              "cumulative frequency",
+              "n/2"
+            ]
+          },
+          {
+            "title": "6. Mode of Grouped Data",
+            "content": "The modal class is the class with the highest frequency. Mode = l + ((f1 - f0)/(2f1 - f0 - f2)) × h, where l is the lower limit of the modal class, f1 its frequency, f0 the frequency of the class before it, f2 the frequency of the class after it and h the class width. Cases with two modal classes (bimodal) are not asked.",
+            "keywords": [
+              "modal class",
+              "f1",
+              "f0",
+              "f2"
+            ]
+          },
+          {
+            "title": "7. Relation between Mean, Median and Mode",
+            "content": "For moderately skewed data, 3 Median = Mode + 2 Mean. This lets you find one measure when the other two are known. Mean is best for symmetric data, median when extreme values exist, mode when you want the most common value (for example the most common shoe size).",
+            "keywords": [
+              "empirical relation",
+              "3 Median",
+              "skewed"
+            ]
+          },
+          {
+            "title": "8. Finding Missing Frequencies",
+            "content": "Typical board question: a mean or median is given and a frequency is missing. Write Σfx (or the cf) in terms of the unknown and form an equation. Example: mean = 50 with frequencies 7, p, 10, 9, 13 gives 2370 + 30p = 50(39 + p), so p = 21. With a median given, use the total n to get one equation and the median formula for the other.",
+            "keywords": [
+              "missing frequency",
+              "equation",
+              "Σf = n"
+            ]
+          }
+        ],
+        "key_terms": {
+          "Class mark": "(Upper limit + lower limit)/2 - the representative value of a class.",
+          "Frequency": "Number of observations in a class.",
+          "Cumulative frequency": "Running total of frequencies up to a class.",
+          "Median class": "The class whose cumulative frequency is first ≥ n/2.",
+          "Modal class": "The class with the highest frequency.",
+          "Assumed mean": "A convenient class mark chosen to simplify the calculation of the mean.",
+          "Step deviation": "Scaling deviations by the common class width h."
+        },
+        "important_facts": [
+          "Mean = Σfx/Σf = a + Σfd/Σf = a + h(Σfu/Σf).",
+          "Median = l + ((n/2 - cf)/f) × h.",
+          "Mode = l + ((f1 - f0)/(2f1 - f0 - f2)) × h.",
+          "3 Median = Mode + 2 Mean.",
+          "All three mean methods give the same value; step deviation needs equal class widths."
+        ],
+        "exam_tips": [
+          "Always write the formula, substitute and then simplify - marks are given for each step.",
+          "For the median, build the cf column first and show n/2.",
+          "In mode problems, identify f0, f1, f2 clearly before substituting.",
+          "Check the answer lies inside the median/modal class."
+        ]
+      },
+      "questions": [
+        {
+          "id": "m8_mcq1",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Mean formula",
+          "question": "The mean of grouped data by the direct method is given by:",
+          "options": [
+            "Σf / Σfx",
+            "Σfx / Σf",
+            "Σx / Σf",
+            "Σfx × Σf"
+          ],
+          "answer_index": 1,
+          "explanation": "Mean = Σ(f_i x_i) / Σf_i, where x_i is the class mark of each class."
+        },
+        {
+          "id": "m8_mcq2",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Class mark",
+          "question": "The class mark of the class 30-50 is:",
+          "options": [
+            "20",
+            "30",
+            "40",
+            "50"
+          ],
+          "answer_index": 2,
+          "explanation": "Class mark = (upper limit + lower limit)/2 = (30+50)/2 = 40."
+        },
+        {
+          "id": "m8_mcq3",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Mean - direct method",
+          "question": "For the data: class 10-20, 20-30, 30-40, 40-50, 50-60 with frequencies 5, 8, 12, 15, 10, the mean is:",
+          "options": [
+            "36.4",
+            "38.4",
+            "40.2",
+            "42.0"
+          ],
+          "answer_index": 1,
+          "explanation": "Class marks 15,25,35,45,55; Σfx = 75+200+420+675+550 = 1920; Σf = 50; mean = 1920/50 = 38.4."
+        },
+        {
+          "id": "m8_mcq4",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Assumed mean method",
+          "question": "In the assumed mean method, the mean is x̄ = a + (Σf d)/(Σf), where d =",
+          "options": [
+            "x - a",
+            "a - x",
+            "x / a",
+            "x + a"
+          ],
+          "answer_index": 0,
+          "explanation": "d_i = x_i - a is the deviation of each class mark from the assumed mean a."
+        },
+        {
+          "id": "m8_mcq5",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Step-deviation method",
+          "question": "In the step-deviation method, u_i = (x_i - a)/h and the mean is:",
+          "options": [
+            "a + h × (Σfu / Σf)",
+            "a + (Σfu / Σf)",
+            "a - h × (Σfu / Σf)",
+            "h × (Σfu / Σf)"
+          ],
+          "answer_index": 0,
+          "explanation": "x̄ = a + h × (Σf u)/(Σf), where h is the common class width."
+        },
+        {
+          "id": "m8_mcq6",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Median class",
+          "question": "For a grouped distribution with n = 50, the median class is the class whose cumulative frequency is just:",
+          "options": [
+            "less than 50",
+            "greater than or equal to 25",
+            "greater than 50",
+            "equal to 50 only"
+          ],
+          "answer_index": 1,
+          "explanation": "The median class is the first class whose cumulative frequency is ≥ n/2 = 25."
+        },
+        {
+          "id": "m8_mcq7",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Median",
+          "question": "For data classes 0-10, 10-20, 20-30, 30-40, 40-50 with frequencies 4, 8, 20, 12, 6, the median is:",
+          "options": [
+            "25.0",
+            "26.5",
+            "27.5",
+            "30.0"
+          ],
+          "answer_index": 1,
+          "explanation": "n = 50, n/2 = 25; cf before 20-30 is 12, so median class is 20-30. Median = 20 + ((25-12)/20) × 10 = 26.5."
+        },
+        {
+          "id": "m8_mcq8",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Modal class",
+          "question": "The modal class of a grouped frequency distribution is the class with:",
+          "options": [
+            "the highest class mark",
+            "the highest frequency",
+            "the largest width",
+            "the highest cumulative frequency"
+          ],
+          "answer_index": 1,
+          "explanation": "The modal class is the class interval with the maximum frequency."
+        },
+        {
+          "id": "m8_mcq9",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Mode",
+          "question": "The mode of data with classes 0-10, 10-20, 20-30, 30-40, 40-50 and frequencies 5, 8, 15, 12, 6 is:",
+          "options": [
+            "25",
+            "26",
+            "27",
+            "28"
+          ],
+          "answer_index": 2,
+          "explanation": "Modal class 20-30, f1=15, f0=8, f2=12. Mode = 20 + ((15-8)/(30-8-12)) × 10 = 20 + 7 = 27."
+        },
+        {
+          "id": "m8_mcq10",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Empirical relation",
+          "question": "The empirical relation between the three measures of central tendency is:",
+          "options": [
+            "Mode = 3 Median - 2 Mean",
+            "Mode = 2 Median - 3 Mean",
+            "Mode = Mean + Median",
+            "Mode = 3 Mean - 2 Median"
+          ],
+          "answer_index": 0,
+          "explanation": "For moderately skewed data, 3 Median = Mode + 2 Mean, i.e. Mode = 3 Median - 2 Mean."
+        },
+        {
+          "id": "m8_ar1",
+          "type": "AR",
+          "marks": 1,
+          "topic": "Class mark",
+          "question": "Assertion (A): The class mark of the class 20-30 is 25.\nReason (R): Class mark = (upper class limit + lower class limit)/2.",
+          "options": [
+            "Both A and R are true and R is the correct explanation of A.",
+            "Both A and R are true but R is not the correct explanation of A.",
+            "A is true but R is false.",
+            "A is false but R is true."
+          ],
+          "answer_index": 0,
+          "explanation": "(20+30)/2 = 25, so A is true, and R is exactly the rule used."
+        },
+        {
+          "id": "m8_ar2",
+          "type": "AR",
+          "marks": 1,
+          "topic": "Median class",
+          "question": "Assertion (A): In a grouped distribution, the median class is the class with the highest frequency.\nReason (R): The median class is the class whose cumulative frequency is just greater than or equal to n/2.",
+          "options": [
+            "Both A and R are true and R is the correct explanation of A.",
+            "Both A and R are true but R is not the correct explanation of A.",
+            "A is true but R is false.",
+            "A is false but R is true."
+          ],
+          "answer_index": 3,
+          "explanation": "A is false - the class with the highest frequency is the modal class. R is true."
+        },
+        {
+          "id": "m8_ar3",
+          "type": "AR",
+          "marks": 1,
+          "topic": "Step deviation",
+          "question": "Assertion (A): The step-deviation method can be used only when all class widths are equal.\nReason (R): In this method u_i = (x_i - a)/h, where h is the common class width.",
+          "options": [
+            "Both A and R are true and R is the correct explanation of A.",
+            "Both A and R are true but R is not the correct explanation of A.",
+            "A is true but R is false.",
+            "A is false but R is true."
+          ],
+          "answer_index": 0,
+          "explanation": "Both true; h must be a common class width, which is why the method needs equal widths, so R explains A."
+        },
+        {
+          "id": "m8_2m1",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Mean - direct method",
+          "question": "Find the mean of the following data using the direct method: Class 10-20, 20-30, 30-40, 40-50, 50-60 with frequencies 5, 8, 12, 15, 10.",
+          "rubric": [
+            {
+              "point": "Class marks 15, 25, 35, 45, 55 and Σfx = 1920 with Σf = 50",
+              "keywords": [
+                "1920",
+                "Σfx",
+                "50"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Mean = 1920/50 = 38.4",
+              "keywords": [
+                "38.4"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Class marks x are 15, 25, 35, 45, 55. fx = 75, 200, 420, 675, 550, so Σfx = 1920 and Σf = 50. Mean = Σfx/Σf = 1920/50 = 38.4."
+        },
+        {
+          "id": "m8_2m2",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Mode",
+          "question": "Find the mode of the following data: Class 0-10, 10-20, 20-30, 30-40, 40-50 with frequencies 5, 8, 15, 12, 6.",
+          "rubric": [
+            {
+              "point": "Modal class is 20-30 with f1=15, f0=8, f2=12, l=20, h=10",
+              "keywords": [
+                "20-30",
+                "modal class"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Mode = 20 + (7/10) × 10 = 27",
+              "keywords": [
+                "27"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The highest frequency is 15, so the modal class is 20-30; l = 20, h = 10, f1 = 15, f0 = 8, f2 = 12. Mode = l + ((f1-f0)/(2f1-f0-f2)) × h = 20 + (7/10) × 10 = 27."
+        },
+        {
+          "id": "m8_2m3",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Median",
+          "question": "Find the median of: Class 0-10, 10-20, 20-30, 30-40, 40-50 with frequencies 4, 8, 20, 12, 6.",
+          "rubric": [
+            {
+              "point": "n = 50, n/2 = 25; cf = 4, 12, 32, 44, 50, so median class is 20-30",
+              "keywords": [
+                "20-30",
+                "median class",
+                "cf"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Median = 20 + ((25-12)/20) × 10 = 26.5",
+              "keywords": [
+                "26.5"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "n = 50 so n/2 = 25. Cumulative frequencies are 4, 12, 32, 44, 50, so the median class is 20-30 with l = 20, cf = 12, f = 20, h = 10. Median = 20 + ((25-12)/20) × 10 = 26.5."
+        },
+        {
+          "id": "m8_2m4",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Class mark and relation",
+          "question": "The mean and median of a distribution are 25 and 24 respectively. Using the empirical relation, find the mode.",
+          "rubric": [
+            {
+              "point": "Mode = 3 Median - 2 Mean",
+              "keywords": [
+                "3 median",
+                "2 mean",
+                "empirical"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Mode = 72 - 50 = 22",
+              "keywords": [
+                "22"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Using 3 Median = Mode + 2 Mean: Mode = 3(24) - 2(25) = 72 - 50 = 22."
+        },
+        {
+          "id": "m8_3m1",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Mean - step deviation",
+          "question": "Find the mean of the following data by the step-deviation method: Class 0-20, 20-40, 40-60, 60-80, 80-100 with frequencies 5, 9, 12, 10, 4.",
+          "rubric": [
+            {
+              "point": "Class marks 10, 30, 50, 70, 90; take a = 50, h = 20",
+              "keywords": [
+                "a = 50",
+                "h = 20",
+                "class mark"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "u = -2, -1, 0, 1, 2; Σfu = -1 and Σf = 40",
+              "keywords": [
+                "Σfu",
+                "-1",
+                "40"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Mean = 50 + 20 × (-1/40) = 49.5",
+              "keywords": [
+                "49.5"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Class marks are 10, 30, 50, 70, 90. Take a = 50, h = 20, so u = -2, -1, 0, 1, 2. fu = -10, -9, 0, 10, 8, so Σfu = -1; Σf = 40. Mean = a + h(Σfu/Σf) = 50 + 20(-1/40) = 49.5."
+        },
+        {
+          "id": "m8_3m2",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Missing frequency",
+          "question": "The mean of the following distribution is 50. Find the missing frequency p: Class 0-20, 20-40, 40-60, 60-80, 80-100 with frequencies 7, p, 10, 9, 13.",
+          "rubric": [
+            {
+              "point": "Class marks 10, 30, 50, 70, 90; Σfx = 2370 + 30p",
+              "keywords": [
+                "2370",
+                "30p",
+                "Σfx"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Σf = 39 + p and mean = Σfx/Σf = 50",
+              "keywords": [
+                "39 + p",
+                "39+p",
+                "Σf"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "2370 + 30p = 1950 + 50p, so p = 21",
+              "keywords": [
+                "21"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Σfx = 10(7) + 30p + 50(10) + 70(9) + 90(13) = 2370 + 30p and Σf = 39 + p. As mean = 50, 2370 + 30p = 50(39 + p) = 1950 + 50p, so 20p = 420 and p = 21."
+        },
+        {
+          "id": "m8_3m3",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Mean, median and mode",
+          "question": "For the data: Class 0-10, 10-20, 20-30, 30-40, 40-50, 50-60 with frequencies 3, 7, 12, 15, 8, 5, find the median.",
+          "rubric": [
+            {
+              "point": "n = 50, n/2 = 25; cf = 3, 10, 22, 37, 45, 50",
+              "keywords": [
+                "cf",
+                "cumulative"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Median class is 30-40 with l = 30, cf = 22, f = 15, h = 10",
+              "keywords": [
+                "30-40",
+                "median class"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Median = 30 + (3/15) × 10 = 32",
+              "keywords": [
+                "32"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "n = 50, n/2 = 25. Cumulative frequencies: 3, 10, 22, 37, 45, 50, so the median class is 30-40; l = 30, cf = 22, f = 15, h = 10. Median = 30 + ((25-22)/15) × 10 = 32."
+        },
+        {
+          "id": "m8_3m4",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Mode",
+          "question": "For the same data (Class 0-10, 10-20, 20-30, 30-40, 40-50, 50-60 with frequencies 3, 7, 12, 15, 8, 5), find the mode.",
+          "rubric": [
+            {
+              "point": "Modal class 30-40: l = 30, h = 10, f1 = 15, f0 = 12, f2 = 8",
+              "keywords": [
+                "30-40",
+                "modal class",
+                "f1"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Mode = 30 + ((15-12)/(30-12-8)) × 10",
+              "keywords": [
+                "15-12",
+                "3/10",
+                "30-12-8"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "= 30 + 3 = 33",
+              "keywords": [
+                "33"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The modal class is 30-40 (highest frequency 15). l = 30, h = 10, f1 = 15, f0 = 12, f2 = 8. Mode = 30 + ((15-12)/(2×15-12-8)) × 10 = 30 + (3/10) × 10 = 33."
+        },
+        {
+          "id": "m8_3m5",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Real-life mean",
+          "question": "The daily wages (in rupees) of 50 workers are grouped as: 500-600: 10, 600-700: 12, 700-800: 16, 800-900: 8, 900-1000: 4. Find the mean daily wage using the assumed mean method (take a = 750).",
+          "rubric": [
+            {
+              "point": "Class marks 550, 650, 750, 850, 950 and d = -200, -100, 0, 100, 200",
+              "keywords": [
+                "550",
+                "d = x - a",
+                "deviation"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Σfd = -2000 -1200 + 0 + 800 + 800 = -1600, Σf = 50",
+              "keywords": [
+                "-1600",
+                "Σfd"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Mean = 750 + (-1600/50) = 718",
+              "keywords": [
+                "718"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Class marks: 550, 650, 750, 850, 950; d = -200, -100, 0, 100, 200. fd = -2000, -1200, 0, 800, 800, so Σfd = -1600, Σf = 50. Mean = a + Σfd/Σf = 750 - 32 = 718. Mean daily wage = Rs 718."
+        },
+        {
+          "id": "m8_5m1",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Comprehensive - mean, median, mode",
+          "question": "For the data: Class 0-10, 10-20, 20-30, 30-40, 40-50, 50-60 with frequencies 3, 7, 12, 15, 8, 5, find (a) the mean by the direct method, (b) the median and (c) the mode.",
+          "rubric": [
+            {
+              "point": "(a) Class marks 5,15,25,35,45,55; Σfx = 15+105+300+525+360+275 = 1580; Σf = 50; mean = 31.6",
+              "keywords": [
+                "1580",
+                "31.6",
+                "31.7"
+              ],
+              "weight": 2
+            },
+            {
+              "point": "(b) Median class 30-40; median = 32",
+              "keywords": [
+                "32",
+                "30-40"
+              ],
+              "weight": 1.5
+            },
+            {
+              "point": "(c) Modal class 30-40; mode = 33",
+              "keywords": [
+                "33"
+              ],
+              "weight": 1.5
+            }
+          ],
+          "model_answer": "(a) Σfx = 15 + 105 + 300 + 525 + 360 + 275 = 1580, Σf = 50, mean = 1580/50 = 31.6. (b) n/2 = 25; cf = 3, 10, 22, 37, ...; median class 30-40; median = 30 + (3/15) × 10 = 32. (c) Modal class 30-40; mode = 30 + (3/10) × 10 = 33."
+        },
+        {
+          "id": "m8_5m2",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Missing frequencies - median",
+          "question": "The median of the following distribution is 46 and the total frequency is 100. Find the missing frequencies x and y. Class 10-20: 5, 20-30: x, 30-40: 15, 40-50: 20, 50-60: y, 60-70: 15.",
+          "rubric": [
+            {
+              "point": "Σf = 100 gives 5 + x + 15 + 20 + y + 15 = 100, so x + y = 45",
+              "keywords": [
+                "x + y = 45",
+                "x+y=45",
+                "Σf"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Median 46 lies in class 40-50; l = 40, f = 20, h = 10, cf = 20 + x",
+              "keywords": [
+                "40-50",
+                "cf = 20 + x",
+                "cf=20+x",
+                "median class"
+              ],
+              "weight": 1.5
+            },
+            {
+              "point": "46 = 40 + ((50 - (20+x))/20) × 10 gives x = 18",
+              "keywords": [
+                "x = 18",
+                "x=18",
+                "18"
+              ],
+              "weight": 1.5
+            },
+            {
+              "point": "y = 45 - 18 = 27",
+              "keywords": [
+                "y = 27",
+                "y=27",
+                "27"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Total: 5 + x + 15 + 20 + y + 15 = 100, so x + y = 45. Cumulative frequencies: 5, 5+x, 20+x, 40+x, ... Median 46 lies in 40-50 if 20 + x < 50 ≤ 40 + x. With l = 40, h = 10, f = 20, cf = 20 + x and n/2 = 50: 46 = 40 + ((50 - 20 - x)/20) × 10 ⇒ 6 = (30 - x)/2 ⇒ x = 18. Then y = 45 - 18 = 27."
+        },
+        {
+          "id": "m8_5m3",
+          "type": "5M",
+          "marks": 5,
+          "topic": "Marks - mean, median and mode",
+          "question": "The marks of 40 students are: Class 0-10: 2, 10-20: 6, 20-30: 10, 30-40: 12, 40-50: 7, 50-60: 3. Find the median and the mode, and also find the mean to compare the three measures.",
+          "rubric": [
+            {
+              "point": "Median: n/2 = 20; cf 2, 8, 18, 30 → class 30-40; median = 30 + ((20-18)/12) × 10 = 31.67",
+              "keywords": [
+                "30-40",
+                "31.67",
+                "31.6",
+                "31.7"
+              ],
+              "weight": 2
+            },
+            {
+              "point": "Mode: modal class 30-40, mode = 30 + ((12-10)/(24-10-7)) × 10 = 32.86",
+              "keywords": [
+                "32.86",
+                "32.8",
+                "modal class"
+              ],
+              "weight": 2
+            },
+            {
+              "point": "Mean = 1250/40 = 31.25 (close to the median 31.67 and mode 32.86, as the empirical relation suggests)",
+              "keywords": [
+                "31.25",
+                "1250"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "n = 40, n/2 = 20. Cumulative frequencies 2, 8, 18, 30, 37, 40, so the median class is 30-40: median = 30 + ((20-18)/12) × 10 ≈ 31.67. Modal class 30-40 (f1 = 12, f0 = 10, f2 = 7): mode = 30 + (2/7) × 10 ≈ 32.86. Class marks 5, 15, 25, 35, 45, 55: Σfx = 10+90+250+420+315+165 = 1250 → mean = 1250/40 = 31.25."
+        },
+        {
+          "id": "m8_cbq1",
+          "type": "CBQ",
+          "marks": 4,
+          "topic": "Case study - marks of students",
+          "passage": "A teacher grouped the marks of 50 students in a unit test as follows: 0-10: 4, 10-20: 8, 20-30: 20, 30-40: 12, 40-50: 6.",
+          "subquestions": [
+            {
+              "id": "m8_cbq1_a",
+              "marks": 1,
+              "question": "Which is the median class?",
+              "options": [
+                "10-20",
+                "20-30",
+                "30-40",
+                "40-50"
+              ],
+              "answer_index": 1,
+              "explanation": "n/2 = 25; cumulative frequencies are 4, 12, 32, ... so the median class is 20-30."
+            },
+            {
+              "id": "m8_cbq1_b",
+              "marks": 1,
+              "question": "Which is the modal class?",
+              "options": [
+                "10-20",
+                "20-30",
+                "30-40",
+                "40-50"
+              ],
+              "answer_index": 1,
+              "explanation": "The highest frequency is 20, so the modal class is 20-30."
+            },
+            {
+              "id": "m8_cbq1_c",
+              "marks": 2,
+              "question": "Find the median marks, showing your working.",
+              "rubric": [
+                {
+                  "point": "n/2 = 25, cf before median class = 12, f = 20, l = 20, h = 10",
+                  "keywords": [
+                    "cf",
+                    "12",
+                    "20-30"
+                  ],
+                  "weight": 1
+                },
+                {
+                  "point": "Median = 20 + ((25-12)/20) × 10 = 26.5",
+                  "keywords": [
+                    "26.5"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "n = 50 so n/2 = 25. The median class is 20-30 (cf = 12, f = 20, l = 20, h = 10). Median = 20 + ((25-12)/20) × 10 = 26.5."
+            }
+          ]
+        },
+        {
+          "id": "m8_cbq2",
+          "type": "CBQ",
+          "marks": 4,
+          "topic": "Case study - daily wages",
+          "passage": "A shop owner recorded the daily sales (in hundreds of rupees) on 40 days: 0-20: 5, 20-40: 9, 40-60: 12, 60-80: 10, 80-100: 4.",
+          "subquestions": [
+            {
+              "id": "m8_cbq2_a",
+              "marks": 1,
+              "question": "What is the class mark of the class 40-60?",
+              "options": [
+                "40",
+                "50",
+                "60",
+                "20"
+              ],
+              "answer_index": 1,
+              "explanation": "(40+60)/2 = 50."
+            },
+            {
+              "id": "m8_cbq2_b",
+              "marks": 1,
+              "question": "With a = 50 and h = 20, what is u for the class 0-20?",
+              "options": [
+                "-2",
+                "-1",
+                "1",
+                "2"
+              ],
+              "answer_index": 0,
+              "explanation": "x = 10, u = (10-50)/20 = -2."
+            },
+            {
+              "id": "m8_cbq2_c",
+              "marks": 2,
+              "question": "Find the mean daily sales using the step-deviation method.",
+              "rubric": [
+                {
+                  "point": "u = -2, -1, 0, 1, 2 and Σfu = -1, Σf = 40",
+                  "keywords": [
+                    "Σfu",
+                    "-1",
+                    "40"
+                  ],
+                  "weight": 1
+                },
+                {
+                  "point": "Mean = 50 + 20 × (-1/40) = 49.5 (hundreds of rupees)",
+                  "keywords": [
+                    "49.5"
+                  ],
+                  "weight": 1
+                }
+              ],
+              "model_answer": "fu = -10, -9, 0, 10, 8 so Σfu = -1; Σf = 40. Mean = 50 + 20 × (-1/40) = 49.5, i.e. about Rs 4,950."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

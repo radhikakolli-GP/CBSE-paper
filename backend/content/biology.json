@@ -3933,7 +3933,8 @@
           "Practice working through Mendel's monohybrid cross (using a Punnett square) to derive the 3:1 F2 ratio - a very common numerical/diagram question.",
           "Be clear on the distinction between genotype and phenotype, and between dominant/recessive - frequently tested with short definition-style questions.",
           "Remember: the sex of a child depends on the father's sperm (X or Y chromosome), not the mother - a commonly asked conceptual question with social relevance."
-        ]
+        ],
+        "syllabus_note": "Check with your school: the CBSE 2026-27 syllabus lists Heredity (Mendel's laws, sex determination) as content, but its Note for Teachers says 'Heredity and Evolution' will not be assessed in the year-end exam. Evolution is formative-only; study Heredity as a basics topic."
       },
       "questions": [
         {
@@ -6312,6 +6313,509 @@
           "chapter_id": "our_environment",
           "chapter_title": "Our Environment",
           "subject": "biology"
+        }
+      ]
+    },
+    {
+      "id": "evolution",
+      "title": "Evolution",
+      "notes": {
+        "syllabus_note": "Formative assessment only (CBSE 2026-27): this topic is in the syllabus and the NCERT reading material, but it is NOT assessed in the year-end board exam. Learn it for your portfolio/periodic assessment.",
+        "overview": "Evolution is the change in the frequency of inherited traits (genes) in a population over generations. It is driven by variation from DNA copying errors and sexual reproduction, shaped by natural selection and genetic drift. Only inherited changes matter - traits acquired during a lifetime are not passed on. Evolutionary relationships are traced using homologous organs, fossils and DNA comparison (molecular phylogeny).",
+        "sections": [
+          {
+            "title": "1. Variation, Natural Selection and Genetic Drift",
+            "content": "If a heritable variation gives a survival advantage (green beetles that crows cannot see) it spreads: this is natural selection, which produces adaptations. If a variation spreads only by chance (an elephant stamps on bushes and the survivors are mostly blue) it is genetic drift, which gives diversity without adaptation and is most powerful in small populations. In both cases the frequency of certain genes in the population changes over generations - the essence of evolution.",
+            "keywords": [
+              "natural selection",
+              "genetic drift",
+              "variation",
+              "frequency of genes"
+            ]
+          },
+          {
+            "title": "2. Acquired and Inherited Traits",
+            "content": "Changes in non-reproductive tissues (such as reduced weight from starvation, or tails removed from mice) do not change the DNA of germ cells and so are not inherited and do not direct evolution. Only traits that arise in the DNA of germ cells are passed to progeny. This is why genetics is essential to understand evolution - Darwin proposed natural selection but could not explain the mechanism, which Mendel's work could have supplied.",
+            "keywords": [
+              "acquired traits",
+              "inherited traits",
+              "germ cells",
+              "DNA"
+            ]
+          },
+          {
+            "title": "3. Speciation",
+            "content": "Speciation is the formation of new species. A population splits into sub-populations that are separated (for example by a mountain range or a river) so gene flow decreases. Genetic drift and different natural selection accumulate differences; eventually the groups can no longer reproduce with each other (for example because of a change in chromosome number), and they are separate species. Geographical isolation matters mainly for sexually reproducing organisms.",
+            "keywords": [
+              "speciation",
+              "isolation",
+              "gene flow",
+              "new species"
+            ]
+          },
+          {
+            "title": "4. Evolution and Classification",
+            "content": "The more characteristics two species share, the more closely related they are and the more recently they had a common ancestor. Classification of species therefore reflects evolutionary relationships. Basic characteristics (cell is the unit of life) are shared by most organisms; later ones (nucleus, unicellular or multicellular, photosynthesis, skeleton) mark finer groups.",
+            "keywords": [
+              "common ancestor",
+              "classification",
+              "characteristics"
+            ]
+          },
+          {
+            "title": "5. Homologous and Analogous Organs",
+            "content": "Homologous organs have the same basic structure (common origin) but may perform different functions - e.g. the forelimbs of mammals, birds, reptiles and amphibians. Analogous organs have different structure and origin but a similar function - e.g. the wings of birds (feathers along the arm) and bats (skin folds between fingers). Homologous characteristics show evolutionary relationship; analogous ones do not.",
+            "keywords": [
+              "homologous",
+              "analogous",
+              "wings",
+              "forelimbs"
+            ]
+          },
+          {
+            "title": "6. Fossils",
+            "content": "Fossils are preserved traces of living organisms, for example an insect trapped in hardening mud. Fossil age is estimated in two ways: relative dating (fossils in deeper layers are older than those near the surface) and by comparing the ratios of different isotopes of an element in the fossil material. Fossils show how extinct species were related to present ones.",
+            "keywords": [
+              "fossil",
+              "relative dating",
+              "isotopes",
+              "layers"
+            ]
+          },
+          {
+            "title": "7. Evolution by Stages",
+            "content": "Complex organs like the eye evolve bit by bit - even a rudimentary eye gives some advantage, and eyes in insects, octopus and vertebrates have separate evolutionary origins. A feature useful for one purpose can later serve another: feathers began as insulation and were later used for flight (some feathered dinosaurs could not fly), showing birds are closely related to reptiles. Artificial selection of wild cabbage by humans produced cabbage, broccoli, cauliflower, kohlrabi and kale. Molecular phylogeny compares DNA: distantly related species have more DNA differences, and the results match the classification learnt in Class IX.",
+            "keywords": [
+              "feathers",
+              "wild cabbage",
+              "artificial selection",
+              "molecular phylogeny"
+            ]
+          },
+          {
+            "title": "8. Evolution is not Progress; Human Evolution",
+            "content": "Evolution generates diversity shaped by the environment; newer species are not 'better' than older ones, and simple forms such as bacteria survive in the harshest habitats. Humans did not evolve from chimpanzees - both share a common ancestor that was neither. Studies of fossils and DNA show no biological basis for human 'races': all humans are one species, Homo sapiens, which originated in Africa, and groups migrated across the planet.",
+            "keywords": [
+              "common ancestor",
+              "Homo sapiens",
+              "Africa",
+              "progress"
+            ]
+          }
+        ],
+        "key_terms": {
+          "Evolution": "Change in the frequency of inherited traits in a population over generations.",
+          "Natural selection": "Survival and reproduction of individuals with advantageous inherited variations.",
+          "Genetic drift": "Chance change in gene frequency, especially in small populations.",
+          "Speciation": "Formation of a new species from an existing one.",
+          "Homologous organs": "Organs with the same basic structure but possibly different functions.",
+          "Analogous organs": "Organs with similar function but different structure and origin.",
+          "Fossil": "Preserved trace of a once-living organism.",
+          "Molecular phylogeny": "Tracing evolutionary relationships by comparing DNA."
+        },
+        "important_facts": [
+          "Acquired traits are not inherited because they do not change germ-cell DNA.",
+          "Bird and bat wings are analogous; forelimbs of vertebrates are homologous.",
+          "Deeper fossil layers are older; isotope ratios also give fossil age.",
+          "Humans and chimpanzees share a common ancestor; humans did not evolve from chimpanzees.",
+          "Miller and Urey (1953) obtained amino acids from simple gases and sparks, supporting Haldane's idea of how life began."
+        ],
+        "exam_tips": [
+          "Contrast natural selection (advantage) with genetic drift (chance) using the beetle example.",
+          "Always give the reason when asked 'why are acquired traits not inherited' - germ cell DNA is unchanged."
+        ]
+      },
+      "questions": [
+        {
+          "id": "ev_mcq1",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Genetic drift",
+          "question": "A change in gene frequency in a small population due to chance, not survival advantage, is called:",
+          "options": [
+            "natural selection",
+            "genetic drift",
+            "speciation",
+            "artificial selection"
+          ],
+          "answer_index": 1,
+          "explanation": "Accidental survival, like the elephant stamping on the beetles' bushes, changes gene frequency without adaptation."
+        },
+        {
+          "id": "ev_mcq2",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Acquired traits",
+          "question": "Which of the following traits can be inherited by progeny?",
+          "options": [
+            "Reduced weight due to starvation",
+            "Loss of the tail by surgery",
+            "A DNA variation in germ cells",
+            "Muscles built by exercise"
+          ],
+          "answer_index": 2,
+          "explanation": "Only changes in the DNA of germ cells are inherited; changes in body tissues are not."
+        },
+        {
+          "id": "ev_mcq3",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Homologous organs",
+          "question": "Which pair is an example of homologous organs?",
+          "options": [
+            "Wings of a bird and a bat",
+            "Forelimbs of a human and a bird",
+            "Wings of a butterfly and a bat",
+            "Eyes of an octopus and an insect"
+          ],
+          "answer_index": 1,
+          "explanation": "Mammal and bird forelimbs share a basic structure from a common ancestor."
+        },
+        {
+          "id": "ev_mcq4",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Analogous organs",
+          "question": "The wings of a bird and a bat are:",
+          "options": [
+            "homologous",
+            "analogous",
+            "vestigial",
+            "identical in origin"
+          ],
+          "answer_index": 1,
+          "explanation": "They have a similar function (flight) but different structures and origins."
+        },
+        {
+          "id": "ev_mcq5",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Fossils",
+          "question": "Fossils found in deeper layers of the earth are generally:",
+          "options": [
+            "more recent",
+            "older",
+            "of the same age",
+            "of living species"
+          ],
+          "answer_index": 1,
+          "explanation": "Deeper layers were laid down earlier, so their fossils are older."
+        },
+        {
+          "id": "ev_mcq6",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Artificial selection",
+          "question": "Which of these was NOT produced from wild cabbage by artificial selection?",
+          "options": [
+            "Broccoli",
+            "Cauliflower",
+            "Kohlrabi",
+            "Mustard"
+          ],
+          "answer_index": 3,
+          "explanation": "Wild cabbage gave cabbage, broccoli, cauliflower, kohlrabi and kale."
+        },
+        {
+          "id": "ev_mcq7",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Feathers",
+          "question": "Feathers in dinosaurs probably first served for:",
+          "options": [
+            "flight",
+            "insulation",
+            "swimming",
+            "camouflage only"
+          ],
+          "answer_index": 1,
+          "explanation": "Feathers started as insulation and were later adapted for flight in birds."
+        },
+        {
+          "id": "ev_mcq8",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Human evolution",
+          "question": "The earliest members of Homo sapiens can be traced to:",
+          "options": [
+            "Asia",
+            "Europe",
+            "Africa",
+            "Australia"
+          ],
+          "answer_index": 2,
+          "explanation": "Our genetic footprints trace to Africa, from where groups migrated across the planet."
+        },
+        {
+          "id": "ev_mcq9",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Molecular phylogeny",
+          "question": "Molecular phylogeny traces evolutionary relationships by comparing:",
+          "options": [
+            "fossil layers",
+            "organ shapes",
+            "DNA of different species",
+            "habitats"
+          ],
+          "answer_index": 2,
+          "explanation": "Species that are more distantly related have accumulated more DNA differences."
+        },
+        {
+          "id": "ev_ar1",
+          "type": "AR",
+          "marks": 1,
+          "topic": "Acquired traits",
+          "question": "Assertion (A): A decrease in beetle weight caused by starvation is not an example of evolution.\nReason (R): Changes in non-reproductive tissues do not change the DNA of germ cells.",
+          "options": [
+            "Both A and R are true and R is the correct explanation of A.",
+            "Both A and R are true but R is not the correct explanation of A.",
+            "A is true but R is false.",
+            "A is false but R is true."
+          ],
+          "answer_index": 0,
+          "explanation": "Both true; the change is not inherited, so it cannot direct evolution."
+        },
+        {
+          "id": "ev_ar2",
+          "type": "AR",
+          "marks": 1,
+          "topic": "Human evolution",
+          "question": "Assertion (A): Human beings have evolved from chimpanzees.\nReason (R): Humans and chimpanzees have a common ancestor.",
+          "options": [
+            "Both A and R are true and R is the correct explanation of A.",
+            "Both A and R are true but R is not the correct explanation of A.",
+            "A is true but R is false.",
+            "A is false but R is true."
+          ],
+          "answer_index": 3,
+          "explanation": "A is false. R is true - the common ancestor was neither human nor chimpanzee."
+        },
+        {
+          "id": "ev_ar3",
+          "type": "AR",
+          "marks": 1,
+          "topic": "Speciation",
+          "question": "Assertion (A): Geographical isolation can lead to speciation in sexually reproducing organisms.\nReason (R): Isolation reduces gene flow between sub-populations, so genetic drift and selection make them different.",
+          "options": [
+            "Both A and R are true and R is the correct explanation of A.",
+            "Both A and R are true but R is not the correct explanation of A.",
+            "A is true but R is false.",
+            "A is false but R is true."
+          ],
+          "answer_index": 0,
+          "explanation": "Both true, and R explains how isolation leads to separate species."
+        },
+        {
+          "id": "ev_2m1",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Homologous vs analogous",
+          "question": "Distinguish between homologous and analogous organs with one example each.",
+          "rubric": [
+            {
+              "point": "Homologous: same basic structure/origin, may differ in function; e.g. forelimbs of vertebrates",
+              "keywords": [
+                "same structure",
+                "common ancestor",
+                "forelimb"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Analogous: similar function but different structure/origin; e.g. wings of bird and bat",
+              "keywords": [
+                "similar function",
+                "different origin",
+                "wings"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Homologous organs have the same basic structure and origin but may perform different functions, e.g. the forelimbs of mammals, birds and reptiles. Analogous organs have a similar function but different structure and origin, e.g. the wings of birds and bats."
+        },
+        {
+          "id": "ev_2m2",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Fossils",
+          "question": "What are fossils? Name two ways of finding their age.",
+          "rubric": [
+            {
+              "point": "Fossils are preserved traces of living organisms",
+              "keywords": [
+                "preserved",
+                "traces"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Age found by relative position in rock layers and by the ratio of isotopes",
+              "keywords": [
+                "layers",
+                "isotope"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Fossils are preserved traces of once-living organisms. Their age is estimated relatively (deeper layers are older) and by the ratios of different isotopes of an element in the fossil."
+        },
+        {
+          "id": "ev_2m3",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Not progress",
+          "question": "Why should evolution not be equated with progress?",
+          "rubric": [
+            {
+              "point": "A new species is not 'better' than the old one; old species may survive",
+              "keywords": [
+                "not better",
+                "old species",
+                "survive"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Evolution only generates diversity shaped by the environment; e.g. bacteria survive in harsh habitats",
+              "keywords": [
+                "diversity",
+                "bacteria",
+                "environment"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Evolution simply generates diversity that the environment shapes. New species are not better than older ones, and simple forms like bacteria survive in even the harshest habitats."
+        },
+        {
+          "id": "ev_2m4",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Acquired traits",
+          "question": "Why are traits acquired during the lifetime of an individual not inherited?",
+          "rubric": [
+            {
+              "point": "Acquired changes occur in non-reproductive (body) tissues",
+              "keywords": [
+                "non-reproductive",
+                "body"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "They do not change the DNA of germ cells, so cannot pass to progeny",
+              "keywords": [
+                "germ cell",
+                "DNA"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Acquired changes affect body tissues, not the DNA in germ cells, so they cannot be passed to progeny. For example, mice whose tails are cut have tailed offspring."
+        },
+        {
+          "id": "ev_3m1",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Natural selection vs drift",
+          "question": "Using the beetle example, distinguish natural selection from genetic drift.",
+          "rubric": [
+            {
+              "point": "Natural selection: green variation not seen by crows survives and spreads - survival advantage",
+              "keywords": [
+                "green",
+                "advantage",
+                "crows"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Genetic drift: blue beetles become common by accident when an elephant kills most beetles - no advantage",
+              "keywords": [
+                "blue",
+                "accident",
+                "elephant"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Both change the frequency of genes over generations; drift is strongest in small populations",
+              "keywords": [
+                "frequency",
+                "small population"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "In natural selection, green beetles escape the crows and so increase because of a survival advantage. In genetic drift, blue beetles become common simply because by chance they survived an accident (the elephant). Both change gene frequency over generations; drift matters most in small populations."
+        },
+        {
+          "id": "ev_3m2",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Speciation",
+          "question": "What factors could lead to the rise of a new species?",
+          "rubric": [
+            {
+              "point": "Geographical isolation separates populations and reduces gene flow",
+              "keywords": [
+                "isolation",
+                "gene flow"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Genetic drift and different natural selection build up differences",
+              "keywords": [
+                "genetic drift",
+                "natural selection"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Eventually they cannot reproduce with each other (e.g. DNA/chromosome change)",
+              "keywords": [
+                "cannot reproduce",
+                "chromosome"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Geographical separation reduces gene flow between sub-populations. Genetic drift and natural selection acting differently on each accumulate differences, until the groups cannot reproduce with each other, e.g. due to a change in chromosome number."
+        },
+        {
+          "id": "ev_3m3",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Human species",
+          "question": "Why are human beings who look different in size, colour and looks said to belong to the same species? Where did Homo sapiens first originate?",
+          "rubric": [
+            {
+              "point": "No biological basis for human 'races'; evidence from fossils and DNA",
+              "keywords": [
+                "no biological basis",
+                "DNA"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "All humans are one species (can interbreed, share ancestry)",
+              "keywords": [
+                "single species",
+                "one species"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Homo sapiens originated in Africa and migrated across the world",
+              "keywords": [
+                "Africa"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Studies of fossils and DNA show there is no biological basis for human 'races'. All humans are a single species, Homo sapiens, which originated in Africa; groups later migrated across the planet."
         }
       ]
     }

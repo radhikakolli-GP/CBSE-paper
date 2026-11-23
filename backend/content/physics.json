@@ -155,49 +155,56 @@
             "concept": "Concave and convex mirrors",
             "connects": "The inner side curves inward, so it acts as a concave mirror. An object beyond the focus gives a real, inverted image; brought very close (inside the focus) the image becomes upright and enlarged. The back side is a convex mirror, which always gives an upright, smaller image.",
             "ask": "Why does your face flip when you move the spoon closer?",
-            "exam_link": "Concave mirror: object beyond F -> real, inverted; object between P and F -> virtual, erect, enlarged. Convex mirror: always virtual, erect, diminished."
+            "exam_link": "Concave mirror: object beyond F -> real, inverted; object between P and F -> virtual, erect, enlarged. Convex mirror: always virtual, erect, diminished.",
+            "level": "Application"
           },
           {
             "sees": "The side mirror of a car or scooter shows a wide view of the road, and vehicles look smaller than they are. The same mirrors sit at blind turns on hill roads.",
             "concept": "Convex mirror",
             "connects": "A convex mirror always forms an upright, diminished image and covers a wider field of view than a flat mirror, so the driver can see more traffic behind.",
             "ask": "Why do vehicle makers use convex and not plane mirrors on the side?",
-            "exam_link": "Uses of convex mirrors: rear-view mirrors, blind-turn safety mirrors. Magnification is positive and less than 1."
+            "exam_link": "Uses of convex mirrors: rear-view mirrors, blind-turn safety mirrors. Magnification is positive and less than 1.",
+            "level": "Knowledge and understanding"
           },
           {
             "sees": "A dentist's small mirror and a shaving mirror show a magnified, upright image. A torch or headlight sends out a straight beam.",
             "concept": "Concave mirror (uses)",
             "connects": "When an object is between the pole and the focus of a concave mirror, the image is virtual, upright and magnified. In a torch the bulb sits at the focus of a concave reflector, so the reflected rays leave parallel as a strong beam.",
             "ask": "Where must the bulb be placed in a torch reflector, and why?",
-            "exam_link": "Uses of concave mirrors: shaving/make-up mirrors, dentist's mirror, torches and headlights, solar furnaces."
+            "exam_link": "Uses of concave mirrors: shaving/make-up mirrors, dentist's mirror, torches and headlights, solar furnaces.",
+            "level": "Application"
           },
           {
             "sees": "A straw in a glass of water looks bent or broken at the surface.",
             "concept": "Refraction of light",
             "connects": "Light from the part under water bends away from the normal as it passes from water (denser) into air (rarer). The eye assumes light travels straight, so it sees the underwater part higher than it really is.",
             "ask": "Does the light bend towards or away from the normal here? Why?",
-            "exam_link": "Light going from rarer to denser medium bends towards the normal; denser to rarer, away from it. Snell's law: sin i / sin r = constant."
+            "exam_link": "Light going from rarer to denser medium bends towards the normal; denser to rarer, away from it. Snell's law: sin i / sin r = constant.",
+            "level": "Knowledge and understanding"
           },
           {
             "sees": "A coin at the bottom of a bowl seems to rise when water is poured in; a swimming pool looks shallower than it really is.",
             "concept": "Apparent depth (refraction)",
             "connects": "Refraction makes objects under water appear closer to the surface than their real depth. This is why a pool can be deeper than it looks, which matters for safety.",
             "ask": "Why should a child never judge pool depth by looking from the edge?",
-            "exam_link": "Apparent depth is less than real depth. Same cause as the bent straw."
+            "exam_link": "Apparent depth is less than real depth. Same cause as the bent straw.",
+            "level": "Application"
           },
           {
             "sees": "A magnifying glass held in sunlight burns a spot on paper; held close to text it enlarges the letters.",
             "concept": "Convex lens",
             "connects": "A convex lens bends parallel sun rays to meet at its principal focus, concentrating heat there. When an object is closer than the focus, the lens gives an upright, enlarged, virtual image.",
             "ask": "Where on the paper must the bright spot be sharpest, and why does paper burn there?",
-            "exam_link": "Convex lens: object inside F -> virtual, erect, enlarged (magnifying glass). Parallel rays converge at the principal focus."
+            "exam_link": "Convex lens: object inside F -> virtual, erect, enlarged (magnifying glass). Parallel rays converge at the principal focus.",
+            "level": "Application"
           },
           {
             "sees": "A spectacle prescription says something like -1.5 D.",
             "concept": "Power of a lens",
             "connects": "Power P = 1/f, with the focal length f in metres; the unit is the dioptre (D). A minus sign means a concave (diverging) lens and a plus sign a convex (converging) lens. -1.5 D means a concave lens with focal length of about 0.67 m (f = 1/-1.5).",
             "ask": "What kind of lens is +2 D, and what is its focal length?",
-            "exam_link": "Numericals: P = 1/f (f in metres). Convex lens: f and P positive; concave lens: f and P negative. Powers of lenses in contact add."
+            "exam_link": "Numericals: P = 1/f (f in metres). Convex lens: f and P positive; concave lens: f and P negative. Powers of lenses in contact add.",
+            "level": "Application"
           }
         ],
         "study_page": {
@@ -442,32 +449,38 @@
               {
                 "name": "Mirror formula",
                 "formula": "1/v + 1/u = 1/f",
-                "note": "f = R/2"
+                "note": "f = R/2",
+                "symbols": "v = image distance, u = object distance, f = focal length (all measured from the pole of the mirror, with signs)"
               },
               {
                 "name": "Lens formula",
                 "formula": "1/v - 1/u = 1/f",
-                "note": "Note the minus sign"
+                "note": "Note the minus sign",
+                "symbols": "v = image distance, u = object distance, f = focal length (all measured from the optical centre of the lens, with signs)"
               },
               {
                 "name": "Magnification (mirror)",
                 "formula": "m = h'/h = -v/u",
-                "note": ""
+                "note": "",
+                "symbols": "m = magnification (no unit), h' = height of the image, h = height of the object, v = image distance, u = object distance"
               },
               {
                 "name": "Magnification (lens)",
                 "formula": "m = h'/h = v/u",
-                "note": ""
+                "note": "",
+                "symbols": "m = magnification (no unit), h' = height of the image, h = height of the object, v = image distance, u = object distance"
               },
               {
                 "name": "Power of a lens",
                 "formula": "P = 1/f (f in metres)",
-                "note": "Unit: dioptre (D). Convex +, concave -"
+                "note": "Unit: dioptre (D). Convex +, concave -",
+                "symbols": "P = power of the lens (dioptre, D), f = focal length (in metres)"
               },
               {
                 "name": "Refractive index",
                 "formula": "n = sin i / sin r = c / v",
-                "note": "c = speed of light in vacuum (3 x 10^8 m/s)"
+                "note": "c = speed of light in vacuum (3 x 10^8 m/s)",
+                "symbols": "n = refractive index (no unit), i = angle of incidence, r = angle of refraction, c = speed of light in vacuum, v = speed of light in the medium"
               }
             ],
             "examples": [
@@ -2677,47 +2690,56 @@
               {
                 "name": "Current",
                 "formula": "I = Q / t",
-                "note": "Unit: ampere (A)"
+                "note": "Unit: ampere (A)",
+                "symbols": "I = current (ampere, A), Q = charge (coulomb, C), t = time (second, s)"
               },
               {
                 "name": "Potential difference",
                 "formula": "V = W / Q",
-                "note": "Unit: volt (V)"
+                "note": "Unit: volt (V)",
+                "symbols": "V = potential difference (volt, V), W = work done / energy (joule, J), Q = charge (coulomb, C)"
               },
               {
                 "name": "Ohm's law",
                 "formula": "V = I R",
-                "note": ""
+                "note": "",
+                "symbols": "V = potential difference (V), I = current (A), R = resistance (ohm)"
               },
               {
                 "name": "Resistance of a wire",
                 "formula": "R = rho l / A",
-                "note": "rho = resistivity of the material"
+                "note": "rho = resistivity of the material",
+                "symbols": "R = resistance (ohm), rho = resistivity of the material (ohm metre), l = length of the wire (m), A = area of cross-section (m squared)"
               },
               {
                 "name": "Series",
                 "formula": "R = R1 + R2 + R3",
-                "note": ""
+                "note": "",
+                "symbols": "R = total (equivalent) resistance; R1, R2, R3 = the individual resistances (all in ohm)"
               },
               {
                 "name": "Parallel",
                 "formula": "1/R = 1/R1 + 1/R2 + 1/R3",
-                "note": ""
+                "note": "",
+                "symbols": "R = total (equivalent) resistance; R1, R2, R3 = the individual resistances (all in ohm)"
               },
               {
                 "name": "Heating effect",
                 "formula": "H = I squared R t",
-                "note": "Joule's law; t in seconds"
+                "note": "Joule's law; t in seconds",
+                "symbols": "H = heat produced (joule, J), I = current (A), R = resistance (ohm), t = time (second, s)"
               },
               {
                 "name": "Power",
                 "formula": "P = VI = I squared R = V squared / R",
-                "note": "Unit: watt (W)"
+                "note": "Unit: watt (W)",
+                "symbols": "P = power (watt, W), V = potential difference (V), I = current (A), R = resistance (ohm)"
               },
               {
                 "name": "Energy",
                 "formula": "E = P x t",
-                "note": "1 kWh = 3.6 x 10^6 J"
+                "note": "1 kWh = 3.6 x 10^6 J",
+                "symbols": "E = electrical energy (joule, or kWh), P = power (watt, or kW), t = time (second, or hour)"
               }
             ],
             "examples": [
@@ -2811,49 +2833,56 @@
             "concept": "Electrical energy and the kilowatt-hour",
             "connects": "One unit is one kilowatt-hour (kWh): the energy used by a 1000 W appliance running for one hour. 1 kWh = 3.6 x 10^6 J. The bill charges for energy used, not for current or voltage.",
             "ask": "How many units does a 100 W bulb use in 10 hours?",
-            "exam_link": "E = P x t. 100 W = 0.1 kW, so 0.1 x 10 = 1 unit."
+            "exam_link": "E = P x t. 100 W = 0.1 kW, so 0.1 x 10 = 1 unit.",
+            "level": "Application"
           },
           {
             "sees": "A 2000 W geyser runs for half an hour every morning.",
             "concept": "Power and energy",
             "connects": "Energy = power x time = 2 kW x 0.5 h = 1 unit per day, about 30 units a month. At Rs 7 per unit that is about Rs 210 a month. Check the actual rate on your bill.",
             "ask": "What would the monthly cost be if it ran for one hour a day?",
-            "exam_link": "Cost = units x rate per unit."
+            "exam_link": "Cost = units x rate per unit.",
+            "level": "Application"
           },
           {
             "sees": "A phone charger label reads 5 V, 2 A.",
             "concept": "Power, P = VI",
             "connects": "Power = voltage x current = 5 V x 2 A = 10 W. Reading labels on appliances turns the formula into something you can check yourself.",
             "ask": "What power does a 12 V, 3 A adapter deliver?",
-            "exam_link": "P = VI; also P = I squared R and P = V squared / R."
+            "exam_link": "P = VI; also P = I squared R and P = V squared / R.",
+            "level": "Knowledge and understanding"
           },
           {
             "sees": "When one bulb in the house fuses, the others keep working. In a cheap string of decorative lights, one failure can switch off the whole string.",
             "concept": "Series and parallel circuits",
             "connects": "House wiring is in parallel: every appliance gets the full 220 V, has its own switch and works independently. In a series circuit there is only one path for the current, so a single break stops everything.",
             "ask": "Which of the two (series or parallel) is the decorative string, and why?",
-            "exam_link": "Series: same current, V = V1 + V2; parallel: same voltage, I = I1 + I2."
+            "exam_link": "Series: same current, V = V1 + V2; parallel: same voltage, I = I1 + I2.",
+            "level": "Analyse and evaluate"
           },
           {
             "sees": "An iron, toaster or kettle gets very hot; an old filament bulb glows.",
             "concept": "Heating effect of current",
             "connects": "Heat produced H = I squared R t. The heating coil is made of nichrome, which has high resistance and a high melting point, so it becomes hot without melting. A filament bulb's tungsten wire gets hot enough to glow.",
             "ask": "Why is nichrome used for heating coils and not copper?",
-            "exam_link": "H = I squared R t. Use for appliances, fuse and lamp questions."
+            "exam_link": "H = I squared R t. Use for appliances, fuse and lamp questions.",
+            "level": "Application"
           },
           {
             "sees": "The AC and geyser are connected with thick wires; a lamp uses thin wire. A very long, thin extension cord gets warm.",
             "concept": "Factors affecting resistance",
             "connects": "Resistance R = rho l / A: it rises with length and falls as the wire gets thicker. Heavy appliances draw a large current, so they need thick wire with low resistance; a thin wire would overheat and could cause a fire.",
             "ask": "Why is thick wire used for heavy appliances?",
-            "exam_link": "R = rho l / A. Double length: R doubles. Double area: R halves."
+            "exam_link": "R = rho l / A. Double length: R doubles. Double area: R halves.",
+            "level": "Analyse and evaluate"
           },
           {
             "sees": "An old fuse wire melts and the power goes off when there is a fault.",
             "concept": "Fuse",
             "connects": "A fuse is a short wire with a low melting point, connected in series. If the current goes above its rating, the wire heats, melts and breaks the circuit, protecting the appliances and wiring.",
             "ask": "Why is a fuse connected in series with the appliance?",
-            "exam_link": "A fuse works on the heating effect of current (H = I squared R t)."
+            "exam_link": "A fuse works on the heating effect of current (H = I squared R t).",
+            "level": "Knowledge and understanding"
           }
         ]
       },
@@ -4805,7 +4834,7 @@
             {
               "kind": "decision",
               "title": "Scattering: why is the sky blue (or red)?",
-              "caption": "Blue light has a shorter wavelength and is scattered far more by air molecules than red light.",
+              "caption": "Blue light has a shorter wavelength and is scattered far more by air molecules than red light. (The colour of the sun at sunrise and sunset is excluded from the 2026-27 syllabus.)",
               "question": "When and where are you looking?",
               "branches": [
                 {
@@ -4814,14 +4843,6 @@
                     "Sunlight travels a short path",
                     "Blue is scattered in all directions",
                     "The sky looks blue"
-                  ]
-                },
-                {
-                  "label": "Sunrise or sunset",
-                  "result": [
-                    "Sunlight travels a much longer path",
-                    "Most blue is scattered away",
-                    "Mainly red reaches the eye: the sun looks red"
                   ]
                 },
                 {
@@ -4855,22 +4876,26 @@
               {
                 "name": "Lens formula",
                 "formula": "1/v - 1/u = 1/f",
-                "note": ""
+                "note": "",
+                "symbols": "v = image distance, u = object distance, f = focal length (with signs, measured from the optical centre)"
               },
               {
                 "name": "Power of a lens",
                 "formula": "P = 1/f (f in metres)",
-                "note": "Unit: dioptre (D)"
+                "note": "Unit: dioptre (D)",
+                "symbols": "P = power of the lens (dioptre, D), f = focal length (in metres)"
               },
               {
                 "name": "Normal near point",
                 "formula": "25 cm",
-                "note": "Least distance of distinct vision"
+                "note": "Least distance of distinct vision",
+                "symbols": "Near point = nearest distance at which the eye sees clearly (25 cm for a normal eye)"
               },
               {
                 "name": "Normal far point",
                 "formula": "infinity",
-                "note": ""
+                "note": "",
+                "symbols": "Far point = farthest distance at which the eye sees clearly (infinity for a normal eye)"
               }
             ],
             "examples": [
@@ -4901,16 +4926,16 @@
                 "answer": "A convex lens of power +3 D (focal length about 33 cm)."
               },
               {
-                "problem": "Why does the sun look red at sunrise and sunset?",
+                "problem": "Why does the sky look blue during the day?",
                 "given": [
                   "This is a 'why' question - no calculation."
                 ],
                 "steps": [
-                  "At sunrise and sunset the sunlight travels a longer path through the atmosphere.",
-                  "Most of the blue light is scattered away by air molecules.",
-                  "Red is scattered the least, so mainly red light reaches our eyes."
+                  "Sunlight is white light made of all colours.",
+                  "Air molecules are very small and scatter short-wavelength blue light much more strongly than red.",
+                  "The scattered blue light reaches our eyes from every direction."
                 ],
-                "answer": "The sun appears red because blue is scattered away over the long path and red light reaches us."
+                "answer": "The sky looks blue because blue light is scattered most by air molecules and reaches our eyes from all directions."
               }
             ]
           },
@@ -4918,7 +4943,7 @@
             "VIBGYOR: violet bends the most, red the least. 'Red Rarely bends, Violet Very much.'",
             "Myopia = Minus (concave) lens. Hypermetropia = Plus (convex) lens.",
             "Myopia: image falls in FRONT of the retina. Hypermetropia: BEHIND it.",
-            "Blue scatters most, red least - that single fact explains the blue sky, red sunset and red danger signals.",
+            "Blue scatters most, red least - that single fact explains the blue sky and why danger signals are red.",
             "Stars twinkle (atmospheric refraction, they are point sources); planets do not (they are extended discs).",
             "The retina gets a real, inverted image - the brain turns it upright."
           ]
@@ -4929,56 +4954,58 @@
             "concept": "Myopia (short-sightedness)",
             "connects": "In myopia, light from distant objects focuses in front of the retina because the eyeball is slightly too long or the lens too curved. A concave lens spreads the rays a little so the image falls on the retina.",
             "ask": "Which lens does he need, concave or convex?",
-            "exam_link": "Myopia: far point nearer than infinity; corrected by a concave (negative-power) lens."
+            "exam_link": "Myopia: far point nearer than infinity; corrected by a concave (negative-power) lens.",
+            "level": "Knowledge and understanding"
           },
           {
             "sees": "Grandparents hold the newspaper at arm's length or put on reading glasses.",
             "concept": "Hypermetropia and presbyopia",
             "connects": "In hypermetropia, light from near objects focuses behind the retina, so a convex lens is used. With age the eye's lens becomes less flexible and the ciliary muscles weaken (presbyopia). Bifocal lenses help with both near and far vision.",
             "ask": "Why do many people need reading glasses after the age of 45?",
-            "exam_link": "Hypermetropia: near point farther than 25 cm; convex (positive-power) lens."
+            "exam_link": "Hypermetropia: near point farther than 25 cm; convex (positive-power) lens.",
+            "level": "Application"
           },
           {
             "sees": "A rainbow appears when the sun is behind you after rain.",
             "concept": "Dispersion",
             "connects": "Each raindrop works like a tiny prism. Sunlight refracts as it enters, reflects off the back of the drop, and refracts again as it leaves. Each colour bends by a different amount, violet most and red least, so white light splits into VIBGYOR.",
             "ask": "Why do you need the sun behind you to see a rainbow?",
-            "exam_link": "Dispersion + internal reflection in raindrops."
+            "exam_link": "Dispersion + internal reflection in raindrops.",
+            "level": "Knowledge and understanding"
           },
           {
             "sees": "A beam of sunlight through a window shows floating dust; car headlights in fog form a visible beam.",
             "concept": "Tyndall effect (scattering)",
             "connects": "Tiny particles of dust or water droplets scatter light sideways towards the eye. This makes the path of the beam visible.",
             "ask": "Why can't you see the beam of a torch in clean air?",
-            "exam_link": "Tyndall effect: scattering by colloidal particles."
+            "exam_link": "Tyndall effect: scattering by colloidal particles.",
+            "level": "Knowledge and understanding"
           },
           {
             "sees": "The sky is blue during the day. Astronauts above the atmosphere see a black sky.",
             "concept": "Scattering of light",
             "connects": "Air molecules are very small and scatter blue light much more strongly than red. The scattered blue light comes to the eyes from every direction, so the whole sky looks blue. With no atmosphere there is nothing to scatter the light.",
             "ask": "Why does the sky look dark to an astronaut?",
-            "exam_link": "Blue (short wavelength) scatters most; red scatters least."
-          },
-          {
-            "sees": "The sun looks red at sunrise and sunset; danger signals and brake lights are red.",
-            "concept": "Scattering of light",
-            "connects": "At sunrise and sunset, sunlight travels a much longer path through the air. Most blue light is scattered away, so mainly red reaches us. Red is scattered least, so it can be seen from far away, even in fog.",
-            "ask": "Why are danger signals red?",
-            "exam_link": "Longer path means more blue scattered away."
+            "exam_link": "Blue (short wavelength) scatters most; red scatters least.",
+            "level": "Application"
           },
           {
             "sees": "Stars twinkle, but planets shine steadily.",
             "concept": "Atmospheric refraction",
             "connects": "Starlight passes through layers of air whose temperature and density keep changing. The light bends by slightly different amounts, so the star's brightness and position flicker. Planets are much closer and look like small discs, so the flickering averages out.",
             "ask": "Why don't planets twinkle?",
-            "exam_link": "Stars are point sources; planets are extended sources."
+            "exam_link": "Stars are point sources; planets are extended sources.",
+            "syllabus_note": "Extra reading: atmospheric refraction is not named in the 2026-27 syllabus text, so it is unlikely to be asked.",
+            "level": "Analyse and evaluate"
           },
           {
             "sees": "The sun is visible about two minutes before it actually rises above the horizon.",
             "concept": "Atmospheric refraction",
             "connects": "The atmosphere bends sunlight over the horizon, so we see the sun before it has really risen and for about two minutes after it sets. This makes the day about four minutes longer.",
             "ask": "How much longer is the day because of this?",
-            "exam_link": "Advance sunrise and delayed sunset: atmospheric refraction."
+            "exam_link": "Advance sunrise and delayed sunset: atmospheric refraction.",
+            "syllabus_note": "Extra reading: atmospheric refraction is not named in the 2026-27 syllabus text, so it is unlikely to be asked.",
+            "level": "Application"
           }
         ]
       },
@@ -6136,7 +6163,7 @@
           "Remember why the earth wire and fuse are essential safety features, and why a fuse must be in the live wire, not the neutral wire."
         ],
         "study_page": {
-          "intro": "Three hand rules and three devices cover this chapter. The flowcharts show which rule to use, and how a motor and a generator are mirror images of each other.",
+          "intro": "Know the right-hand thumb rule, Fleming's left-hand rule, AC/DC and domestic circuits well - these are examined. Motor, electromagnetic induction and generator are in the syllabus for formative learning only (not in the year-end exam), so they are marked below.",
           "flowcharts": [
             {
               "kind": "chain",
@@ -6184,7 +6211,8 @@
                     "Forefinger = field, Thumb = motion, Middle finger = induced current"
                   ]
                 }
-              ]
+              ],
+              "syllabus_note": "In the 2026-27 syllabus Fleming's LEFT-hand rule is examined; the right-hand rule and generator belong to the formative-only topics."
             },
             {
               "kind": "chain",
@@ -6206,7 +6234,8 @@
                 {
                   "text": "So the forces keep pushing the coil the same way and it rotates continuously"
                 }
-              ]
+              ],
+              "syllabus_note": "Formative only in 2026-27: motor, electromagnetic induction and generator are not asked in the year-end examination (Fleming's right-hand rule belongs here too)."
             },
             {
               "kind": "chain",
@@ -6228,7 +6257,8 @@
                 {
                   "text": "The output is alternating current (AC) - it reverses direction every half rotation"
                 }
-              ]
+              ],
+              "syllabus_note": "Formative only in 2026-27: motor, electromagnetic induction and generator are not asked in the year-end examination (Fleming's right-hand rule belongs here too)."
             },
             {
               "kind": "decision",
@@ -6291,17 +6321,20 @@
               {
                 "name": "Current from power",
                 "formula": "I = P / V",
-                "note": "to choose a fuse rating"
+                "note": "to choose a fuse rating",
+                "symbols": "I = current (A), P = power of the appliance (W), V = supply voltage (V)"
               },
               {
                 "name": "AC reversals",
                 "formula": "2 x f per second",
-                "note": "India: f = 50 Hz, so 100 reversals per second"
+                "note": "India: f = 50 Hz, so 100 reversals per second",
+                "symbols": "f = frequency of the AC (hertz, Hz = cycles per second); reversals per second = 2 x f"
               },
               {
                 "name": "Motor effect",
                 "formula": "Force is greatest when the current is perpendicular to the field",
-                "note": ""
+                "note": "",
+                "symbols": "The force on a current-carrying conductor in a magnetic field is largest when the current is at right angles to the field"
               }
             ],
             "examples": [
@@ -6358,58 +6391,69 @@
             "concept": "Overloading and short circuit",
             "connects": "Overloading: too many appliances draw more current than the wiring can safely carry. Short circuit: the live and neutral wires touch, resistance drops almost to zero, and the current jumps hugely. The MCB senses the excess current and switches off the circuit.",
             "ask": "What is the difference between overloading and a short circuit?",
-            "exam_link": "Fuse/MCB: safety devices that break the circuit when the current is too large."
+            "exam_link": "Fuse/MCB: safety devices that break the circuit when the current is too large.",
+            "level": "Application"
           },
           {
             "sees": "A plug for an iron, fridge or washing machine has a third, thicker and longer pin.",
             "concept": "Earthing",
             "connects": "The third pin connects the appliance's metal body to the earth wire. If a live wire touches the body, current flows safely into the earth instead of through a person, which prevents a shock. The pin is longer so that it connects first.",
             "ask": "Why is the earth pin longer than the other two?",
-            "exam_link": "Earthing protects against electric shock."
+            "exam_link": "Earthing protects against electric shock.",
+            "level": "Knowledge and understanding"
           },
           {
             "sees": "A compass needle placed near a wire swings when the current is switched on, and swings the other way when the current is reversed.",
             "concept": "Magnetic field around a current",
             "connects": "A current flowing through a wire creates a magnetic field around it. The direction of the field depends on the direction of the current (right-hand thumb rule), so reversing the current reverses the needle.",
             "ask": "What happens to the needle if there is no current?",
-            "exam_link": "Oersted's experiment; right-hand thumb rule."
+            "exam_link": "Oersted's experiment; right-hand thumb rule.",
+            "level": "Knowledge and understanding"
           },
           {
             "sees": "An iron nail wound with insulated wire and connected to a cell picks up pins; switching off drops them.",
             "concept": "Solenoid and electromagnet",
             "connects": "A coil of wire carrying current (solenoid) behaves like a bar magnet. An iron core inside makes the field much stronger. The magnetism exists only while current flows, which is why electromagnets are used in electric bells and cranes that lift scrap.",
             "ask": "Name two ways to make the nail pick up more pins.",
-            "exam_link": "Field is stronger with more turns, more current and a soft iron core."
+            "exam_link": "Field is stronger with more turns, more current and a soft iron core.",
+            "level": "Application"
           },
           {
             "sees": "Wires in a switchboard are coloured red, black and green.",
             "concept": "Domestic circuits",
             "connects": "Red (or brown) is the live wire, black (or blue) the neutral and green the earth. In India the supply is AC at 220 V and 50 Hz, meaning the current changes direction 100 times every second.",
             "ask": "Which colour is the earth wire, and what does it do?",
-            "exam_link": "Live = red, neutral = black, earth = green."
+            "exam_link": "Live = red, neutral = black, earth = green.",
+            "level": "Knowledge and understanding"
           },
           {
             "sees": "A phone battery and a wall socket both supply electricity.",
             "concept": "AC and DC",
             "connects": "A battery gives direct current (DC), which flows in one direction. The home supply is alternating current (AC), which can be sent over long distances with less energy loss. The phone charger converts AC to DC for the battery.",
             "ask": "Why does a phone charger need to convert the current?",
-            "exam_link": "AC reverses direction periodically; DC flows one way."
+            "exam_link": "AC reverses direction periodically; DC flows one way.",
+            "level": "Analyse and evaluate"
           },
           {
             "sees": "A ceiling fan or a mixer runs on electricity and spins.",
             "concept": "Electric motor",
             "connects": "A fan has a motor: a current-carrying coil in a magnetic field feels a force and rotates. The split-ring commutator reverses the current every half turn, so the coil keeps rotating the same way. Electrical energy becomes mechanical energy.",
             "ask": "Which hand rule gives the direction of the force on the coil?",
-            "exam_link": "Motor: Fleming's left-hand rule; electrical to mechanical energy."
+            "exam_link": "Motor: Fleming's left-hand rule; electrical to mechanical energy.",
+            "syllabus_note": "Formative only in 2026-27: motor, electromagnetic induction and generator are not asked in the year-end examination (Fleming's right-hand rule belongs here too).",
+            "level": "Application"
           },
           {
             "sees": "A bicycle dynamo lights the lamp when you pedal faster.",
             "concept": "Electric generator (electromagnetic induction)",
             "connects": "Turning the dynamo rotates a magnet near a coil. The changing magnetic field induces a current in the coil, which lights the lamp. The faster you pedal, the faster the field changes and the brighter the lamp.",
             "ask": "What energy change takes place in a dynamo?",
-            "exam_link": "Generator: mechanical to electrical energy; Fleming's right-hand rule."
+            "exam_link": "Generator: mechanical to electrical energy; Fleming's right-hand rule.",
+            "syllabus_note": "Formative only in 2026-27: motor, electromagnetic induction and generator are not asked in the year-end examination (Fleming's right-hand rule belongs here too).",
+            "level": "Application"
           }
-        ]
+        ],
+        "syllabus_note": "CBSE 2026-27: the Electric Motor, Electromagnetic Induction and Electric Generator parts are assessed formatively only (not in the year-end exam). The rest of the chapter is assessed."
       },
       "questions": [
         {
@@ -7656,7 +7700,8 @@
           "If asked why biogas is preferred over burning dung cakes directly, mention ALL of: renewable, smokeless, high calorific value, AND the manure by-product - board markers usually check for at least two of these.",
           "Remember biogas needs anaerobic (no air) conditions - a common wrong-answer trap is choosing 'presence of air' options.",
           "Don't confuse conventional (fossil fuel, generally non-renewable) with non-conventional (often renewable) sources - the terms refer to how established/traditional the source is, not directly to whether it's renewable, though most non-conventional sources happen to be renewable."
-        ]
+        ],
+        "syllabus_note": "Not listed in the CBSE 2026-27 Class 10 Science syllabus. Treat as extra reading unless your school says otherwise."
       },
       "questions": [
         {

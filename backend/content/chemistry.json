@@ -103,6 +103,319 @@
           "Practice balancing equations and writing the physical states (s, l, g, aq) - a common 2-mark skill question.",
           "Learn to identify the reaction type from a given equation - a frequent MCQ and 2-mark question type.",
           "Rusting requires both air (oxygen) and water/moisture - a classic 2-mark 'what conditions are needed' question."
+        ],
+        "study_page": {
+          "intro": "Most questions here ask you to do three things: classify a reaction, balance an equation, or explain an everyday change (rusting, rancidity, a hissing lump of quicklime). The flowcharts help you classify; the steps help you balance.",
+          "flowcharts": [
+            {
+              "kind": "decision",
+              "title": "Which type of reaction is it?",
+              "caption": "Look at what happens to the reactants and products.",
+              "question": "What happens in the reaction?",
+              "branches": [
+                {
+                  "label": "Two or more substances join to make ONE product (A + B gives AB)",
+                  "result": [
+                    "Combination reaction",
+                    "CaO + H2O gives Ca(OH)2",
+                    "C + O2 gives CO2"
+                  ]
+                },
+                {
+                  "label": "ONE substance breaks into two or more (AB gives A + B)",
+                  "result": [
+                    "Decomposition reaction (heat, light or electricity is needed)",
+                    "CaCO3 gives CaO + CO2 (on heating)",
+                    "2H2O gives 2H2 + O2 (electrolysis)"
+                  ]
+                },
+                {
+                  "label": "A more reactive element pushes out a less reactive one (A + BC gives AC + B)",
+                  "result": [
+                    "Displacement reaction",
+                    "Fe + CuSO4 gives FeSO4 + Cu"
+                  ]
+                },
+                {
+                  "label": "Two compounds swap partners (AB + CD gives AD + CB)",
+                  "result": [
+                    "Double displacement reaction",
+                    "If an insoluble solid forms, it is also a PRECIPITATION reaction",
+                    "Na2SO4 + BaCl2 gives BaSO4 (white ppt) + 2NaCl"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "decision",
+              "title": "Is heat given out or taken in?",
+              "caption": "Look for the word 'heat' on either side, or for a rise or fall in temperature.",
+              "question": "What happens to the heat?",
+              "branches": [
+                {
+                  "label": "Heat is RELEASED",
+                  "result": [
+                    "Exothermic reaction",
+                    "Examples: burning of fuels, respiration, quicklime + water, neutralisation"
+                  ]
+                },
+                {
+                  "label": "Heat is ABSORBED",
+                  "result": [
+                    "Endothermic reaction",
+                    "Examples: thermal decomposition of limestone, photosynthesis (energy from sunlight)"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "decision",
+              "title": "Oxidation or reduction?",
+              "caption": "In a redox reaction both happen together.",
+              "question": "What happens to the substance?",
+              "branches": [
+                {
+                  "label": "Gains oxygen or loses hydrogen",
+                  "result": [
+                    "It is OXIDISED"
+                  ]
+                },
+                {
+                  "label": "Loses oxygen or gains hydrogen",
+                  "result": [
+                    "It is REDUCED"
+                  ]
+                },
+                {
+                  "label": "Example: CuO + H2 gives Cu + H2O",
+                  "result": [
+                    "CuO loses oxygen: reduced",
+                    "H2 gains oxygen: oxidised",
+                    "A redox reaction"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "chain",
+              "title": "Steps to balance a chemical equation (hit and trial)",
+              "caption": "The same number of atoms of each element must be on both sides (law of conservation of mass).",
+              "steps": [
+                {
+                  "text": "Write the skeleton equation with correct formulas of all reactants and products"
+                },
+                {
+                  "text": "Count the atoms of each element on both sides"
+                },
+                {
+                  "text": "Start with the element that appears in the fewest compounds, or the most complex formula"
+                },
+                {
+                  "text": "Balance it by changing the COEFFICIENT (the number in front); never change a subscript"
+                },
+                {
+                  "text": "Balance oxygen and hydrogen last"
+                },
+                {
+                  "text": "Recount every element, then add state symbols: (s), (l), (g), (aq)"
+                }
+              ]
+            },
+            {
+              "kind": "chain",
+              "title": "Rancidity",
+              "caption": "Why oily snacks smell and taste bad when left open.",
+              "steps": [
+                {
+                  "text": "Fats and oils are exposed to air"
+                },
+                {
+                  "text": "They are slowly oxidised by oxygen"
+                },
+                {
+                  "text": "New compounds form that smell and taste bad"
+                },
+                {
+                  "text": "Prevention: airtight containers, nitrogen flushing, refrigeration, antioxidants"
+                }
+              ]
+            }
+          ],
+          "word_problems": {
+            "title": "How to balance an equation and classify a reaction",
+            "steps": [
+              "Write the skeleton equation. Check that the formulas are right (use valencies); you must not change a formula to balance it.",
+              "Make a small table of atoms: left side and right side for each element.",
+              "Pick the most complex molecule and start by balancing the elements in it. Change only the coefficients.",
+              "Balance elements that appear alone (like O2 or H2) last, because changing them does not disturb the others.",
+              "Recount every element. Both sides must match. Add state symbols if the question asks.",
+              "To classify, look at the pattern: A + B gives AB (combination), AB gives A + B (decomposition), A + BC gives AC + B (displacement), AB + CD gives AD + CB (double displacement). Then say whether heat is given out (exothermic) or taken in.",
+              "For 'observation' questions, name the evidence (colour change, gas, precipitate, temperature change) and then name the reaction."
+            ],
+            "formulas": [
+              {
+                "name": "Combination (quicklime and water)",
+                "formula": "CaO + H2O gives Ca(OH)2 + heat",
+                "symbols": "CaO = calcium oxide (quicklime); H2O = water; Ca(OH)2 = calcium hydroxide (slaked lime)",
+                "note": ""
+              },
+              {
+                "name": "Decomposition (limestone)",
+                "formula": "CaCO3 gives CaO + CO2",
+                "symbols": "CaCO3 = calcium carbonate (limestone); CaO = calcium oxide; CO2 = carbon dioxide",
+                "note": ""
+              },
+              {
+                "name": "Displacement",
+                "formula": "Fe + CuSO4 gives FeSO4 + Cu",
+                "symbols": "Fe = iron; CuSO4 = copper sulphate (blue); FeSO4 = iron sulphate (green); Cu = copper (brown deposit)",
+                "note": ""
+              },
+              {
+                "name": "Double displacement",
+                "formula": "Na2SO4 + BaCl2 gives BaSO4 + 2NaCl",
+                "symbols": "BaSO4 = barium sulphate (white insoluble precipitate); NaCl = sodium chloride",
+                "note": ""
+              },
+              {
+                "name": "Respiration",
+                "formula": "C6H12O6 + 6O2 gives 6CO2 + 6H2O + energy",
+                "symbols": "C6H12O6 = glucose; O2 = oxygen; CO2 = carbon dioxide; H2O = water",
+                "note": ""
+              },
+              {
+                "name": "State symbols",
+                "formula": "(s) (l) (g) (aq)",
+                "symbols": "(s) = solid; (l) = liquid; (g) = gas; (aq) = dissolved in water",
+                "note": ""
+              }
+            ],
+            "examples": [
+              {
+                "problem": "Balance: Fe + H2O gives Fe3O4 + H2",
+                "given": [
+                  "Skeleton equation: Fe + H2O gives Fe3O4 + H2"
+                ],
+                "steps": [
+                  "Fe3O4 is the most complex, so start with it: 3 Fe on the right, so write 3Fe on the left.",
+                  "Oxygen: Fe3O4 has 4 O, so write 4H2O on the left (4 O on each side).",
+                  "Hydrogen: 4H2O has 8 H, so write 4H2 on the right (8 H).",
+                  "Recount: Fe 3 = 3, O 4 = 4, H 8 = 8."
+                ],
+                "answer": "3Fe + 4H2O gives Fe3O4 + 4H2"
+              },
+              {
+                "problem": "Balance: Al + O2 gives Al2O3",
+                "given": [
+                  "Skeleton equation: Al + O2 gives Al2O3"
+                ],
+                "steps": [
+                  "Oxygen is 2 on the left and 3 on the right; the lowest common multiple is 6, so use 3O2 and 2Al2O3.",
+                  "Now Al: 2 x 2 = 4 on the right, so write 4Al on the left.",
+                  "Recount: Al 4 = 4, O 6 = 6."
+                ],
+                "answer": "4Al + 3O2 gives 2Al2O3"
+              },
+              {
+                "problem": "Classify: Zn + CuSO4 gives ZnSO4 + Cu. What does the reaction tell you about zinc and copper?",
+                "given": [
+                  "Zinc plate dipped in blue copper sulphate solution"
+                ],
+                "steps": [
+                  "The pattern is A + BC gives AC + B, so it is a displacement reaction.",
+                  "Zinc has pushed copper out of its compound."
+                ],
+                "answer": "Displacement reaction. Zinc is more reactive than copper. (The blue colour fades and a reddish-brown copper deposit forms.)"
+              },
+              {
+                "problem": "In ZnO + C gives Zn + CO, name the substance oxidised and the substance reduced.",
+                "given": [
+                  "ZnO loses oxygen; carbon gains oxygen"
+                ],
+                "steps": [
+                  "Loss of oxygen is reduction: ZnO is reduced to Zn.",
+                  "Gain of oxygen is oxidation: C is oxidised to CO."
+                ],
+                "answer": "ZnO is reduced; C is oxidised. It is a redox reaction."
+              },
+              {
+                "problem": "A painter adds quicklime to water and the bucket becomes hot and the water hisses. Name the type of reaction and write the equation.",
+                "given": [
+                  "Quicklime (CaO) + water: heat is released"
+                ],
+                "steps": [
+                  "Two substances join to make one product: combination.",
+                  "Heat is given out: exothermic."
+                ],
+                "answer": "Combination and exothermic: CaO + H2O gives Ca(OH)2 + heat."
+              }
+            ]
+          },
+          "remember": [
+            "Never change a subscript to balance; only change the coefficient in front.",
+            "Oxidation = gain of oxygen (or loss of hydrogen). Reduction = loss of oxygen (or gain of hydrogen).",
+            "A reaction can be more than one type: quicklime + water is combination AND exothermic.",
+            "Precipitation = a double displacement reaction where an insoluble solid forms.",
+            "Corrosion of iron needs oxygen and moisture; rancidity is oxidation of fats and oils."
+          ]
+        },
+        "everyday_examples": [
+          {
+            "sees": "A chips packet is puffed up with gas. An open packet left for a few days tastes stale and smells odd.",
+            "concept": "Rancidity (oxidation)",
+            "connects": "The oil in chips slowly reacts with oxygen in air. This oxidation forms new compounds that taste and smell bad. Makers fill packets with nitrogen, an unreactive gas, which pushes out the oxygen, so oxidation slows down. Airtight boxes work for the same reason.",
+            "ask": "Why is nitrogen used in a chips packet?",
+            "exam_link": "Rancidity: oxidation of fats and oils; prevented by nitrogen, airtight containers, antioxidants.",
+            "level": "Application"
+          },
+          {
+            "sees": "An iron gate or cycle chain left in the rain gets reddish-brown flakes. Silver anklets turn black. Old copper vessels get a green coating.",
+            "concept": "Corrosion",
+            "connects": "Iron reacts with oxygen and moisture to form rust (hydrated iron oxide), which flakes off and exposes fresh iron. Silver reacts with sulphur compounds to form black silver sulphide. Copper reacts with moist carbon dioxide to form green basic copper carbonate.",
+            "ask": "Which two things must be present for iron to rust?",
+            "exam_link": "Corrosion of iron, silver and copper; prevention methods.",
+            "level": "Knowledge and understanding"
+          },
+          {
+            "sees": "The painter drops lumps of chuna (quicklime) into a bucket of water. It hisses, bubbles and the bucket gets hot.",
+            "concept": "Combination reaction, exothermic",
+            "connects": "Calcium oxide + water forms calcium hydroxide: CaO + H2O gives Ca(OH)2 + heat. Two substances join to make one product, so it is a combination reaction. Heat is given out, so it is also exothermic.",
+            "ask": "Why is this both a combination and an exothermic reaction?",
+            "exam_link": "CaO + H2O gives Ca(OH)2 + heat.",
+            "level": "Application"
+          },
+          {
+            "sees": "A freshly whitewashed wall turns hard and slightly shiny after two or three days.",
+            "concept": "Reaction of slaked lime with carbon dioxide",
+            "connects": "The calcium hydroxide on the wall slowly absorbs carbon dioxide from air: Ca(OH)2 + CO2 gives CaCO3 + H2O. The thin layer of calcium carbonate formed is what gives the shine.",
+            "ask": "What substance makes the whitewashed wall shiny?",
+            "exam_link": "Ca(OH)2 + CO2 gives CaCO3 + H2O.",
+            "level": "Knowledge and understanding"
+          },
+          {
+            "sees": "Limestone is heated in a kiln to make the quicklime the painter uses.",
+            "concept": "Thermal decomposition",
+            "connects": "Heat breaks one substance into two: CaCO3 gives CaO + CO2. One reactant giving two or more products is decomposition, and heat is the trigger. It is the reverse of the combination reaction above.",
+            "ask": "What type of decomposition is this, and why?",
+            "exam_link": "CaCO3 gives CaO + CO2 on heating (endothermic).",
+            "level": "Knowledge and understanding"
+          },
+          {
+            "sees": "An iron nail left in blue copper sulphate (neela thotha) solution gets a brown coating, and the blue solution turns greenish.",
+            "concept": "Displacement reaction",
+            "connects": "Iron is more reactive than copper, so it pushes copper out of its compound: Fe + CuSO4 gives FeSO4 + Cu. The brown coating is copper metal, and the green colour is iron sulphate. A more reactive metal always displaces a less reactive one.",
+            "ask": "Which is more reactive, iron or copper, and how do you know?",
+            "exam_link": "Fe + CuSO4 gives FeSO4 + Cu; reactivity series.",
+            "level": "Analyse and evaluate"
+          },
+          {
+            "sees": "Eating food gives energy to play and study.",
+            "concept": "Respiration is exothermic",
+            "connects": "Glucose from food combines with oxygen in the cells to give carbon dioxide, water and energy. Because energy is released, respiration is an exothermic reaction, the same idea as burning, but slow and controlled.",
+            "ask": "Why is respiration called an exothermic reaction?",
+            "exam_link": "C6H12O6 + 6O2 gives 6CO2 + 6H2O + energy.",
+            "level": "Application"
+          }
         ]
       },
       "questions": [
@@ -1428,6 +1741,367 @@
           "Learn the standard test for hydrogen gas (burning matchstick, pop sound) and for carbon dioxide gas (turns lime water milky) - common in 2-mark practical-based questions.",
           "Be able to explain everyday uses of neutralisation (antacids, soil treatment) - a recurring 3-mark question.",
           "Memorise the formulas and common/chemical names of baking soda, washing soda, and Plaster of Paris."
+        ],
+        "study_page": {
+          "intro": "Acid-base questions are about patterns: what colour an indicator turns, what an acid gives with a metal or carbonate, and which salt is used for what. Learn the patterns once and you can answer any new example.",
+          "flowcharts": [
+            {
+              "kind": "decision",
+              "title": "What does the pH tell you?",
+              "caption": "The pH scale runs from 0 to 14. It measures how much hydrogen ion (H+) is present.",
+              "question": "What is the pH of the solution?",
+              "branches": [
+                {
+                  "label": "Less than 7",
+                  "result": [
+                    "Acidic",
+                    "Lower pH = stronger acid",
+                    "Examples: lemon juice, vinegar, stomach acid (very low)"
+                  ]
+                },
+                {
+                  "label": "Exactly 7",
+                  "result": [
+                    "Neutral",
+                    "Pure water"
+                  ]
+                },
+                {
+                  "label": "More than 7",
+                  "result": [
+                    "Basic (alkaline)",
+                    "Higher pH = stronger base",
+                    "Examples: baking soda solution, soap, sodium hydroxide (about 14)"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "decision",
+              "title": "What colour does the indicator show?",
+              "caption": "Indicators change colour in acids and bases.",
+              "question": "Which indicator are you using?",
+              "branches": [
+                {
+                  "label": "Litmus",
+                  "result": [
+                    "Acid turns BLUE litmus RED",
+                    "Base turns RED litmus BLUE"
+                  ]
+                },
+                {
+                  "label": "Phenolphthalein",
+                  "result": [
+                    "Colourless in acid",
+                    "Pink in base"
+                  ]
+                },
+                {
+                  "label": "Methyl orange",
+                  "result": [
+                    "Red in acid",
+                    "Yellow in base"
+                  ]
+                },
+                {
+                  "label": "Turmeric (natural)",
+                  "result": [
+                    "Stays yellow in acid",
+                    "Turns reddish-brown in base (soap on a haldi stain)"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "decision",
+              "title": "What do acids and bases give?",
+              "caption": "Learn these five patterns - they cover most equations.",
+              "question": "Which reactants?",
+              "branches": [
+                {
+                  "label": "Acid + metal",
+                  "result": [
+                    "Salt + hydrogen gas",
+                    "The gas burns with a pop sound",
+                    "Zn + 2HCl gives ZnCl2 + H2"
+                  ]
+                },
+                {
+                  "label": "Acid + metal carbonate or hydrogencarbonate",
+                  "result": [
+                    "Salt + water + carbon dioxide",
+                    "CO2 turns lime water milky",
+                    "Na2CO3 + 2HCl gives 2NaCl + H2O + CO2"
+                  ]
+                },
+                {
+                  "label": "Acid + base (neutralisation)",
+                  "result": [
+                    "Salt + water",
+                    "HCl + NaOH gives NaCl + H2O"
+                  ]
+                },
+                {
+                  "label": "Metal oxide + acid",
+                  "result": [
+                    "Salt + water (metal oxides are basic)"
+                  ]
+                },
+                {
+                  "label": "Non-metal oxide + base",
+                  "result": [
+                    "Salt + water (non-metal oxides are acidic)",
+                    "CO2 + Ca(OH)2 gives CaCO3 + H2O"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "decision",
+              "title": "Important salts: what are they made from and used for?",
+              "caption": "Know the name, formula, source and one or two uses for each.",
+              "question": "Which compound?",
+              "branches": [
+                {
+                  "label": "Sodium hydroxide (NaOH)",
+                  "result": [
+                    "Made by passing electricity through brine (chlor-alkali process), giving NaOH, Cl2 and H2",
+                    "Uses: soaps, detergents, paper"
+                  ]
+                },
+                {
+                  "label": "Bleaching powder (CaOCl2)",
+                  "result": [
+                    "Made by passing chlorine over dry slaked lime",
+                    "Uses: bleaching, disinfecting drinking water"
+                  ]
+                },
+                {
+                  "label": "Baking soda (NaHCO3)",
+                  "result": [
+                    "Made from NaCl + H2O + CO2 + NH3",
+                    "Uses: antacid, baking, soda-acid fire extinguishers"
+                  ]
+                },
+                {
+                  "label": "Washing soda (Na2CO3.10H2O)",
+                  "result": [
+                    "Made by heating baking soda, then recrystallising Na2CO3",
+                    "Uses: glass, soap, paper, removing hardness of water"
+                  ]
+                },
+                {
+                  "label": "Plaster of Paris (CaSO4.1/2 H2O)",
+                  "result": [
+                    "Made by heating gypsum (CaSO4.2H2O) at 373 K",
+                    "Uses: plaster for fractures, toys, smoothing surfaces. Sets to gypsum with water."
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "chain",
+              "title": "What happens in neutralisation",
+              "caption": "Used by antacids, ant-sting treatment and farmers adding lime.",
+              "steps": [
+                {
+                  "text": "An acid releases H+ ions"
+                },
+                {
+                  "text": "A base releases OH- ions"
+                },
+                {
+                  "text": "H+ and OH- join to form water"
+                },
+                {
+                  "text": "The remaining ions form a salt"
+                },
+                {
+                  "text": "Result: acid + base gives salt + water"
+                }
+              ]
+            }
+          ],
+          "word_problems": {
+            "title": "How to complete and write equations in this chapter",
+            "steps": [
+              "Name the type of substances: acid (HCl, H2SO4, CH3COOH), base (NaOH, Ca(OH)2), metal, metal carbonate, or oxide.",
+              "Use the pattern: acid + metal gives salt + H2; acid + carbonate gives salt + H2O + CO2; acid + base gives salt + H2O.",
+              "Find the formula of the salt: the metal comes from the base, the non-metal part from the acid. Use the criss-cross method for the charges.",
+              "Balance the equation (change only coefficients) and recount every element.",
+              "For pH questions: below 7 acidic, 7 neutral, above 7 basic; the further from 7, the stronger.",
+              "For 'why' or case-based questions: name the substance, say whether it is acidic or basic, and explain what neutralisation or reaction removes the problem."
+            ],
+            "formulas": [
+              {
+                "name": "Neutralisation",
+                "formula": "Acid + Base gives Salt + Water",
+                "symbols": "Acid releases H+ ions; base releases OH- ions; the salt is made of the other ions",
+                "note": ""
+              },
+              {
+                "name": "pH scale",
+                "formula": "pH 0 to 14",
+                "symbols": "pH = a number showing how acidic or basic a solution is: below 7 acidic, 7 neutral, above 7 basic",
+                "note": ""
+              },
+              {
+                "name": "Acid + metal",
+                "formula": "Metal + Acid gives Salt + H2",
+                "symbols": "H2 = hydrogen gas",
+                "note": ""
+              },
+              {
+                "name": "Acid + carbonate",
+                "formula": "Na2CO3 + 2HCl gives 2NaCl + H2O + CO2",
+                "symbols": "Na2CO3 = sodium carbonate; HCl = hydrochloric acid; NaCl = common salt",
+                "note": ""
+              },
+              {
+                "name": "Plaster of Paris setting",
+                "formula": "CaSO4.1/2 H2O + 1 1/2 H2O gives CaSO4.2H2O",
+                "symbols": "CaSO4.1/2 H2O = plaster of Paris; CaSO4.2H2O = gypsum",
+                "note": ""
+              },
+              {
+                "name": "Baking soda on heating",
+                "formula": "2NaHCO3 gives Na2CO3 + H2O + CO2",
+                "symbols": "NaHCO3 = sodium hydrogencarbonate (baking soda)",
+                "note": ""
+              }
+            ],
+            "examples": [
+              {
+                "problem": "Complete and balance: Na2CO3 + HCl gives ...",
+                "given": [
+                  "Reactants: sodium carbonate and hydrochloric acid"
+                ],
+                "steps": [
+                  "Acid + carbonate gives salt + water + carbon dioxide.",
+                  "Salt: Na from the carbonate, Cl from the acid: NaCl.",
+                  "Skeleton: Na2CO3 + HCl gives NaCl + H2O + CO2. Balance Na: 2NaCl. Then Cl: 2HCl."
+                ],
+                "answer": "Na2CO3 + 2HCl gives 2NaCl + H2O + CO2"
+              },
+              {
+                "problem": "A solution turns red litmus blue and has a pH of 10. What is its nature?",
+                "given": [
+                  "Red litmus turns blue; pH = 10"
+                ],
+                "steps": [
+                  "Red litmus turning blue shows a base.",
+                  "pH 10 is above 7, so it is basic."
+                ],
+                "answer": "The solution is basic (alkaline)."
+              },
+              {
+                "problem": "Tooth enamel starts dissolving below pH 5.5. After eating sweets the pH in the mouth falls to 5. What happens, and what helps?",
+                "given": [
+                  "Mouth pH = 5"
+                ],
+                "steps": [
+                  "5 is below 5.5, so the mouth is acidic enough to attack the enamel.",
+                  "Toothpaste is basic and neutralises the acid."
+                ],
+                "answer": "Enamel starts to decay. Brushing with a basic toothpaste neutralises the acid and protects the teeth."
+              },
+              {
+                "problem": "A student reacts zinc with dilute HCl. Name the gas and give a test for it.",
+                "given": [
+                  "Zn + dilute HCl"
+                ],
+                "steps": [
+                  "Metal + acid gives salt + hydrogen.",
+                  "Zn + 2HCl gives ZnCl2 + H2."
+                ],
+                "answer": "Hydrogen gas is released. It burns with a 'pop' sound when a burning matchstick is brought near."
+              },
+              {
+                "problem": "Why is baking soda used to treat an ant sting?",
+                "given": [
+                  "Ant sting contains methanoic (formic) acid; baking soda is mildly basic"
+                ],
+                "steps": [
+                  "Acid + base gives salt + water.",
+                  "Baking soda neutralises the acid."
+                ],
+                "answer": "Baking soda neutralises the methanoic acid, which relieves the pain."
+              }
+            ]
+          },
+          "remember": [
+            "Acid: pH below 7, turns blue litmus red. Base: pH above 7, turns red litmus blue.",
+            "Acid + metal gives salt + hydrogen. Acid + carbonate gives salt + water + carbon dioxide. Acid + base gives salt + water.",
+            "Baking soda = NaHCO3. Washing soda = Na2CO3.10H2O. Bleaching powder = CaOCl2. Plaster of Paris = CaSO4.1/2 H2O.",
+            "Gypsum is CaSO4.2H2O; heating it at 373 K gives plaster of Paris.",
+            "Chlor-alkali process gives three products: NaOH, chlorine and hydrogen."
+          ]
+        },
+        "everyday_examples": [
+          {
+            "sees": "After a spicy meal someone has a burning feeling and takes an antacid tablet or milk of magnesia.",
+            "concept": "Neutralisation",
+            "connects": "The stomach makes hydrochloric acid to digest food. Too much acid causes the burning. An antacid is a mild base (such as magnesium hydroxide). Acid + base gives salt + water, so the extra acid is cancelled out.",
+            "ask": "Why does an antacid relieve the burning feeling?",
+            "exam_link": "Acid + base gives salt + water.",
+            "level": "Application"
+          },
+          {
+            "sees": "Baking soda or Eno is added to dhokla or cake batter, and it becomes soft and fluffy.",
+            "concept": "Baking soda releases CO2",
+            "connects": "Baking soda is sodium hydrogencarbonate. On heating, or when mixed with an acid, it releases carbon dioxide gas. The gas forms bubbles that make the batter rise. Baking powder contains an acid along with soda so that the gas comes out without a bitter taste.",
+            "ask": "Which gas makes the batter rise?",
+            "exam_link": "2NaHCO3 gives Na2CO3 + H2O + CO2.",
+            "level": "Knowledge and understanding"
+          },
+          {
+            "sees": "The dentist says not to eat sweets at night without brushing.",
+            "concept": "pH and tooth decay",
+            "connects": "Bacteria in the mouth break down sugar left on teeth and produce acids. When the mouth pH falls below 5.5, tooth enamel starts to dissolve. Toothpaste is basic, so it neutralises the acid and protects the teeth.",
+            "ask": "Why is toothpaste basic?",
+            "exam_link": "pH below 5.5 causes decay; neutralisation by a base.",
+            "level": "Application"
+          },
+          {
+            "sees": "Curd, tamarind and pickles are kept in glass or ceramic jars, never brass or copper.",
+            "concept": "Acids react with metals",
+            "connects": "Acids react with many metals to form salts, and some of these are harmful to eat. They also spoil the taste. Glass and ceramic do not react with acids, so they are safe.",
+            "ask": "Why should curd not be kept in a brass vessel?",
+            "exam_link": "Acid + metal gives salt + hydrogen.",
+            "level": "Application"
+          },
+          {
+            "sees": "A turmeric (haldi) stain on a white shirt turns red when soap is applied, then yellow again after rinsing.",
+            "concept": "Indicators",
+            "connects": "Turmeric is a natural indicator. It stays yellow in acid and neutral liquids but turns reddish-brown in a base. Soap is basic, so the stain changes colour. Rinsing removes the soap and the yellow returns.",
+            "ask": "What does the colour change tell you about soap?",
+            "exam_link": "Natural indicators: turmeric, litmus, red cabbage, China rose.",
+            "level": "Analyse and evaluate"
+          },
+          {
+            "sees": "An ant or bee sting is treated by rubbing on a paste of baking soda.",
+            "concept": "Neutralisation",
+            "connects": "The sting injects methanoic (formic) acid, which causes the pain. Baking soda is a mild base, so it neutralises the acid and eases the pain.",
+            "ask": "Which acid is present in an ant sting?",
+            "exam_link": "Acid + base gives salt + water.",
+            "level": "Knowledge and understanding"
+          },
+          {
+            "sees": "A friend with a fractured arm gets a white plaster cast that sets hard.",
+            "concept": "Plaster of Paris",
+            "connects": "Plaster of Paris is calcium sulphate with half a molecule of water. When mixed with water it takes up more water and sets into hard gypsum. This setting is what holds the bone in place.",
+            "ask": "Why must plaster of Paris be stored in a moisture-proof container?",
+            "exam_link": "CaSO4.1/2 H2O + 1 1/2 H2O gives CaSO4.2H2O.",
+            "level": "Application"
+          },
+          {
+            "sees": "Farmers add lime to acidic soil. In hydroponics, the pH of the nutrient water is checked every day.",
+            "concept": "pH in everyday life",
+            "connects": "Plants grow well only in a narrow pH range. If soil is too acidic, lime (a base) raises the pH. In hydroponics there is no soil to buffer the change, so pH is measured and adjusted directly.",
+            "ask": "Why do farmers add lime to acidic soil?",
+            "exam_link": "Importance of pH in everyday life.",
+            "level": "Analyse and evaluate"
+          }
         ]
       },
       "questions": [
@@ -2826,6 +3500,331 @@
           "Be ready to write balanced equations for displacement reactions and reactions of metals with dilute acids - a very common source of questions.",
           "Learn the reactivity series order thoroughly, since many questions ask you to predict whether a reaction will occur.",
           "Distinguish clearly between roasting (used for sulphide ores) and calcination (used for carbonate ores) when explaining extraction of metals."
+        ],
+        "study_page": {
+          "intro": "This chapter is about reactivity. The reactivity series tells you which metal displaces which, how a metal is extracted, and how it behaves with air, water and acids. Learn the series in groups and most questions become routine.",
+          "flowcharts": [
+            {
+              "kind": "decision",
+              "title": "Reactivity series and extraction method",
+              "caption": "Learn the series in four groups: K Na Ca Mg Al | Zn Fe Pb | H | Cu Hg Ag Au (most reactive first). The more reactive the metal, the harder it is to get out of its ore.",
+              "question": "How reactive is the metal?",
+              "branches": [
+                {
+                  "label": "Very reactive: K, Na, Ca, Mg, Al",
+                  "result": [
+                    "Found only as compounds",
+                    "Extracted by ELECTROLYSIS of the molten compound",
+                    "Example: sodium from molten NaCl; aluminium from molten alumina"
+                  ]
+                },
+                {
+                  "label": "Middle: Zn, Fe, Pb, Cu",
+                  "result": [
+                    "Found as sulphides, carbonates or oxides",
+                    "Ore is first converted to oxide (roasting or calcination), then REDUCED with carbon",
+                    "Example: ZnO + C gives Zn + CO"
+                  ]
+                },
+                {
+                  "label": "Least reactive: Ag, Au (and Hg)",
+                  "result": [
+                    "Found free or easily obtained",
+                    "Mercury from cinnabar (HgS) by heating"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "chain",
+              "title": "From ore to pure metal",
+              "caption": "The sequence of steps in metallurgy.",
+              "steps": [
+                {
+                  "text": "Mining: the ore is dug out of the earth"
+                },
+                {
+                  "text": "Crushing and concentration: gangue (earthy impurities) is removed"
+                },
+                {
+                  "text": "Roasting (sulphide ores, in excess air) or calcination (carbonate ores, in limited air) to get the metal oxide"
+                },
+                {
+                  "text": "Reduction of the metal oxide to the metal (by carbon, or by electrolysis for very reactive metals)"
+                },
+                {
+                  "text": "Refining: electrolytic refining gives the pure metal (for example copper)"
+                }
+              ]
+            },
+            {
+              "kind": "decision",
+              "title": "Will a displacement reaction occur?",
+              "caption": "Compare the metal you ADD with the metal already in the SOLUTION.",
+              "question": "Is the added metal more reactive than the metal in the salt solution?",
+              "branches": [
+                {
+                  "label": "Yes",
+                  "result": [
+                    "Displacement happens",
+                    "Zn + CuSO4 gives ZnSO4 + Cu"
+                  ]
+                },
+                {
+                  "label": "No",
+                  "result": [
+                    "No reaction",
+                    "Cu + ZnSO4: no reaction (copper is less reactive than zinc)"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "chain",
+              "title": "Formation of an ionic compound (NaCl)",
+              "caption": "The metal gives electrons, the non-metal takes them.",
+              "steps": [
+                {
+                  "text": "Sodium atom (2, 8, 1) loses 1 electron and becomes Na+"
+                },
+                {
+                  "text": "Chlorine atom (2, 8, 7) gains 1 electron and becomes Cl-"
+                },
+                {
+                  "text": "Oppositely charged ions attract each other"
+                },
+                {
+                  "text": "A strong electrostatic force, the ionic bond, holds them: NaCl"
+                }
+              ]
+            },
+            {
+              "kind": "decision",
+              "title": "Properties of ionic compounds",
+              "caption": "Explain each property by the strong force between ions.",
+              "question": "What do you observe?",
+              "branches": [
+                {
+                  "label": "Physical state",
+                  "result": [
+                    "Solid, hard and brittle",
+                    "High melting and boiling points (strong force)"
+                  ]
+                },
+                {
+                  "label": "Solubility",
+                  "result": [
+                    "Soluble in water",
+                    "Insoluble in kerosene or petrol"
+                  ]
+                },
+                {
+                  "label": "Conduction of electricity",
+                  "result": [
+                    "Conduct in molten state and in solution (ions move)",
+                    "Do NOT conduct in the solid state (ions fixed)"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "decision",
+              "title": "Corrosion: how is rust prevented?",
+              "caption": "Rusting needs BOTH oxygen and water.",
+              "question": "Which method?",
+              "branches": [
+                {
+                  "label": "Painting, oiling or greasing",
+                  "result": [
+                    "Blocks air and moisture"
+                  ]
+                },
+                {
+                  "label": "Galvanising",
+                  "result": [
+                    "Coating iron with zinc",
+                    "Zinc protects even if the coating is scratched"
+                  ]
+                },
+                {
+                  "label": "Alloying",
+                  "result": [
+                    "Stainless steel: iron + chromium + nickel + carbon",
+                    "Does not rust"
+                  ]
+                }
+              ]
+            }
+          ],
+          "word_problems": {
+            "title": "How to solve reactivity, extraction and formula problems",
+            "steps": [
+              "Write the reactivity series in groups (K Na Ca Mg Al | Zn Fe Pb | H | Cu Hg Ag Au) before you start; the answer is usually a position in it.",
+              "For displacement: the metal you add must be MORE reactive than the metal in the salt solution. If not, write 'no reaction'.",
+              "For extraction: look up the group. Top group: electrolysis. Middle group: convert to oxide, reduce with carbon. Bottom group: heat or found free.",
+              "For formulas of ionic compounds: write the symbol and charge of each ion, then criss-cross the numbers (the charge of one becomes the subscript of the other) and simplify.",
+              "For 'why' questions, link the property to its cause (for example: ions are free to move in solution, so the solution conducts).",
+              "For metal + water/acid questions: metals above hydrogen displace hydrogen from dilute acids; metals below hydrogen do not."
+            ],
+            "formulas": [
+              {
+                "name": "Criss-cross rule",
+                "formula": "A(x+) and B(y-) give A_y B_x",
+                "symbols": "A = metal ion with charge x+; B = non-metal ion with charge y-; the subscripts are swapped (then simplified)",
+                "note": ""
+              },
+              {
+                "name": "Metal + oxygen",
+                "formula": "Metal + O2 gives Metal oxide",
+                "symbols": "O2 = oxygen from air; e.g. 4Al + 3O2 gives 2Al2O3",
+                "note": ""
+              },
+              {
+                "name": "Metal + acid",
+                "formula": "Metal + dilute acid gives Salt + H2",
+                "symbols": "Only metals above hydrogen in the series do this",
+                "note": ""
+              },
+              {
+                "name": "Displacement",
+                "formula": "A + BX gives AX + B",
+                "symbols": "A = more reactive metal; BX = salt of a less reactive metal B",
+                "note": ""
+              }
+            ],
+            "examples": [
+              {
+                "problem": "Write the formula of aluminium oxide.",
+                "given": [
+                  "Aluminium ion: Al3+; oxide ion: O2-"
+                ],
+                "steps": [
+                  "Write the ions: Al3+ and O2-.",
+                  "Criss-cross: Al gets 2 (from O's charge) and O gets 3 (from Al's charge).",
+                  "Al2O3 (cannot be simplified)."
+                ],
+                "answer": "Al2O3"
+              },
+              {
+                "problem": "Write the formula of magnesium chloride.",
+                "given": [
+                  "Magnesium ion: Mg2+; chloride ion: Cl-"
+                ],
+                "steps": [
+                  "Criss-cross: Mg gets 1 and Cl gets 2.",
+                  "Formula: MgCl2."
+                ],
+                "answer": "MgCl2"
+              },
+              {
+                "problem": "Will an iron nail displace zinc from zinc sulphate solution?",
+                "given": [
+                  "Fe and ZnSO4 solution"
+                ],
+                "steps": [
+                  "Compare reactivity: zinc is above iron in the series.",
+                  "Iron is less reactive than zinc, so it cannot push zinc out."
+                ],
+                "answer": "No reaction."
+              },
+              {
+                "problem": "Metal A reacts with dilute HCl to give hydrogen; metal B does not. Which is more reactive?",
+                "given": [
+                  "A releases H2 from acid; B does not"
+                ],
+                "steps": [
+                  "Metals above hydrogen displace it from acids.",
+                  "A is above hydrogen; B is below."
+                ],
+                "answer": "Metal A is more reactive than B."
+              },
+              {
+                "problem": "Name a method of extraction for (a) sodium, (b) iron, (c) mercury.",
+                "given": [
+                  "Position in the reactivity series"
+                ],
+                "steps": [
+                  "Sodium is very reactive: electrolysis of molten NaCl.",
+                  "Iron is in the middle: reduce its oxide with carbon.",
+                  "Mercury is low: heat its ore cinnabar (HgS)."
+                ],
+                "answer": "(a) Electrolysis, (b) reduction with carbon, (c) heating the ore."
+              }
+            ]
+          },
+          "remember": [
+            "Reactivity series (most reactive first): K, Na, Ca, Mg, Al, Zn, Fe, Pb, H, Cu, Hg, Ag, Au.",
+            "Only metals ABOVE hydrogen react with dilute acids to give hydrogen.",
+            "Roasting: sulphide ore in excess air. Calcination: carbonate ore in limited air.",
+            "Ionic compounds conduct only when molten or dissolved, never as solids.",
+            "Rusting needs oxygen AND water; galvanising = zinc coating."
+          ]
+        },
+        "everyday_examples": [
+          {
+            "sees": "Aluminium foil wraps chapatis; copper wires run inside the walls.",
+            "concept": "Malleability and ductility",
+            "connects": "Metals can be beaten into thin sheets without breaking (malleability), which is how foil is made. They can also be drawn into thin wires (ductility). Copper is chosen for wiring because it is both ductile and a very good conductor of electricity.",
+            "ask": "Why is copper used for electric wires?",
+            "exam_link": "Physical properties of metals: malleable, ductile, conduct heat and electricity.",
+            "level": "Knowledge and understanding"
+          },
+          {
+            "sees": "A pressure cooker or kadai has a plastic or wooden handle.",
+            "concept": "Metals conduct heat",
+            "connects": "Metals are good conductors of heat, so the body of the vessel heats food quickly. A metal handle would also get too hot to hold. Plastic and wood are poor conductors, so the handle stays cool.",
+            "ask": "Why is the handle not made of metal?",
+            "exam_link": "Metals are good conductors of heat and electricity.",
+            "level": "Application"
+          },
+          {
+            "sees": "Temple bells and school bells are made of metal, not wood.",
+            "concept": "Sonority",
+            "connects": "Metals produce a ringing sound when struck; this property is called sonority. Wood and other non-metals give only a dull thud.",
+            "ask": "What is the property of ringing sound called?",
+            "exam_link": "Sonorous: metals ring when struck.",
+            "level": "Knowledge and understanding"
+          },
+          {
+            "sees": "Gold jewellery is marked 22 carat, not 24 carat.",
+            "concept": "Alloys",
+            "connects": "24-carat gold is pure but very soft, so jewellery would bend and scratch. Mixing it with a little copper or silver makes an alloy, which is harder. 22 carat means 22 parts gold in 24. An alloy can have properties the pure metal lacks.",
+            "ask": "Why is pure gold not used for jewellery?",
+            "exam_link": "Alloy: homogeneous mixture of metals, harder and more useful.",
+            "level": "Application"
+          },
+          {
+            "sees": "Steel buckets and street poles are galvanised; gates are painted; the cycle chain is oiled.",
+            "concept": "Preventing corrosion",
+            "connects": "Rust needs both oxygen and water to reach the iron. Paint and oil block them. Galvanising coats iron with zinc; zinc reacts first and protects the iron even if the coating is scratched.",
+            "ask": "How does galvanising protect iron even after a scratch?",
+            "exam_link": "Prevention of rusting: painting, oiling, galvanising, alloying.",
+            "level": "Analyse and evaluate"
+          },
+          {
+            "sees": "Stainless steel vessels stay shiny for years.",
+            "concept": "Alloys",
+            "connects": "Stainless steel is iron mixed with chromium, nickel and a little carbon. This alloy does not rust and is harder than pure iron, which is why kitchens use it.",
+            "ask": "Which metals are mixed with iron to make stainless steel?",
+            "exam_link": "Alloys of iron: steel and stainless steel.",
+            "level": "Knowledge and understanding"
+          },
+          {
+            "sees": "Aluminium vessels do not rust even though aluminium is a reactive metal.",
+            "concept": "Protective oxide layer",
+            "connects": "Aluminium reacts with air to form a thin layer of aluminium oxide. This layer sticks firmly and stops further reaction. Anodised cookers have this layer made thicker on purpose.",
+            "ask": "Why does aluminium not corrode like iron?",
+            "exam_link": "Aluminium oxide is protective; iron oxide (rust) flakes off.",
+            "level": "Analyse and evaluate"
+          },
+          {
+            "sees": "Salt dissolves in water but not in kerosene. Touching a switch with wet hands is dangerous.",
+            "concept": "Properties of ionic compounds",
+            "connects": "Salt is an ionic compound: it dissolves in water but not in kerosene or petrol. Dissolved salts let water conduct electricity, because the ions move freely. That is why wet hands near switches can give a shock.",
+            "ask": "Why does salt solution conduct electricity but solid salt does not?",
+            "exam_link": "Ionic compounds conduct in solution and molten state.",
+            "level": "Analyse and evaluate"
+          }
         ]
       },
       "questions": [
@@ -4184,6 +5183,406 @@
           "Practice drawing electron dot (Lewis) structures for simple covalent molecules like methane, ethane, ethene, and ethyne - a common question type.",
           "Be ready to write and balance the combustion equation for common hydrocarbons, and to distinguish complete (blue flame) from incomplete (yellow, sooty flame) combustion.",
           "Remember the key test for ethanoic acid: brisk effervescence (CO2 gas) with sodium hydrogen carbonate - a frequently asked practical-based question."
+        ],
+        "study_page": {
+          "intro": "Carbon chapter questions follow a few rules: count carbon atoms to name a compound, add the right ending for the functional group, and recall one reaction for each type. The flowcharts turn those rules into a path you can follow.",
+          "flowcharts": [
+            {
+              "kind": "decision",
+              "title": "Which kind of hydrocarbon is it?",
+              "caption": "Check the bonds between carbon atoms.",
+              "question": "What bonds are there between carbon atoms?",
+              "branches": [
+                {
+                  "label": "Only single bonds",
+                  "result": [
+                    "Saturated: ALKANE",
+                    "General formula CnH2n+2",
+                    "Methane CH4, ethane C2H6, propane C3H8, butane C4H10"
+                  ]
+                },
+                {
+                  "label": "At least one double bond",
+                  "result": [
+                    "Unsaturated: ALKENE",
+                    "General formula CnH2n",
+                    "Ethene C2H4, propene C3H6"
+                  ]
+                },
+                {
+                  "label": "At least one triple bond",
+                  "result": [
+                    "Unsaturated: ALKYNE",
+                    "General formula CnH2n-2",
+                    "Ethyne C2H2, propyne C3H4"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "chain",
+              "title": "How to name a carbon compound (IUPAC)",
+              "caption": "Follow these steps in order.",
+              "steps": [
+                {
+                  "text": "Count the carbon atoms in the longest chain and pick the root: 1 meth, 2 eth, 3 prop, 4 but, 5 pent, 6 hex"
+                },
+                {
+                  "text": "Add 'ane' if all bonds are single, 'ene' for a double bond or 'yne' for a triple bond"
+                },
+                {
+                  "text": "Find the functional group and use its ending or prefix (see the next chart)"
+                },
+                {
+                  "text": "If the ending begins with a vowel (a, e, i, o, u), drop the final 'e' of the name (propane + ol becomes propanol)"
+                }
+              ]
+            },
+            {
+              "kind": "decision",
+              "title": "Functional groups and their names",
+              "caption": "A functional group decides the chemical behaviour and the ending.",
+              "question": "Which group is present?",
+              "branches": [
+                {
+                  "label": "Halogen (-Cl, -Br)",
+                  "result": [
+                    "Prefix chloro- or bromo-",
+                    "CH3Cl is chloromethane"
+                  ]
+                },
+                {
+                  "label": "Alcohol (-OH)",
+                  "result": [
+                    "Ending -ol",
+                    "CH3CH2OH is ethanol"
+                  ]
+                },
+                {
+                  "label": "Aldehyde (-CHO)",
+                  "result": [
+                    "Ending -al",
+                    "CH3CHO is ethanal"
+                  ]
+                },
+                {
+                  "label": "Ketone (>C=O inside the chain)",
+                  "result": [
+                    "Ending -one",
+                    "CH3COCH3 is propanone"
+                  ]
+                },
+                {
+                  "label": "Carboxylic acid (-COOH)",
+                  "result": [
+                    "Ending -oic acid",
+                    "CH3COOH is ethanoic acid"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "decision",
+              "title": "Chemical reactions of carbon compounds",
+              "caption": "Four types to know - each has one example.",
+              "question": "Which type of reaction?",
+              "branches": [
+                {
+                  "label": "Combustion",
+                  "result": [
+                    "Burns in oxygen to give CO2, water, heat and light",
+                    "CH4 + 2O2 gives CO2 + 2H2O + heat and light",
+                    "Incomplete burning (limited air) gives a yellow sooty flame"
+                  ]
+                },
+                {
+                  "label": "Oxidation",
+                  "result": [
+                    "Alcohol turns into carboxylic acid with an oxidising agent (alkaline KMnO4 or acidified K2Cr2O7)",
+                    "CH3CH2OH gives CH3COOH"
+                  ]
+                },
+                {
+                  "label": "Addition (unsaturated compounds)",
+                  "result": [
+                    "Hydrogen adds across the double bond in the presence of a nickel catalyst",
+                    "C2H4 + H2 gives C2H6",
+                    "Used to make vanaspati ghee from vegetable oil"
+                  ]
+                },
+                {
+                  "label": "Substitution (saturated compounds)",
+                  "result": [
+                    "One atom is replaced by another in sunlight",
+                    "CH4 + Cl2 gives CH3Cl + HCl"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "decision",
+              "title": "Ethanol and ethanoic acid",
+              "caption": "Only properties and uses are required.",
+              "question": "Which compound?",
+              "branches": [
+                {
+                  "label": "Ethanol (CH3CH2OH)",
+                  "result": [
+                    "Reacts with sodium to give hydrogen",
+                    "Heated with concentrated H2SO4 at 443 K gives ethene",
+                    "Uses: sanitisers, medicines, fuel blended into petrol"
+                  ]
+                },
+                {
+                  "label": "Ethanoic acid (CH3COOH)",
+                  "result": [
+                    "Reacts with sodium hydrogencarbonate to give CO2",
+                    "Reacts with ethanol to give a sweet-smelling ester (esterification)",
+                    "Vinegar is 5-8% ethanoic acid"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "chain",
+              "title": "How soap cleans",
+              "caption": "The structure of soap explains cleaning.",
+              "steps": [
+                {
+                  "text": "Soap is the sodium or potassium salt of a long-chain fatty acid"
+                },
+                {
+                  "text": "One end of the molecule is a water-loving ionic head; the other is an oil-loving hydrocarbon tail"
+                },
+                {
+                  "text": "The tails stick into an oily stain; the heads point to the water"
+                },
+                {
+                  "text": "Many soap molecules surround the stain and form a micelle"
+                },
+                {
+                  "text": "The micelle is rinsed away with water. In hard water, soap forms scum with calcium and magnesium salts; detergents do not"
+                }
+              ]
+            },
+            {
+              "kind": "chain",
+              "title": "Covalent bonds in carbon compounds",
+              "caption": "Why carbon forms millions of compounds.",
+              "steps": [
+                {
+                  "text": "Carbon has 4 valence electrons and cannot easily lose or gain 4"
+                },
+                {
+                  "text": "It SHARES electrons with other atoms (and with other carbon atoms)"
+                },
+                {
+                  "text": "Each shared pair is a covalent bond; carbon forms four bonds"
+                },
+                {
+                  "text": "So carbon makes long chains, branches and rings (catenation)"
+                },
+                {
+                  "text": "Covalent compounds usually have low melting and boiling points and do not conduct electricity"
+                }
+              ]
+            }
+          ],
+          "word_problems": {
+            "title": "How to name compounds and write formulas",
+            "steps": [
+              "Count the carbon atoms in the longest chain: that gives the root (meth, eth, prop, but, pent, hex).",
+              "Check the bonds between carbons: single bonds (ane), a double bond (ene) or a triple bond (yne).",
+              "Spot the functional group (-OH, -CHO, >C=O, -COOH, -Cl) and add its ending or prefix.",
+              "To find the molecular formula of a hydrocarbon, use the general formula for its family: alkane CnH2n+2, alkene CnH2n, alkyne CnH2n-2, with n = number of carbon atoms.",
+              "To draw a structure, give each carbon exactly four bonds, then fill the remaining positions with hydrogen.",
+              "For reactions, decide the type first: combustion, oxidation, addition (needs a double or triple bond and a catalyst) or substitution (saturated compounds, sunlight)."
+            ],
+            "formulas": [
+              {
+                "name": "Alkanes",
+                "formula": "CnH2n+2",
+                "symbols": "C = carbon; H = hydrogen; n = number of carbon atoms in the molecule",
+                "note": ""
+              },
+              {
+                "name": "Alkenes",
+                "formula": "CnH2n",
+                "symbols": "n = number of carbon atoms",
+                "note": ""
+              },
+              {
+                "name": "Alkynes",
+                "formula": "CnH2n-2",
+                "symbols": "n = number of carbon atoms",
+                "note": ""
+              },
+              {
+                "name": "Homologous series",
+                "formula": "difference between successive members = CH2",
+                "symbols": "CH2 = one carbon and two hydrogens (mass 14 u)",
+                "note": ""
+              },
+              {
+                "name": "Combustion of methane",
+                "formula": "CH4 + 2O2 gives CO2 + 2H2O + heat and light",
+                "symbols": "CH4 = methane; O2 = oxygen; CO2 = carbon dioxide",
+                "note": ""
+              },
+              {
+                "name": "Addition of hydrogen",
+                "formula": "C2H4 + H2 gives C2H6 (Ni catalyst)",
+                "symbols": "C2H4 = ethene; H2 = hydrogen; C2H6 = ethane; Ni = nickel catalyst",
+                "note": ""
+              },
+              {
+                "name": "Esterification",
+                "formula": "CH3COOH + C2H5OH gives CH3COOC2H5 + H2O",
+                "symbols": "CH3COOH = ethanoic acid; C2H5OH = ethanol; CH3COOC2H5 = ethyl ethanoate (ester)",
+                "note": ""
+              }
+            ],
+            "examples": [
+              {
+                "problem": "Write the molecular formula of the alkane with 6 carbon atoms.",
+                "given": [
+                  "n = 6"
+                ],
+                "steps": [
+                  "Alkane formula: CnH2n+2",
+                  "Hydrogen = 2 x 6 + 2 = 14",
+                  "Carbon = 6"
+                ],
+                "answer": "C6H14 (hexane)"
+              },
+              {
+                "problem": "Write the molecular formulas of the alkene with 4 carbons and the alkyne with 3 carbons.",
+                "given": [
+                  "Alkene n = 4; alkyne n = 3"
+                ],
+                "steps": [
+                  "Alkene CnH2n: 4 carbons give C4H8 (2 x 4 = 8 hydrogens).",
+                  "Alkyne CnH2n-2: 3 carbons give C3H4 (2 x 3 - 2 = 4 hydrogens)."
+                ],
+                "answer": "Alkene: C4H8 (butene). Alkyne: C3H4 (propyne)."
+              },
+              {
+                "problem": "Name CH3-CH2-CH2-OH.",
+                "given": [
+                  "3 carbons, single bonds, -OH group"
+                ],
+                "steps": [
+                  "Root: 3 carbons = prop",
+                  "All single bonds = propane",
+                  "-OH is an alcohol: drop the final 'e' and add 'ol'."
+                ],
+                "answer": "Propanol"
+              },
+              {
+                "problem": "Name CH3-CO-CH3.",
+                "given": [
+                  "3 carbons, a C=O group inside the chain"
+                ],
+                "steps": [
+                  "Root: prop; saturated: propane",
+                  "C=O inside the chain is a ketone: ending 'one'; drop the 'e'."
+                ],
+                "answer": "Propanone"
+              },
+              {
+                "problem": "Show that CH4, C2H6 and C3H8 are a homologous series.",
+                "given": [
+                  "CH4, C2H6, C3H8"
+                ],
+                "steps": [
+                  "Each follows CnH2n+2.",
+                  "Each member differs from the next by CH2 (14 u).",
+                  "They have similar chemical properties."
+                ],
+                "answer": "They belong to the alkane homologous series (general formula CnH2n+2)."
+              },
+              {
+                "problem": "Write the product when ethene reacts with hydrogen in the presence of nickel.",
+                "given": [
+                  "C2H4 + H2 with a nickel catalyst"
+                ],
+                "steps": [
+                  "Unsaturated compound + hydrogen: addition reaction.",
+                  "The double bond opens and each carbon gets one hydrogen."
+                ],
+                "answer": "C2H6 (ethane)"
+              },
+              {
+                "problem": "Write the chemical change when ethanol is oxidised.",
+                "given": [
+                  "Ethanol with alkaline KMnO4 or acidified K2Cr2O7"
+                ],
+                "steps": [
+                  "Alcohol gives a carboxylic acid on oxidation.",
+                  "CH3CH2OH + [O] gives CH3COOH + H2O."
+                ],
+                "answer": "Ethanoic acid is formed."
+              }
+            ]
+          },
+          "remember": [
+            "Alkane CnH2n+2 (single bonds), alkene CnH2n (double bond), alkyne CnH2n-2 (triple bond).",
+            "Root names: meth, eth, prop, but, pent, hex (1 to 6 carbons).",
+            "Addition reactions need a double or triple bond; substitution reactions are for saturated compounds.",
+            "Soap = salt of a fatty acid. Detergents do not form scum in hard water.",
+            "Graphite is soft and conducts electricity; diamond is the hardest and does not.",
+            "Covalent compounds: low melting and boiling points, poor conductors of electricity."
+          ]
+        },
+        "everyday_examples": [
+          {
+            "sees": "The gas stove usually burns blue. When the burner holes get clogged, the flame turns yellow and blackens vessels.",
+            "concept": "Complete and incomplete combustion",
+            "connects": "LPG is a saturated hydrocarbon. With enough oxygen it burns completely to carbon dioxide and water, giving a clean blue flame. Clogged holes cut the air supply, so some carbon is left unburnt. It glows yellow and settles as black soot on the vessel.",
+            "ask": "Why does the flame turn yellow when the holes get clogged?",
+            "exam_link": "Saturated hydrocarbons burn with a blue flame in enough air; unsaturated ones give a sooty flame.",
+            "level": "Application"
+          },
+          {
+            "sees": "Soap does not lather well in hard borewell water and leaves white scum; detergent still lathers.",
+            "concept": "Soaps, micelles and hard water",
+            "connects": "A soap molecule has one end that sticks to oil and one end that sticks to water. Many molecules surround an oily speck to form a micelle, which water can rinse away. Hard water has calcium and magnesium salts that react with soap to form insoluble scum, wasting soap. Detergents do not form scum.",
+            "ask": "Why does soap leave scum in hard water but detergent does not?",
+            "exam_link": "Micelle formation; soap vs detergent; hard water.",
+            "level": "Analyse and evaluate"
+          },
+          {
+            "sees": "Vinegar is used in pickles and salads.",
+            "concept": "Ethanoic acid (acetic acid)",
+            "connects": "Vinegar is 5-8% ethanoic acid in water. It contains the carboxylic acid group (-COOH), which makes it sour and acidic. Its acidity stops microbes from growing, so it works as a preservative.",
+            "ask": "Which functional group makes vinegar acidic?",
+            "exam_link": "Ethanoic acid: properties and uses.",
+            "level": "Knowledge and understanding"
+          },
+          {
+            "sees": "Hand sanitiser, cough syrups and petrol labelled E20 all contain alcohol.",
+            "concept": "Ethanol",
+            "connects": "Ethanol kills germs, so it is used in sanitisers and medicines. It also burns with a clean flame, which is why it is blended into petrol as fuel.",
+            "ask": "Give two uses of ethanol.",
+            "exam_link": "Ethanol: properties and uses.",
+            "level": "Knowledge and understanding"
+          },
+          {
+            "sees": "Vanaspati ghee is solid, though it is made from liquid vegetable oil.",
+            "concept": "Hydrogenation (addition reaction)",
+            "connects": "Vegetable oils are unsaturated: they have double bonds between carbon atoms. Adding hydrogen with a nickel catalyst opens the double bonds and makes saturated fat, which is solid. Adding atoms across a double bond is an addition reaction.",
+            "ask": "Why is nickel used in this reaction?",
+            "exam_link": "Addition reaction: unsaturated + H2 (Ni) gives saturated.",
+            "level": "Application"
+          },
+          {
+            "sees": "A pencil writes and smudges, while a diamond is the hardest known natural substance, yet both are pure carbon.",
+            "concept": "Allotropes of carbon",
+            "connects": "In graphite (pencil lead) carbon atoms form flat layers that slide over each other, so it is soft and leaves marks. In diamond each carbon is bonded to four others in a rigid 3-D network, so it is extremely hard. Same element, different arrangement.",
+            "ask": "Why are graphite and diamond so different if both are carbon?",
+            "exam_link": "Allotropes: diamond, graphite, fullerenes.",
+            "level": "Analyse and evaluate"
+          }
         ]
       },
       "questions": [
@@ -5251,6 +6650,524 @@
           "chapter_id": "carbon_compounds",
           "chapter_title": "Carbon and its Compounds",
           "subject": "chemistry"
+        }
+      ]
+    },
+    {
+      "id": "periodic_classification",
+      "title": "Periodic Classification of Elements",
+      "notes": {
+        "syllabus_note": "Formative assessment only (CBSE 2026-27): this topic is in the syllabus and the NCERT reading material, but it is NOT assessed in the year-end board exam. Learn it for your portfolio/periodic assessment.",
+        "overview": "Scientists searched for patterns to organise the known elements. Döbereiner grouped them in triads, Newlands proposed the Law of Octaves, and Mendeléev arranged them by atomic mass and chemical properties, even predicting undiscovered elements. Moseley showed that atomic number is more fundamental, which led to the Modern Periodic Table with 18 groups and 7 periods and clear trends in valency, atomic size and metallic character.",
+        "sections": [
+          {
+            "title": "1. Döbereiner's Triads",
+            "content": "In 1817 Döbereiner grouped elements with similar properties into triads. When the three elements are written in order of increasing atomic mass, the atomic mass of the middle element is roughly the average of the other two. Example: Li (6.9), Na (23.0), K (39.0). Only three triads could be identified (Li-Na-K, Ca-Sr-Ba, Cl-Br-I), so the system was not found useful.",
+            "keywords": [
+              "triad",
+              "Döbereiner",
+              "average of atomic masses"
+            ]
+          },
+          {
+            "title": "2. Newlands' Law of Octaves",
+            "content": "In 1866 Newlands arranged the known elements (hydrogen to thorium, 56 elements) by increasing atomic mass and found that every eighth element had properties similar to the first, like octaves in music. Limitations: it worked only up to calcium; it assumed only 56 elements existed; unlike elements were placed in the same slot (e.g. cobalt and nickel with fluorine, chlorine, bromine) and iron was placed far from cobalt and nickel.",
+            "keywords": [
+              "Law of Octaves",
+              "Newlands",
+              "eighth element"
+            ]
+          },
+          {
+            "title": "3. Mendeléev's Periodic Table",
+            "content": "Mendeléev arranged 63 known elements by increasing atomic mass and similarity of chemical properties, especially the formulae of their hydrides and oxides. Periodic Law: the properties of elements are a periodic function of their atomic masses. The table has vertical groups and horizontal periods; R stands for any element of the group (e.g. CH4 is RH4 and CO2 is RO2).",
+            "keywords": [
+              "Mendeléev",
+              "periodic law",
+              "atomic mass",
+              "groups",
+              "periods"
+            ]
+          },
+          {
+            "title": "4. Achievements and Limitations of Mendeléev's Table",
+            "content": "Achievements: he left gaps and predicted elements, naming them eka-boron, eka-aluminium and eka-silicon; these were later discovered as scandium, gallium and germanium. Noble gases fitted into a new group without disturbing the order. Limitations: no fixed position for hydrogen; isotopes (like Cl-35 and Cl-37) had no place; atomic mass does not increase regularly, so it was hard to predict how many elements lay between two elements.",
+            "keywords": [
+              "eka-aluminium",
+              "gallium",
+              "hydrogen",
+              "isotopes",
+              "limitations"
+            ]
+          },
+          {
+            "title": "5. The Modern Periodic Table",
+            "content": "In 1913 Moseley showed that atomic number (Z, the number of protons) is more fundamental than atomic mass. Modern Periodic Law: the properties of elements are a periodic function of their atomic number. The table has 18 groups (vertical columns) and 7 periods (horizontal rows). It resolves the cobalt-nickel anomaly, the placement of isotopes (same Z, same position) and the regular increase of Z by one.",
+            "keywords": [
+              "Moseley",
+              "atomic number",
+              "modern periodic law",
+              "18 groups",
+              "7 periods"
+            ]
+          },
+          {
+            "title": "6. Position of an Element: Groups and Periods",
+            "content": "Elements in a group have the same number of valence electrons (identical outer-shell configuration) but the number of shells increases down the group. Elements in a period have the same number of occupied shells and the valence electrons increase by one from left to right. Each period marks a new shell being filled; maximum electrons in a shell = 2n² (K 2, L 8, M 18, but the outermost shell holds only 8), so the first period has 2 elements and the second and third have 8 each. Hydrogen can be placed in group 1 or group 17, so its position is anomalous.",
+            "keywords": [
+              "valence electrons",
+              "shells",
+              "2n²",
+              "period",
+              "group"
+            ]
+          },
+          {
+            "title": "7. Trends in the Modern Periodic Table",
+            "content": "Valency is the number of valence electrons (or those needed to complete 8); it is the same down a group. Atomic size (atomic radius) decreases from left to right in a period because nuclear charge increases and pulls the electrons closer; it increases down a group because new shells are added. Metallic character decreases across a period and increases down a group because the tendency to lose electrons falls across a period and rises down a group. Non-metals (electronegative, tend to gain electrons) are at the top right. Metals form basic oxides and non-metals form acidic oxides. Metalloids (B, Si, Ge, As, Sb, Te, Po) lie along the zig-zag line.",
+            "keywords": [
+              "atomic size",
+              "metallic character",
+              "valency",
+              "nuclear charge",
+              "metalloids"
+            ]
+          }
+        ],
+        "key_terms": {
+          "Triad": "Group of three elements where the middle atomic mass is roughly the average of the other two.",
+          "Atomic number (Z)": "Number of protons in the nucleus; basis of the Modern Periodic Table.",
+          "Group": "A vertical column of elements with the same number of valence electrons.",
+          "Period": "A horizontal row of elements with the same number of occupied shells.",
+          "Valency": "Combining capacity of an element, determined by its valence electrons.",
+          "Atomic radius": "Distance from the nucleus to the outermost shell of an isolated atom (H = 37 pm).",
+          "Metalloid": "Element with properties of both metals and non-metals (B, Si, Ge, As, Sb, Te, Po)."
+        },
+        "important_facts": [
+          "Modern Periodic Law: properties are a periodic function of atomic number (Moseley, 1913).",
+          "18 groups and 7 periods in the Modern Periodic Table.",
+          "Across a period: atomic size decreases, metallic character decreases, valence electrons increase.",
+          "Down a group: atomic size increases, metallic character increases, valency is constant."
+        ],
+        "exam_tips": [
+          "Remember the order: Döbereiner (triads, 1817), Newlands (octaves, 1866), Mendeléev (atomic mass), Moseley (atomic number, 1913).",
+          "For trends always give the reason (nuclear charge across a period, extra shells down a group)."
+        ]
+      },
+      "questions": [
+        {
+          "id": "pc_mcq1",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Döbereiner",
+          "question": "Döbereiner's triads grouped elements so that the atomic mass of the middle element was roughly:",
+          "options": [
+            "the sum of the other two",
+            "the average of the other two",
+            "double the first",
+            "half of the last"
+          ],
+          "answer_index": 1,
+          "explanation": "In a triad the middle element's atomic mass is roughly the average of the other two, e.g. Na (23.0) between Li (6.9) and K (39.0)."
+        },
+        {
+          "id": "pc_mcq2",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Newlands",
+          "question": "According to Newlands' Law of Octaves, which element showed properties similar to the first?",
+          "options": [
+            "Third",
+            "Fifth",
+            "Eighth",
+            "Tenth"
+          ],
+          "answer_index": 2,
+          "explanation": "Every eighth element had properties similar to the first, like octaves in music."
+        },
+        {
+          "id": "pc_mcq3",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Modern periodic law",
+          "question": "The Modern Periodic Law states that properties of elements are a periodic function of their:",
+          "options": [
+            "atomic mass",
+            "atomic number",
+            "number of neutrons",
+            "density"
+          ],
+          "answer_index": 1,
+          "explanation": "Moseley (1913) showed atomic number is more fundamental; the law was modified accordingly."
+        },
+        {
+          "id": "pc_mcq4",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Mendeléev's predictions",
+          "question": "Eka-aluminium predicted by Mendeléev was later discovered as:",
+          "options": [
+            "Scandium",
+            "Germanium",
+            "Gallium",
+            "Boron"
+          ],
+          "answer_index": 2,
+          "explanation": "Eka-aluminium = gallium; eka-boron = scandium; eka-silicon = germanium."
+        },
+        {
+          "id": "pc_mcq5",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Modern table",
+          "question": "The Modern Periodic Table has:",
+          "options": [
+            "8 groups and 18 periods",
+            "18 groups and 7 periods",
+            "7 groups and 18 periods",
+            "18 groups and 8 periods"
+          ],
+          "answer_index": 1,
+          "explanation": "It has 18 vertical groups and 7 horizontal periods."
+        },
+        {
+          "id": "pc_mcq6",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Position from configuration",
+          "question": "An element has the electronic configuration 2, 8, 7. It belongs to:",
+          "options": [
+            "Group 7, period 2",
+            "Group 17, period 3",
+            "Group 7, period 3",
+            "Group 17, period 2"
+          ],
+          "answer_index": 1,
+          "explanation": "Three shells means period 3; seven valence electrons means group 17. Its atomic number is 17 (chlorine)."
+        },
+        {
+          "id": "pc_mcq7",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Atomic size trend",
+          "question": "On moving from left to right across a period, atomic size:",
+          "options": [
+            "increases",
+            "decreases",
+            "stays the same",
+            "first increases then decreases"
+          ],
+          "answer_index": 1,
+          "explanation": "Nuclear charge increases and pulls the electrons closer to the nucleus."
+        },
+        {
+          "id": "pc_mcq8",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Group trend",
+          "question": "On going down a group, atomic size increases because:",
+          "options": [
+            "nuclear charge decreases",
+            "new shells are added",
+            "valence electrons increase",
+            "atomic number decreases"
+          ],
+          "answer_index": 1,
+          "explanation": "New shells are added, increasing the distance of the outermost electrons from the nucleus."
+        },
+        {
+          "id": "pc_mcq9",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Metallic character",
+          "question": "Metallic character of elements:",
+          "options": [
+            "increases across a period and decreases down a group",
+            "decreases across a period and increases down a group",
+            "increases both across and down",
+            "decreases both across and down"
+          ],
+          "answer_index": 1,
+          "explanation": "Tendency to lose electrons falls across a period and rises down a group."
+        },
+        {
+          "id": "pc_mcq10",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Mendeléev's formulae",
+          "question": "In Mendeléev's table, the oxide CO2 of carbon is written as:",
+          "options": [
+            "RO",
+            "RO2",
+            "R2O",
+            "RH4"
+          ],
+          "answer_index": 1,
+          "explanation": "R stands for any element of the group; CO2 is RO2 and CH4 is RH4."
+        },
+        {
+          "id": "pc_mcq11",
+          "type": "MCQ",
+          "marks": 1,
+          "topic": "Group similarity",
+          "question": "Element X forms a chloride XCl2 that is a high-melting solid. X is most likely in the same group as:",
+          "options": [
+            "Na",
+            "Mg",
+            "Al",
+            "Si"
+          ],
+          "answer_index": 1,
+          "explanation": "XCl2 means valency 2, like magnesium (MgCl2)."
+        },
+        {
+          "id": "pc_ar1",
+          "type": "AR",
+          "marks": 1,
+          "topic": "Atomic size",
+          "question": "Assertion (A): Atomic size decreases from left to right in a period.\nReason (R): Nuclear charge increases across a period and pulls the electrons closer.",
+          "options": [
+            "Both A and R are true and R is the correct explanation of A.",
+            "Both A and R are true but R is not the correct explanation of A.",
+            "A is true but R is false.",
+            "A is false but R is true."
+          ],
+          "answer_index": 0,
+          "explanation": "Both true; the increasing nuclear charge explains the decrease in size."
+        },
+        {
+          "id": "pc_ar2",
+          "type": "AR",
+          "marks": 1,
+          "topic": "Isotopes",
+          "question": "Assertion (A): Isotopes were a challenge to Mendeléev's Periodic Law.\nReason (R): Isotopes of an element have similar chemical properties but different atomic masses.",
+          "options": [
+            "Both A and R are true and R is the correct explanation of A.",
+            "Both A and R are true but R is not the correct explanation of A.",
+            "A is true but R is false.",
+            "A is false but R is true."
+          ],
+          "answer_index": 0,
+          "explanation": "Mendeléev classified by atomic mass, yet isotopes behave chemically alike and so belong in the same position."
+        },
+        {
+          "id": "pc_ar3",
+          "type": "AR",
+          "marks": 1,
+          "topic": "Metals",
+          "question": "Assertion (A): Metallic character increases down a group.\nReason (R): The tendency to gain electrons increases down a group.",
+          "options": [
+            "Both A and R are true and R is the correct explanation of A.",
+            "Both A and R are true but R is not the correct explanation of A.",
+            "A is true but R is false.",
+            "A is false but R is true."
+          ],
+          "answer_index": 2,
+          "explanation": "A is true (outer electrons are farther and easily lost). R is false - the tendency to gain electrons decreases."
+        },
+        {
+          "id": "pc_2m1",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Döbereiner",
+          "question": "State two limitations of Döbereiner's classification of elements.",
+          "rubric": [
+            {
+              "point": "Only three triads could be identified from the elements known at the time",
+              "keywords": [
+                "three triads",
+                "only three"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "So the system was not found useful / could not classify all elements",
+              "keywords": [
+                "not useful",
+                "not found to be useful",
+                "all elements"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Döbereiner could find only three triads (Li-Na-K, Ca-Sr-Ba, Cl-Br-I) among the elements then known, so the method could not classify all elements and was not found useful."
+        },
+        {
+          "id": "pc_2m2",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Mendeléev vs Modern",
+          "question": "State the basis of classification in Mendeléev's Periodic Table and in the Modern Periodic Table.",
+          "rubric": [
+            {
+              "point": "Mendeléev: increasing atomic mass (and similarity of chemical properties)",
+              "keywords": [
+                "atomic mass"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Modern: increasing atomic number",
+              "keywords": [
+                "atomic number"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Mendeléev's table was based on increasing atomic mass together with similar chemical properties; the Modern Periodic Table is based on increasing atomic number (Moseley)."
+        },
+        {
+          "id": "pc_2m3",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Periods",
+          "question": "Why does the third period contain only 8 elements although the M shell can hold 18 electrons?",
+          "rubric": [
+            {
+              "point": "Maximum for the M shell is 2n² = 18",
+              "keywords": [
+                "18",
+                "2n"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "But the outermost shell can have only 8 electrons, so only 8 elements",
+              "keywords": [
+                "outermost",
+                "8 electrons",
+                "8 elements"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "The M shell can hold 2 × 3² = 18 electrons, but the outermost shell can have only 8 electrons, so the third period has only 8 elements."
+        },
+        {
+          "id": "pc_2m4",
+          "type": "2M",
+          "marks": 2,
+          "topic": "Limitations of Mendeléev",
+          "question": "Give two limitations of Mendeléev's Periodic Table.",
+          "rubric": [
+            {
+              "point": "No fixed position for hydrogen",
+              "keywords": [
+                "hydrogen"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Isotopes could not be placed / atomic mass does not increase regularly",
+              "keywords": [
+                "isotope",
+                "regular"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Hydrogen has no fixed position in the table; isotopes of an element (like Cl-35 and Cl-37) had no place, and atomic masses do not increase regularly from one element to the next."
+        },
+        {
+          "id": "pc_3m1",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Trends in a period",
+          "question": "Explain how valence electrons, atomic size and metallic character change from left to right across a period.",
+          "rubric": [
+            {
+              "point": "Valence electrons increase by one from left to right",
+              "keywords": [
+                "valence electrons increase",
+                "increase by one"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Atomic size decreases because nuclear charge increases and pulls electrons closer",
+              "keywords": [
+                "atomic size decreases",
+                "nuclear charge"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Metallic character decreases because the tendency to lose electrons decreases",
+              "keywords": [
+                "metallic character decreases",
+                "tendency to lose"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Across a period the number of valence electrons increases by one at each step. The atomic size decreases, because the increasing nuclear charge pulls the electrons closer. Metallic character decreases, as the tendency to lose electrons falls."
+        },
+        {
+          "id": "pc_3m2",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Position of an element",
+          "question": "An atom has the electronic configuration 2, 8, 7. (a) Find its atomic number. (b) Name its group and period. (c) Is it chemically similar to N(7), F(9), P(15) or Ar(18)?",
+          "rubric": [
+            {
+              "point": "(a) Atomic number = 2 + 8 + 7 = 17",
+              "keywords": [
+                "17"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "(b) Group 17 (7 valence electrons) and period 3 (three shells)",
+              "keywords": [
+                "group 17",
+                "period 3"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "(c) Similar to fluorine (F) - same group, 7 valence electrons",
+              "keywords": [
+                "fluorine",
+                "F"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "(a) 2 + 8 + 7 = 17. (b) It has 7 valence electrons so it is in group 17, and three shells so period 3. (c) Fluorine (Z = 9, configuration 2, 7) is in the same group, so it is chemically similar."
+        },
+        {
+          "id": "pc_3m3",
+          "type": "3M",
+          "marks": 3,
+          "topic": "Trends down a group",
+          "question": "Explain why atomic size increases down a group while metallic character also increases.",
+          "rubric": [
+            {
+              "point": "New shells are added down the group, so the outermost electrons are farther from the nucleus",
+              "keywords": [
+                "new shells",
+                "farther"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Hence atomic size increases despite increasing nuclear charge",
+              "keywords": [
+                "atomic size increases"
+              ],
+              "weight": 1
+            },
+            {
+              "point": "Outer electrons are held weakly and lost easily, so metallic character increases",
+              "keywords": [
+                "lost easily",
+                "metallic character increases",
+                "lose electrons"
+              ],
+              "weight": 1
+            }
+          ],
+          "model_answer": "Going down a group, new shells are added, so the outermost electrons lie farther from the nucleus and atomic size increases. The valence electrons are less strongly held and are lost more easily, so metallic character increases."
         }
       ]
     }
